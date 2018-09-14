@@ -1,0 +1,30 @@
+<div class="clearfix">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 iphone-pad nopad-right ipad-nopad nobrdbg" >                    
+    <!-- Content -->
+    <!-- 1st listing -->
+	<div data-repeatable="true" class="__FP_eachSubmittedGuideLink col-lg-12 col-md-12 col-sm-12 col-xs-12 panel-body ipad-nopad nopad-left nopad-right nobrdbg">
+    <div class="col-xs-12 nopad">
+<div class="clearfix formNodeWrapper">
+    <div class="col-xs-4 col-lg-2 col-sm-3 col-md-2 nopad __FP_iconClass">
+                <img class="__FP_iconClass" src="${contextPath}${formPath}${guidePath}/jcr:content/renditions/cq5dam.thumbnail.319.319.png" style="width:100%;">
+            </div>
+			<div class="col-xs-8 col-lg-9 col-sm-9 col-md-9 nopad-top panel-body nobrdbg formDetails">
+    	<div class="__FP_draftlinkTime" tabindex='0' title='At ${Today} ${TimeNow}' target='_self'>${diffTime}</div>
+				<a tabindex='0' class="__FP_submittedFormLink" title='Show submitted form' href="#">${formName}</a>
+		<div tabindex='0' class="__FP_submittedGuideDesc" title='${description}'>${description}</div>
+        <div tabindex='0' class="__FP_submittedGuideDesc" style="color:#fafafa;text-transform:capitalize;" title='${description}'>Status:<span style="color:#2995C9;"> ${status}</span></div>
+        <div tabindex='0' class="__FP_submittedGuideDesc" style="color:#2995C9;text-transform:capitalize;display:none;${displayWelcomeKit}" title='${description}'> <a href="${welcomeKitURL}" target="_blank">View Welcome Kit</a></div>
+
+	        </div>
+			<div class="customOptions">
+                    <a class="__FP_deleteSubmission" tabindex='0' submitID='${submitID}' title="Delete"></a>
+            <a class="__FP_dor ${showDorClass}" tabindex="0" href="${renderPath}.dor.pdf/${submitID}" target="_blank" title="Get PDF"></a>
+            <a class="__FP_newInstance" tabindex="0" href="${renderPath}.html/submission/${submitID}?fpNewInstance=true&wcmmode=disabled" target="_blank" title="Start a new form using this form data"></a>
+             </div>
+
+                    </div>
+
+        </div>
+    <div class="__FP_horizontalRuler"></div>
+</div>
+</div>

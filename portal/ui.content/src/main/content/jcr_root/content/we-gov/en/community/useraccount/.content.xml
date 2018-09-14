@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-09-18T12:14:35.189+02:00"
+        cq:lastModifiedBy="msm-service"
+        cq:lastRolledout="{Date}2017-09-18T12:14:35.192+02:00"
+        cq:lastRolledoutBy="msm-service"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:LiveSync,cq:ReplicationStatus,mix:versionable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="User Account"
+        jcr:uuid="02d769a4-342a-4534-a70b-35595c3153f9"
+        sling:redirect="{Boolean}true"
+        sling:redirectStatus="{Long}302"
+        sling:resourceType="foundation/components/redirect"
+        hideInNav="{Boolean}true"
+        pageTitle="User Account"
+        redirectTarget="../">
+        <cq:LiveSyncConfig
+            cq:isDeep="{Boolean}false"
+            cq:master="/content/communities/templates/basetemplate/useraccount"
+            cq:rolloutConfigs="[/etc/msm/rolloutconfigs/default]"
+            jcr:primaryType="cq:LiveCopy"/>
+    </jcr:content>
+    <forgotuserid/>
+    <resetpassword/>
+    <forgotpassword/>
+</jcr:root>

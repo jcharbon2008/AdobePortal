@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:language="fr"
+    jcr:mixinTypes="[mix:language]"
+    jcr:primaryType="sling:Folder"
+    sling:basename="/content/forms/af/we-gov/addressInformation/jcr:content/guideContainer/assets/dictionary">
+    <fd_Address_x0020_In-728637760
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Address Information"
+        sling:message="Informations d'adresse"/>
+    <fd_City
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_City"
+        sling:message="Ville"/>
+    <fd_Field_x0020_not_x0020_2110825727
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Field not filled in expected format."
+        sling:message="Champ non rempli au format attendu."/>
+    <fd_State
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_State"
+        sling:message="Etat"/>
+    <fd_Street_x0020_Add613365975
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Street Address"
+        sling:message="Adresse"/>
+    <fd_Zip_x0020_Code
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Zip Code"
+        sling:message="Code postal"/>
+</jcr:root>

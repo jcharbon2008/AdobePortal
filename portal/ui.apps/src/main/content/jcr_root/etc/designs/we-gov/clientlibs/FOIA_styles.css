@@ -1,0 +1,26 @@
+/* Datepicker icon isn't exposed in Theme editor */
+
+.datepicker-calendar-icon {
+    width: 16px !important;
+    height: 16px !important;
+    top: 30%;
+    right: 10px;
+}
+@media (max-width: 767px) {
+    .guide-1475754398475 .guideTextDraw {
+        display: none;
+    }
+    .guideimage .logoImage img {
+        height: 40px !important;
+    }
+    .guideGridFluidLayout {
+        overflow-x: visible;
+    }
+   .guide-1475754389387 .afHeader{
+        margin-bottom:15px;
+    }
+   .guide-header-bar .guide-breadcrumb
+    {
+        color: #FFF;
+    }
+}

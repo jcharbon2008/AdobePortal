@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:language="de"
+    jcr:mixinTypes="[mix:language]"
+    jcr:primaryType="sling:Folder"
+    sling:basename="/content/forms/af/we-gov/benefits-explorer/jcr:content/guideContainer/assets/dictionary">
+    <fd_1
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_1"
+        sling:message="1"/>
+    <fd__x003c_p_x003e_Almost_x0020_1227186620
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Almost done, just a few more questions to determine if you are eligible for any other benefits.&lt;/p>&#xa;"
+        sling:message="&lt;p>Sie sind fast fertig, es gibt nur noch einige Fragen, um Ihre Berechtigung für andere Sozialleistungen zu bestimmen.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Based_x0020_o706062064
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Based on your response, you may not be eligible for enrolment. However, there can be an exception. We recommend that you contact our service center at 1-800-xxx-xxxx and speak to an eligibility specialist.&lt;br>&#xa;&lt;/p>&#xa;"
+        sling:message="&lt;p>Basierend auf Ihrer Antwort sind Sie möglicherweise nicht für die Registrierung berechtigt. Es kann aber eine Ausnahme geben. Wir empfehlen Ihnen, unser Service Center unter 1 800 xxx xxxx anzurufen und mit einem Experten zum Thema Berechtigungen zu sprechen.&lt;br> &lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_GREAT_x0021__x003c_447050612
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>GREAT!&lt;/p>&#xa;&lt;p>You are eligible for healthcare benefits. &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p>&#xa;"
+        sling:message="&lt;p>SUPER!&lt;/p> &lt;p>Sie sind berechtigt, Gesundheitshilfeleistungen zu erhalten. &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p>&#xa;"/>
+    <fd_Answer_x0020_a_x0020_f-795900978
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Answer a few questions about yourself"
+        sling:message="Bitte beantworten Sie einige Fragen zu Ihrer Person."/>
+    <fd_Are_x0020_you_x0020_a_x0020_1328868825
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Are you a veteran of the Armed Forces? "
+        sling:message="Sind Sie ein Veteran der bewaffneten Streitkräfte? "/>
+    <fd_Are_x0020_you_x0020_a_x0020_747733445
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Are you a former prisoner of war? "
+        sling:message="Sind Sie ein ehemaliger Kriegsgefangener? "/>
+    <fd_Are_x0020_you_x0020_pu41251927
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Are you purple heart recipient?"
+        sling:message="Sind Sie Empfänger der Purple Heart-Auszeichnung?"/>
+    <fd_Are_x0020_you_x0020_re-494737345
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Are you receiving veteran pension?"
+        sling:message="Erhalten Sie Veteranenrente?"/>
+    <fd_BENEFITS_x0020_E-1773195997
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_BENEFITS EXPLORER"
+        sling:message="SUCHE VON SOZIALLEISTUNGEN"/>
+    <fd_Check_x0020_all_x0020_-51449396
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Check all that apply"
+        sling:message="Wählen Sie alle zutreffenden Optionen aus"/>
+    <fd_CONTINUE
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_CONTINUE"
+        sling:message="FORTFAHREN"/>
+    <fd_continue_p1917141100
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_continue_panel"
+        sling:message="continue_panel"/>
+    <fd_Did_x0020_you_x0020_en-655829148
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Did you enter service after September 7, 1980? "
+        sling:message="Sind Sie dem Dienst nach dem 7. September 1980 beigetreten? "/>
+    <fd_Did_x0020_you_x0020_se-2112019561
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Did you serve at least 24 months of regular service?"
+        sling:message="Haben Sie in den letzten 24 Monaten normalen Wehrdienst geleistet?"/>
+    <fd_Did_x0020_you_x0020_su-1849465800
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Did you suffer any serious injury (including traumatic brain injury, psychological trauma or other mental disorder)  in the line of duty?"
+        sling:message="Haben Sie während der Ausübung Ihrer Pflicht Verletzungen erlitten (einschließlich Schädel-Hirn-Trauma, psychologisches Trauma oder andere psychische Störungen)?"/>
+    <fd_Do_x0020_you_x0020_nee-1996338762
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Do you need long term care services?"
+        sling:message="Benötigen Sie Langzeitpflege?"/>
+    <fd_ENROL_x0020_NOW
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_ENROL NOW"
+        sling:message="JETZT REGISTRIEREN"/>
+    <fd_enrol_pane-1065717493
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_enrol_panel"
+        sling:message="enrol_panel"/>
+    <fd_For_x0020_how_x0020_lo2132176572
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_For how long?"
+        sling:message="Wie lange?"/>
+    <fd_message_pa-1217721396
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_message_panel"
+        sling:message="message_panel"/>
+    <fd_No
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_No"
+        sling:message="Nein"/>
+    <fd_result_pan526445410
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_result_panel"
+        sling:message="result_panel"/>
+    <fd_Were_x0020_you_x0020_d-1484165191
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Were you discharged from the service due to a disability incurred or aggravated in the line of duty?"
+        sling:message="Wurden Sie aufgrund einer Behinderung, die Sie während der Ausübung Ihrer Pflicht erlitten oder die sich dabei verschlimmerte, aus dem Dienst entlassen?"/>
+    <fd_Were_x0020_you_x0020_d-1759450787
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Were you discharged for a disability incurred or aggravated in the line of duty or for a hardship or early out?"
+        sling:message="Wurden Sie aufgrund einer Behinderung, die Sie während der Ausübung Ihrer Pflicht erlitten oder die sich dabei verschlimmerte oder aufgrund einer Notsituation oder einer frühzeitigen Entlassung aus dem Dienst entlassen?"/>
+    <fd_Were_x0020_you_x0020_s-437263104
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Were you separated from active service under Honorable or General under Honorable conditions?"
+        sling:message="Wurden Sie ehrenhaft oder allgemein ehrenhaft aus dem aktiven Dienst entlassen?"/>
+    <fd_When_x0020_were_x0020_1679257431
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_When were you imprisoned?"
+        sling:message="Wann wurden Sie gefangen genommen?"/>
+    <fd_Yes
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Yes"
+        sling:message="Ja"/>
+</jcr:root>

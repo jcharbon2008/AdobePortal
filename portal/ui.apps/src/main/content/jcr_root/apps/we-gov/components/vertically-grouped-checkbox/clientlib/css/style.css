@@ -1,0 +1,28 @@
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+*  Copyright 2014 Adobe Systems Incorporated
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe Systems Incorporated and its suppliers,
+* if any.  The intellectual and technical concepts contained
+* herein are proprietary to Adobe Systems Incorporated and its
+* suppliers and are protected by all applicable intellectual property 
+* laws, including trade secret and copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe Systems Incorporated.
+**************************************************************************/
+.reason-request label {-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+
+.reason-request input[type=checkbox]{position: absolute !important;overflow: hidden; clip: rect(0 0 0 0);height:1px;width:1px; margin:5px; padding:0; border:0;}
+
+.reason-request input[type=checkbox] + label{padding-left:32px;height:28px; display:block; line-height:26px;background-repeat:no-repeat;background-position: 0 0;font-size:15px;vertical-align:middle; cursor:pointer;	padding-top:3px; margin-bottom:10px;}
+
+.reason-request input[type=checkbox]:checked + label, .reason-request input[type=checkbox]:checked + label{background-position: 0 -25px;}
+.reason-request label{background-image:url(/etc/designs/we-gov/clientlibs/tabbed-enrollment/images/checkboxes.png); background-repeat:no-repeat;}
+.pad-left {padding-left: 33px;}
+
+.well-lg.reason{ padding-left: 33px;}

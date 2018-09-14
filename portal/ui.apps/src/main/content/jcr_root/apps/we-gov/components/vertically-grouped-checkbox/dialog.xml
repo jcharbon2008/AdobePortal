@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    height="{Long}600"
+    title="Edit Check Box"
+    xtype="dialog">
+    <items jcr:primaryType="cq:TabPanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <title
+                jcr:primaryType="nt:unstructured"
+                title="Title and Text"
+                xtype="panel">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <items
+                        jcr:primaryType="nt:unstructured"
+                        path="/libs/fd/af/components/guidefield/dialog/items/title/items.infinity.json"
+                        xtype="cqinclude"/>
+                    <value
+                        jcr:primaryType="nt:unstructured"
+                        path="/libs/fd/af/components/guidetextbox/dialog/items/items/title/items/value.infinity.json"
+                        xtype="cqinclude"/>
+                    <options
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Enter values in the form {value}={text}"
+                        fieldLabel="Items"
+                        name="./options"
+                        typeHint="String[]"
+                        xtype="multifield">
+                        <fieldConfig
+                            jcr:primaryType="nt:unstructured"
+                            allowBlank="{Boolean}false"
+                            xtype="textfield"/>
+                    </options>
+                </items>
+            </title>
+            <script
+                jcr:primaryType="nt:unstructured"
+                path="/libs/fd/af/components/guidefield/dialog/items/script.infinity.json"
+                xtype="cqinclude"/>
+            <styling
+                jcr:primaryType="nt:unstructured"
+                path="/libs/fd/af/components/guidefield/dialog/items/styling.infinity.json"
+                xtype="cqinclude"/>
+            <help
+                jcr:primaryType="nt:unstructured"
+                path="/libs/fd/af/components/guidefield/dialog/items/help.infinity.json"
+                xtype="cqinclude"/>
+            <accessibility
+                jcr:primaryType="nt:unstructured"
+                title="Accessibility"
+                xtype="panel">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <assistPriority
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Screen Reader Precedence"
+                        name="./assistPriority"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <customText
+                                jcr:primaryType="nt:unstructured"
+                                text="Custom Text"
+                                value="custom"/>
+                            <caption
+                                jcr:primaryType="nt:unstructured"
+                                text="Title"
+                                value="caption"/>
+                        </options>
+                    </assistPriority>
+                    <customText
+                        jcr:primaryType="nt:unstructured"
+                        anchor="92.6%"
+                        fieldLabel="Custom Text"
+                        name="./custom"
+                        xtype="multifield"/>
+                </items>
+            </accessibility>
+        </items>
+    </items>
+</jcr:root>

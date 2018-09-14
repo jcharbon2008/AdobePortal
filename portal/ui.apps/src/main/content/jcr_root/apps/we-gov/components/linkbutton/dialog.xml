@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    cq:lastReplicated="{Date}2015-01-29T14:38:38.073+05:30"
+    cq:lastReplicatedBy="admin"
+    cq:lastReplicationAction="Activate"
+    jcr:mixinTypes="[cq:ReplicationStatus]"
+    jcr:primaryType="cq:Dialog"
+    activeTab="0"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <tab1
+            jcr:primaryType="cq:Widget"
+            title="Configuration"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <linkurl
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Link URL"
+                    name="./linkurl"
+                    xtype="textfield"/>
+                <title
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Link Button Title"
+                    name="./title"
+                    xtype="textfield"/>
+                <queryParameter
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Query Parameters"
+                    name="./queryParameter"
+                    xtype="textarea"/>
+            </items>
+        </tab1>
+    </items>
+</jcr:root>

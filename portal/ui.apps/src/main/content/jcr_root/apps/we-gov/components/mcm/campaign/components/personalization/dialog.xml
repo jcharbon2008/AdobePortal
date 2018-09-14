@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    helpPath="en/cq/current/wcm/default_components.html#Text"
+    title="Text &amp; Personalization"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <text
+            jcr:primaryType="cq:Widget"
+            hideLabel="{Boolean}true"
+            name="./text"
+            xtype="richtext">
+            <rtePlugins jcr:primaryType="nt:unstructured">
+                <personalizationplugin
+                    jcr:primaryType="nt:unstructured"
+                    features="*"/>
+                <links jcr:primaryType="nt:unstructured">
+                    <linkDialogConfig
+                        jcr:primaryType="nt:unstructured"
+                        height="{Long}316">
+                        <linkAttributes jcr:primaryType="cq:WidgetCollection">
+                            <color
+                                jcr:primaryType="cq:Widget"
+                                attribute="style"
+                                value="color:#1780B9;"
+                                xtype="hidden"/>
+                        </linkAttributes>
+                    </linkDialogConfig>
+                </links>
+                <font
+                    jcr:primaryType="nt:unstructured"
+                    faces="[serif,sans-serif,monospace]"
+                    features="*"
+                    sizes="[-2,-1,+1,+2,+3,+4]"/>
+                <misctools
+                    jcr:primaryType="nt:unstructured"
+                    features="*"/>
+            </rtePlugins>
+            <htmlRules jcr:primaryType="nt:unstructured">
+                <serializer jcr:primaryType="nt:unstructured">
+                    <cleanup jcr:primaryType="nt:unstructured">
+                        <pre
+                            jcr:primaryType="nt:unstructured"
+                            tagsToRemove="[\0]"/>
+                        <post
+                            jcr:primaryType="nt:unstructured"
+                            tagsToRemove="[\0]"/>
+                        <paste
+                            jcr:primaryType="nt:unstructured"
+                            tagsToRemove="[\0]"/>
+                    </cleanup>
+                </serializer>
+            </htmlRules>
+        </text>
+        <isRichTextFlag
+            jcr:primaryType="cq:Widget"
+            ignoreData="{Boolean}true"
+            name="./textIsRich"
+            value="true"
+            xtype="hidden"/>
+    </items>
+</jcr:root>

@@ -1,0 +1,193 @@
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+*  Copyright 2014 Adobe Systems Incorporated
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe Systems Incorporated and its suppliers,
+* if any.  The intellectual and technical concepts contained
+* herein are proprietary to Adobe Systems Incorporated and its
+* suppliers and are protected by all applicable intellectual property 
+* laws, including trade secret and copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe Systems Incorporated.
+**************************************************************************/
+.top_image img{
+width:100%
+}
+
+.parbase.image img{
+width:100%;
+} 
+
+
+/*Top Navigation */
+/* 1st level */
+/* Commenting since using styles og bootstrap 
+.topnav ul {
+    list-style: none;
+    float: left;
+    display: block;
+    width: auto;
+    left: 0;
+    padding-left:0px;
+}
+
+.topnav ul li {
+    background: inherit;
+    float: left;
+    list-style: none;
+    position: relative;
+    padding: 0 15 0 0;
+    margin: 0;
+    height: 33px;
+    z-index: 9000;
+
+}
+*/
+.topnav ul li>a {
+color:white;
+}
+
+.topnav ul li>a:hover,
+.topnav ul li>a:focus,
+.topnav ul li:hover>a,
+.topnav ul li:focus>a{
+    color: #17B28D !important;
+    background-color: transparent;
+    font-weight: bold;
+} 
+
+
+/*
+.navbar-right{
+width:40%;
+}        
+.navbar-left{
+width:60%;
+} 
+*/
+
+.navbar-default .navbar-brand {
+padding: 15px 15px;
+
+}
+
+.login-form label{
+background: none;
+font-size: 1.3em;
+color: #000000;
+text-shadow: none;
+font-weight:bold;                
+}                
+
+
+.login-popup{
+display:none;
+}
+
+
+.login-dialog .ui-dialog-titlebar{
+background: rgb(5, 89, 132);
+
+}                
+
+.login-dialog.ui-dialog{
+background: rgb(238, 238, 238);
+color: rgb(90,90,90);
+}                    
+
+#login_submit{                
+background-color: rgb(0, 40, 60);
+border-color: rgb(0, 40, 60);                
+color:white;                    
+} 
+
+#menu_click{
+margin-left:0px;
+}
+
+
+.logo img {
+
+margin-top: 0px;
+}
+.navbar-container {
+padding-left: 0px;
+}
+
+.signin, .signout {
+display: none;
+}
+
+.parsys_left .textimage .image,.parsys_right .textimage .image{
+float:left;
+}
+
+.parsys_left .textimage .text,.parsys_right .textimage .text{
+float:left;
+}
+
+.parsys_left .textimage .text p,.parsys_right .textimage .text p{
+margin: 10 0 10px;
+}   
+
+@media (max-width:320px){
+div.title.section h2 {
+font-size: 20px;
+}
+.infoslider p{
+font-size:12px;
+}    
+}
+
+//Navigation CSS
+
+.topnav ul li.hover {
+    background: url(images/menu_sep.gif) no-repeat 0 center #006699;
+}
+
+/* 2nd level */
+.topnav ul ul {
+    position: absolute;
+    display: none;
+    margin: 0;
+    padding: 0;
+    left: 2px;
+    top: 100%;
+    width: 240px;
+}
+.topnav ul ul li {
+clear:both;
+width:100%;
+height: auto;
+margin:0;
+background: #214980;
+list-style: none;
+padding: 15px;
+}
+.topnav ul ul li.noleaf {
+    background: #006699 url(images/arrow-right.gif) no-repeat 228px 12px;
+}
+
+.topnav ul ul li a,
+.topnav ul li.noleaf ul a {
+    background: none;
+    margin-left:10px;
+}
+
+.topnav ul ul li.hover {
+background: #25508c;
+    color:white;
+}
+.topnav ul ul li.noleaf.hover {
+    background: url("images/arrow-right.gif") no-repeat 228px 12px #005588;
+}
+
+
+.navbar-default .navbar-nav > li > a:focus,.navbar-default .navbar-nav > li > a:hover{
+color:#dedede;
+}

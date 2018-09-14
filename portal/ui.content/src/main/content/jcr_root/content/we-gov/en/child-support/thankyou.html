@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Payment confirmation - We Child Support Service</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<style>
+    div.navbar {
+    height: 65px;
+    background-color: #2D62AC;
+    display: block;
+    background-image: url('/etc/designs/we-gov/clientlibs/we-gov-child-support-service/images/spritesheet.png');
+    background-size: 246px 1909px;
+    background-position: -10px -588px;
+    background-repeat: no-repeat;
+}
+
+div#guideContainer-rootPanel-checkEligibility___guide-item-nav {
+    background: #132b4d;
+      font-weight: bold;
+    color: #17b28d;
+    padding: 20px;
+    font-size: 20px;
+    padding-right: 0px;
+}
+
+div.guideBody.passBg {
+    background-image: linear-gradient( rgba(19, 43, 77, 0.8), rgba(19, 43, 77, 0.8)), url("/etc/designs/we-gov/clientlibs/we-gov-child-support-service/images/completedBG.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    font-weight: 300;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+
+div.eligibilityPassMsg {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30%;
+    width: 100%;
+}
+
+div.eligibilityPassMsg p.greenTick {
+	background-image: url('data:image/png;base64,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');
+	background-size: contain;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+div.eligibilityPassMsg p.primaryPassMsg {
+    font-size: 30px;
+    color: #fffafa;
+}
+
+div.eligibilityPassMsg p.secondaryPassMsg {
+    color: #fffafa;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.container {
+    max-width: 610px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+div.footer {
+    text-align: center;
+    position: absolute;
+    bottom: 50px;
+    max-width: 610px;
+    width: 100%;
+}
+
+button.mainBtn {
+    max-width: 610px;
+    width: 100%;
+    background: #17b28d;
+    line-height: 30px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: 0;
+}
+
+.iconButton-label {
+    color: white;
+    font-size: 14px;
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
+
+@media(max-width:667px) {
+    div.footer {
+        bottom: 0px;
+    }
+    div.eligibilityPassMsg {
+        padding-top: 10%;
+    }
+}	
+	</style>
+
+</head>
+
+<body>
+<a href="/content/we-gov/en.html">
+<div class="navbar navbar-default navbar-fixed-top bg-blue" role="navigation"></div>
+</a>
+<div id="guideContainer-rootPanel-checkEligibility___guide-item-nav" title="Check Eligibility for Child Support">
+
+
+<a class="getEligibilityPanel_nav guideNavIcon" tabindex="0">
+<span>Make Payment</span>
+</a>
+
+</div>
+
+<div class="guideBody passBg">
+<div class="container">
+<div class="eligibilityPassMsg">
+<p class="greenTick">&nbsp;</p>
+<p class="primaryPassMsg">We have received the
+<br> payment and will
+<br> contact you once your
+<br> application has been
+<br> processed.
+</p>
+</div>
+
+<div class="footer">
+<a href="/content/we-gov/en.html">
+               <button class="mainBtn" type="button" tabindex="0" aria-label="Go To Main Site">
+                    <span class="iconButton-label" style="width: 100%; text-align: center;">Go To Main Site</span>
+                </button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

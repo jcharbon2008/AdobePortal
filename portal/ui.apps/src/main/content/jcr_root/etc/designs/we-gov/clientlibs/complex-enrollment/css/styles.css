@@ -1,0 +1,413 @@
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+*  Copyright 2014 Adobe Systems Incorporated
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe Systems Incorporated and its suppliers,
+* if any.  The intellectual and technical concepts contained
+* herein are proprietary to Adobe Systems Incorporated and its
+* suppliers and are protected by all applicable intellectual property 
+* laws, including trade secret and copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe Systems Incorporated.
+**************************************************************************/
+.fancy_radio .guideRadioButtonGroupItems {
+    color: transparent;
+    background: url("../images/sprite_ck.png") no-repeat scroll -88px 0 rgba(0, 0, 0, 0);
+    border-radius: 14px;
+    display: block;
+    position: relative;
+    width: 70px;
+    height: 29px;
+    -webkit-transition: background-position .3s ease;
+    -moz-transition: background-position .3s ease;
+    cursor: pointer;
+    font-size: .01em;
+}
+
+.questions_container [id$="panel1___layoutPanelContainer"] > .guidePanelDescription {
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 20px;
+    color: rgb( 0, 121, 193);
+    font-size: 30px;
+}
+
+.questions_container .modal-dialog {
+    width: 690px;
+}
+
+.switch_fancy_radio.guideRadioButtonGroupItems {
+    background-position: 0px 0px;
+}
+
+.fancy_radio .guideRadioButtonItem {
+    width: 30px;
+    height: 25px;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+}
+
+.fancy_radio .guideWidgetLabel {
+    content: "  ";
+    width: 30px;
+    height: 25px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.fancy_radio .guideWidgetLabel label {
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
+
+.fancy_radio input[type="radio"],
+.fancy_radio .guideFieldWidget {
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
+
+.custom_70 .guidePanelNode {
+    padding-left: 0px;
+}
+
+.guidePanelNode .panel {
+    margin-bottom: -10px;
+    padding-bottom: 20px;
+    border-radius: 0px;
+    padding-top: 0px;
+    margin-left: 10px;
+ /*   margin-top: -30px;*/;
+}
+
+.custom_70 .inline .guideFieldNode.fancy_radio.align_switch_left .guideFieldLabel {
+    width: 61%;
+    height: auto;
+}
+
+.custom_70 .guideFieldNode.align_switch_left .guideRadioButtonGroupItems {
+    float: left;
+    height: auto;
+}
+
+.custom_70 .guideFieldNode.fancy_radio.align_switch_left .guideFieldLabel {
+    width: 70%;
+    height: auto;
+}
+
+.custom_60 .guideFieldNode.fancy_radio.align_switch_left .guideFieldLabel {
+    width: 60%;
+    height: auto;
+}
+
+.custom_70 .guideFieldNode.fancy_radio .guideFieldLabel {
+    width: 85%;
+    height: auto;
+}
+
+.custom_70.guidePanelNode .panel {
+    margin-left: 10px;
+    margin-bottom: auto;
+    height: auto;
+/*margin-top: 0px;*/;
+}
+
+.guideimage {
+    margin-bottom: 30px;
+}
+
+.panel_between_node {
+    margin-bottom: 15px;
+}
+
+.custom_70.guidePanelNode {
+    padding-bottom: 0px;
+    padding-top: 10px;
+    padding-left: 0px;
+}
+
+.guideFieldNode .guideFieldError {
+    color: red;
+}
+
+.custom_70 .guideCheckBoxGroupItems {
+    width: 100%;
+}
+
+.anchor-panel-container {
+    padding-left: 5px;
+}
+
+.custom_70 .guideCheckBoxGroupItems .guideFieldWidget {
+    max-width: 30%;
+    float: left;
+    height: 27px;
+    margin-left: 20px;
+}
+
+.gridFluidLayout .row {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.custom_70 .guideFieldLabel label {
+    text-align: left;
+    width: 100%;
+}
+
+.custom_70 .guideFieldLabel {
+    width: 70%;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.guideFieldWidget .datepicker-calendar-icon {
+    background-image: url("../images/AF4-sprite-images.png");
+    width: 32px;
+    height: 27px;
+    background-repeat: no-repeat;
+    background-position: 0px -278px;
+}
+
+.custom_70 .guideFieldWidget {
+    max-width: 30%;
+    float: left;
+    height: 27px;
+}
+
+.custom_60 .right_align .guideFieldLabel {
+    width: 50%;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.right_align .guideCheckBoxGroupItems {
+    float: right;
+    width: 50%;
+}
+
+.custom_70 .fancy_radio .guideFieldWidget {
+    float: right;
+    height: 0px;
+}
+
+.custom_60 .fancy_radio .guideFieldWidget {
+    float: right;
+    height: 0px;
+}
+
+.custom_60 .fancy_radio .guideRadioButtonGroupItems {
+    width: 70px;
+     /*float: right;*/;
+}
+
+.custom_70 .guideCheckBoxGroupItems .guideWidgetLabel.right label {
+    margin-bottom: 0px;
+}
+
+.custom_70 .guideRadioButtonGroupItems {
+    width: 30%;
+}
+
+.label_right_align .guideFieldLabel label {
+    text-align: right;
+}
+
+.static_text.guideFieldNode p {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.greyBackground.guideTextDraw {
+    color: rgb(121, 121, 121);
+    background-color: rgb(241, 241, 241);
+    margin-left: 10px;
+}
+
+.col-3_hideLabel .guideFieldLabel {
+    width: 0%;
+    margin: 0px;
+}
+
+.col-3_hideLabel .guideFieldWidget {
+    float: left;
+    width: 100%;
+    max-width: 100%;
+}
+
+.custom_70 .fancy_radio .guideRadioButtonGroupItems {
+    width: 70px;
+    float: right;
+}
+
+.col-3_hideLabel .guideFieldLabel label {
+    display: none;
+    width: 0%;
+}
+
+.custom_60 .guideFieldLabel label {
+    width: 100%;
+}
+
+.custom_60 .guideFieldLabel {
+    width: 60%;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.custom_60 .guideFieldWidget {
+    max-width: 30%;
+    float: left;
+}
+
+.custom_60 .guideRadioButtonGroupItems {
+    width: 35%;
+     /*float: right;*/;
+}
+
+.custom_60 .guideRadioButtonItem.guideFieldHorizontalAlignment {
+    max-width: 100%;
+}
+
+.custom_60 .guideRadioButtonItem .guideFieldWidget {
+    width: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+.anchor-navigators .beneficiary_info_nav {
+    background-image: url("../images/AF4-sprite-images.png");
+    background-repeat: no-repeat;
+    background-position: 0px -200px;
+}
+
+.anchor-navigators .contact_information_nav {
+    background-image: url("../images/AF4-sprite-images.png");
+    background-repeat: no-repeat;
+    background-position: 0px -310px;
+}
+
+.anchor-navigators .additional_information_nav {
+    background-image: url("../images/AF4-sprite-images.png");
+    background-repeat: no-repeat;
+    background-position: 0px -51px;
+}
+
+.anchor-navigators .additional_benefits_nav {
+    background-image: url("../images/AF4-sprite-images.png");
+    background-repeat: no-repeat;
+    background-position: 0px 11px;
+}
+
+.anchor-navigators .resident_information_nav {
+    background-image: url("../images/AF4-sprite-images.png");
+    background-repeat: no-repeat;
+    background-position: 0px -789px;
+}
+
+.anchor-navigators .work_history_nav {
+    background-image: url("../images/AF4-sprite-images.png");
+    background-repeat: no-repeat;
+    background-position: -5px -1030px;
+}
+
+.anchor-navigators .insurance_nav {
+    background-image: url("../images/AF4-sprite-images.png");
+    background-repeat: no-repeat;
+    background-position: -5px -548px;
+}
+
+.anchor-navigators .miscellaneous_nav {
+    background-image: url("../images/AF4-sprite-images.png");
+    background-repeat: no-repeat;
+    background-position: -5px -670px;
+}
+
+.anchor-navigators .household_income_nav {
+    background-image: url("../images/AF4-sprite-images.png");
+    background-repeat: no-repeat;
+    background-position: -5px -480px;
+}
+
+.anchor-navigators .household_expenses_nav {
+    background-image: url("../images/AF4-sprite-images.png");
+    background-repeat: no-repeat;
+    background-position: -5px -420px;
+}
+
+.anchor-navigators .criminal_history_nav {
+    background-image: url("../images/AF4-sprite-images.png");
+    background-repeat: no-repeat;
+    background-position: -3px -370px;
+}
+
+.anchor-navigators .non_resident_information_nav {
+    background-image: url("../images/AF4-sprite-images.png");
+    background-repeat: no-repeat;
+    background-position: 0px -720px;
+}
+
+.anchor-navigators .medical_coverage_nav {
+    background-image: url("../images/AF4-sprite-images.png");
+    background-repeat: no-repeat;
+    background-position: 0px -600px;
+}
+
+.anchor-navigators .voter_registration_nav {
+    background-image: url("../images/AF4-sprite-images.png");
+    background-repeat: no-repeat;
+    background-position: 0px -960px;
+}
+
+.hideContentScroller {
+    display: none;
+}
+
+[data-content-scroller="up"],
+[data-content-scroller="down"] {
+    background-repeat: no-repeat;
+    position: fixed;
+    right: 30px;
+    width: 19px;
+    height: 19px;
+}
+
+[data-content-scroller="up"] {
+    background-image: url("../images/arrow_up.png");
+    top: 120px;
+}
+
+[data-content-scroller="down"] {
+    background-image: url("../images/arrow_down.png");
+    bottom: 60px;
+}
+/* Hiding First Sub Panel Anchor in Left Side Anchor Navigator */
+.tab-navigators-vertical > li.active > .tab-navigators-vertical li:nth-of-type(1) {
+    display: none;
+}
+
+.tab-navigators > li > a {
+    background-color: rgb(240, 245, 247);
+}
+
+.message_text {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 0.7;
+}
+
+.rightmost_button .xfaButton,.rightmost_button button {
+    float: left;
+}
+
+.leftmost_button .xfaButton,.leftmost_button button {
+    float: right;
+}            
+

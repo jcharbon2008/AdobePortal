@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    cq:lastReplicated="{Date}2015-01-29T14:38:38.073+05:30"
+    cq:lastReplicatedBy="admin"
+    cq:lastReplicationAction="Activate"
+    jcr:mixinTypes="[cq:ReplicationStatus]"
+    jcr:primaryType="cq:Dialog"
+    activeTab="0"
+    helpPath="en/cq/current/wcm/default_components.html#Text Image"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <tab1
+            jcr:primaryType="cq:Widget"
+            path="/libs/mcm/campaign/components/textimage/dialog/items/tab1.infinity.json"
+            xtype="cqinclude"/>
+        <tab2
+            jcr:primaryType="cq:Widget"
+            path="/libs/mcm/campaign/components/textimage/dialog/items/tab2.infinity.json"
+            xtype="cqinclude"/>
+        <tab3
+            jcr:primaryType="cq:Widget"
+            path="/libs/mcm/campaign/components/textimage/dialog/items/tab3.infinity.json"
+            xtype="cqinclude"/>
+        <tab4
+            jcr:primaryType="cq:Widget"
+            title="Styles"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <class
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Class Name"
+                    name="./image/cssClass"
+                    xtype="textfield"/>
+                <inlineStyle
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Inline Style"
+                    name="./image/styles"
+                    xtype="textfield"/>
+                <title
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Title"
+                    name="./title"
+                    xtype="textfield"/>
+            </items>
+        </tab4>
+    </items>
+</jcr:root>

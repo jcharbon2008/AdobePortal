@@ -1,0 +1,509 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:group name="attorneyDetails">
+    <xs:sequence>
+      <xs:element name="attorneyInfo">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration id="0" value="Yes"/>
+            <xs:enumeration id="1" value="No"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="attorneyName"/>
+      <xs:element type="xs:string" name="attorneyPhoneNumber"/>
+    </xs:sequence>
+  </xs:group>
+
+  <xs:group name="fullName">
+    <xs:sequence>
+      <xs:element type="xs:string" name="firstName"/>
+      <xs:element type="xs:string" name="middleName"/>
+      <xs:element type="xs:string" name="lastName"/>
+    </xs:sequence>
+  </xs:group>
+
+  <xs:group name="commonAddressFields">
+    <xs:sequence>
+      <xs:element name="currentAddress">
+        <xs:complexType>
+          <xs:sequence>
+
+            <xs:element type="xs:integer" name="zipCode" />
+            <xs:element type="xs:string" name="country"/>
+
+            <xs:element name="state">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:enumeration id="0" value="GX"/>
+                  <xs:enumeration id="1" value="AZ"/>
+                  <xs:enumeration id="2" value="TX"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:element>
+
+            <xs:element name="city">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:enumeration id="0" value="Phoenix"/>
+                  <xs:enumeration id="1" value="GX City"/>
+                  <xs:enumeration id="2" value="Tempe"/>
+                  <xs:enumeration id="3" value="Yuma"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:element>
+
+            <xs:element type="xs:string" name="addressLine1"/>
+            <xs:element type="xs:string" name="addressLine2"/>
+
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+
+  <xs:group name="eventDuration">
+    <xs:sequence>
+      <xs:element type="xs:date" name="fromDate" />
+      <xs:element type="xs:date" name="toDate" />
+    </xs:sequence>
+  </xs:group>
+
+  <xs:group name="prevAppliedInfoGroup">
+    <xs:sequence>
+      <xs:element type="xs:date" name="prevApplyDate"/>
+      <xs:element name="prevApplyState">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration id="0" value="GX"/>
+            <xs:enumeration id="1" value="AZ"/>
+            <xs:enumeration id="2" value="TX"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+
+    </xs:sequence>
+  </xs:group>
+
+  <xs:element name="childSupportService">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="checkEligibility">
+          <xs:complexType>
+            <xs:sequence>
+
+              <xs:element name="applicantStatus">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:enumeration id="0" value="The Custodial Parent"/>
+                    <xs:enumeration id="1" value="The Non-custodial Parent"/>
+                    <xs:enumeration id="2" value="A grandparent or other guardian"/>
+                    <xs:enumeration id="3" value="A child over 12 years old"/>
+                    <xs:enumeration id="4" value="None of the above"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+
+              <xs:element name="selfLivingInGX">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:enumeration id="0" value="Yes"/>
+                    <xs:enumeration id="1" value="No"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+
+              <xs:element name="childLivingInGX">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:enumeration id="0" value="Yes"/>
+                    <xs:enumeration id="1" value="No"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+
+
+              <xs:element name="caringParty">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:enumeration id="0" value="You"/>
+                    <xs:enumeration id="1" value="The paying parent"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+
+              <xs:element name="childAgeStatus">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:enumeration id="0" value="Under 16 years"/>
+                    <xs:enumeration id="1" value="Under 20 years and in full-time education (lower than High School or equivalent)"/>
+                    <xs:enumeration id="2" value="Under 20 years and living with a parent who has registered for Child Support Services for them"/>
+                    <xs:enumeration id="3" value="None of the above"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+
+
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="applicationFormRoot">
+          <xs:complexType>
+            <xs:sequence>
+  
+
+              <xs:element name="section1-ApplicantInformation">
+                <xs:complexType>
+                  <xs:sequence>
+
+               
+                          <xs:element name="section1-1-BasicInformation">
+                            <xs:complexType>
+                              <xs:sequence>
+
+                                <xs:element name="previouslyAppliedStatus">
+                                  <xs:complexType>
+                                    <xs:sequence>
+
+                                      <xs:element name="prevAppliedCSS">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:group ref="prevAppliedInfoGroup"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+
+
+
+                                      <xs:element name="prevAppliedTANF">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:group ref="prevAppliedInfoGroup"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+
+                                      <xs:element name="prevAppliedMedicalAssistance">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:group ref="prevAppliedInfoGroup"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+
+                                <xs:element name="title">
+                                  <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                      <xs:enumeration id="0" value="Mr."/>
+                                      <xs:enumeration id="1" value="Mrs."/>
+                                      <xs:enumeration id="2" value="Ms."/>
+                                    </xs:restriction>
+                                  </xs:simpleType>
+                                </xs:element>
+
+
+                                <xs:element type="xs:string" name="firstName"/>
+                                <xs:element type="xs:string" name="middleName"/>
+                                <xs:element type="xs:string" name="lastName"/>
+                                <xs:element type="xs:string" name="socialSecurityNumber"/>
+                                <xs:element type="xs:date" name="dateOfBirth"/>
+
+                                <xs:element name="gender">
+                                  <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                      <xs:enumeration id="0" value="Male"/>
+                                      <xs:enumeration id="1" value="Female"/>
+                                    </xs:restriction>
+                                  </xs:simpleType>
+                                </xs:element>
+
+                                <xs:element name="maritalStatus">
+                                  <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                      <xs:enumeration id="0" value="Single"/>
+                                      <xs:enumeration id="1" value="Married"/>
+                                      <xs:enumeration id="2" value="Divorced"/>
+                                    </xs:restriction>
+                                  </xs:simpleType>
+                                </xs:element>
+
+
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+
+                          <xs:element name="section1-2-ContactDetails">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:group ref="commonAddressFields"/>
+
+                                <xs:element type="xs:string" name="emailAddress"/>
+                                <xs:element type="xs:string" name="phoneNumber"/>
+
+
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+
+                          <xs:element name="section1-3-Employment">
+                            <xs:complexType>
+                              <xs:sequence>
+
+                                <xs:element name="occupation">
+                                  <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                      <xs:enumeration id="0" value="Engineer"/>
+                                      <xs:enumeration id="1" value="Doctor"/>
+                                      <xs:enumeration id="2" value="Self-Employed"/>
+                                      <xs:enumeration id="3" value="Other"/>
+                                    </xs:restriction>
+                                  </xs:simpleType>
+                                </xs:element>
+
+                                <xs:element type="xs:string" name="employerName"/>
+
+                                <xs:group ref="commonAddressFields"/>
+
+
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+
+                          <xs:element name="section1-4-custodialAdditionalInfo">
+                            <xs:complexType>
+                              <xs:sequence>
+
+                                <xs:group ref="attorneyDetails" />
+
+
+                                <xs:element name="pregnancyStatus">
+                                  <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                      <xs:enumeration id="0" value="Yes"/>
+                                      <xs:enumeration id="1" value="No"/>
+                                    </xs:restriction>
+                                  </xs:simpleType>
+                                </xs:element>
+                                <xs:element type="xs:string" name="otherParentName"/>
+
+                                <xs:element name="domesticViolenceStatus">
+                                  <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                      <xs:enumeration id="0" value="Yes"/>
+                                      <xs:enumeration id="1" value="No"/>
+                                    </xs:restriction>
+                                  </xs:simpleType>
+                                </xs:element>
+
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+
+                          <xs:element name="section1-4-nonCustodialAdditionalInfo">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:group ref="attorneyDetails" />
+                                
+                                <xs:element name="liveWithChildInGX">
+                                  <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                      <xs:enumeration id="0" value="Yes"/>
+                                      <xs:enumeration id="1" value="No"/>
+                                    </xs:restriction>
+                                  </xs:simpleType>
+                                </xs:element>
+
+                                <xs:element name="applicantLivedWithCustodialParents">
+                                  <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                      <xs:enumeration id="0" value="Yes"/>
+                                      <xs:enumeration id="1" value="No"/>
+                                    </xs:restriction>
+                                  </xs:simpleType>
+                                </xs:element>
+
+                                <xs:group ref="commonAddressFields" />
+                                <xs:group ref="eventDuration"/>
+
+                                <xs:element name="servedMilitaryStatus">
+                                  <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                      <xs:enumeration id="0" value="Yes"/>
+                                      <xs:enumeration id="1" value="No"/>
+                                    </xs:restriction>
+                                  </xs:simpleType>
+                                </xs:element>
+                                <xs:element type="xs:string" name="state"/>
+                                <xs:element type="xs:string" name="city"/>
+                                <xs:group ref="eventDuration"/>
+
+                                <xs:element name="incarceratedStatus">
+                                  <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                      <xs:enumeration id="0" value="Yes"/>
+                                      <xs:enumeration id="1" value="No"/>
+                                    </xs:restriction>
+                                  </xs:simpleType>
+                                </xs:element>
+                                <xs:element type="xs:string" name="state"/>
+                                <xs:element type="xs:string" name="city"/>
+                                <xs:group ref="eventDuration"/>
+
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+
+
+              <xs:element name="section2-ChildInformation">
+                <xs:complexType>
+                  <xs:sequence>
+
+                    <xs:element name="numOfClaim">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:enumeration id="1" value="1"/>
+                          <xs:enumeration id="2" value="2"/>
+                          <xs:enumeration id="3" value="3"/>
+                          <xs:enumeration id="4" value="4"/>
+                          <xs:enumeration id="5" value="5"/>
+                          <xs:enumeration id="6" value="6"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+
+                    <xs:group ref="fullName" minOccurs="1" maxOccurs="6"/>
+
+                    <xs:element name="section2-x-RepeatableChildInfo" minOccurs="1" maxOccurs="6">
+                      <xs:complexType>
+                        <xs:sequence>
+
+                          <xs:element type="xs:string" name="socialSecurityNumber"/>
+                          <xs:element type="xs:date" name="dateOfBirth"/>
+                          <xs:element name="gender">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:enumeration id="0" value="Male"/>
+                                <xs:enumeration id="1" value="Female"/>
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
+                          <xs:element type="xs:string" name="placeOfBirth"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+                        
+              <xs:element name="section3-PaymentInformation">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="bankName"/>
+                    <xs:element type="xs:string" name="bankRoutingNumber"/>
+                    <xs:element type="xs:string" name="bankAccountNumber"/>
+                    <xs:element type="xs:string" name="firstNameOnAccount"/>
+                    <xs:element type="xs:string" name="lastNameOnAccount"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+              <xs:element name="section4-Documents">
+                <xs:complexType>
+                  <xs:sequence>
+                    <!--File upload here
+                              Birth Certificate(s) for Dependent(s)
+                              Social Security cards for all parties
+                              Marriage license
+                              Copies of your 3 most recent pay stubs -->
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+
+
+              <xs:element name="termsAndConditions">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="requirementsTNC">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:enumeration id="0" value="Agree"/>
+                          <xs:enumeration id="1" value="Disagree"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+
+
+        <xs:element name="makePayment">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="creditCard">
+                <xs:complexType>
+                  <xs:sequence>
+                    
+                    <xs:element name="cardType">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:enumeration id="0" value="Visa"/>
+                          <xs:enumeration id="1" value="Master"/>
+                          <xs:enumeration id="2" value="Amex"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+
+                    <xs:element type="xs:string" name="cardNumber"/>
+                    <xs:element type="xs:string" name="nameOnCard"/>
+                    <xs:element type="xs:string" name="dateOfExpiryMM"/>
+                    <xs:element type="xs:string" name="dateOfExpiryYY"/>
+                    <xs:element type="xs:integer" name="securityCodeCard"/>
+
+
+
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+              <xs:element name="payPal">
+                <xs:complexType>
+                  <xs:sequence>
+
+                  <!-- Empty for now-->
+
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+
+
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+
+
+</xs:schema>

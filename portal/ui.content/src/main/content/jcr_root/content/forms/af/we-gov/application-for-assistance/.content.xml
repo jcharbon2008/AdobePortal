@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/we-gov"
+        cq:deviceGroups="/etc/mobile/groups/responsive"
+        cq:lastModified="{Date}2016-01-21T14:02:33.837+05:30"
+        cq:lastModifiedBy="admin"
+        jcr:description="Enrollment Adaptive Forms For We Gov"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Application For Assistance"
+        sling:resourceType="we-gov/components/page/enrollmentpage"
+        guideTemplate="{Boolean}true">
+        <guideContainer
+            jcr:lastModified="{Date}2014-03-04T12:27:53.221+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="fd/af/components/guideContainer"
+            actionType="/libs/fd/fp/components/actions/portalsubmit"
+            guideCss="guideContainer"
+            guideNodeClass="guideContainerNode"
+            name="guide1"
+            redirect="/content/we-gov/en/thankyou">
+            <layout
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="/libs/fd/af/layouts/defaultGuideLayout"/>
+            <rootPanel
+                jcr:lastModified="{Date}2014-02-18T14:41:16.530+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/components/rootPanel"
+                completionExpReq="{Boolean}true"
+                guideNodeClass="rootPanelNode"
+                name="guideRootPanel"
+                panelSetType="Navigable">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/panel/wizard"
+                    enableLayoutOptimization="{Boolean}true"
+                    guideNavigatorTab="wizard-tab"
+                    nonNavigable="false"
+                    toolbarPosition="Top"/>
+                <toolbar
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Toolbar"
+                    sling:resourceType="fd/af/components/toolbar"
+                    css="upperToolbar"
+                    guideNodeClass="guideToolbar"
+                    name="toolbar">
+                    <items jcr:primaryType="nt:unstructured">
+                        <previtemnav
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Previous"
+                            sling:resourceSuperType="fd/af/components/guidebutton"
+                            sling:resourceType="fd/af/components/actions/previtemnav"
+                            assistPriority="custom"
+                            clickExp="window.guideBridge.setFocus(this.panel.somExpression, 'prevItem')"
+                            css="previousButton"
+                            guideComponentType="true"
+                            guideNodeClass="guideButton"
+                            name="previtemnav"
+                            navigationChangeExp="this.visible=this.panel.navigationContext.hasPrevItem"
+                            type="movePrev"/>
+                        <nextitemnav
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Next"
+                            sling:resourceSuperType="fd/af/components/guidebutton"
+                            sling:resourceType="fd/af/components/actions/nextitemnav"
+                            assistPriority="custom"
+                            clickExp="window.guideBridge.setFocus(this.panel.somExpression, 'nextItem')"
+                            css="nextButton"
+                            guideComponentType="true"
+                            guideNodeClass="guideButton"
+                            name="nextitemnav"
+                            navigationChangeExp="this.visible=this.panel.navigationContext.hasNextItem"
+                            type="moveNext"/>
+                    </items>
+                    <layout
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="fd/af/layouts/toolbar/defaultToolbarLayout"/>
+                </toolbar>
+                <items jcr:primaryType="nt:unstructured">
+                    <Panel1
+                        jcr:description="GENERAL INFORMATION"
+                        jcr:lastModified="{Date}2014-04-07T18:21:19.901+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="GENERAL INFORMATION"
+                        sling:resourceType="fd/af/components/panel"
+                        guideComponentType="true"
+                        guideNodeClass="guidePanel"
+                        name="GeneralInformation">
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                            columns="1"
+                            guideNavigatorTab="tab"
+                            nonNavigable="true"/>
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                            <panel
+                                jcr:created="{Date}2016-01-21T14:01:50.406+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2016-01-21T14:01:50.406+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="fd/af/components/panel"
+                                fragRef="/content/dam/formsanddocuments/we-gov/personalInformation"
+                                guideNodeClass="guidePanel"
+                                name="panel1453365110500">
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                    nonNavigable="true"
+                                    toolbarPosition="Bottom"/>
+                            </panel>
+                            <panel_2122449660
+                                jcr:created="{Date}2016-01-21T14:01:58.487+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2016-01-21T14:01:58.487+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="fd/af/components/panel"
+                                fragRef="/content/dam/formsanddocuments/we-gov/addressInformation"
+                                guideNodeClass="guidePanel"
+                                name="panel_21224496601453365118565">
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                    nonNavigable="true"
+                                    toolbarPosition="Bottom"/>
+                            </panel_2122449660>
+                        </items>
+                    </Panel1>
+                    <Panel2
+                        jcr:description="SERVICE INFORMATION"
+                        jcr:lastModified="{Date}2014-04-07T18:22:55.980+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="SERVICE INFORMATION"
+                        sling:resourceType="fd/af/components/panel"
+                        guideComponentType="true"
+                        guideNodeClass="guidePanel"
+                        longDescription="&lt;p>Please provide your service record in this section.&lt;/p>&#xa;"
+                        name="ServiceInformation">
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                            columns="1"
+                            guideNavigatorTab="tab"
+                            nonNavigable="true"/>
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                            <guidetextbox
+                                jcr:created="{Date}2014-02-10T23:36:41.555+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2014-04-07T18:23:09.308+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="VA File Number"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                assistPriority="custom"
+                                guideComponentType="true"
+                                guideNodeClass="guideTextBox"
+                                longDescription="&lt;p>Your VA file number is usually the Social Security Number (SSN) of the individual who is receiving benefits from the VA.&lt;/p>&#xa;&lt;p>A letter or two-digit number is added to the VA file number to indicate your relationship to the beneficiary.&lt;/p>&#xa;&lt;p>In certain situations, the VA file number may be a VA claim number.&lt;/p>&#xa;"
+                                name="ServiceInformation_guidetextbox"
+                                shortDescription="&lt;p>Enter your Veteran Affairs File Number&lt;/p>&#xa;"/>
+                            <guidetextbox_0
+                                jcr:created="{Date}2014-02-10T23:38:30.032+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2014-04-07T18:23:15.027+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Service Serial Number"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                assistPriority="custom"
+                                guideComponentType="true"
+                                guideNodeClass="guideTextBox"
+                                longDescription="&lt;p>Enter your Service Serial Number if different from your Social Security Number.&lt;/p>&#xa;"
+                                name="ServiceInformation_guidetextbox_0"
+                                shortDescription="&lt;p>Enter your Service Serial Number&lt;/p>&#xa;"/>
+                            <guidetextbox_1
+                                jcr:created="{Date}2014-02-10T23:39:39.326+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2014-04-07T18:23:21.184+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Location of VA Regional office that has your claim file"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                assistPriority="custom"
+                                guideComponentType="true"
+                                guideNodeClass="guideTextBox"
+                                multiLine="true"
+                                name="ServiceInformation_guidetextbox_1"
+                                shortDescription="&lt;p>Enter the Address of the regional office that has your claim file&lt;/p>&#xa;"/>
+                            <guideradiobutton
+                                jcr:created="{Date}2014-02-10T23:40:59.120+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2014-04-07T18:23:30.246+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Branch of Service"
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                guideComponentType="true"
+                                guideNodeClass="guideRadioButton"
+                                name="ServiceInformation_radiobutton"
+                                options="[0=Army,1=Air Force,2=Marine Corps,3=Navy,4=Coast Guard,5=Other]"/>
+                            <guidetextbox_2
+                                jcr:created="{Date}2014-02-10T23:43:06.731+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2014-04-07T18:23:37.043+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                assistPriority="custom"
+                                expJson="\{&quot;nodeName&quot;:&quot;RULES&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;ROOT&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.ServiceInformation.ServiceInformation_guidetextbox_2&quot;,&quot;type&quot;:&quot;AFCOMPONENT&quot;,&quot;name&quot;:&quot;ServiceInformation_guidetextbox_2&quot;}},{&quot;nodeName&quot;:&quot;When&quot;,&quot;value&quot;:null},{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.ServiceInformation.ServiceInformation_radiobutton&quot;,&quot;displayName&quot;:&quot;Branch of Service&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;displayPath&quot;:&quot;guide/guideRootPanel/SERVICE INFORMATION/Branch of Service/&quot;,&quot;name&quot;:&quot;ServiceInformation_radiobutton&quot;}}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;,&quot;value&quot;:&quot;5&quot;}}]}},{&quot;nodeName&quot;:&quot;Else&quot;,&quot;value&quot;:null},{&quot;nodeName&quot;:&quot;DONOTHING_OR_HIDE&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Hide&quot;,&quot;value&quot;:null}}]}}],&quot;isValid&quot;:true,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif (FORM.guideRootPanel.ServiceInformation.ServiceInformation_radiobutton.value == \\&quot;5\\&quot;) {\\n    true;\\n } else {\\n    false;\\n}\\n&quot;,&quot;eventName&quot;:&quot;Visibility&quot;}]}"
+                                guideComponentType="true"
+                                guideNodeClass="guideTextBox"
+                                name="ServiceInformation_guidetextbox_2"
+                                shortDescription="&lt;p>Specify your branch of service&lt;/p>&#xa;"
+                                visibleExp="var Visibility;&#xa;&#xa;try {&#xa;    if (ServiceInformation_radiobutton.value == &quot;5&quot;) {&#xa;        Visibility = true;&#xa;     } else {&#xa;        Visibility = false;&#xa;    }&#xa;    &#xa;} catch (e) {&#xa;    /*log here */&#xa;}&#xa;&#xa;if (Visibility === undefined) {&#xa;    this.visible;&#xa;}&#xa; else {&#xa;    Visibility;&#xa;}"/>
+                            <guideradiobutton_0
+                                jcr:created="{Date}2014-02-10T23:47:18.611+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2014-04-07T18:23:41.871+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Method of Separation from Service"
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                guideComponentType="true"
+                                guideNodeClass="guideRadioButton"
+                                name="ServiceInformation_radiobutton_0"
+                                options="[0=Discharged,1=Retired]"/>
+                        </items>
+                    </Panel2>
+                    <Certification
+                        jcr:description="CERTIFICATION"
+                        jcr:lastModified="{Date}2014-04-07T18:24:08.215+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="CERTIFICATION"
+                        sling:resourceType="fd/af/components/panel"
+                        guideNodeClass="guidePanel"
+                        name="Certification">
+                        <guidetextdraw
+                            jcr:created="{Date}2014-02-10T23:49:00.466+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2014-02-10T23:49:00.466+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/components/guidetextdraw"
+                            defaultValue="The text will appear here"
+                            guideComponentType="true"
+                            guideNodeClass="guideTextDraw"/>
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                            <guidetextdraw
+                                jcr:created="{Date}2014-02-10T23:49:13.122+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2014-04-07T18:24:45.982+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="fd/af/components/guidetextdraw"
+                                _value="&lt;p>I cerifty that the statements on this form are true and correct to the best of my knowledge and belief. By signing this form, I agree that VA may attempt to verify this information by computer matching agreement with other federal agencies.&lt;/p>&#xa;"
+                                assistPriority="custom"
+                                defaultValue="&lt;p>I cerifty that the statements on this form are true and correct to the best of my knowledge and belief. By signing this form, I agree that VA may attempt to verify this information by computer matching agreement with other federal agencies.&lt;/p>&#xa;"
+                                guideComponentType="true"
+                                guideNodeClass="guideTextDraw"
+                                name="Certification_guidetextdraw"/>
+                            <guidetextdraw_0
+                                jcr:created="{Date}2014-02-10T23:53:48.196+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2014-04-07T18:24:36.450+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="fd/af/components/guidetextdraw"
+                                _value="&lt;p>&lt;b>Signature of Veteran&lt;/b>&lt;/p>&#xa;"
+                                assistPriority="custom"
+                                defaultValue="&lt;p>&lt;b>Signature of Veteran&lt;/b>&lt;/p>&#xa;"
+                                guideComponentType="true"
+                                guideNodeClass="guideTextDraw"
+                                name="Certification_guidetextdraw_0"/>
+                            <guidescribble
+                                jcr:created="{Date}2014-02-11T10:24:10.965+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2014-04-07T18:24:51.966+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Sign Full Name"
+                                sling:resourceType="fd/af/components/guidescribble"
+                                guideComponentType="true"
+                                guideNodeClass="guideScribble"
+                                mandatory="true"
+                                name="Certification_guidescribble"
+                                shortDescription="&lt;p>Click to sign the application&lt;/p>&#xa;"/>
+                            <guidetextdraw_1
+                                jcr:created="{Date}2014-02-11T00:00:28.844+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2014-02-11T00:00:40.018+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="fd/af/components/guidetextdraw"
+                                assistPriority="custom"
+                                defaultValue="&lt;p>&lt;i>Note: The law provides severe penalities including fine or imprisonment, or both, for willful submission of any false statement or evidence of material fact.&lt;/i>&lt;/p>&#xa;"
+                                guideComponentType="true"
+                                guideNodeClass="guideTextDraw"
+                                name="guidetextdraw_1"/>
+                        </items>
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                            columns="1"
+                            guideNavigatorTab="tab"
+                            nonNavigable="true"
+                            toolbarPosition="Bottom"/>
+                    </Certification>
+                </items>
+            </rootPanel>
+            <toolbar
+                jcr:lastModified="Tue Aug 20 2013 11:41:46 GMT+0530"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/components/toolbar"
+                css="bottomToolbar"
+                guideComponentType="true"
+                guideNodeClass="guideToolbar"
+                name="toolbar">
+                <items jcr:primaryType="nt:unstructured">
+                    <reset
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Reset"
+                        sling:resourceSuperType="fd/af/components/guidebutton"
+                        sling:resourceType="fd/af/components/actions/reset"
+                        buttonType="button-default"
+                        clickExp="window.guideBridge.reset()"
+                        guideComponentType="true"
+                        guideNodeClass="guideButton"
+                        name="reset"/>
+                    <saveGuideDraft
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Save"
+                        sling:resourceSuperType="fd/af/components/guidebutton"
+                        sling:resourceType="fd/fp/components/actions/saveGuideDraft"
+                        buttonType="button-default"
+                        clickExp="handleDraftSave(this)"
+                        enableAnonymous="true"
+                        guideNodeClass="guideButton"
+                        name="saveGuideDraft"
+                        type="save"/>
+                    <submit
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Submit"
+                        sling:resourceSuperType="fd/af/components/guidebutton"
+                        sling:resourceType="fd/af/components/actions/submit"
+                        buttonType="button-default"
+                        clickExp="window.guideBridge.submit()"
+                        guideComponentType="true"
+                        guideNodeClass="guideButton"
+                        name="submit"/>
+                </items>
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/toolbar/mobileFixedToolbarLayout"/>
+            </toolbar>
+            <assets jcr:primaryType="nt:unstructured">
+                <dictionary jcr:primaryType="nt:unstructured">
+                    <fr/>
+                    <de/>
+                </dictionary>
+            </assets>
+        </guideContainer>
+        <applicationformheader
+            jcr:lastModified="{Date}2014-03-26T12:42:55.649+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="we-gov/components/applicationformheader"
+            applicationCompletionTime="5"
+            applicationDescription="Apply for home improvement and structural alterations for disability access"
+            applicationName="Application For Assistance"
+            demo="true"
+            help="false"
+            need="false"
+            terms="false">
+            <par
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys">
+                <text_1
+                    jcr:created="{Date}2014-03-26T10:08:34.851+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2014-04-09T16:15:57.695+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="we-gov/components/text"
+                    text="&lt;p>&lt;b>Required &lt;span class=&quot;field-error&quot;>*&lt;/span>&lt;/b>&lt;/p>&#xa;&lt;p>Fields marked with (&lt;span class=&quot;field-error&quot;>*&lt;/span>) are required fields. You will not be able to Submit the application without at least completing these fields.&lt;/p>&#xa;&lt;p>&lt;span class=&quot;save-btn&quot;>&amp;nbsp;&lt;/span>&lt;/p>&#xa;&lt;p>To Save the in-progress version of the form, you can click save button. You may go back and Edit the form information any time you like.&lt;/p>&#xa;&lt;p>&lt;span class=&quot;reset-btn&quot;>&amp;nbsp;&lt;/span>&lt;/p>&#xa;&lt;p>The reset button will remove all filled values from the form fields.&lt;/p>&#xa;&lt;p>&lt;span class=&quot;submit-btn&quot;>&amp;nbsp;&lt;/span>&lt;/p>&#xa;&lt;p>&lt;i>Please Note that Submit will just check that the most necessary (required) fields have been filled by you.&lt;/i>&lt;/p>&#xa;&lt;p>&lt;b>Progress bar&lt;/b>&lt;/p>&#xa;&lt;p>The progress bar is an indicator which tells you if the required information in that section has been completed or not.&lt;/p>&#xa;&lt;p>&lt;span class=&quot;progress-img&quot;>&amp;nbsp;&lt;/span>&lt;/p>&#xa;"
+                    textIsRich="true"/>
+            </par>
+            <par_terms
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys">
+                <text
+                    jcr:created="{Date}2014-03-26T11:18:41.848+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2014-04-09T15:52:13.153+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="we-gov/components/text"
+                    text="&lt;p>I am applying for assistance in acquiring home improvement and structural alterations.&lt;/p>&#xa;&lt;ol>&#xa;&lt;li>I understand that there are economic features yet to be considered before I am eligible for this benefit, and that I will soon be notified of the action taken on this application.&lt;/li>&#xa;&lt;li>I also understand that cost limitations for improvements and structural alternation apply in the aggregate as a one lifetime benefit. Entitlements to this benefit terminates when the cost limit is reached. Limitations cannot be exceeded either for one project or for any accumulation of projects.&lt;/li>&#xa;&lt;/ol>&#xa;&lt;p>&lt;label class=&quot;checkbox-inline&quot;>&lt;input type=&quot;checkbox&quot; name=&quot;termsConditions&quot; value=&quot;iagree&quot;>I agree to the terms and conditions &lt;/label>&lt;/p>&#xa;"
+                    textIsRich="true"/>
+            </par_terms>
+            <par_demo
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys">
+                <image
+                    jcr:created="{Date}2014-03-26T12:11:30.962+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2014-03-26T12:11:55.274+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/image"
+                    fileReference="/content/dam/we-gov/resources.jpg"/>
+            </par_demo>
+            <par_need
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys">
+                <text
+                    jcr:created="{Date}2014-03-26T12:24:39.297+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2014-03-26T12:35:33.159+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="we-gov/components/text"
+                    text="&lt;div class=&quot;row col-lg-12&quot;>&lt;h4>Make sure you have the following handy before you start filling the form.&lt;/h4>&#xa;&lt;/div>&#xa;&lt;div class=&quot;col-lg-12 col-sm-12 col-xs-12 nopad clearfix&quot;>&lt;div class=&quot;col-lg-3 col-sm-3 col-xs-3 nopad&quot;>&lt;span class=&quot;need-icon&quot;> &lt;/span>&lt;/div>&#xa;&lt;div class=&quot;col-lg-9 col-sm-9 col-xs-9 nopad&quot;>&lt;ul class=&quot;orange-check&quot;>&#xa;&lt;li>Complete Address/Address proof&lt;/li>&#xa;&lt;li>Social Security Number&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/div>&#xa;&lt;/div>&#xa;&lt;div class=&quot;row col-lg-12&quot;> &lt;/div>&#xa;"
+                    textIsRich="true"/>
+            </par_need>
+        </applicationformheader>
+    </jcr:content>
+    <thumbnail.png/>
+</jcr:root>

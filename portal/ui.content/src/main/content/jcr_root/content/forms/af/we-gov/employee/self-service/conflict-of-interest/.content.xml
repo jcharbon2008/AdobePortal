@@ -1,0 +1,1193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+            cq:designPath="/etc/designs/we-gov"
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2017-05-17T12:35:14.076Z"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/we-gov/settings/wcm/templates/we-gov-emp-template"
+        jcr:language="en"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Conflict Of Interest"
+            sling:resourceType="we-gov/components/page/enrollmentpage"
+            guideTemplate="{Boolean}true">
+        <guideContainer
+            fd:version="1.1"
+            jcr:lastModified="{Date}2017-05-17T12:35:14.027Z"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="fd/af/components/guideContainer"
+            actionType="fd/dashboard/components/actions/aemworkflowsubmit"
+            afVersion="{Long}1"
+            attachmentsFolderPath="coi"
+            autoSaveStrategyType="fd/fp/components/actions/autosave/timebased"
+            dataXMLPath="coi.xml"
+            disableSwipeGesture="{Boolean}false"
+            dorPath="dor/coi.pdf"
+            dorTemplateRef="/content/dam/formsanddocuments/we-gov/employee/self-service/conflict-of-interest/jcr:content/renditions/dorTemplate"
+            dorType="generate"
+            enableAsyncSubmission="true"
+            formmodel="none"
+            guideCss="guideContainer"
+            guideNodeClass="guideContainerNode"
+            name="guide1"
+            textIsRich="true"
+            thankYouMessage="&lt;p>&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Thank you for submitting conflict of interest questionnaire.&lt;/p>&#xd;&#xa;"
+            thankYouOption="message"
+            themeRef="/content/dam/formsanddocuments-themes/we-gov/employee"
+            useExistingAF="false"
+            workflowModel="/etc/workflow/models/we-gov/employee/self-service/we-gov-employee-conflict-of-interest/jcr:content/model">
+            <layout
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/layouts/defaultGuideLayout"
+                mobileLayout="fd/af/layouts/mobile/simple"
+                toolbarPosition="Bottom"/>
+            <rootPanel
+                cq:cssClass="guide-1479463637656"
+                jcr:lastModified="{Date}2016-12-14T16:58:57.761+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/components/rootPanel"
+                completionExpReq="{Boolean}false"
+                cssStyle=".guide-1479463637656 .guideVerticalTabbedPanelLayout .tab-navigators{&#xa;&#xa;}&#xa;.guide-1479463637656 .guideVerticalTabbedPanelLayout .tab-navigators > li > a.guideTopNavIcon{&#xa;padding-bottom:7px;&#xa;margin-left:0px;&#xa;margin-right:50px;&#xa;&#xa;}&#xa;"
+                dorExcludeDescription="true"
+                dorExcludeTitle="true"
+                guideNodeClass="rootPanelNode"
+                name="guideRootPanel"
+                panelSetType="Navigable"
+                validateOnStepCompletion="{Boolean}false">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/panel/verticalTabbedPanelLayout"
+                    enableLayoutOptimization="true"
+                    toolbarPosition="Bottom"/>
+                <items jcr:primaryType="nt:unstructured">
+                    <panel1479451739136
+                        cq:cssClass="guide-1479873673329"
+                        jcr:description="&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;"
+                        jcr:lastModified="{Date}2017-05-12T12:52:53.443+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Introduction"
+                        sling:resourceType="fd/af/components/panel"
+                        completionExpReq="{Boolean}false"
+                        cssStyle=".guide-1479873673329 .guideGridFluidDescription.guidePanelDescription{&#xa;font-size:20px;&#xa;display:none;&#xa;&#xa;}&#xa;"
+                        guideNodeClass="guidePanel"
+                        name="introduction"
+                        textIsRich="true"
+                        validateOnStepCompletion="{Boolean}false">
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                            <guidetextdraw
+                                cq:cssClass="guide-1487751096037"
+                                jcr:created="{Date}2016-11-18T12:22:44.785+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2016-11-18T15:55:42.951+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="fd/af/components/guidetextdraw"
+                                _value="&lt;p>A conflict of interest arises if your personal interest, such as an outside activity or relationship, affects or appears to affect your ability to act on behalf of Company. If you have a potential conflict, you must disclose your circumstances to the Compliance Office and take steps to protect both you and Company&lt;br>&#xa;&lt;/p>&#xa;&lt;p>&lt;u>Step 1 – Disclosure&lt;/u>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>The &lt;b>Conflict of Interest Policy&lt;/b>&amp;nbsp;requires regular employees, interns, and certain temporary employees to disclose&amp;nbsp;&lt;b>&lt;i>in writing&lt;/i>&lt;/b>&amp;nbsp;any information regarding themselves and certain related persons that may pose a conflict of interest with Company.&amp;nbsp;Any changed circumstance or new potential conflict of interest must also be disclosed as soon as it develops.&lt;br>&#xa;&lt;br>&#xa;&lt;u>Step 2&amp;nbsp;– Review and Conflict Control&lt;/u>&lt;br>&#xa;The Compliance Office will review your disclosure, and when necessary, you and your manager may be required to take appropriate precautions to avoid a conflict of interest.&amp;nbsp;You will only be contacted if there are follow-up questions or precautions that need to be pursued.&lt;/p>&#xa;"
+                                cssStyle=".guide-1487751096037 .guideTextDraw.guideStaticText{&#xa;line-height:1.5;&#xa;font-size:13px;&#xa;&#xa;}&#xa;"
+                                guideNodeClass="guideTextDraw"
+                                name="textdraw1479451964869"
+                                text="The text will appear here"
+                                textIsRich="true">
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_textdraw
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[line-height:1.5,font-size:13px]"
+                                        default_x0023_default_x0023_mask="[]"/>
+                                </style>
+                            </guidetextdraw>
+                        </items>
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                            columns="1"
+                            dorLayoutType="columnar"
+                            dorNumCols="1"
+                            nonNavigable="true"
+                            toolbarPosition="Bottom"/>
+                        <style jcr:primaryType="nt:unstructured">
+                            <af_responsivepaneldescription
+                                jcr:primaryType="nt:unstructured"
+                                default_x0023_default="[font-size:20px,display:none]"/>
+                        </style>
+                    </panel1479451739136>
+                    <panel1479451764212
+                        cq:cssClass="guide-1479873696296"
+                        jcr:lastModified="{Date}2016-12-19T01:21:37.588+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Definition"
+                        sling:resourceType="fd/af/components/panel"
+                        completionExpReq="{Boolean}false"
+                        cssStyle=".guide-1479873696296 .guideGridFluidLayout{&#xa;font-size:20px;&#xa;&#xa;}&#xa;.guide-1479873696296 .guideGridFluidDescription.guidePanelDescription{&#xa;font-size:20px;&#xa;&#xa;}&#xa;"
+                        enabled="{Boolean}true"
+                        guideNodeClass="guidePanel"
+                        name="definitions"
+                        textIsRich="true"
+                        validateOnStepCompletion="{Boolean}false"
+                        visible="{Boolean}true">
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                            <guidetextdraw
+                                jcr:lastModified="{Date}2016-11-18T12:50:00.074+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                _value="&lt;p>&quot;&lt;b>Direct customer&lt;/b>&quot; means any receiver of Company&quot;s products, materials, services, or property.&lt;br>&#xa;&lt;br>&#xa;&quot;&lt;b>Direct supplier&lt;/b>&quot; means any entity that directly supplies or seeks to supply goods, materials, services, personnel, or property to Company.&amp;nbsp;&lt;br>&#xa;&amp;nbsp;&lt;br>&#xa;&quot;&lt;b>Government department&lt;/b>&quot; and &quot;&lt;b>state-owned entity&lt;/b>&quot; include:&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Any sector of a national, state, or local government that deals with a particular area of interest; and&lt;/li>&#xa;&lt;li>Any legal entity wholly or partially owned or controlled by a government.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>&quot;&lt;b>Potential competitor&lt;/b>&quot; means any entity that currently competes with Company, or may begin to compete with Company&amp;nbsp;in the foreseeable future.&lt;br>&#xa;&lt;br>&#xa;“&lt;b>Related party&lt;/b>” includes:&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Your spouse, domestic partner, child, brother, sister, parent, mother- or father-in-law, son- or daughter-in-law, or brother- or sister-in-law (each a “related person”).&lt;/li>&#xa;&lt;li>Any corporation, company or other organization of which you or a related person are a board member, officer, partner, or owner of a significant investment.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>“&lt;b>Significant investment&lt;/b>” includes:&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>A direct or indirect&amp;nbsp;beneficial ownership or financial interest that could (or could appear to) influence your judgment or ability to act on behalf of Company; and&lt;/li>&#xa;&lt;li>Any investment&amp;nbsp;&lt;b>&lt;i>greater&lt;/i>&lt;/b>&amp;nbsp;than 5% of the securities or other beneficial interest in an outside company or business.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>&amp;nbsp;&amp;nbsp;&lt;br>&#xa;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                                textIsRich="true"/>
+                            <guidetextdraw_668034099
+                                cq:cssClass="guide-1487751021423"
+                                jcr:created="{Date}2016-11-18T12:51:39.107+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-02-22T13:56:01.429+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="fd/af/components/guidetextdraw"
+                                _value="&lt;p>&lt;b>Direct customer&lt;/b>&amp;nbsp;means any receiver of Company&amp;quot;s products, materials, services, or property.&lt;/p>&#xa;&lt;p>&lt;b>Direct supplier&lt;/b>&amp;nbsp;means any entity that directly supplies or seeks to supply goods, materials, services, personnel, or property to Company.&lt;/p>&#xa;&lt;p>&lt;b>Government department&lt;/b>&amp;nbsp;and &lt;b>state-owned entity&lt;/b>&amp;nbsp;include:&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Any sector of a national, state, or local government that deals with a particular area of interest; and&lt;br>&#xa;&lt;/li>&#xa;&lt;li>Any legal entity wholly or partially owned or controlled by a government.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>&lt;b>Potential competitor&lt;/b>&amp;nbsp;means any entity that currently competes with Company, or may begin to compete with Company&amp;nbsp;in the foreseeable future.&lt;br>&#xa;&lt;b>Related party&lt;/b>&amp;nbsp;includes:&lt;br>&#xa;&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Your spouse, domestic partner, child, brother, sister, parent, mother- or father-in-law, son- or daughter-in-law, or brother- or sister-in-law (each a “related person”);&lt;/li>&#xa;&lt;li>Any corporation, company or other organization of which you or a related person are a board member, officer, partner, or owner of a significant investment.&lt;/li>&#xa;&lt;/ul>&#xa;"
+                                cssStyle=".guide-1487751021423 .guideTextDraw.guideStaticText{&#xa;line-height:1.5;&#xa;font-size:13px;&#xa;&#xa;}&#xa;"
+                                guideNodeClass="guideTextDraw"
+                                name="textdraw_6680340991479453699275"
+                                textIsRich="true">
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_textdraw
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[line-height:1.5,font-size:13px]"
+                                        default_x0023_default_x0023_mask="[]"/>
+                                </style>
+                            </guidetextdraw_668034099>
+                        </items>
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                            columns="1"
+                            dorLayoutType="columnar"
+                            dorNumCols="1"
+                            nonNavigable="true"
+                            toolbarPosition="Bottom"/>
+                        <style jcr:primaryType="nt:unstructured">
+                            <af_responsivepanel
+                                jcr:primaryType="nt:unstructured"
+                                default_x0023_default="[font-size:20px]"/>
+                            <af_responsivepaneldescription
+                                jcr:primaryType="nt:unstructured"
+                                default_x0023_default="[font-size:20px]"/>
+                        </style>
+                    </panel1479451764212>
+                    <questions
+                        cq:cssClass="guide-1479873733411"
+                        jcr:lastModified="{Date}2016-12-19T01:21:55.129+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Questions"
+                        sling:resourceType="fd/af/components/panel"
+                        completionExpReq="{Boolean}false"
+                        cssStyle=".guide-1479873733411 .guideGridFluidDescription.guidePanelDescription{&#xa;font-size:20px;&#xa;&#xa;}&#xa;"
+                        enabled="{Boolean}true"
+                        guideNodeClass="guidePanel"
+                        name="questions"
+                        textIsRich="true"
+                        validateOnStepCompletion="{Boolean}false"
+                        visible="{Boolean}true">
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                            <guidecheckbox
+                                cq:cssClass="guide-1479799683688"
+                                jcr:created="{Date}2016-11-18T13:23:47.824+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2016-12-19T14:04:28.712+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title=" Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member"
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                alignment="guideFieldVerticalAlignment"
+                                cssStyle=".guide-1479799683688 label{&#xa;line-height:1.5;&#xa;&#xa;}&#xa; .guideFieldLabel {&#xa;width:100%;&#xa;}&#xa;.guide-1479799683688 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:100%;&#xa;max-width:inherit;&#xa;&#xa;}&#xa;.guide-1479799683688 .guideRadioButtonGroupItems:not(.guideImageChoice):not(.guideSwitch){&#xa;width:100%;&#xa;&#xa;}&#xa;"
+                                enabled="{Boolean}true"
+                                guideNodeClass="guideRadioButton"
+                                mandatory="true"
+                                name="question0"
+                                options="[0=Current/potential competitor of Firm?,1=Firm distributor\, reseller\, or sales agent? ,2=Direct supplier of Firm AND you have influence over Firm’s pricing\, terms\, and conditions?,4=Direct customer of Firm AND you have influence over Firm’s pricing\, terms\, and conditions?,5=Entity that receives or provides Firm with business referrals or commercial opportunities?,6=Technical standards organization? ,7=Government department or state-owned entity? ,None=None]"
+                                textIsRich="[true,true]"
+                                visible="{Boolean}true">
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_checkboxfield
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[max-width:100%,display:block]"/>
+                                    <af_fieldlabel
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldLabel&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;100%&quot;}}}},line-height:1.5]"
+                                        default_x0023_default_x0023_ui="[width:100%]"/>
+                                    <af_checkboxfieldwidgetandtext
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[max-width:100%,display:block]"/>
+                                    <af_radiobutton
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[width:100%,max-width:inherit]"/>
+                                    <af_radiobuttonwidgetandtext
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[width:100%]"/>
+                                </style>
+                            </guidecheckbox>
+                            <guidetextbox
+                                cq:cssClass="guide-1486370239909"
+                                jcr:created="{Date}2016-12-14T16:01:49.475+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-02-22T13:22:35.777+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Provide as much detail as possible"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                cssStyle=".guide-1486370239909 label{&#xa;line-height:1.5;&#xa;&#xa;}&#xa; .guideFieldLabel {&#xa;width:100%;&#xa;}&#xa;.guide-1486370239909 .multiline.textField textArea{&#xa;&#xa;}&#xa; .guideFieldWidget.textField.multiline {&#xa;width:100%;&#xa;}&#xa;.guide-1486370239909 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;max-width:100%;&#xa;&#xa;}&#xa;"
+                                enabled="{Boolean}true"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                multiLine="true"
+                                name="question0_details"
+                                placeholderText="Please provide details"
+                                textIsRich="[true,true,true]"
+                                visible="{Boolean}true">
+                                <fd:rules
+                                    fd:visible="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.questions.question0_details&quot;\,&quot;type&quot;:&quot;TEXT FIELD|FIELD|AFCOMPONENT|STRING&quot;\,&quot;name&quot;:&quot;question0_details&quot;}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BOOLEAN_BINARY_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.questions.question0&quot;\,&quot;displayName&quot;:&quot; Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;isDuplicate&quot;:true\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Questions/ Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member/&quot;\,&quot;name&quot;:&quot;question0&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.questions&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;0&quot;}}]}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;OR&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BOOLEAN_BINARY_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.questions.question0&quot;\,&quot;displayName&quot;:&quot; Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;isDuplicate&quot;:true\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Questions/ Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member/&quot;\,&quot;name&quot;:&quot;question0&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.questions&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;1&quot;}}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;OR&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BOOLEAN_BINARY_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.questions.question0&quot;\,&quot;displayName&quot;:&quot; Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;isDuplicate&quot;:true\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Questions/ Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member/&quot;\,&quot;name&quot;:&quot;question0&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.questions&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;2&quot;}}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;OR&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BOOLEAN_BINARY_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.questions.question0&quot;\,&quot;displayName&quot;:&quot; Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;isDuplicate&quot;:true\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Questions/ Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member/&quot;\,&quot;name&quot;:&quot;question0&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.questions&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;4&quot;}}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;OR&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BOOLEAN_BINARY_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.questions.question0&quot;\,&quot;displayName&quot;:&quot; Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;isDuplicate&quot;:true\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Questions/ Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member/&quot;\,&quot;name&quot;:&quot;question0&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.questions&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;5&quot;}}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;OR&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BOOLEAN_BINARY_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.questions.question0&quot;\,&quot;displayName&quot;:&quot; Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;isDuplicate&quot;:true\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Questions/ Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member/&quot;\,&quot;name&quot;:&quot;question0&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.questions&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;6&quot;}}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;OR&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.questions.question0&quot;\,&quot;displayName&quot;:&quot; Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;isDuplicate&quot;:true\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Questions/ Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member/&quot;\,&quot;name&quot;:&quot;question0&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.questions&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;7&quot;}}]}\,&quot;nested&quot;:false}]}\,&quot;nested&quot;:false}]}\,&quot;nested&quot;:false}]}\,&quot;nested&quot;:false}]}\,&quot;nested&quot;:false}]}\,&quot;nested&quot;:false}]}}\,{&quot;nodeName&quot;:&quot;Else&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;DONOTHING_OR_HIDE&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Hide&quot;\,&quot;value&quot;:null}}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n *  SHOW Provide as much detail as possible WHEN  ( Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member is equal to 0)  OR  ( Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member is equal to 1)  OR  ( Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member is equal to 2)  OR  ( Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member is equal to 4)  OR  ( Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member is equal to 5)  OR  ( Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member is equal to 6)  OR  ( Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member is equal to 7)  ELSE Hide\\n *\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif (question0.value == \\&quot;0\\&quot; || question0.value == \\&quot;1\\&quot; || question0.value == \\&quot;2\\&quot; || question0.value == \\&quot;4\\&quot; || question0.value == \\&quot;5\\&quot; || question0.value == \\&quot;6\\&quot; || question0.value == \\&quot;7\\&quot;) {\\n    true;\\n } else {\\n    false;\\n}\\n&quot;\,&quot;eventName&quot;:&quot;Visibility&quot;}]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_fieldlabel
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldLabel&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;100%&quot;}}}},line-height:1.5]"
+                                        default_x0023_default_x0023_ui="[width:100%]"/>
+                                    <af_textareawidgetandtext
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldWidget.textField.multiline&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;100%&quot;}}}}]"
+                                        default_x0023_default_x0023_ui="[width:100%]"/>
+                                    <af_textbox
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[max-width:100%]"/>
+                                </style>
+                            </guidetextbox>
+                            <guidecheckbox_copy
+                                cq:cssClass="guide-1486370265647"
+                                jcr:created="{Date}2016-11-18T13:23:47.824+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2016-12-14T16:47:42.076+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title=" Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member"
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                alignment="guideFieldVerticalAlignment"
+                                cssStyle=".guide-1486370265647 label{&#xa;line-height:1.5;&#xa;&#xa;}&#xa; .guideFieldLabel {&#xa;width:100%;&#xa;}&#xa;.guide-1486370265647 .guideRadioButtonGroupItems:not(.guideImageChoice):not(.guideSwitch){&#xa;width:100%;&#xa;&#xa;}&#xa;.guide-1486370265647 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;max-width:inherit;&#xa;&#xa;}&#xa;"
+                                guideNodeClass="guideRadioButton"
+                                mandatory="true"
+                                name="Question1"
+                                options="[0=Current/potential competitor of Firm?,1=Firm distributor\, reseller\, or sales agent? ,2=Direct supplier of Firm AND you have influence over Firm’s pricing\, terms\, and conditions?,4=Direct customer of Firm AND you have influence over Firm’s pricing\, terms\, and conditions?,5=Entity that receives or provides Firm with business referrals or commercial opportunities?,6=None]"
+                                textIsRich="[true,true]">
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_fieldlabel
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldLabel&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;100%&quot;}}}},line-height:1.5]"
+                                        default_x0023_default_x0023_ui="[width:100%]"/>
+                                    <af_radiobuttonwidgetandtext
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[width:100%]"/>
+                                    <af_radiobutton
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[max-width:inherit]"/>
+                                </style>
+                            </guidecheckbox_copy>
+                            <guidetextbox_1344650572
+                                cq:cssClass="guide-1486370323036"
+                                jcr:created="{Date}2016-12-14T16:50:06.427+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-02-22T13:22:47.335+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Provide as much detail as possible"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                cssStyle=".guide-1486370323036 label{&#xa;line-height:1.5;&#xa;&#xa;}&#xa; .guideFieldLabel {&#xa;width:100%;&#xa;}&#xa;.guide-1486370323036 .multiline.textField textArea{&#xa;&#xa;}&#xa; .guideFieldWidget.textField.multiline {&#xa;width:100%;&#xa;}&#xa;.guide-1486370323036 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;max-width:inherit;&#xa;&#xa;}&#xa;"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                multiLine="true"
+                                name="question1_details"
+                                placeholderText="Please provide details"
+                                textIsRich="[true,true,true]">
+                                <fd:rules
+                                    fd:visible="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.questions.question1_details&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;name&quot;:&quot;question1_details&quot;}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BOOLEAN_BINARY_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.questions.Question1&quot;\,&quot;displayName&quot;:&quot; Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;isDuplicate&quot;:true\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Questions/ Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member/&quot;\,&quot;name&quot;:&quot;Question1&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.questions&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;0&quot;}}]}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;OR&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BOOLEAN_BINARY_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.questions.Question1&quot;\,&quot;displayName&quot;:&quot; Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;isDuplicate&quot;:true\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Questions/ Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member/&quot;\,&quot;name&quot;:&quot;Question1&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.questions&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;1&quot;}}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;OR&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BOOLEAN_BINARY_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.questions.Question1&quot;\,&quot;displayName&quot;:&quot; Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;isDuplicate&quot;:true\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Questions/ Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member/&quot;\,&quot;name&quot;:&quot;Question1&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.questions&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;2&quot;}}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;OR&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BOOLEAN_BINARY_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.questions.Question1&quot;\,&quot;displayName&quot;:&quot; Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;isDuplicate&quot;:true\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Questions/ Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member/&quot;\,&quot;name&quot;:&quot;Question1&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.questions&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;4&quot;}}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;OR&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.questions.Question1&quot;\,&quot;displayName&quot;:&quot; Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;isDuplicate&quot;:true\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Questions/ Are you (or a related party) affiliated with the following organizations in the capacity of an employee/director/officer/member/&quot;\,&quot;name&quot;:&quot;Question1&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.questions&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;5&quot;}}]}\,&quot;nested&quot;:false}]}\,&quot;nested&quot;:false}]}\,&quot;nested&quot;:false}]}\,&quot;nested&quot;:false}]}}\,{&quot;nodeName&quot;:&quot;Else&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;DONOTHING_OR_HIDE&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Hide&quot;\,&quot;value&quot;:null}}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif (Question1.value == \\&quot;0\\&quot; || Question1.value == \\&quot;1\\&quot; || Question1.value == \\&quot;2\\&quot; || Question1.value == \\&quot;4\\&quot; || Question1.value == \\&quot;5\\&quot;) {\\n    true;\\n } else {\\n    false;\\n}\\n&quot;\,&quot;eventName&quot;:&quot;Visibility&quot;}]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_fieldlabel
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldLabel&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;100%&quot;}}}},line-height:1.5]"
+                                        default_x0023_default_x0023_ui="[width:100%]"/>
+                                    <af_textareawidgetandtext
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldWidget.textField.multiline&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;100%&quot;}}}}]"
+                                        default_x0023_default_x0023_ui="[width:100%]"/>
+                                    <af_textbox
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[max-width:inherit]"/>
+                                </style>
+                            </guidetextbox_1344650572>
+                            <guidecheckbox_copy_c
+                                cq:cssClass="guide-1486370355803"
+                                jcr:created="{Date}2016-11-18T13:23:47.824+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2016-12-14T16:47:32.280+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Is anyone else living in your household employed"
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                alignment="guideFieldVerticalAlignment"
+                                cssStyle=".guide-1486370355803 label{&#xa;line-height:1.5;&#xa;&#xa;}&#xa; .guideFieldLabel {&#xa;width:100%;&#xa;}&#xa;.guide-1486370355803 .guideRadioButtonGroupItems:not(.guideImageChoice):not(.guideSwitch){&#xa;width:100%;&#xa;&#xa;}&#xa;.guide-1486370355803 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;max-width:inherit;&#xa;&#xa;}&#xa;"
+                                guideNodeClass="guideRadioButton"
+                                mandatory="true"
+                                name="Question2"
+                                options="[0=Shares the same direct manager as you?,1=You report to\, or who reports to you (either directly or indirectly)? ,2=None]"
+                                textIsRich="[true,true]">
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_fieldlabel
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldLabel&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;100%&quot;}}}},line-height:1.5]"
+                                        default_x0023_default_x0023_ui="[width:100%]"/>
+                                    <af_radiobuttonwidgetandtext
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[width:100%]"/>
+                                    <af_radiobutton
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[max-width:inherit]"/>
+                                </style>
+                            </guidecheckbox_copy_c>
+                            <guidetextbox_340779358
+                                cq:cssClass="guide-1486370512169"
+                                jcr:created="{Date}2016-12-14T16:51:36.520+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-02-22T13:22:53.770+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Provide as much detail as possible"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                cssStyle=".guide-1486370512169 label{&#xa;line-height:1.5;&#xa;&#xa;}&#xa; .guideFieldLabel {&#xa;width:100%;&#xa;}&#xa;.guide-1486370512169 .multiline.textField textArea{&#xa;&#xa;}&#xa; .guideFieldWidget.textField.multiline {&#xa;width:100%;&#xa;}&#xa;.guide-1486370512169 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;max-width:inherit;&#xa;&#xa;}&#xa;"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                multiLine="true"
+                                name="question2_details"
+                                placeholderText="Please provide details"
+                                textIsRich="[true,true,true]">
+                                <fd:rules
+                                    fd:visible="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.questions.question2_details&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;name&quot;:&quot;question2_details&quot;}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BOOLEAN_BINARY_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.questions.Question2&quot;\,&quot;displayName&quot;:&quot;Is anyone else living in your household employed&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Questions/Is anyone else living in your household employed/&quot;\,&quot;name&quot;:&quot;Question2&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.questions&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;0&quot;}}]}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;OR&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.questions.Question2&quot;\,&quot;displayName&quot;:&quot;Is anyone else living in your household employed&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Questions/Is anyone else living in your household employed/&quot;\,&quot;name&quot;:&quot;Question2&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.questions&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;1&quot;}}]}\,&quot;nested&quot;:false}]}}\,{&quot;nodeName&quot;:&quot;Else&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;DONOTHING_OR_HIDE&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Hide&quot;\,&quot;value&quot;:null}}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif (Question2.value == \\&quot;0\\&quot; || Question2.value == \\&quot;1\\&quot;) {\\n    true;\\n } else {\\n    false;\\n}\\n&quot;\,&quot;eventName&quot;:&quot;Visibility&quot;}]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_fieldlabel
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldLabel&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;100%&quot;}}}},line-height:1.5]"
+                                        default_x0023_default_x0023_ui="[width:100%]"/>
+                                    <af_textareawidgetandtext
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldWidget.textField.multiline&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;100%&quot;}}}}]"
+                                        default_x0023_default_x0023_ui="[width:100%]"/>
+                                    <af_textbox
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[max-width:inherit]"/>
+                                </style>
+                            </guidetextbox_340779358>
+                            <guidecheckbox_1145761670
+                                cq:cssClass="guide-1486370539253"
+                                jcr:created="{Date}2016-11-18T13:24:20.189+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2016-12-14T17:01:57.235+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="In the past 12 months, have you (or a related party) personally received financial payments, commissions, incentives, reimbursements, loans, or have you forgiven loans from any Firm direct suppliers, direct customers, distributors, resellers, or agents?"
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                alignment="guideFieldVerticalAlignment"
+                                cssStyle=".guide-1486370539253 label{&#xa;line-height:1.5;&#xa;&#xa;}&#xa; .guideFieldLabel {&#xa;width:100%;&#xa;}&#xa;.guide-1486370539253 .guideRadioButtonGroupItems:not(.guideImageChoice):not(.guideSwitch){&#xa;width:100%;&#xa;&#xa;}&#xa;.guide-1486370539253 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;max-width:inherit;&#xa;&#xa;}&#xa;"
+                                guideNodeClass="guideRadioButton"
+                                mandatory="true"
+                                name="question3"
+                                options="[Yes=Yes,No=No]"
+                                textIsRich="[true,true]">
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_fieldlabel
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldLabel&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;100%&quot;}}}},line-height:1.5]"
+                                        default_x0023_default_x0023_ui="[width:100%]"/>
+                                    <af_radiobuttonwidgetandtext
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[width:100%]"/>
+                                    <af_radiobutton
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[max-width:inherit]"/>
+                                </style>
+                            </guidecheckbox_1145761670>
+                            <guidetextbox_1560344587
+                                cq:cssClass="guide-1486370580758"
+                                jcr:created="{Date}2016-12-14T16:51:45.042+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-02-22T13:23:00.613+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Provide as much detail as possible"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                cssStyle=".guide-1486370580758 label{&#xa;line-height:1.5;&#xa;&#xa;}&#xa; .guideFieldLabel {&#xa;width:100%;&#xa;}&#xa;.guide-1486370580758 .multiline.textField textArea{&#xa;&#xa;}&#xa; .guideFieldWidget.textField.multiline {&#xa;width:100%;&#xa;}&#xa;.guide-1486370580758 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;max-width:inherit;&#xa;&#xa;}&#xa;"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                multiLine="true"
+                                name="question3_details"
+                                placeholderText="Please provide details"
+                                textIsRich="[true,true,true]">
+                                <fd:rules
+                                    fd:visible="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.questions.question3_details&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;name&quot;:&quot;question3_details&quot;}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.questions.question3&quot;\,&quot;displayName&quot;:&quot;In the past 12 months\, have you (or a related party) personally received financial payments\, commissions\, incentives\, reimbursements\, loans\, or have you forgiven loans from any Firm direct suppliers\, direct customers\, distributors\, resellers\, or agents?&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Questions/In the past 12 months\, have you (or a related party) personally received financial payments\, commissions\, incentives\, reimbursements\, loans\, or have you forgiven loans from any Firm direct suppliers\, direct customers\, distributors\, resellers\, or agents?/&quot;\,&quot;name&quot;:&quot;question3&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.questions&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;Yes&quot;}}]}}\,{&quot;nodeName&quot;:&quot;Else&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;DONOTHING_OR_HIDE&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Hide&quot;\,&quot;value&quot;:null}}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif (question3.value == \\&quot;Yes\\&quot;) {\\n    true;\\n } else {\\n    false;\\n}\\n&quot;\,&quot;eventName&quot;:&quot;Visibility&quot;}]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_fieldlabel
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldLabel&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;100%&quot;}}}},line-height:1.5]"
+                                        default_x0023_default_x0023_ui="[width:100%]"/>
+                                    <af_textareawidgetandtext
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldWidget.textField.multiline&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;100%&quot;}}}}]"
+                                        default_x0023_default_x0023_ui="[width:100%]"/>
+                                    <af_textbox
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[max-width:inherit]"/>
+                                </style>
+                            </guidetextbox_1560344587>
+                            <guidecheckbox_130455296
+                                cq:cssClass="guide-1486370609864"
+                                jcr:created="{Date}2016-11-18T13:24:29.378+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2016-12-14T17:01:37.753+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="In the past 12 months,have you (or a related party) given or received any gifts over USD 150 or hospitality over USD 250 from any Firm direct suppliers or direct customers? "
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                alignment="guideFieldVerticalAlignment"
+                                cssStyle=".guide-1486370609864 label{&#xa;line-height:1.5;&#xa;&#xa;}&#xa; .guideFieldLabel {&#xa;width:100%;&#xa;}&#xa;.guide-1486370609864 .guideRadioButtonGroupItems:not(.guideImageChoice):not(.guideSwitch){&#xa;width:100%;&#xa;&#xa;}&#xa;"
+                                guideNodeClass="guideRadioButton"
+                                mandatory="true"
+                                name="question4"
+                                options="[Yes=Yes,No=No]"
+                                textIsRich="[true,true]">
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_fieldlabel
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldLabel&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;100%&quot;}}}},line-height:1.5]"
+                                        default_x0023_default_x0023_mask="[]"
+                                        default_x0023_default_x0023_ui="[width:100%]"/>
+                                    <af_radiobuttonwidgetandtext
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[width:100%]"/>
+                                </style>
+                            </guidecheckbox_130455296>
+                            <guidetextbox_1182057710
+                                cq:cssClass="guide-1486370710445"
+                                jcr:created="{Date}2016-12-14T16:51:52.973+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-02-22T13:23:07.541+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Provide as much detail as possible"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                cssStyle=".guide-1486370710445 label{&#xa;line-height:1.5;&#xa;&#xa;}&#xa; .guideFieldLabel {&#xa;width:100%;&#xa;}&#xa;.guide-1486370710445 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;max-width:inherit;&#xa;&#xa;}&#xa;.guide-1486370710445 .multiline.textField textArea{&#xa;&#xa;}&#xa; .guideFieldWidget.textField.multiline {&#xa;width:100%;&#xa;}&#xa;"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                multiLine="true"
+                                name="question4_details"
+                                placeholderText="Please provide details"
+                                textIsRich="[true,true,true]">
+                                <fd:rules
+                                    fd:visible="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.questions.question4_details&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;name&quot;:&quot;question4_details&quot;}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.questions.question4&quot;\,&quot;displayName&quot;:&quot;In the past 12 months\,have you (or a related party) given or received any gifts over USD 150 or hospitality over USD 250 from any Firm direct suppliers or direct customers? &quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Questions/In the past 12 months\,have you (or a related party) given or received any gifts over USD 150 or hospitality over USD 250 from any Firm direct suppliers or direct customers? /&quot;\,&quot;name&quot;:&quot;question4&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.questions&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;Yes&quot;}}]}}\,{&quot;nodeName&quot;:&quot;Else&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;DONOTHING_OR_HIDE&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Hide&quot;\,&quot;value&quot;:null}}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif (question4.value == \\&quot;Yes\\&quot;) {\\n    true;\\n } else {\\n    false;\\n}\\n&quot;\,&quot;eventName&quot;:&quot;Visibility&quot;}]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_fieldlabel
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldLabel&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;100%&quot;}}}},line-height:1.5]"
+                                        default_x0023_default_x0023_ui="[width:100%]"/>
+                                    <af_textbox
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[max-width:inherit]"/>
+                                    <af_textareawidgetandtext
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldWidget.textField.multiline&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;100%&quot;}}}}]"
+                                        default_x0023_default_x0023_ui="[width:100%]"/>
+                                </style>
+                            </guidetextbox_1182057710>
+                            <guidecheckbox_1096490642
+                                cq:cssClass="guide-1486370744627"
+                                jcr:created="{Date}2016-11-18T13:24:12.566+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2016-12-14T17:01:19.072+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Have you offered or provided gifts or hospitality to any government officials?"
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                alignment="guideFieldVerticalAlignment"
+                                cssStyle=".guide-1486370744627 label{&#xa;line-height:1.5;&#xa;&#xa;}&#xa; .guideFieldLabel {&#xa;width:100%;&#xa;}&#xa;.guide-1486370744627 .guideRadioButtonGroupItems:not(.guideImageChoice):not(.guideSwitch){&#xa;width:100%;&#xa;&#xa;}&#xa;.guide-1486370744627 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;max-width:inherit;&#xa;&#xa;}&#xa;"
+                                guideNodeClass="guideRadioButton"
+                                mandatory="true"
+                                name="question5"
+                                options="[Yes=Yes,No=No]"
+                                textIsRich="[true,true]">
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_fieldlabel
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldLabel&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;100%&quot;}}}},line-height:1.5]"
+                                        default_x0023_default_x0023_ui="[width:100%]"/>
+                                    <af_radiobuttonwidgetandtext
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[width:100%]"/>
+                                    <af_radiobutton
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[max-width:inherit]"/>
+                                </style>
+                            </guidecheckbox_1096490642>
+                            <guidetextbox_1832660594
+                                cq:cssClass="guide-1486370785817"
+                                jcr:created="{Date}2016-12-14T16:52:01.953+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-02-22T13:23:16.965+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Provide as much detail as possible"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                cssStyle=".guide-1486370785817 label{&#xa;line-height:1.5;&#xa;&#xa;}&#xa; .guideFieldLabel {&#xa;width:100%;&#xa;}&#xa;.guide-1486370785817 .multiline.textField textArea{&#xa;&#xa;}&#xa; .guideFieldWidget.textField.multiline {&#xa;width:100%;&#xa;}&#xa;.guide-1486370785817 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;max-width:inherit;&#xa;&#xa;}&#xa;"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                multiLine="true"
+                                name="question5_details"
+                                placeholderText="Please provide details"
+                                textIsRich="[true,true,true]">
+                                <fd:rules
+                                    fd:visible="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.questions.question5_details&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;name&quot;:&quot;question5_details&quot;}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.questions.question5&quot;\,&quot;displayName&quot;:&quot;Have you offered or provided gifts or hospitality to any government officials?&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Questions/Have you offered or provided gifts or hospitality to any government officials?/&quot;\,&quot;name&quot;:&quot;question5&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.questions&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;Yes&quot;}}]}}\,{&quot;nodeName&quot;:&quot;Else&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;DONOTHING_OR_HIDE&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Hide&quot;\,&quot;value&quot;:null}}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif (question5.value == \\&quot;Yes\\&quot;) {\\n    true;\\n } else {\\n    false;\\n}\\n&quot;\,&quot;eventName&quot;:&quot;Visibility&quot;}]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_fieldlabel
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldLabel&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;100%&quot;}}}},line-height:1.5]"
+                                        default_x0023_default_x0023_ui="[width:100%]"/>
+                                    <af_textareawidgetandtext
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldWidget.textField.multiline&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;100%&quot;}}}}]"
+                                        default_x0023_default_x0023_ui="[width:100%]"/>
+                                    <af_textbox
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[max-width:inherit]"/>
+                                </style>
+                            </guidetextbox_1832660594>
+                            <guidecheckbox_1752628654
+                                cq:cssClass="guide-1486370826324"
+                                jcr:created="{Date}2016-11-18T13:24:36.349+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2016-12-14T17:00:59.132+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Do you (or a related party) have any other possible conflicts of interest with Firm? "
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                alignment="guideFieldVerticalAlignment"
+                                cssStyle=".guide-1486370826324 label{&#xa;line-height:1.5;&#xa;&#xa;}&#xa; .guideFieldLabel {&#xa;width:100%;&#xa;}&#xa;.guide-1486370826324 .guideRadioButtonGroupItems:not(.guideImageChoice):not(.guideSwitch){&#xa;width:100%;&#xa;&#xa;}&#xa;.guide-1486370826324 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;max-width:inherit;&#xa;&#xa;}&#xa;"
+                                guideNodeClass="guideRadioButton"
+                                mandatory="true"
+                                name="question6"
+                                options="[Yes=Yes,No=No]"
+                                textIsRich="[true,true]">
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_fieldlabel
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldLabel&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;100%&quot;}}}},line-height:1.5]"
+                                        default_x0023_default_x0023_ui="[width:100%]"/>
+                                    <af_radiobuttonwidgetandtext
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[width:100%]"/>
+                                    <af_radiobutton
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[max-width:inherit]"/>
+                                </style>
+                            </guidecheckbox_1752628654>
+                            <guidetextbox_807904346
+                                cq:cssClass="guide-1486370850589"
+                                jcr:created="{Date}2016-12-14T16:52:20.922+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-02-22T13:23:28.044+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Provide as much detail as possible"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                cssStyle=".guide-1486370850589 label{&#xa;line-height:1.5;&#xa;&#xa;}&#xa; .guideFieldLabel {&#xa;width:100%;&#xa;}&#xa;.guide-1486370850589 .multiline.textField textArea{&#xa;&#xa;}&#xa; .guideFieldWidget.textField.multiline {&#xa;width:100%;&#xa;}&#xa;.guide-1486370850589 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;max-width:inherit;&#xa;&#xa;}&#xa;"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                multiLine="true"
+                                name="question6_details"
+                                placeholderText="Please provide details"
+                                textIsRich="[true,true,true]">
+                                <fd:rules
+                                    fd:visible="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.questions.question6_details&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;name&quot;:&quot;question6_details&quot;}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.questions.question6&quot;\,&quot;displayName&quot;:&quot;Do you (or a related party) have any other possible conflicts of interest with Firm? &quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Questions/Do you (or a related party) have any other possible conflicts of interest with Firm? /&quot;\,&quot;name&quot;:&quot;question6&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.questions&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;Yes&quot;}}]}}\,{&quot;nodeName&quot;:&quot;Else&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;DONOTHING_OR_HIDE&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Hide&quot;\,&quot;value&quot;:null}}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif (question6.value == \\&quot;Yes\\&quot;) {\\n    true;\\n } else {\\n    false;\\n}\\n&quot;\,&quot;eventName&quot;:&quot;Visibility&quot;}]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_fieldlabel
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldLabel&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;100%&quot;}}}},line-height:1.5]"
+                                        default_x0023_default_x0023_ui="[width:100%]"/>
+                                    <af_textareawidgetandtext
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldWidget.textField.multiline&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;100%&quot;}}}}]"
+                                        default_x0023_default_x0023_ui="[width:100%]"/>
+                                    <af_textbox
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[max-width:inherit]"/>
+                                </style>
+                            </guidetextbox_807904346>
+                            <guidecheckbox_2052097346
+                                cq:cssClass="guide-1486370873699"
+                                jcr:created="{Date}2016-11-18T13:24:47.424+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2016-12-14T17:00:42.786+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Are you aware of any bribery, requests for bribes, or any other potentially corrupt behavior related to Firm's business in any way?"
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                alignment="guideFieldVerticalAlignment"
+                                cssStyle=".guide-1486370873699 label{&#xa;line-height:1.5;&#xa;&#xa;}&#xa; .guideFieldLabel {&#xa;width:100%;&#xa;}&#xa;.guide-1486370873699 .guideRadioButtonGroupItems:not(.guideImageChoice):not(.guideSwitch){&#xa;width:100%;&#xa;&#xa;}&#xa;.guide-1486370873699 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;max-width:inherit;&#xa;&#xa;}&#xa;"
+                                guideNodeClass="guideRadioButton"
+                                mandatory="true"
+                                name="question7"
+                                options="[Yes=Yes,No=No]"
+                                textIsRich="[true,true]">
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_fieldlabel
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldLabel&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;100%&quot;}}}},line-height:1.5]"
+                                        default_x0023_default_x0023_ui="[width:100%]"/>
+                                    <af_radiobuttonwidgetandtext
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[width:100%]"/>
+                                    <af_radiobutton
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[max-width:inherit]"/>
+                                </style>
+                            </guidecheckbox_2052097346>
+                            <guidetextbox_1815575105
+                                cq:cssClass="guide-1486370881737"
+                                jcr:created="{Date}2016-12-14T16:52:11.929+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-02-22T13:23:40.477+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Provide as much detail as possible"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                cssStyle=".guide-1486370881737 label{&#xa;line-height:1.5;&#xa;&#xa;}&#xa; .guideFieldLabel {&#xa;width:100%;&#xa;}&#xa;.guide-1486370881737 .multiline.textField textArea{&#xa;&#xa;}&#xa; .guideFieldWidget.textField.multiline {&#xa;width:100%;&#xa;}&#xa;.guide-1486370881737 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;max-width:inherit;&#xa;&#xa;}&#xa;"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                multiLine="true"
+                                name="question7_details"
+                                placeholderText="Please provide details"
+                                textIsRich="[true,true,true]">
+                                <fd:rules
+                                    fd:visible="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.questions.question7_details&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;name&quot;:&quot;question7_details&quot;}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.questions.question7&quot;\,&quot;displayName&quot;:&quot;Are you aware of any bribery\, requests for bribes\, or any other potentially corrupt behavior related to Firm's business in any way?&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Questions/Are you aware of any bribery\, requests for bribes\, or any other potentially corrupt behavior related to Firm's business in any way?/&quot;\,&quot;name&quot;:&quot;question7&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.questions&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;Yes&quot;}}]}}\,{&quot;nodeName&quot;:&quot;Else&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;DONOTHING_OR_HIDE&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Hide&quot;\,&quot;value&quot;:null}}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif (question7.value == \\&quot;Yes\\&quot;) {\\n    true;\\n } else {\\n    false;\\n}\\n&quot;\,&quot;eventName&quot;:&quot;Visibility&quot;}]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_fieldlabel
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldLabel&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;100%&quot;}}}},line-height:1.5]"
+                                        default_x0023_default_x0023_ui="[width:100%]"/>
+                                    <af_textareawidgetandtext
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldWidget.textField.multiline&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;100%&quot;}}}}]"
+                                        default_x0023_default_x0023_ui="[width:100%]"/>
+                                    <af_textbox
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[max-width:inherit]"/>
+                                </style>
+                            </guidetextbox_1815575105>
+                            <guidecheckbox_31390070
+                                cq:cssClass="guide-1486370907935"
+                                jcr:created="{Date}2016-11-18T13:24:42.347+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2016-12-14T16:32:07.661+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Are you a citizen of"
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                alignment="guideFieldVerticalAlignment"
+                                cssStyle=".guide-1486370907935 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;max-width:inherit;&#xa;&#xa;}&#xa;.guide-1486370907935 label{&#xa;line-height:1.5;&#xa;&#xa;}&#xa; .guideFieldLabel {&#xa;width:100%;&#xa;}&#xa;.guide-1486370907935 .guideRadioButtonGroupItems:not(.guideImageChoice):not(.guideSwitch){&#xa;width:100%;&#xa;&#xa;}&#xa;"
+                                guideNodeClass="guideRadioButton"
+                                mandatory="true"
+                                name="question8"
+                                options="[Cuba=Cuba,North Korea=North Korea,Iran=Iran,Sudan=Sudan,Syria=Syria,CriminalRegion=Or a current resident of the Crimea region of Ukraine,None=None]"
+                                textIsRich="[true,true]">
+                                <fd:rules jcr:primaryType="nt:unstructured"/>
+                                <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_radiobutton
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[max-width:inherit]"/>
+                                    <af_fieldlabel
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldLabel&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;100%&quot;}}}},line-height:1.5]"
+                                        default_x0023_default_x0023_ui="[width:100%]"/>
+                                    <af_radiobuttonwidgetandtext
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[width:100%]"/>
+                                </style>
+                            </guidecheckbox_31390070>
+                            <guidecheckbox_1441876985
+                                cq:cssClass="guide-1486370934494"
+                                jcr:created="{Date}2016-11-18T13:24:53.647+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2016-12-14T16:20:43.377+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Does your job involve working on matters where the U.S. or Canadian Government is involved, such as marketing to, selling to, contracting with, and working on projects with any U.S. or Canadian Government entity?"
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                alignment="guideFieldVerticalAlignment"
+                                cssStyle=".guide-1486370934494 label{&#xa;line-height:1.5;&#xa;&#xa;}&#xa; .guideFieldLabel {&#xa;width:100%;&#xa;}&#xa;.guide-1486370934494 .guideRadioButtonGroupItems:not(.guideImageChoice):not(.guideSwitch){&#xa;width:100%;&#xa;&#xa;}&#xa;.guide-1486370934494 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;max-width:inherit;&#xa;&#xa;}&#xa;"
+                                guideNodeClass="guideRadioButton"
+                                mandatory="true"
+                                name="quextion9"
+                                options="[Yes=Yes,No=No]"
+                                textIsRich="[true,true]">
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_fieldlabel
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldLabel&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;100%&quot;}}}},line-height:1.5]"
+                                        default_x0023_default_x0023_ui="[width:100%]"/>
+                                    <af_radiobuttonwidgetandtext
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[width:100%]"/>
+                                    <af_radiobutton
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[max-width:inherit]"/>
+                                </style>
+                            </guidecheckbox_1441876985>
+                            <guidetextbox_597860786
+                                cq:cssClass="guide-1486370961890"
+                                jcr:created="{Date}2016-12-14T16:36:24.155+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-02-22T13:23:52.534+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Provide as much detail as possible"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                cssStyle=".guide-1486370961890 label{&#xa;line-height:1.5;&#xa;&#xa;}&#xa; .guideFieldLabel {&#xa;width:100%;&#xa;}&#xa;.guide-1486370961890 .multiline.textField textArea{&#xa;&#xa;}&#xa; .guideFieldWidget.textField.multiline {&#xa;width:100%;&#xa;}&#xa;.guide-1486370961890 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;max-width:inherit;&#xa;&#xa;}&#xa;"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                multiLine="true"
+                                name="question9_details"
+                                placeholderText="Please provide details"
+                                textIsRich="[true,true,true]">
+                                <fd:rules
+                                    fd:visible="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.questions.question9_details&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;name&quot;:&quot;question9_details&quot;}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.questions.quextion9&quot;\,&quot;displayName&quot;:&quot;Does your job involve working on matters where the U.S. or Canadian Government is involved\, such as marketing to\, selling to\, contracting with\, and working on projects with any U.S. or Canadian Government entity?&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Questions/Does your job involve working on matters where the U.S. or Canadian Government is involved\, such as marketing to\, selling to\, contracting with\, and working on projects with any U.S. or Canadian Government entity?/&quot;\,&quot;name&quot;:&quot;quextion9&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.questions&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;Yes&quot;}}]}}\,{&quot;nodeName&quot;:&quot;Else&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;DONOTHING_OR_HIDE&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Hide&quot;\,&quot;value&quot;:null}}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif (quextion9.value == \\&quot;Yes\\&quot;) {\\n    true;\\n } else {\\n    false;\\n}\\n&quot;\,&quot;eventName&quot;:&quot;Visibility&quot;}]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_fieldlabel
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldLabel&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;100%&quot;}}}},line-height:1.5]"
+                                        default_x0023_default_x0023_ui="[width:100%]"/>
+                                    <af_textareawidgetandtext
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldWidget.textField.multiline&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;100%&quot;}}}}]"
+                                        default_x0023_default_x0023_ui="[width:100%]"/>
+                                    <af_textbox
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[max-width:inherit]"/>
+                                </style>
+                            </guidetextbox_597860786>
+                        </items>
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                            columns="1"
+                            dorLayoutType="columnar"
+                            dorNumCols="1"
+                            nonNavigable="true"
+                            toolbarPosition="Bottom"/>
+                        <style jcr:primaryType="nt:unstructured">
+                            <af_responsivepaneldescription
+                                jcr:primaryType="nt:unstructured"
+                                default_x0023_default="[font-size:20px]"/>
+                        </style>
+                    </questions>
+                    <submit
+                        jcr:lastModified="{Date}2016-12-19T01:21:15.779+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Declaration"
+                        sling:resourceType="fd/af/components/panel"
+                        completionExpReq="{Boolean}false"
+                        enabled="{Boolean}true"
+                        guideNodeClass="guidePanel"
+                        name="submit"
+                        textIsRich="true"
+                        validateOnStepCompletion="{Boolean}false"
+                        visible="{Boolean}true">
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                            <panel1479463382382
+                                cq:cssClass="guide-1479873873759"
+                                jcr:lastModified="{Date}2017-03-29T18:52:56.015+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Declaration"
+                                sling:resourceType="fd/af/components/panel"
+                                colspan="6"
+                                completionExpReq="{Boolean}false"
+                                cssStyle=".guide-1479873873759 .guideGridFluidDescription.guidePanelDescription{&#xa;font-size:20px;&#xa;&#xa;}&#xa;"
+                                dorExcludeTitle="true"
+                                enabled="{Boolean}true"
+                                guideNodeClass="guidePanel"
+                                name="panel14794633823821479463381885"
+                                textIsRich="true"
+                                validateOnStepCompletion="{Boolean}false"
+                                visible="{Boolean}true">
+                                <items
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout">
+                                    <guidetextdraw
+                                        cq:cssClass="guide-1487751841198"
+                                        jcr:created="{Date}2016-11-18T13:30:04.395+05:30"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-05-12T14:05:27.718+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        _value="&lt;p>I certify that my answers in this questionnaire are true and correct to the best of my knowledge.&lt;br>&#xa;&amp;nbsp;&lt;br>&#xa;I understand and agree to follow the&amp;nbsp;Conflict of Interest Policy. &amp;nbsp;I understand that either a knowing failure to respond truthfully to this questionnaire or a violation of the &amp;nbsp;Conflict of Interest Policy may result in disciplinary action, up to and including termination of employment.&lt;b> &lt;br>&#xa; &lt;/b>&lt;/p>&#xa;"
+                                        cssStyle=".guide-1487751841198 .guideTextDraw.guideStaticText{&#xa;line-height:1.5;&#xa;font-size:13px;&#xa;&#xa;}&#xa;"
+                                        guideNodeClass="guideTextDraw"
+                                        name="textdraw1479456004535"
+                                        textIsRich="true">
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_textdraw
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[line-height:1.5,font-size:13px]"/>
+                                        </style>
+                                    </guidetextdraw>
+                                </items>
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                    columns="1"
+                                    dorLayoutType="columnar"
+                                    dorNumCols="1"
+                                    nonNavigable="true"
+                                    toolbarPosition="Bottom"/>
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_responsivepaneldescription
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[font-size:20px]"/>
+                                </style>
+                            </panel1479463382382>
+                            <panel1479463395182
+                                jcr:lastModified="{Date}2017-03-29T18:52:18.090+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="SubmitSig"
+                                sling:resourceType="fd/af/components/panel"
+                                colspan="2"
+                                completionExpReq="{Boolean}false"
+                                dorExcludeTitle="true"
+                                guideNodeClass="guidePanel"
+                                name="panel14794633951821479463394637"
+                                textIsRich="true"
+                                validateOnStepCompletion="{Boolean}false">
+                                <items
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout">
+                                    <guidedateinput
+                                        cq:cssClass="guide-1487750283239"
+                                        jcr:created="{Date}2016-11-18T15:35:58.382+05:30"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2016-11-22T13:34:26.469+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Date:"
+                                        sling:resourceType="fd/af/components/guidedatepicker"
+                                        cssStyle=".guide-1487750283239 .guideFieldWidget.dateTimeEdit input{&#xa;&#xa;}&#xa; .guideFieldWidget.dateTimeEdit {&#xa;width:65%;&#xa;}&#xa;"
+                                        defaultToCurrentDate="true"
+                                        displayIsSameAsValidate="true"
+                                        displayPatternType="custom"
+                                        displayPictureClause="date{MMM DD, YYYY}"
+                                        guideNodeClass="guideDatePicker"
+                                        name="dateinput1479463558478"
+                                        placeholderDay="DD"
+                                        placeholderMonth="MM"
+                                        placeholderYear="YYYY"
+                                        textIsRich="[true,true]"
+                                        titleDay="Day"
+                                        titleMonth="Month"
+                                        titleYear="Year"
+                                        validatePictureClause="date{MMM DD, YYYY}">
+                                        <fd:rules
+                                            fd:enabled="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;DISABLE_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.submit.panel14794633951821479463394637.dateinput1479463558478&quot;\,&quot;type&quot;:&quot;FIELD&quot;\,&quot;name&quot;:&quot;dateinput1479463558478&quot;}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:null}\,{&quot;nodeName&quot;:&quot;Else&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;DONOTHING_OR_ENABLE&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Enable&quot;\,&quot;value&quot;:null}}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nfalse;\\n\\n&quot;\,&quot;eventName&quot;:&quot;Enabled&quot;}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_datepickerwidgetandtext
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldWidget.dateTimeEdit&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;65%&quot;}}}}]"
+                                                default_x0023_default_x0023_ui="[width:65%]"
+                                                phone_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldWidget.dateTimeEdit&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;100%&quot;}}}}]"
+                                                phone_x0023_default_x0023_ui="[width:100%]"/>
+                                            <af_daypicker
+                                                jcr:primaryType="nt:unstructured"
+                                                phone_x0023_default="[]"
+                                                phone_x0023_default_x0023_mask="[]"/>
+                                        </style>
+                                    </guidedateinput>
+                                    <guidescribble
+                                        cq:cssClass="guide-1487757532784"
+                                        jcr:created="{Date}2016-11-18T15:36:18.642+05:30"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2016-11-18T15:59:20.598+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Signature:"
+                                        sling:resourceType="fd/af/components/guidescribble"
+                                        aspectRatio="6.8888"
+                                        cssStyle=".guide-1487757532784 .guideScribble .ScribbleImageField img{&#xa;&#xa;}&#xa;.guide-1487757532784 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;&#xa;}&#xa;"
+                                        guideNodeClass="guideScribble"
+                                        name="scribble1479463578752"
+                                        textIsRich="[true,true]">
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_scribblewidgetandtext
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[]"/>
+                                            <af_scribble
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[]"
+                                                phone_x0023_default="[]"
+                                                phone_x0023_default_x0023_mask="[]"/>
+                                        </style>
+                                    </guidescribble>
+                                </items>
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                    columns="1"
+                                    dorLayoutType="columnar"
+                                    dorNumCols="1"
+                                    nonNavigable="true"
+                                    toolbarPosition="Bottom"/>
+                            </panel1479463395182>
+                        </items>
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                            columns="6"
+                            dorLayoutType="columnar"
+                            dorNumCols="1"
+                            nonNavigable="true"
+                            toolbarPosition="Bottom"/>
+                    </submit>
+                </items>
+                <style jcr:primaryType="nt:unstructured">
+                    <af_tabsontopnavgrp1
+                        jcr:primaryType="nt:unstructured"
+                        default_x0023_default="[]"/>
+                    <af_tabsontopnavgrp1title
+                        jcr:primaryType="nt:unstructured"
+                        default_x0023_default="[padding-bottom:7px,margin-left:0px,margin-right:50px]"
+                        default_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:—\, —\, 7px\, —,marginLock:linkOff,marginPopover:—\, 50px\, —\, 0px]"/>
+                </style>
+                <toolbar
+                    cq:cssClass="guide-1479462479972"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Toolbar"
+                    sling:resourceType="fd/af/components/toolbar"
+                    css=""
+                    cssStyle=".guide-1479462479972 .guideToolbarNode{&#xa;float:right;&#xa;&#xa;}&#xa;"
+                    guideNodeClass="guideToolbar"
+                    name="toolbar">
+                    <items
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="fd/af/layouts/toolbar/defaultToolbarLayout">
+                        <nextitemnav
+                            jcr:created="{Date}2016-11-18T12:21:02.506+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2016-11-18T12:21:02.506+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Next"
+                            sling:resourceType="fd/af/components/actions/nextitemnav"
+                            clickExp="window.guideBridge.setFocus(this.panel.somExpression, 'nextItem', true)"
+                            dorExclusion="true"
+                            guideNodeClass="guideButton"
+                            name="nextitemnav1479451862655"
+                            navigationChangeExp="this.visible=this.panel.navigationContext.hasNextItem"
+                            type="moveNext"/>
+                        <submit
+                            jcr:created="{Date}2016-11-18T12:21:07.327+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2016-11-18T12:21:07.327+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Submit"
+                            sling:resourceType="fd/af/components/actions/submit"
+                            dorExclusion="true"
+                            guideNodeClass="guideButton"
+                            name="submit1479451867437"
+                            type="submit">
+                            <fd:rules jcr:primaryType="nt:unstructured"/>
+                            <fd:scripts
+                                fd:click="[{&quot;script&quot;:{&quot;field&quot;:&quot;FORM.guideRootPanel.toolbar.submit1479451867437&quot;\,&quot;event&quot;:&quot;Click&quot;\,&quot;content&quot;:&quot;window.guideBridge.submit()&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:0\,&quot;enabled&quot;:true}]"
+                                fd:navigationChange="[{&quot;script&quot;:{&quot;field&quot;:&quot;FORM.guideRootPanel.toolbar.submit1479451867437&quot;\,&quot;event&quot;:&quot;Navigation&quot;\,&quot;content&quot;:&quot;this.visible=!this.panel.navigationContext.hasNextItem&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                                jcr:primaryType="nt:unstructured"/>
+                        </submit>
+                        <previtemnav
+                            jcr:created="{Date}2016-12-19T01:18:49.911+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2016-12-19T01:18:49.911+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Back"
+                            sling:resourceType="fd/af/components/actions/previtemnav"
+                            dorExclusion="true"
+                            guideNodeClass="guideButton"
+                            name="previtemnav1482090530111"
+                            type="movePrev"/>
+                    </items>
+                    <layout
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="fd/af/layouts/toolbar/defaultToolbarLayout"/>
+                    <style jcr:primaryType="nt:unstructured">
+                        <af_toolbar
+                            jcr:primaryType="nt:unstructured"
+                            default_x0023_default="[float:right]"/>
+                    </style>
+                </toolbar>
+            </rootPanel>
+            <autoSaveInfo
+                jcr:primaryType="nt:unstructured"
+                metadataselector="global"/>
+            <signerInfo
+                jcr:primaryType="nt:unstructured"
+                firstSignerFormFiller="false"
+                signConfigPath="/etc/cloudservices/echosign/aem-forms-referencesite-sign"
+                workflowType="SEQUENTIAL">
+                <signer0
+                    jcr:primaryType="nt:unstructured"
+                    countryCode="undefined"
+                    countryCodeSource="form"
+                    email="undefined"
+                    emailSource="form"
+                    phone="undefined"
+                    phoneSource="form"
+                    securityOption="NONE"
+                    signerTitle="Signer One"/>
+            </signerInfo>
+            <view jcr:primaryType="nt:unstructured">
+                <print
+                    jcr:lastModified="{Date}2017-05-04T16:21:33.334+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/authoring/components/dor/dorProperties"
+                    accentColor="#04a6cb"
+                    fontFamily="Arial"
+                    hidePanelDescriptions="true"
+                    metaTemplateRef="/libs/fd/af/dor/templates/defaultTemplate.xdp"
+                    optionSeparator=", "
+                    showSelectedOptions="true">
+                    <branding jcr:primaryType="nt:unstructured">
+                        <items jcr:primaryType="nt:unstructured">
+                            <Header jcr:primaryType="nt:unstructured">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <HeaderInfo jcr:primaryType="nt:unstructured">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <AF_FORM_TITLE
+                                                jcr:primaryType="nt:unstructured"
+                                                resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                                value="Conflict Of Interest"/>
+                                            <AF_HEADER_TEXT
+                                                jcr:primaryType="nt:unstructured"
+                                                resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                                value="© 2017 We.Gov | All rights reserved"/>
+                                        </items>
+                                    </HeaderInfo>
+                                    <AF_LOGO_IMAGE
+                                        jcr:primaryType="nt:unstructured"
+                                        fileName="we.GOV_Dor.png"
+                                        fileReference="/content/dam/we-gov/we.GOV_Dor.png"/>
+                                </items>
+                            </Header>
+                            <Footer jcr:primaryType="nt:unstructured">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <disclaimerLabel
+                                        jcr:primaryType="nt:unstructured"
+                                        resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                        value="DISCLAIMER"/>
+                                    <disclaimerText
+                                        jcr:primaryType="nt:unstructured"
+                                        resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                        value="This document is strictly private, confidential and personal to its recipients and should not be copied, distributed or reproduced in whole or in part, nor passed to any third party."/>
+                                </items>
+                            </Footer>
+                        </items>
+                    </branding>
+                </print>
+            </view>
+        </guideContainer>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <smallScreen
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Decimal}479"/>
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Phone"
+                    width="{Decimal}767"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Decimal}991"/>
+            </breakpoints>
+        </cq:responsive>
+        <parsys1
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <afformtitle
+                cq:cssClass="guide-1494573707226"
+                jcr:created="{Date}2017-05-11T17:12:39.643+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-05-12T12:53:40.115+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Adaptive Form Title"
+                sling:resourceType="fd/af/components/afFormTitle"
+                _value="&lt;p>Conflict Of Interest&lt;/p>&#xa;"
+                css="guideformtitle container"
+                cssStyle=".guide-1494573707226 .guideTextDraw.guideStaticText{&#xa;padding-top:0px;&#xa;padding-bottom:0px;&#xa;padding-left:0px;&#xa;padding-right:0px;&#xa;font-size:20px;&#xa;color:#1f599c;&#xa;margin-bottom:1.5rem;&#xa;&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1494573707226 .guideTextDraw.guideStaticText{&#xa;padding-top:12px;&#xa;padding-bottom:12px;&#xa;padding-left:12px;&#xa;padding-right:12px;&#xa;margin-top:0px;&#xa;margin-bottom:0px;&#xa;margin-left:0px;&#xa;margin-right:0px;&#xa;color:#FFF;&#xa;font-size:16px;&#xa;background:#102E50;&#xa;&#xa;}&#xa;}&#xa;"
+                guideNodeClass="guideTextDraw"
+                name="formTitle"
+                textIsRich="true">
+                <style jcr:primaryType="nt:unstructured">
+                    <af_textdraw
+                        jcr:primaryType="nt:unstructured"
+                        default_x0023_default="[padding-top:0px,padding-bottom:0px,padding-left:0px,padding-right:0px,font-size:20px,color:#1f599c,margin-bottom:1.5rem]"
+                        default_x0023_default_x0023_ui="[paddingPopover:0px,marginLock:linkOff,marginPopover:—\, —\, 1.5rem\, —]"
+                        phone_x0023_default="[padding-top:12px,padding-bottom:12px,padding-left:12px,padding-right:12px,margin-top:0px,margin-bottom:0px,margin-left:0px,margin-right:0px,color:#FFF,font-size:16px,background:#102E50]"
+                        phone_x0023_default_x0023_ui="[paddingPopover:12px,marginPopover:0px,backgroundColor:#102E50]"/>
+                </style>
+            </afformtitle>
+        </parsys1>
+    </jcr:content>
+</jcr:root>

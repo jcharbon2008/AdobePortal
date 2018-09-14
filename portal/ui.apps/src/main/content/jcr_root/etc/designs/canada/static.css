@@ -1,0 +1,309 @@
+/* carousel component */
+.homepage div.carousel {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* logo component */
+div.logo {
+    float: left;
+    padding-top: 30px;
+}
+
+/* news list component */
+div.newslist {
+    padding: 14px 8px 20px 8px;
+}
+div.newslist div.item {
+    clear: both;
+    padding: 0 0 6px 0;
+}
+div.newslist a {}
+div.newslist b {}
+div.newslist span {}
+
+/* teaser component */
+img.teaser {
+    float:left;
+    padding:1px;
+    border:1px solid white;
+    margin:5px 7px 0 0
+}
+
+/* breadcrumb component */
+.breadcrumb {
+    width: 940px;
+    padding-top: 9px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    font-size: 10px;
+    line-height: 18px;
+    color: #666;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+
+/* parsys component */
+div.par, div.rightpar {
+    clear: both;
+}
+div.parsys_column {
+    height: 100%;
+    width: 100%;
+    float: left;
+    border: 0;
+    vertical-align:top;
+    padding: 0;
+    margin: 0;
+}
+
+div.section {
+    /* Property added to avoid IE hasLayout issue on paragraphs
+       see #20817 - IE6: div around Drag Components image not big enough
+    */
+    zoom: 1;
+}
+
+div.parsys_column .section {
+    overflow:hidden;
+    width: 100%;
+}
+
+/* column control layouts */
+div.cq-colctrl-cols {width: 100%; float: left; }
+
+div.cq-colctrl-default { width: 100%;}
+
+div.cq-colctrl-lt0 { }
+div.cq-colctrl-lt0-c0 { width: 49%; padding-right: 2%;}
+div.cq-colctrl-lt0-c1 { width: 49%;}
+
+div.cq-colctrl-lt1 { }
+div.cq-colctrl-lt1-c0 { width: 33%; padding-right: 0.5%;}
+div.cq-colctrl-lt1-c1 { width: 33%; padding-right: 0.5%;}
+div.cq-colctrl-lt1-c2 { width: 33%;}
+
+div.cq-colctrl-lt2 { }
+div.cq-colctrl-lt2-c0 { width: 20%; padding-right: 3%;}
+div.cq-colctrl-lt2-c1 { width: 20%; padding-right: 3%;}
+div.cq-colctrl-lt2-c2 { width: 20%; padding-right: 3%; }
+div.cq-colctrl-lt2-c3 { width: 31%;}
+
+div.cq-colctrl-lt3 { }
+div.cq-colctrl-lt3-c0 { width: 22.5%; padding-right: 3.3%;}
+div.cq-colctrl-lt3-c1 { width: 22.5%; padding-right: 3.3%;}
+div.cq-colctrl-lt3-c2 { width: 22.5%; padding-right: 3.3%;}
+div.cq-colctrl-lt3-c3 { width: 22.5%;}
+
+div.cq-colctrl-lt4 { }
+div.cq-colctrl-lt4-c0 { width: 18%; padding-right: 2.5%;}
+div.cq-colctrl-lt4-c1 { width: 18%; padding-right: 2.5%;}
+div.cq-colctrl-lt4-c2 { width: 18%; padding-right: 2.5%;}
+div.cq-colctrl-lt4-c3 { width: 18%; padding-right: 2.5%;}
+div.cq-colctrl-lt4-c4 { width: 18%;}
+
+/* search component */
+div.search {
+    padding:0 1px 0 0;
+}
+
+div.searchRight {
+    border-left: 1px solid #E7E7E7;
+    float: right;
+    width: 150px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+div.searchTrends {
+    text-align: justify;
+}
+
+div.searchRight p {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* text component */
+div.text ul li {
+    background:url("images/gl.gif") repeat-x scroll center bottom transparent;
+    list-style-image:url("images/bullet.gif");
+    list-style-position:outside;
+    margin-left:28px;
+    margin-top:2px;
+    padding-bottom:4px;
+}
+
+div.text ol li {
+    background:url("images/gl.gif") repeat-x scroll center bottom transparent;
+    list-style-position:outside;
+    margin-left:28px;
+    margin-top:2px;
+    padding-bottom:4px;
+}
+
+div.text li a {
+}
+
+div.sitemap div.linkcontainer {
+    padding:0 0 5px 20px;
+}
+div.sitemap div.linkcontainer div.linkcontainer {
+}
+
+div.sitemap div.link {
+    padding-bottom:5px;
+}
+
+div.sitemap div.link a {
+}
+
+/* table component */
+div.table  {
+    margin-bottom:30px;
+}
+div.table table {
+    border-collapse: collapse;
+    border: none;
+    width: 100%;
+}
+div.table table td {
+    padding: 4px 3em 4px 4px;
+    border:none;
+    border-bottom: 1px solid #dddddd;
+    color: #666;
+}
+div.table table th {
+    padding: 4px;
+    border:none;
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    color: #069;
+    font-size: 12px;
+}
+
+/* list component */
+div.list {
+}
+
+div.list ul.default,
+div.list ol.default {
+    list-style: none;
+}
+div.list ul.default li,
+div.list ol.default li {
+    margin-bottom: 20px;
+}
+div.list ul.default li {
+}
+div.list ul.default p,
+div.list ol.default p {
+}
+
+/* link list */
+div.list ul.linklist {
+    list-style: none;
+    margin-bottom: 20px;
+}
+div.list ul.linklist li {
+    font-size: 11px;
+    line-height: 18px;
+}
+
+/* teaser list */
+div.list .teaser-title {
+font-weight:bold;
+}
+div.list .teaser-description {
+}
+
+/* news list */
+div.list .news-title {
+    font-weight:bold;
+}
+div.list .news-date {
+    font-weight:bold;
+}
+div.list .news-description {
+}
+
+
+div.signin_subtitle {
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div.signin_create {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+div.signin_option {
+    clear:left;
+    float:left;
+}
+
+div.signin_element {
+    clear:right;
+    float:right;
+    padding-right:150px;
+}
+
+div.signin_element * input{
+    width:140px;
+}
+div.signin_element * .form_leftcol{
+    width:90px;
+}
+
+div.tagcloud {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* user info component */
+div.userinfo {
+    display: inline;
+}
+
+div.userinfo ul {
+    float: right;
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+div.userinfo ul li {
+    padding: 0 5px 0;
+    float: left;
+    line-height: 13px;
+    font-size: 10px;
+}
+
+div.userinfo ul li a, div.userinfo ul li {
+    color: #9D9999;
+    font-weight: bold;
+    line-height: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+div.userinfo ul li a:hover {
+    text-decoration: underline;
+}
+
+div.userinfo ul li.user {
+    background: url(images/top_sep.gif) no-repeat 0 center;
+    padding-left: 10px;
+}
+
+div.userinfo ul li.login, div.userinfo ul li.signup {
+    background: url(images/top_sep.gif) no-repeat 0 center;
+    padding-left: 10px;
+}

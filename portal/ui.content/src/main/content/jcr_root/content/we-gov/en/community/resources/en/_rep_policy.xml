@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:ACL">
+    <deny
+        jcr:primaryType="rep:DenyACE"
+        rep:principalName="everyone"
+        rep:privileges="{Name}[jcr:all]"/>
+    <allow1
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="administrators"
+        rep:privileges="{Name}[jcr:all]"/>
+    <allow2
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="community-administrators"
+        rep:privileges="{Name}[jcr:all]"/>
+    <allow3
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="community-community-mpten-members"
+        rep:privileges="{Name}[jcr:read]"/>
+    <allow4
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="community-community-mpten-siteenablementmanagers"
+        rep:privileges="{Name}[jcr:all]"/>
+    <allow5
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="communities-enablement-property-writer"
+        rep:privileges="{Name}[jcr:write,jcr:read]"/>
+</jcr:root>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:language="fr"
+    jcr:mixinTypes="[mix:language]"
+    jcr:primaryType="sling:Folder"
+    sling:basename="/content/forms/af/we-gov/application-for-assistance/jcr:content/guideContainer/assets/dictionary">
+    <fd__x003c_p_x003e__x003c_b_x003e_Sign44387022
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>Signature of Veteran&lt;/b>&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Signature de l'ancien combattant&lt;/b>&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Click_x0020_t705044872
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Click to sign the application&lt;/p>&#xa;"
+        sling:message="&lt;p>Cliquez pour signer la demande&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_t-1117368691
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter the Address of the regional office that has your claim file&lt;/p>&#xa;"
+        sling:message="&lt;p>Entrez l'adresse du Bureau régional qui a votre dossier de réclamation&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_y-336857586
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter your Veteran Affairs File Number&lt;/p>&#xa;"
+        sling:message="&lt;p>Entrez votre numéro de dossier AC&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_y1223471585
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter your Service Serial Number if different from your Social Security Number.&lt;/p>&#xa;"
+        sling:message="&lt;p>Entrez votre numéro de matricule s'il est différent de votre numéro de sécurité sociale.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_y1319868186
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter your Service Serial Number&lt;/p>&#xa;"
+        sling:message="&lt;p>Entrez votre numéro de matricule&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_I_x0020_cerif2007398137
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>I cerifty that the statements on this form are true and correct to the best of my knowledge and belief. By signing this form, I agree that VA may attempt to verify this information by computer matching agreement with other federal agencies.&lt;/p>&#xa;"
+        sling:message="&lt;p>Je certifie, de bonne foi, que les déclarations de ce formulaire sont vraies et sincères. En signant ce formulaire, j'autorise l'agence AC à vérifier ces informations par comparaison automatisée en liaison avec d'autres agences fédérales.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Please_x0020_-1868630345
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Please provide your service record in this section.&lt;/p>&#xa;"
+        sling:message="&lt;p>Veuillez fournir vos États de service dans cette section.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Specify1350852643
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Specify your branch of service&lt;/p>&#xa;"
+        sling:message="&lt;p>Spécifiez votre armée de service&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Your_x0020_VA-1539600905
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Your VA file number is usually the Social Security Number (SSN) of the individual who is receiving benefits from the VA.&lt;/p>&#xa;&lt;p>A letter or two-digit number is added to the VA file number to indicate your relationship to the beneficiary.&lt;/p>&#xa;&lt;p>In certain situations, the VA file number may be a VA claim number.&lt;/p>&#xa;"
+        sling:message="&lt;p>Votre numéro de dossier AC est habituellement le numéro de sécurité sociale (NSS) de la personne qui reçoit les aides des AC.&lt;/p> &lt;p>Une lettre ou un numéro à 2 chiffres est ajouté au numéro de dossier AC pour indiquer votre relation avec le bénéficiaire.&lt;/p> &lt;p>Dans certaines situations, le numéro de dossier AC peut être un numéro de réclamation AC.&lt;/p>&#xa;"/>
+    <fd_Air_x0020_Force
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Air Force"
+        sling:message="Air Force"/>
+    <fd_Army
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Army"
+        sling:message="Armée"/>
+    <fd_Branch_x0020_of_x0020_643512938
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Branch of Service"
+        sling:message="Armée de service"/>
+    <fd_CERTIFICAT-1823249254
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_CERTIFICATION"
+        sling:message="CERTIFICATION"/>
+    <fd_Coast_x0020_Guard
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Coast Guard"
+        sling:message="Garde-côte"/>
+    <fd_Discharged
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Discharged"
+        sling:message="Démobilisé(e)"/>
+    <fd_GENERAL_x0020_IN1107451316
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_GENERAL INFORMATION"
+        sling:message="INFORMATIONS GÉNÉRALES"/>
+    <fd_Location_x0020_o1964803880
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Location of VA Regional office that has your claim file"
+        sling:message="Emplacement du Bureau régional des AC qui a votre dossier de réclamation"/>
+    <fd_Marine_x0020_Corps
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Marine Corps"
+        sling:message="Marine Corps"/>
+    <fd_Method_x0020_of_x0020_314238415
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Method of Separation from Service"
+        sling:message="Méthode de cessation de service"/>
+    <fd_Navy
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Navy"
+        sling:message="Navy"/>
+    <fd_Next
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Next"
+        sling:message="Suivant"/>
+    <fd_Other
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Other"
+        sling:message="Autre"/>
+    <fd_Previous
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Previous"
+        sling:message="Précédent"/>
+    <fd_Reset
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Reset"
+        sling:message="Réinitialiser"/>
+    <fd_Retired
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Retired"
+        sling:message="Retraité"/>
+    <fd_Save
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Save"
+        sling:message="Enregistrer"/>
+    <fd_SERVICE_x0020_IN952487937
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_SERVICE INFORMATION"
+        sling:message="INFORMATIONS DE SERVICE"/>
+    <fd_Service_x0020_Se-1326944086
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Service Serial Number"
+        sling:message="Numéro de matricule"/>
+    <fd_Sign_x0020_Full_x0020_-1165581575
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Sign Full Name"
+        sling:message="Signer du nom complet"/>
+    <fd_Submit
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Submit"
+        sling:message="Envoyer"/>
+    <fd_Toolbar
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Toolbar"
+        sling:message="Barre d’outils"/>
+    <fd_VA_x0020_File_x0020_Nu-2225032
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_VA File Number"
+        sling:message="Numéro de dossier AC"/>
+</jcr:root>

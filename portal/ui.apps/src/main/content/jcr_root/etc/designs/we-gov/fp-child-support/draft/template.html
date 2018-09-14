@@ -1,0 +1,26 @@
+<div class="clearfix">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 iphone-pad nopad-right ipad-nopad nobrdbg" >                    
+    <!-- Content -->
+    <!-- 1st listing -->
+    <div data-repeatable="true" class="__FP_eachDraftLink col-lg-12 col-md-12 col-sm-12 col-xs-12 panel-body nopad-left nopad-right nobrdbg">
+    <div class="col-xs-12 nopad">
+    <div class="clearfix formNodeWrapper">
+    <div class="col-xs-4 col-lg-2 col-sm-3 col-md-2 nopad __FP_iconClass">
+                <img class="__FP_iconClass" src="${contextPath}${formPath}${guidePath}/jcr:content/renditions/cq5dam.thumbnail.319.319.png" style="width:100%; height:auto;">
+            </div>
+            <div class="col-xs-8 col-lg-9 col-sm-9 col-md-9 nopad-top panel-body nobrdbg formDetails">
+				<div class="__FP_draftlinkTime" tabindex='0' title='At ${Today} ${TimeNow}' target='_self'>${diffTime}</div>
+              <a tabindex='0' class="link __FP_draftlink" title=${formName} href="${renderPath}.html/draft/${draftID}?mfDraftId=${draftID}&wcmmode=disabled" target="_blank">${formName}</a>
+				<!--<a tabindex='0' class="link __FP_draftlink" title=${formName} >${formName}</a>-->
+        		<!--<div tabindex='0' class="__FP_draftDesc" title="${description}">${description}</div>-->
+            </div>
+			<div class="customOptions">
+            <a class="__FP_deleteDraft" tabindex='0' draftID='${draftID}' title="Delete"></a>
+            <a class="__FP_newInstance" tabindex="0" href="${renderPath}.html/draft/${draftID}?fpNewInstance=true&wcmmode=disabled" target="_blank" title="Start a new form using this form data"></a>
+             <a class="__FP_editDraft" tabindex='0' href="${renderPath}.html/draft/${draftID}?mfDraftId=${draftID}&wcmmode=disabled" target="_blank" title="Edit"></a>
+             </div>
+ </div>
+
+        </div>
+    <div class="__FP_horizontalRuler"></div>
+    </div>

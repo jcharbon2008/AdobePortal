@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2017-05-30T06:05:38.985Z"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/we-gov/settings/wcm/templates/we-gov-emp-template"
+        jcr:language="en"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Expense Report"
+        sling:resourceType="fd/af/components/page2/aftemplatedpage">
+        <guideContainer
+            fd:version="1.1"
+            jcr:lastModified="{Date}2017-05-18T04:33:39.985Z"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="fd/af/components/guideContainer"
+            actionType="fd/dashboard/components/actions/aemworkflowsubmit"
+            afVersion="{Long}1"
+            attachmentsFolderPath="expense"
+            autoSaveStrategyType="fd/fp/components/actions/autosave/timebased"
+            clientLibRef="we-gov-employee-js"
+            dataXMLPath="expense.xml"
+            disableSwipeGesture="{Boolean}false"
+            dorPath="dor/expense.pdf"
+            dorTemplateRef="/content/dam/formsanddocuments/we-gov/employee/self-service/expense-report/jcr:content/renditions/dorTemplate"
+            dorType="generate"
+            enableAsyncSubmission="true"
+            formmodel="none"
+            guideCss="guideContainer"
+            guideNodeClass="guideContainerNode"
+            name="guide1"
+            textIsRich="true"
+            thankYouMessage="&lt;p>&amp;nbsp; &amp;nbsp; Your expense report has been submitted successfully&lt;br>&#xd;&#xa;&lt;/p>&#xd;&#xa;"
+            thankYouOption="message"
+            themeRef="/content/dam/formsanddocuments-themes/we-gov/employee"
+            useExistingAF="false"
+            workflowModel="/etc/workflow/models/we-gov/employee/self-service/we-gov-employee-expense-report-workflow/jcr:content/model">
+            <layout
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/layouts/defaultGuideLayout"
+                mobileLayout="fd/af/layouts/mobile/simple"
+                toolbarPosition="Bottom"/>
+            <rootPanel
+                cq:cssClass="guide-1479446679915"
+                jcr:lastModified="{Date}2017-02-22T12:29:25.449+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/components/rootPanel"
+                completionExpReq="{Boolean}false"
+                cssStyle=".guide-1479446679915 .guideVerticalTabbedPanelLayout .tab-navigators{&#xa;&#xa;}&#xa;.guide-1479446679915 .guideVerticalTabbedPanelLayout .tab-navigators > li > a.guideTopNavIcon{&#xa;margin-left:0px;&#xa;margin-right:50px;&#xa;&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1479446679915 .guideVerticalTabbedPanelLayout .tab-navigators > li > a.guideTopNavIcon{&#xa;color:#FFF;&#xa;font-size:16px;&#xa;padding-top:12px;&#xa;padding-bottom:12px;&#xa;padding-left:12px;&#xa;padding-right:12px;&#xa;margin-top:0px;&#xa;margin-bottom:0px;&#xa;margin-left:0px;&#xa;margin-right:0px;&#xa;&#xa;}&#xa;}&#xa;"
+                dorExcludeDescription="true"
+                dorExcludeTitle="true"
+                guideNodeClass="rootPanelNode"
+                name="guideRootPanel"
+                panelSetType="Navigable"
+                validateOnStepCompletion="{Boolean}false">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/panel/verticalTabbedPanelLayout"
+                    enableLayoutOptimization="true"
+                    toolbarPosition="Bottom"/>
+                <items jcr:primaryType="nt:unstructured">
+                    <panel1479370466247
+                        cq:cssClass="guide-1479840221882"
+                        jcr:lastModified="{Date}2016-12-08T12:32:29.700+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Report Name"
+                        sling:resourceType="fd/af/components/panel"
+                        completionExpReq="{Boolean}false"
+                        cssStyle=".guide-1479840221882 .guideGridFluidDescription.guidePanelDescription{&#xa;font-size:24px;&#xa;&#xa;}&#xa;"
+                        guideNodeClass="guidePanel"
+                        name="report-name"
+                        textIsRich="true"
+                        validateOnStepCompletion="{Boolean}false">
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                            <guidetextbox_535835098
+                                jcr:created="{Date}2016-11-17T13:45:22.156+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2016-11-17T13:49:37.926+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Report Number"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideTextBox"
+                                name="reportnumberTextbox"
+                                textIsRich="[true,true,true]">
+                                <fd:rules
+                                    fd:enabled="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;DISABLE_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.report-name.reportnumberTextbox&quot;\,&quot;type&quot;:&quot;TEXT FIELD|FIELD|AFCOMPONENT|STRING&quot;\,&quot;name&quot;:&quot;reportnumberTextbox&quot;}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:null}\,{&quot;nodeName&quot;:&quot;Else&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;DONOTHING_OR_ENABLE&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Enable&quot;\,&quot;value&quot;:null}}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nfalse;\\n\\n&quot;\,&quot;eventName&quot;:&quot;Enabled&quot;}]"
+                                    fd:init="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.report-name.reportnumberTextbox&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;name&quot;:&quot;reportnumberTextbox&quot;}}\,{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;is initialized&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;\,&quot;choice&quot;:null}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;Then&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SET_VALUE_STATEMENT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;PRIMITIVE_VARIABLE&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.report-name.reportnumberTextbox&quot;\,&quot;displayName&quot;:&quot;Report Number&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Report Name/Report Number/&quot;\,&quot;name&quot;:&quot;reportnumberTextbox&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.report-name&quot;}}\,{&quot;nodeName&quot;:&quot;to&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;FUNCTION_CALL&quot;\,&quot;functionName&quot;:{&quot;id&quot;:&quot;generateRandomNumber&quot;\,&quot;displayName&quot;:&quot;generateRandomNumber&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;isDuplicate&quot;:false\,&quot;displayPath&quot;:&quot;&quot;\,&quot;args&quot;:[]\,&quot;impl&quot;:&quot;$0();&quot;}\,&quot;params&quot;:[]}}]}}]}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nthis.value = generateRandomNumber();;\\n\\n&quot;\,&quot;eventName&quot;:&quot;Initialize&quot;}]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <fd:scripts jcr:primaryType="nt:unstructured"/>
+                            </guidetextbox_535835098>
+                            <guidetextbox
+                                jcr:created="{Date}2016-11-17T13:45:08.069+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2016-12-08T12:23:54.569+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Report Name*"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                name="reportnameTextbox"
+                                textIsRich="[true,true,true]"/>
+                            <guidedatepicker
+                                jcr:created="{Date}2016-11-17T13:46:12.582+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2016-12-08T12:24:14.719+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Report Date*"
+                                sling:resourceType="fd/af/components/guidedatepicker"
+                                defaultToCurrentDate="true"
+                                displayPatternType="date{MMMM DD, YYYY}"
+                                displayPictureClause="date{MMMM DD, YYYY}"
+                                guideNodeClass="guideDatePicker"
+                                mandatory="true"
+                                name="reportdate_Datepicker"
+                                textIsRich="[true,true]">
+                                <fd:rules
+                                    fd:enabled="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;DISABLE_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.report-name.reportdate_Datepicker&quot;\,&quot;type&quot;:&quot;FIELD&quot;\,&quot;name&quot;:&quot;reportdate_Datepicker&quot;}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:null}\,{&quot;nodeName&quot;:&quot;Else&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;DONOTHING_OR_ENABLE&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Enable&quot;\,&quot;value&quot;:null}}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nfalse;\\n\\n&quot;\,&quot;eventName&quot;:&quot;Enabled&quot;}]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <fd:scripts jcr:primaryType="nt:unstructured"/>
+                            </guidedatepicker>
+                            <guidetextbox_246434847
+                                jcr:created="{Date}2016-11-17T13:46:59.329+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2016-12-15T12:07:26.520+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Business Purpose*"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                enabled="{Boolean}true"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                multiLine="true"
+                                name="businesspurposeTextbox"
+                                options="[0=Select]"
+                                textIsRich="[true,true,true]"
+                                visible="{Boolean}true"/>
+                            <guidetextbox_124371820
+                                jcr:created="{Date}2016-11-17T13:46:44.365+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-05-18T04:09:30.519Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Cost Center*"
+                                sling:resourceType="fd/af/components/guidenumericbox"
+                                autofillFieldKeyword="name"
+                                displayPatternType="num{zzzzzzzzzzzzzzzzzzzzz.zzzzzzzzzzzzzzz}"
+                                displayPictureClause="num{zzzzzzzzzzzzzzzzzzzzz.zzzzzzzzzzzzzzz}"
+                                guideNodeClass="guideNumericBox"
+                                mandatory="true"
+                                name="costcenterTextbox"
+                                textIsRich="[true,true]">
+                                <fd:rules jcr:primaryType="nt:unstructured"/>
+                                <fd:scripts jcr:primaryType="nt:unstructured"/>
+                            </guidetextbox_124371820>
+                        </items>
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                            columns="1"
+                            dorLayoutType="columnar"
+                            dorNumCols="1"
+                            nonNavigable="true"
+                            toolbarPosition="Bottom"/>
+                        <style jcr:primaryType="nt:unstructured">
+                            <af_responsivepaneldescription
+                                jcr:primaryType="nt:unstructured"
+                                default_x0023_default="[font-size:24px]"/>
+                        </style>
+                    </panel1479370466247>
+                    <panel1479371260019
+                        cq:cssClass="guide-1479840457068"
+                        jcr:description="Please provide details of expenses"
+                        jcr:lastModified="{Date}2016-12-08T10:22:15.271Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Report Details"
+                        sling:resourceType="fd/af/components/panel"
+                        completionExpReq="{Boolean}false"
+                        cssStyle=".guide-1479840457068 .guideGridFluidDescription.guidePanelDescription{&#xa;font-size:20px;&#xa;&#xa;}&#xa;.guide-1479840457068 .guideGridFluidLayout{&#xa;&#xa;}&#xa;"
+                        guideNodeClass="guidePanel"
+                        name="report-details"
+                        textIsRich="true"
+                        validateOnStepCompletion="{Boolean}false">
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                            <add-expense
+                                jcr:lastModified="{Date}2016-12-08T10:23:12.248Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Expense"
+                                sling:resourceType="fd/af/components/panel"
+                                completionExpReq="{Boolean}false"
+                                guideNodeClass="guidePanel"
+                                maxOccur="5"
+                                minOccur="1"
+                                name="add-expense"
+                                summaryExpVisible="yes"
+                                textIsRich="true"
+                                validateOnStepCompletion="{Boolean}false">
+                                <items
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout">
+                                    <guidedatepicker
+                                        jcr:created="{Date}2016-12-08T12:52:52.591+05:30"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2016-12-15T13:33:29.040+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Transaction Date*"
+                                        sling:resourceType="fd/af/components/guidedatepicker"
+                                        displayPatternType="date{MMMM DD, YYYY}"
+                                        displayPictureClause="date{MMMM DD, YYYY}"
+                                        enabled="{Boolean}true"
+                                        guideNodeClass="guideDatePicker"
+                                        mandatory="true"
+                                        name="transaction-date"
+                                        textIsRich="[true,true]"
+                                        visible="{Boolean}true"/>
+                                    <guidedropdownlist_1295982407
+                                        jcr:created="{Date}2016-12-08T12:53:31.000+05:30"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-02-22T16:36:17.481+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Expense Type*"
+                                        sling:resourceType="fd/af/components/guidedropdownlist"
+                                        _value="Hotels"
+                                        enabled="{Boolean}true"
+                                        guideNodeClass="guideDropDownList"
+                                        mandatory="true"
+                                        name="expenseType"
+                                        options="[Taxi\,buses &amp; trains=Taxi\,buses &amp; trains,Hotels=Hotels,Travel=Travel,Custom=Custom,Meals=Meals]"
+                                        textIsRich="[true,true]"
+                                        visible="{Boolean}true"/>
+                                    <guidetextdraw
+                                        cq:cssClass="guide-1487766337144"
+                                        jcr:created="{Date}2017-02-22T17:52:19.214+05:30"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-02-22T17:57:55.604+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        _value="&lt;p>&lt;a href=&quot;http://localhost:4502/&quot; target=&quot;_self&quot; data-clickable-id=&quot;clickable-9&quot;>Frequently used&lt;/a>&lt;/p>&#xa;"
+                                        cssStyle=".guide-1487766337144 .guideTextDraw.guideStaticText{&#xa;position:relative;&#xa;left:480px;&#xa;top:-65px;&#xa;display:none;&#xa;&#xa;}&#xa;@media (max-width : 479px){&#xa;.guide-1487766337144 .guideTextDraw.guideStaticText{&#xa;position:relative;&#xa;top:-15px;&#xa;left:0px;&#xa;&#xa;}&#xa;}&#xa;"
+                                        guideNodeClass="guideTextDraw"
+                                        name="textdraw1487766139307"
+                                        textIsRich="true">
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_textdraw
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[position:relative,left:480px,top:-65px,display:none]"
+                                                default_x0023_default_x0023_ui="[positionPopover:relative]"
+                                                smallScreen_x0023_default="[position:relative,top:-15px,left:0px]"
+                                                smallScreen_x0023_default_x0023_mask="[backgroundColor]"
+                                                smallScreen_x0023_default_x0023_ui="[positionPopover:relative,backgroundColor:rgb(246\,127\,127)]"/>
+                                        </style>
+                                    </guidetextdraw>
+                                    <guidedropdownlist_588772435
+                                        jcr:created="{Date}2016-12-08T12:53:10.087+05:30"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2016-12-15T12:11:56.913+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Currency*"
+                                        sling:resourceType="fd/af/components/guidedropdownlist"
+                                        enabled="{Boolean}true"
+                                        guideNodeClass="guideDropDownList"
+                                        mandatory="true"
+                                        name="currency"
+                                        options="[$=United States\, Dollar,¥=Japan\, Yen,S$=Singapore\, Dollar,₹=India\, Rupee]"
+                                        placeholderText="Select"
+                                        textIsRich="[true,true]"
+                                        visible="{Boolean}true"/>
+                                    <guidenumericbox
+                                        jcr:created="{Date}2016-12-08T12:53:20.513+05:30"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-01-03T19:03:56.724+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Amount*"
+                                        sling:resourceType="fd/af/components/guidenumericbox"
+                                        dataType="float"
+                                        enabled="{Boolean}true"
+                                        guideNodeClass="guideNumericBox"
+                                        name="amount"
+                                        textIsRich="[true,true]"
+                                        visible="{Boolean}true"/>
+                                    <guidedropdownlist
+                                        jcr:created="{Date}2016-12-08T12:53:03.598+05:30"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2016-12-15T13:29:28.974+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Payment Type*"
+                                        sling:resourceType="fd/af/components/guidedropdownlist"
+                                        enabled="{Boolean}true"
+                                        guideNodeClass="guideDropDownList"
+                                        mandatory="true"
+                                        name="payment-type"
+                                        options="[Out of pocket=Out of pocket,Company paid=Company paid]"
+                                        placeholderText="Select"
+                                        textIsRich="[true,true]"
+                                        visible="{Boolean}true"/>
+                                    <guidetextdraw_153525805
+                                        cq:cssClass="guide-1487766584427"
+                                        jcr:created="{Date}2017-02-22T17:58:07.480+05:30"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-02-22T17:58:40.880+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        _value="&lt;p>&lt;a title=&quot;help&quot; href=&quot;http://localhost:4502/&quot; target=&quot;_self&quot; data-clickable-id=&quot;clickable-26&quot;>Help&lt;/a>&lt;/p>&#xa;"
+                                        cssStyle=".guide-1487766584427 .guideTextDraw.guideStaticText{&#xa;position:relative;&#xa;left:480px;&#xa;top:-65px;&#xa;display:none;&#xa;&#xa;}&#xa;"
+                                        guideNodeClass="guideTextDraw"
+                                        name="textdraw_1535258051487766487542"
+                                        textIsRich="true">
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_textdraw
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[position:relative,left:480px,top:-65px,display:none]"
+                                                default_x0023_default_x0023_ui="[positionPopover:relative]"/>
+                                        </style>
+                                    </guidetextdraw_153525805>
+                                    <guidetextbox
+                                        jcr:created="{Date}2016-12-08T12:54:11.417+05:30"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2016-12-08T11:19:42.885Z"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="City where expense occurred*"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        autofillFieldKeyword="name"
+                                        guideNodeClass="guideTextBox"
+                                        mandatory="true"
+                                        name="expense-city"
+                                        textIsRich="[true,true,true]"/>
+                                    <guidefileupload
+                                        jcr:created="{Date}2016-12-08T12:54:37.140+05:30"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2016-12-09T00:04:17.316+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Proof*"
+                                        sling:resourceType="fd/af/components/guidefileupload"
+                                        buttonText="Attach"
+                                        dorExclusion="true"
+                                        guideNodeClass="guideFileUpload"
+                                        mimeType="[audio/*, video/*, image/*, text/*, .pdf]"
+                                        name="proof-upload"
+                                        textIsRich="[true,true]">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <fileattachment
+                                                jcr:primaryType="nt:unstructured"
+                                                guideNodeClass="guideCompositeFieldItem"
+                                                mandatory="true"
+                                                name="fileAttachment"/>
+                                            <comment
+                                                jcr:primaryType="nt:unstructured"
+                                                guideNodeClass="guideCompositeFieldItem"
+                                                name="comment"/>
+                                        </items>
+                                    </guidefileupload>
+                                    <guidetextbox_765004204
+                                        jcr:created="{Date}2016-12-08T12:54:55.400+05:30"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2016-12-09T00:05:10.946+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Comment*"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        autofillFieldKeyword="name"
+                                        guideNodeClass="guideTextBox"
+                                        mandatory="true"
+                                        maxChars="1500"
+                                        multiLine="true"
+                                        name="comment"
+                                        shortDescription="&lt;p>1500 characters left&lt;br>&#xd;&#xa;&lt;/p>&#xd;&#xa;"
+                                        textIsRich="[true,true,true]"/>
+                                </items>
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                    columns="1"
+                                    dorLayoutType="columnar"
+                                    dorNumCols="1"
+                                    nonNavigable="true"
+                                    toolbarPosition="Bottom"/>
+                                <fd:rules jcr:primaryType="nt:unstructured"/>
+                                <fd:scripts
+                                    fd:summary="[{&quot;script&quot;:{&quot;field&quot;:&quot;guide.guideRootPanel.report-details.add-expense&quot;\,&quot;event&quot;:&quot;Summary&quot;\,&quot;model&quot;:{&quot;nodeName&quot;:&quot;SUMMARY_EXPRESSION&quot;}\,&quot;content&quot;:&quot;if(amount.value !== null )\\nexpenseType.value+\\&quot; - \\&quot;+amount.value;\\nelse \\n  expenseType.value;\\n\\n&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </add-expense>
+                        </items>
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/panel/accordion"
+                            columns="1"
+                            dorLayoutType="columnar"
+                            dorNumCols="1"
+                            enableLayoutOptimization="true"
+                            toolbarPosition="Bottom"/>
+                        <style jcr:primaryType="nt:unstructured">
+                            <af_responsivepaneldescription
+                                jcr:primaryType="nt:unstructured"
+                                default_x0023_default="[font-size:20px]"/>
+                            <af_responsivepanel
+                                jcr:primaryType="nt:unstructured"
+                                default_x0023_default="[]"/>
+                        </style>
+                    </panel1479371260019>
+                </items>
+                <style jcr:primaryType="nt:unstructured">
+                    <af_tabsontopnavgrp1
+                        jcr:primaryType="nt:unstructured"
+                        default_x0023_default="[]"/>
+                    <af_tabsontopnavgrp1title
+                        jcr:primaryType="nt:unstructured"
+                        default_x0023_default="[margin-left:0px,margin-right:50px]"
+                        default_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:Set,marginLock:linkOff,marginPopover:—\, 50px\, —\, 0px]"
+                        phone_x0023_default="[color:#FFF,font-size:16px,padding-top:12px,padding-bottom:12px,padding-left:12px,padding-right:12px,margin-top:0px,margin-bottom:0px,margin-left:0px,margin-right:0px]"
+                        phone_x0023_default_x0023_ui="[paddingPopover:12px,marginPopover:0px]"/>
+                </style>
+                <toolbar
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Toolbar"
+                    sling:resourceType="fd/af/components/toolbar"
+                    css=""
+                    guideNodeClass="guideToolbar"
+                    name="toolbar">
+                    <items
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="fd/af/layouts/toolbar/defaultToolbarLayout">
+                        <submit
+                            jcr:created="{Date}2016-12-11T00:40:13.470+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2016-12-11T00:40:13.470+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Submit"
+                            sling:resourceType="fd/af/components/actions/submit"
+                            dorExclusion="true"
+                            guideNodeClass="guideButton"
+                            name="submit1481397013655"
+                            type="submit">
+                            <fd:rules jcr:primaryType="nt:unstructured"/>
+                            <fd:scripts
+                                fd:click="[{&quot;script&quot;:{&quot;content&quot;:&quot;window.guideBridge.submit()&quot;\,&quot;field&quot;:&quot;guide.guideRootPanel.toolbar.submit1481397013655&quot;\,&quot;event&quot;:&quot;Click&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                                fd:navigationChange="[{&quot;script&quot;:{&quot;field&quot;:&quot;guide.guideRootPanel.toolbar.submit1481397013655&quot;\,&quot;event&quot;:&quot;Navigation&quot;\,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;}\,&quot;content&quot;:&quot;this.visible=!this.panel.navigationContext.hasNextItem\\n&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                                jcr:primaryType="nt:unstructured"/>
+                        </submit>
+                        <nextitemnav
+                            jcr:created="{Date}2016-12-11T00:40:21.919+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2016-12-11T00:40:21.919+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Next"
+                            sling:resourceType="fd/af/components/actions/nextitemnav"
+                            dorExclusion="true"
+                            guideNodeClass="guideButton"
+                            name="nextitemnav1481397022122"
+                            type="moveNext">
+                            <fd:rules jcr:primaryType="nt:unstructured"/>
+                            <fd:scripts
+                                fd:click="[{&quot;script&quot;:{&quot;field&quot;:&quot;guide.guideRootPanel.toolbar.nextitemnav1481397022122&quot;\,&quot;event&quot;:&quot;Click&quot;\,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;}\,&quot;content&quot;:&quot;window.guideBridge.setFocus(this.panel.somExpression\, 'nextItem'\, true)&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:false},{&quot;script&quot;:{&quot;field&quot;:&quot;guide.guideRootPanel.toolbar.nextitemnav1481397022122&quot;\,&quot;event&quot;:&quot;Click&quot;\,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;}\,&quot;content&quot;:&quot;if (guideBridge.validate([]\,guideBridge._guideView._lastFocussedPanelForNonActionFields\, true)) {\\nwindow.guideBridge.setFocus(null\, 'nextItemDeep'\, true);\\n}\\n&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                                fd:navigationChange="[{&quot;script&quot;:{&quot;content&quot;:&quot;this.visible=this.panel.navigationContext.hasNextItem&quot;\,&quot;field&quot;:&quot;guide.guideRootPanel.toolbar.nextitemnav1481397022122&quot;\,&quot;event&quot;:&quot;Navigation&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                                jcr:primaryType="nt:unstructured"/>
+                        </nextitemnav>
+                        <saveguidedraft
+                            jcr:created="{Date}2016-12-09T00:07:34.103+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2016-12-09T00:07:48.886+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Save"
+                            sling:resourceType="fd/fp/components/actions/saveGuideDraft"
+                            buttonType="button-default"
+                            dorExclusion="true"
+                            guideNodeClass="guideButton"
+                            name="savebtn"
+                            textIsRich="[true,true]"
+                            type="save">
+                            <fd:rules
+                                fd:click="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;XX&quot;\,&quot;type&quot;:&quot;BUTTON&quot;\,&quot;name&quot;:&quot;XX&quot;}}\,{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;is clicked&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;\,&quot;choice&quot;:null}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;Then&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SAVE_FORM&quot;\,&quot;items&quot;:[]}}]}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nhandleDraftSave(this);\\n\\n&quot;\,&quot;eventName&quot;:&quot;Click&quot;}]"
+                                jcr:primaryType="nt:unstructured"/>
+                        </saveguidedraft>
+                    </items>
+                    <layout
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="fd/af/layouts/toolbar/defaultToolbarLayout"/>
+                </toolbar>
+            </rootPanel>
+            <autoSaveInfo
+                jcr:primaryType="nt:unstructured"
+                metadataselector="global"/>
+            <view jcr:primaryType="nt:unstructured">
+                <print
+                    jcr:lastModified="{Date}2017-05-14T23:06:40.407+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/authoring/components/dor/dorProperties"
+                    accentColor="#3878BA"
+                    fontFamily="Arial"
+                    hidePanelDescriptions="true"
+                    includeUnboundFields="true"
+                    metaTemplateRef="/libs/fd/af/dor/templates/defaultTemplate.xdp"
+                    optionSeparator=", "
+                    showSelectedOptions="true">
+                    <branding jcr:primaryType="nt:unstructured">
+                        <items jcr:primaryType="nt:unstructured">
+                            <Header jcr:primaryType="nt:unstructured">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <HeaderInfo jcr:primaryType="nt:unstructured">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <AF_FORM_TITLE
+                                                jcr:primaryType="nt:unstructured"
+                                                resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                                value="Expense Report"
+                                                valueFrom="     "/>
+                                            <AF_HEADER_TEXT
+                                                jcr:primaryType="nt:unstructured"
+                                                resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                                value="© 2017 We.Gov | All rights reserved"/>
+                                        </items>
+                                    </HeaderInfo>
+                                    <AF_LOGO_IMAGE
+                                        jcr:primaryType="nt:unstructured"
+                                        fileName="we.GOV_Dor.png"
+                                        fileReference="/content/dam/we-gov/we.GOV_Dor.png">
+                                        <file/>
+                                    </AF_LOGO_IMAGE>
+                                </items>
+                            </Header>
+                            <Footer jcr:primaryType="nt:unstructured">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <disclaimerLabel
+                                        jcr:primaryType="nt:unstructured"
+                                        resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                        value="DISCLAIMER"/>
+                                    <disclaimerText
+                                        jcr:primaryType="nt:unstructured"
+                                        resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                        value="This document is strictly private, confidential and personal to its recipients and should not be copied, distributed or reproduced in whole or in part, nor passed to any third party."/>
+                                </items>
+                            </Footer>
+                        </items>
+                    </branding>
+                </print>
+            </view>
+            <signerInfo
+                jcr:primaryType="nt:unstructured"
+                firstSignerFormFiller="false"
+                signConfigPath="/etc/cloudservices/echosign/aem-forms-referencesite-sign"
+                workflowType="SEQUENTIAL">
+                <signer0
+                    jcr:primaryType="nt:unstructured"
+                    countryCode="undefined"
+                    countryCodeSource="form"
+                    email="undefined"
+                    emailSource="form"
+                    phone="undefined"
+                    phoneSource="form"
+                    securityOption="NONE"
+                    signerTitle="Signer One"/>
+            </signerInfo>
+        </guideContainer>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <smallScreen
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Decimal}479"/>
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Phone"
+                    width="{Decimal}767"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Decimal}991"/>
+            </breakpoints>
+        </cq:responsive>
+        <parsys1
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <afformtitle
+                cq:cssClass="guide-1494783702398"
+                jcr:created="{Date}2017-05-11T17:12:39.643+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-05-14T23:10:46.938+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Adaptive Form Title"
+                sling:resourceType="fd/af/components/afFormTitle"
+                _value="&lt;p>Expense Report&lt;/p>&#xa;"
+                css="guideformtitle container"
+                cssStyle=".guide-1494783702398 .guideTextDraw.guideStaticText{&#xa;padding-top:0px;&#xa;padding-bottom:0px;&#xa;padding-left:0px;&#xa;padding-right:0px;&#xa;margin-bottom:1.5rem;&#xa;font-size:20px;&#xa;color:#1f599c;&#xa;&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1494783702398 .guideTextDraw.guideStaticText{&#xa;color:#FFF;&#xa;font-size:16px;&#xa;padding-top:12px;&#xa;padding-bottom:12px;&#xa;padding-left:12px;&#xa;padding-right:12px;&#xa;margin-top:0px;&#xa;margin-bottom:0px;&#xa;margin-left:0px;&#xa;margin-right:0px;&#xa;background:#102E50;&#xa;&#xa;}&#xa;}&#xa;"
+                guideNodeClass="guideTextDraw"
+                name="formTitle"
+                textIsRich="true">
+                <style jcr:primaryType="nt:unstructured">
+                    <af_textdraw
+                        jcr:primaryType="nt:unstructured"
+                        default_x0023_default="[padding-top:0px,padding-bottom:0px,padding-left:0px,padding-right:0px,margin-bottom:1.5rem,font-size:20px,color:#1f599c]"
+                        default_x0023_default_x0023_ui="[paddingPopover:0px,marginLock:linkOff,marginPopover:—\, —\, 1.5rem\, —]"
+                        phone_x0023_default="[color:#FFF,font-size:16px,padding-top:12px,padding-bottom:12px,padding-left:12px,padding-right:12px,margin-top:0px,margin-bottom:0px,margin-left:0px,margin-right:0px,background:#102E50]"
+                        phone_x0023_default_x0023_ui="[paddingPopover:12px,marginPopover:0px,backgroundColor:#102E50]"/>
+                </style>
+            </afformtitle>
+        </parsys1>
+    </jcr:content>
+</jcr:root>

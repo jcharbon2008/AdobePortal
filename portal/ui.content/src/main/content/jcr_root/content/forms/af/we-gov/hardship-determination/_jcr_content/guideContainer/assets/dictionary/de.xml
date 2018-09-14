@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:language="de"
+    jcr:mixinTypes="[mix:language]"
+    jcr:primaryType="sling:Folder"
+    sling:basename="/content/forms/af/we-gov/hardship-determination/jcr:content/guideContainer/assets/dictionary">
+    <fd__x003c_p_x003e__x003c_i_x003e_Note-84276657
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;i>Note: The law provides severe penalities including fine or imprisonment, or both, for willful submission of any false statement or evidence of material fact.&lt;/i>&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;i>Hinweis: Das Gesetz sieht schwere Strafen wie Bußgelder oder Haftstrafen oder beides vor, wenn vorsätzlich falsche Angaben oder Aussagen über erhebliche Tatsachen eingereicht werden.&#xa;"/>
+    <fd__x003c_p_x003e_Childre1511298592
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Children&lt;/p>&#xa;"
+        sling:message="&lt;p>Kinder&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Click_x0020_t-1543732888
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Click to Sign the application&lt;/p>&#xa;"
+        sling:message="&lt;p>Klicken, um den Antrag zu unterschreiben&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Deducti443627461
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Deductible Expense ($)&lt;/p>&#xa;"
+        sling:message="&lt;p>Abzugsfähige Aufwendung ($)&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_i-2027009618
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter in $&lt;/p>&#xa;"
+        sling:message="&lt;p>Eingabe in $&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_y-932787918
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter your Reason/Circumstances for Hardship Request.&lt;/p>&#xa;&lt;ol>&#xa;&lt;li>You may check more than one reasons if applicable.&lt;/li>&#xa;&lt;li>If you check 'Others', please provide an explanation, as needed, in the text box below it.&lt;/li>&#xa;&lt;li>Please attach documentation supporting your request.&lt;/li>&#xa;&lt;/ol>&#xa;&lt;p>Note:&amp;nbsp;&lt;i>You may attach the documentation now or later (before Submitting your application) through the Attach Documents icon&lt;/i>.&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie Ihren Grund/Ihre Umstände für den Nothilfeantrag an.&lt;/p> &lt;ol> &lt;li>Sie können mehr als einen Grund auswählen, falls zutreffend.&lt;/li> &lt;li>Wenn Sie &quot;Sonstige&quot; auswählen, geben Sie bitte eine ggf. eine Erklärung im Textfeld darunter ein.&lt;/li> &lt;li>Hängen Sie alle unterstützenden Dokumentationen an Ihren Antrag an.&lt;/li> &lt;/ol> &lt;p>Hinweis:&amp;nbsp;&lt;i>Sie können die Dokumentation jetzt oder später (vor dem Einreichen des Antrags) mithilfe des Symbols &quot;Dokumente anhängen&quot; anhängen&lt;/i>.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Househo-511155856
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Household Income($)&lt;/p>&#xa;"
+        sling:message="&lt;p>Haushaltseinkommen ($)&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_I_x0020_cerif2007398137
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>I cerifty that the statements on this form are true and correct to the best of my knowledge and belief. By signing this form, I agree that VA may attempt to verify this information by computer matching agreement with other federal agencies.&lt;/p>&#xa;"
+        sling:message="&lt;p>Ich bestätige, dass die Angaben in diesem Formular nach meinem besten Wissen und Gewissen wahr und richtig sind. Mit meiner Unterschrift stimme ich zu, dass VA meine Informationen über einen rechnergestützten Datenabgleich mit anderen Bundesbehörden überprüfen darf.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Net_x0020_Wor270709275
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Net Worth ($)&lt;/p>&#xa;"
+        sling:message="&lt;p>Nettowert ($)&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Please_x0020_-1794476374
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Please provide personal information about yourself, where you stay, and your social security number in this section.&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;p>Machen Sie in diesem Abschnitt persönliche Angaben zu sich selbst, Ihrer Unterkunft und Ihrer Sozialversicherungsnummer.&lt;/p>&#xd;&#xa;"/>
+    <fd__x003c_p_x003e_Please_x0020_-385817807
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Please attach documents supporting your request&lt;/p>&#xa;"
+        sling:message="&lt;p>Fügen Sie unterstützende Dokumente für Ihre Anfrage ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Please_x0020_-775575808
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Please provide personal information about yourself, where you stay, and your social security number in this section&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;p>Machen Sie in diesem Abschnitt persönliche Angaben zu sich selbst, Ihrer Unterkunft und Ihrer Sozialversicherungsnummer.&lt;/p>&#xd;&#xa;"/>
+    <fd__x003c_p_x003e_Please_x0020_1720000239
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Please explain why are you requesting Hardship&lt;/p>&#xa;"
+        sling:message="&lt;p>Bitte erklären Sie, warum Sie sich in einer Notsituation befinden&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Spouse_x003c_-2091131702
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Spouse&lt;/p>&#xa;"
+        sling:message="&lt;p>Ehepartner&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Total_x0020_D160782790
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Total Deductible expenses for the year&lt;/p>&#xa;"
+        sling:message="&lt;p>Summe der abzugsfähigen Aufwendungen für dieses Jahr&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Total_x0020_H-793319184
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Total Household income of Veteran, Spouse and Children&lt;/p>&#xa;"
+        sling:message="&lt;p>Gesamteinkommen im Haushalt von Veteran, Ehepartner und Kindern&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Total_x0020_N1833034901
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Total Net Worth of Veteran, Spouse and Chidren in the current year.&lt;/p>&#xa;"
+        sling:message="&lt;p>Gesamtnettowert des Veterans, Ehepartners oder der Kinder im laufenden Jahr.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Total_x003c__x0025_2F-1635049073
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Total&lt;/p>&#xa;"
+        sling:message="&lt;p>Summe&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Veteran888922228
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Veteran&lt;/p>&#xa;"
+        sling:message="&lt;p>Veteran&lt;/p>&#xa;"/>
+    <fd_Address
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Address"
+        sling:message="Adresse"/>
+    <fd_Attach
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Attach"
+        sling:message="Anfügen"/>
+    <fd_Certificat154436762
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Certification"
+        sling:message="Zertifizierung"/>
+    <fd_Check_x0020_all_x0020_1270943421
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Check all that apply and add explanation as needed below."
+        sling:message="Wählen Sie alle Optionen, die zutreffen, und fügen Sie ggf. unten eine Erklärung hinzu."/>
+    <fd_Children
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Children"
+        sling:message="Kinder"/>
+    <fd_Financial_x0020_625912171
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Financial Details"
+        sling:message="Finanzielle Details"/>
+    <fd_General_x0020_In1179876788
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_General Information"
+        sling:message="Allgemeine Informationen"/>
+    <fd_Increase_x0020_in_x0020_number_x0020_of_x0020_dependents
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Increase in number of dependents"
+        sling:message="Anzahl der Angehörigen erhöht"/>
+    <fd_Moved_x0020_to_x0020_a_x0020_higher_x0020_cost_x0020_of_x0020_living_x0020_area
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Moved to a higher cost of living area"
+        sling:message="In eine Gegend mit höheren Lebensunterhaltskosten gezogen"/>
+    <fd_Other_x0020_-_x0020_explain_x0020_below
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Other - explain below"
+        sling:message="Andere – Bitte unten ausführen"/>
+    <fd_Paid_x0020_out_x0020_of_x0020_pocket_x0020_medical_x0020_expenses
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Paid out of pocket medical expenses"
+        sling:message="Selbst bezahlte medizinische Kosten"/>
+    <fd_panel
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_panel"
+        sling:message="Bereich"/>
+    <fd_Personal_x0020_I-1176714420
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Personal Information"
+        sling:message="Persönliche Informationen"/>
+    <fd_Projected_x0020_-1383836444
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Projected Household Income, Deductible Expenses, And Net Worth For The Current Calender Year"
+        sling:message="Erwartetes Haushaltseinkommen, abzugsfähige Aufwendungen und Nettowert des aktuellen Kalenderjahrs"/>
+    <fd_Provide_x0020_ex875010350
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Provide explanation, as needed, and attach documentation supporting your request."
+        sling:message="Geben Sie ggf. eine Erklärung ein und hängen Sie die unterstützende Dokumentation an den Antrag an."/>
+    <fd_Reason_x0020_for-413233572
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Reason for Request"
+        sling:message="Grund für die Anforderung"/>
+    <fd_Reduction_x0020_of_x0020_household_x0020_income
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Reduction of household income"
+        sling:message="Senkung des Haushaltseinkommens"/>
+    <fd_Reset
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Reset"
+        sling:message="Zurücksetzen"/>
+    <fd_Save
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Save"
+        sling:message="Speichern"/>
+    <fd_Signature_x0020_-308061730
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Signature of Veteran"
+        sling:message="Unterschrift des Veteranen"/>
+    <fd_Spouse
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Spouse"
+        sling:message="Ehepartner"/>
+    <fd_Submit
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Submit"
+        sling:message="Senden"/>
+    <fd_Total
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Total"
+        sling:message="Gesamt"/>
+    <fd_Veteran
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Veteran"
+        sling:message="Veteran"/>
+</jcr:root>

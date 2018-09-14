@@ -1,0 +1,137 @@
+<!--/*
+
+  ADOBE CONFIDENTIAL
+  __________________
+
+   Copyright 2014 Adobe Systems Incorporated
+   All Rights Reserved.
+
+  NOTICE:  All information contained herein is, and remains
+  the property of Adobe Systems Incorporated and its suppliers,
+  if any.  The intellectual and technical concepts contained
+  herein are proprietary to Adobe Systems Incorporated and its
+  suppliers and are protected by trade secret or copyright law.
+  Dissemination of this information or reproduction of this material
+  is strictly forbidden unless prior written permission is obtained
+  from Adobe Systems Incorporated.
+
+  Renders the head markup of a sightly page
+*/-->
+<head data-sly-use.head="head.js"
+      data-sly-use.wcmInit="/libs/wcm/foundation/components/page/initwcm.js"
+      data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}"
+      data-sly-use.body="body.js">
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <title>${head.title}</title>
+    <link rel="canonical" href="${head.pagePath}" />
+    <link data-sly-test="${head.faviconPath}" rel="shortcut icon" href="${head.faviconPath}" />
+    <meta data-sly-test="${head.description}" name="description" content="${head.description}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta data-sly-test="${head.keywords}" name="keywords" content="${head.keywords}"/>
+
+    <!--/* Outputs the WCM initialization code.If WCM mode is disabled nothing is rendered */-->
+    <meta data-sly-test="${!head.wcmmode.disabled && wcmInit.isTouchAuthoring}" data-sly-call="${clientLib.all @ categories='cq.authoring.page'}" data-sly-unwrap></meta>
+    <meta data-sly-test="${!head.wcmmode.disabled && !wcmInit.isTouchAuthoring}" data-sly-call="${clientLib.all @ categories='cq.wcm.edit'}" data-sly-unwrap></meta>
+    <script data-sly-test="${!head.wcmmode.disabled && !wcmInit.isTouchAuthoring}" data-sly-call="${clientLib.all @ categories='mcm.campaign.ui.classic,cq.mcm,cq.mcm.newsletter.emulator,cq.personalization,cq.mcm.newsletter.hook'}" data-sly-unwrap/>
+    <meta data-sly-test="${!head.wcmmode.disabled  && !wcmInit.isTouchAuthoring}" data-sly-resource="${resource.path @ resourceType='mcm/components/newsletter/emailclient/base', selectors='init'}" data-sly-unwrap></meta>
+    <script data-sly-test="${!head.wcmmode.disabled && !wcmInit.isTouchAuthoring}" type="text/javascript">
+        (function() {
+
+            var cfg = ${wcmInit.undoConfig @ context='unsafe'};
+            cfg.pagePath = "${currentPage.path @ context='uri'}";
+
+            if (CQClientLibraryManager.channelCB() != "touch") {
+                cfg.enabled = ${head.wcmmode.edit @ context="scriptString"};
+                CQ.undo.UndoManager.initialize(cfg);
+                CQ.Ext.onReady(function() {
+                    CQ.undo.UndoManager.detectCachedPage((new Date()).getTime());
+                });
+            }
+        })();
+
+        $(function() {
+            var ccPath = "${head.clientcontextPath @ context='scriptString'}";
+            var segmentsPath = "${head.segmentsPath @ context='scriptString'}";
+            var currentPath = "${currentPage.path @ context='scriptString'}";
+
+            CQ_Analytics.ClientContextUtils.init(ccPath, currentPath, {});
+            CQ_Analytics.SegmentMgr.loadSegments(segmentsPath);
+            CQ_Analytics.ClientContextUtils.initUI(ccPath, currentPath, false);
+            CQ_Analytics.CampaignMgr.autoSelectCampaign("${properties.acOffer @ context='scriptString'}");
+        });
+
+        CQ.WCM.launchSidekick("${currentPage.path @ context='uri'}", {
+            propsDialog: "${wcmInit.dialogPath @ context='uri'}",
+            locked: ${currentPage.locked @ context="scriptString"}
+        });
+    </script>
+    <!--/* WCM initialization code end */-->
+
+    <style type="text/css">
+    /* styles to account for Outlook/Hotmail peculiarities */
+    
+    .ExternalClass {
+        width: 100%;
+    }
+    .ExternalClass,
+    .ExternalClass p,
+    .ExternalClass span,
+    .ExternalClass font,
+    .ExternalClass td,
+    .ExternalClass div {
+        line-height: 100%;
+    }
+    table {
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+    }
+    img {
+        -ms-interpolation-mode: bicubic;
+    }
+    /* triggers "view in browser" link in Outlook */
+    
+    #outlook a {
+        padding: 0;
+    }
+    /* template styles */
+    
+    .ac-content-cell img {
+        max-width: 100%;
+        padding-bottom: 10px;
+    }
+    p {
+        margin: 0;
+    }
+    .ac-content-cell p {
+        margin-bottom: 10px;
+    }
+    /* styles for responsive layout */
+    
+    @media only screen and (max-width: 667px) {
+        #ac-body-cell {
+            padding: 10px 10px 0px 10px !important;
+        }
+        #ac-content-table {
+            max-width: 600px !important;
+            width: 100% !important;
+        }
+        /*.ac-content-cell img {
+                width: 100% !important;
+            }*/
+
+            .ac-column-cell {
+                display: block !important;
+                width: auto !important;
+            }
+
+        }
+
+</style>
+
+<!-- Adobe Edge Web Fonts in use by We Gov -->
+<script src="http://use.edgefonts.net/old-standard.js"></script>
+<script src="http://use.edgefonts.net/quattrocento-sans.js"></script>
+
+
+</head>

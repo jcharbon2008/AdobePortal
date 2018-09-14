@@ -1,0 +1,511 @@
+@media(min-width:668px) and (max-width:1024px){
+.rootPanel [id$="rootPanel___guide-item-nav-container"]{ top:130px;}
+div[id$='rootPanel___layoutPanelContainer']{ margin-top:220px;}
+    .formDetailsPanel ul[id$='applicationFormRoot-formDetailsPanel___guide-item-nav-container'], .formPaymentPanel ul[id$='applicationFormRoot-formPaymentPanel___guide-item-nav-container'] {display:none;}
+
+}
+
+@media (max-width: 667px){
+
+
+html, body {
+    height: auto;
+    min-height: 100px;
+}
+
+form#guideContainerForm {
+    margin-bottom: 0;
+    height: auto;
+}
+
+#wrap {
+    min-height: 100px;
+    height: auto;
+}
+
+.mobileToolbar .xfaButton{
+    height:100%;
+}
+
+
+body{
+    background-color: #1A3A65;
+}
+
+div[id$='rootPanel___layoutPanelContainer']{
+    height: auto;
+    padding: 0 10px;
+    padding-top: 0px;
+}
+
+/*high level rules on product css*/
+.guidePanelDescription {
+    font-size: 16px;
+}
+
+.afRootPanel>.verticalTabbedPanelLayout>.row {
+    margin: 0 !important;
+}
+
+
+
+.previouslyAppliedStatus .accordion-navigators[id$="_guide-item-container"] > [id$="_guide-item"] > .guideHeader > a{
+    background-image: none !important;
+    background-color:#132b4d !important;
+    color:#ffffff;    
+    padding: 20px 10px;    
+}
+
+.previouslyAppliedStatus .accordion-navigators[id$="_guide-item-container"] > [id$="_guide-item"].active > .guideHeader > a:hover, 
+{
+    background-image: none !important;
+    background-color:#132b4d !important;
+    color:#ffffff;
+} 
+/*Repeatable child info panel starts*/
+.multipleChildInfo .accordion-navigators[id$="_guide-item-container"] > [id$="_guide-item"].active > .guideHeader > a:hover {
+    background-color:#132b4d;
+    color:#ffffff;
+    background-image: url("../images/spritesheet.png");
+    background-position: 300px 22px;
+    
+} 
+
+.multipleChildInfo .accordion-navigators[id$="_guide-item-container"] > [id$="_guide-item"] > .guideHeader > a{
+    background-color:#132b4d;
+    color:#ffffff;    
+    padding: 20px 10px; 
+    background-image: url("../images/spritesheet.png");
+    background-repeat: no-repeat;
+    background-position: 300px -45px;
+    background-size: 246px 1909px;
+}
+
+
+
+.guideContainerNode{
+    padding-top:0px;
+    background-color: #1A3A65;
+}
+
+div.guidePanelNode{
+    background: #1a3a65;
+    padding:0px !Important;
+}
+
+
+
+.guideFieldLabel.top {
+    height: auto;
+    padding-top: 0px;
+}
+.section1-ApplicantInformation.panel {
+    margin-top: 10px;
+}
+
+/*Top-level header*/
+.guideRootPanel .wizard-navigators>li.active:before, .wizard-navigators>li:before{
+    content:none;
+}
+.guideRootPanel .wizard-navigators>li.active{
+    display:block !important;
+}
+
+.guideRootPanel .wizard-navigators>li{
+    display:none;
+    width: 100% !important;
+    background: transparent;
+    color: #17b28d;
+    padding: 20px;
+    font-size: 20px;
+    padding-right: 0px;
+    
+}
+
+.wizard-navigators > li > a{
+    padding: 0px !important;
+}
+
+.progress, .indicator {
+    display: none;
+}
+
+.getEligibilityPanel_nav, .afRootPanel_nav {
+    margin-top:0px !important;
+    text-transform: initial;
+}
+
+/*Top tap layout bar in mobile*/
+
+div[id$='formDetailsPanel-section1-ApplicantInformation___guide-item'] div.guide-tab-scroller+div {
+    overflow: auto;
+}
+.formDetailsPanel ul{
+    overflow: auto;    
+} 
+.formDetailsPanel [id$="formDetailsPanel___layoutContainer"]> div{
+    display:block !important;
+}    
+.rootPanel [id$="rootPanel___guide-item-nav-container"]{
+    display:block !important;
+    background: #132b4d;
+}   
+.applicantInfoPanel > .verticalTabbedPanelLayout > .row > div.hidden-xs {
+    display: block !important;
+    overflow: auto;
+}
+
+.applicantInfoPanel > .verticalTabbedPanelLayout > .row > div.hidden-xs ul.tab-navigators{
+    width: 202%;
+    overflow: auto;
+    border-bottom: solid 2px #000000;
+}
+
+.formDetailsPanel ul[id$='formDetailsPanel-section1-ApplicantInformation___guide-item-nav-container']{
+    width:150%;
+    border-bottom: 2px solid #132b4d;    
+}
+.formDetailsPanel ul[id$='applicationFormRoot-formDetailsPanel___guide-item-nav-container'],.formPaymentPanel ul[id$='applicationFormRoot-formPaymentPanel___guide-item-nav-container']{
+    width:100%;    
+}
+.formDetailsPanel ul[id$='applicationFormRoot-formDetailsPanel___guide-item-nav-container'] li,
+.formPaymentPanel ul[id$='applicationFormRoot-formPaymentPanel___guide-item-nav-container'] li {
+    width:100%;  
+    display:none;
+    
+}
+.formDetailsPanel ul[id$='applicationFormRoot-formDetailsPanel___guide-item-nav-container'] li.active,.formPaymentPanel ul[id$='applicationFormRoot-formPaymentPanel___guide-item-nav-container'] li.active{
+    display:block;  
+    
+}
+
+.formDetailsPanel [id$='formDetailsPanel-section1-ApplicantInformation___guide-item-nav-container'],.formPaymentPanel [id$='formPaymentPanel-makePayment___guide-item-nav-container']{
+    background-color:#1a3a65; 
+    
+}
+.formDetailsPanel ul[id$='applicationFormRoot-formDetailsPanel___guide-item-nav-container'] li >a,.formPaymentPanel ul[id$='applicationFormRoot-formPaymentPanel___guide-item-nav-container'] li >a{
+    margin: 0px;
+    width: 100%;
+    background-color: #214980;
+    padding: 20px !important;
+    font-size: 20px;
+    font-family: Merriweather, Wergia, Times New Roman, Times, serif;
+    font-weight: 700;
+    color: #fffafa;
+    
+}
+
+
+.formDetailsPanel [id$='formDetailsPanel-section1-ApplicantInformation___guide-item-nav-container'] > li > a,.formPaymentPanel [id$='formPaymentPanel-makePayment___guide-item-nav-container'] > li > a{
+    color: #17b28d;
+    padding-left:16px;
+    background-color:#1a3a65; 
+}
+.formDetailsPanel [id$='formDetailsPanel-section1-ApplicantInformation___guide-item-nav-container'] > li > a > span,.formPaymentPanel [id$='formPaymentPanel-makePayment___guide-item-nav-container'] > li > a > span{
+    padding-bottom:3px;      
+}
+.formDetailsPanel [id$='formDetailsPanel-section1-ApplicantInformation___guide-item-nav-container'] li,.formPaymentPanel [id$='formPaymentPanel-makePayment___guide-item-nav-container'] li{
+    background-color:#1a3a65; 
+}
+.formDetailsPanel [id$='formDetailsPanel-section1-ApplicantInformation___guide-item-nav-container'] > li.stepped > a,.formPaymentPanel [id$='formPaymentPanel-makePayment___guide-item-nav-container'] > li.stepped > a{
+    color: #17b28d;
+    background-color:#1a3a65; 
+}
+.formDetailsPanel [id$='formDetailsPanel-section1-ApplicantInformation___guide-item-nav-container'] > li.active > a,.formPaymentPanel [id$='formPaymentPanel-makePayment___guide-item-nav-container'] > li.active > a {
+    color:  #17b28d;
+    background-color:transparent;          
+}
+.formDetailsPanel [id$='formDetailsPanel-section1-ApplicantInformation___guide-item-nav-container'] > li.active > a > span{
+    border-bottom: solid 5px #17b28d;          
+}
+
+
+/*********form payment panel****/
+
+.formPaymentPanel .row>div.hidden-xs {
+    display: block !important;
+}
+
+div.dateofExpiry div.row > div {
+    width: 50%;
+    float: left;
+}
+
+.formPaymentPanel [id$='formPaymentPanel-makePayment___guide-item-nav-container'] > li.active > a {
+    color: #17b28d;
+    padding: 10px;
+    padding-left: 0px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.paymentFeeMessage {
+    margin-top: 0px;
+}
+
+.ccPaymentPanel>.gridFluidLayout>div>.row {
+    margin: 0 !important;
+}
+
+/********ends******/
+/***accordian panel****/
+
+.prevAppliedTANF div.guidePanelNode, .prevAppliedCSS div.guidePanelNode,.prevAppliedMedicalAssistance div.guidePanelNode{
+    background-color: #132b4d;
+}
+
+
+/***ends*****/
+
+/*******generic classes for toolbar starts**********/
+/*****common*****/
+.formDetailsPanel .guidetoolbar > [id$="_guide-item"] button{
+    width:100%;
+}
+.formDetailsPanel [id$="applicationFormRoot-formDetailsPanel___layoutPanelContainer"],
+.formPaymentPanel [id$="applicationFormRoot-formPaymentPanel___layoutPanelContainer"]{
+    padding-bottom:50px;
+}
+
+
+/*******ends*****/
+
+/*3 panel layout*/
+.mobileToolbar{
+    background-color:#f3f3f3;
+    height: 50px;
+}
+.mobileToolbar .saveGuideDraft .iconButton-label{
+    display:inline-block;
+    color:#808080;
+}
+.mobileToolbar .saveGuideDraft .iconButton-icon{
+    display:none;
+}            
+
+.guidetoolbar > [id$="itemnav___guide-item"] button span.iconButton-icon{
+    
+    margin-top: 0px!important; 
+    vertical-align: -webkit-baseline-middle;
+}
+.guidetoolbar > [id$="itemnav___guide-item"] button span.iconButton-label{
+    
+    margin-top: 0px!important; 
+    vertical-align: middle;
+}
+
+.guidetoolbar > [id$="previtemnav___guide-item"] button span{
+    
+    color:#b2b2b2;
+    
+}
+.guidetoolbar > [id$="nextitemnav___guide-item"] button span{
+    
+    color:white;
+    
+}
+.oneCol.guidetoolbar > [id$="nextitemnav___guide-item"] button span.iconButton-label{
+    
+    float:left;
+    text-align: right;
+    width: 50%;    
+    
+}
+.guidetoolbar > [id$="nextitemnav___guide-item"] button span.iconButton-icon{
+    
+    width: 45%;
+}
+
+.guideButton .moveNext .iconButton-icon{
+    
+    background: url('../images/spritesheet.png') no-repeat  -20px -1187px;;
+    background-size: 246px 1909px;
+    
+}
+
+.threeCol .guideButton .moveNext .iconButton-icon{
+    background-position:-14px -1188px;
+}
+
+.guideButton .movePrev .iconButton-icon{
+    
+    background: url('../images/spritesheet.png') no-repeat -12px -1332px;
+    background-size: 246px 1909px;
+    
+}
+
+.threeCol .guideButton .movePrev .iconButton-icon{
+    background-position: -24px -1326px;
+}
+
+.guidetoolbar > [id$="nextitemnav___guide-item"] button{
+    
+    background:#17b28d;
+    border-radius: 0px;
+    line-height: 30px;
+    float: right;
+    width: 100%;
+    height:100%;
+    
+}
+.guidetoolbar > [id$="previtemnav___guide-item"] button{
+    border-radius: 0px;
+    line-height: 30px;
+    width: 100%;
+    height:100%;
+    
+}
+.guidetoolbar > [id$="saveGuideDraft___guide-item"] button{
+    word-break: break-all;
+    line-height: 50px;
+    border-radius: 0px;
+    vertical-align: bottom;
+    width: 100%;
+    padding: 0px;
+    border-left: 1px solid rgb(26, 58, 101);
+}        
+.guidetoolbar > [id$="nextitemnav___guide-item"]{
+    
+    float: right !important;
+    
+}
+
+.threeCol.guidetoolbar > [id$="saveGuideDraft___guide-item"]{
+    width:50%;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+}
+.threeCol.guidetoolbar > [id$="previtemnav___guide-item"], .guidetoolbar > [id$="nextitemnav___guide-item"]{
+    
+    width:25%;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    
+}
+.nextitemnav,.previtemnav,.saveGuideDraft{  
+    padding:0px;
+}
+
+
+/*ends*/
+.oneCol.guidetoolbar > [id$="previtemnav___guide-item"],.oneCol.guidetoolbar > [id$="submit___guide-item"],.oneCol.guidetoolbar > [id$="saveGuideDraft___guide-item"]{
+    display:none;          
+}
+.oneCol.guidetoolbar > [id$="nextitemnav___guide-item"]{
+    width:100%;
+}
+.oneCol.guidetoolbar > [id$="nextitemnav___guide-item"] button span.iconButton-label{
+    display:block;
+}
+
+.twoCol.guidetoolbar > [id$="saveGuideDraft___guide-item"]{
+    display:none;
+}
+.twoCol.guidetoolbar > [id$="nextitemnav___guide-item"] .iconButton-label{
+    
+    float: left;
+    text-align:right;
+    
+}
+
+.twoCol.guidetoolbar > [id$="previtemnav___guide-item"], .twoCol.guidetoolbar > [id$="nextitemnav___guide-item"]{
+
+    width:50%;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+
+}
+.twoCol.guidetoolbar > [id$="previtemnav___guide-item"] .iconButton-label, .twoCol.guidetoolbar > [id$="nextitemnav___guide-item"] .iconButton-label{
+    
+    display:inline-block;
+    vertical-align: middle;
+    
+}
+.twoColNoIcon{
+    float: none;
+    width: 100%;
+}
+
+.eligibilityResultPanel>.gridFluidLayout>.toolbar{
+left:0;
+    bottom:-10;
+}
+
+/****************Custom User CSS********************************/
+
+
+/*tnc*/
+div.guideTermsAndConditions div.guideFieldWidget{
+    max-height: 60% !important;
+}
+
+.guideTermsAndConditions div.guideFieldWidget > div{
+    height: 430px;
+}
+
+.guideTermsAndConditions .guideFieldLabel.top label {
+    color: #17b28d;
+    padding: 10px;
+    padding-left: 0px;
+    margin-bottom:5px;
+    width: 100%;
+    font-size: 18px;
+}
+.tncPanel>.gridFluidLayout>div>.row {
+    margin: 0;
+}
+
+/*Misc*/
+#guideContainer-rootPanel-applicationFormRoot-formPaymentPanel-paymentProcess___guide-item-nav{
+    display:none;
+}
+.childRepeatablePanel.guidePanelNode {
+    background-color: #132B4D;
+    padding: 15px!important;
+    padding-top: 0px !important;
+}
+
+div[id$="ChildInformation-multipleChildInfo___guide-item-container"] div[data-guide-parent-id$="ChildInformation-multipleChildInfo__"] {
+    margin-bottom: 10px;
+}
+
+div[id$="ApplicantInformation-section1-1-BasicInformation___guide-item"] div.verticalTabbedPanelLayout {
+    display: none;
+}
+
+
+div.eligibilityPassMsg{
+    margin-top: 15%;
+}
+
+.afRootPanel>.wizard>.row, .formDetails>.verticalTabbedPanelLayout>.row {
+    margin: 0px;
+}
+
+.mobileToolbar .guideButton {
+    padding: 0px 0px;
+}
+
+}
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 374px) {
+        .logo > a > img {
+        width: 150px;
+    }
+
+    .getEligibilityPanel_nav, .afRootPanel_nav {
+        font-size: 20px!important;
+        line-height: 20px;
+	}
+
+        .formDetailsPanel ul[id$='formDetailsPanel-section1-ApplicantInformation___guide-item-nav-container'] {
+        width: 180%;
+    }
+
+}

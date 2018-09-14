@@ -1,0 +1,17 @@
+<div class="__FP_eachPendingSignFormLink" data-repeatable="true">
+    <div tabindex='0' class='__FP_iconClass ${iconClass}'>
+	<img class="__FP_iconClass" src="${contextPath}${formPath}${guidePath}/jcr:content/renditions/cq5dam.thumbnail.319.319.png" style="width:100%; height:100%;">
+</div>
+	<div class="__FP_contentRemaining">
+		<a tabindex='0' class="__FP_pendingSignFormLink" title="Show Pending Sign form" href=${renderPath}.html/pendingSign/${pendingSignID}?wcmmode=disabled target="_blank">${name}</a>
+              
+		<div tabindex='0' class="__FP_pendingSignFormDesc" title='${description}'>${description}</div>
+<div tabindex='0' class="link __FP_pendingSignFormLinkTime" title='At ${Today} ${TimeNow}'>${diffTime}</div>
+        <span class="__FP_actions">
+        <a class="__FP_deletePendingSign" tabindex='0' formPath='${formPath}' pendingSignID='${pendingSignID}' title="Delete"></a>
+            <a class="__FP_dor ${showDorClass}" tabindex="0" href="${renderPath}.dor.pdf/pendingSign/${pendingSignID}" target="_blank" title="Get PDF"></a>
+            <a class="__FP_newInstance" tabindex="0" href="${renderPath}.html/pendingSign/${pendingSignID}?fpNewInstance=true&wcmmode=disabled" target="_blank" title="Start a new form using this form data"></a>
+        </span>
+	</div>
+    <div class="__FP_horizontalRuler"></div>
+</div>

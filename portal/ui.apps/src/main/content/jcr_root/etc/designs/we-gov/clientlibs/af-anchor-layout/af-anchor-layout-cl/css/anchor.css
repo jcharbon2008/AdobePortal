@@ -1,0 +1,228 @@
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+*  Copyright 2014 Adobe Systems Incorporated
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe Systems Incorporated and its suppliers,
+* if any.  The intellectual and technical concepts contained
+* herein are proprietary to Adobe Systems Incorporated and its
+* suppliers and are protected by all applicable intellectual property 
+* laws, including trade secret and copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe Systems Incorporated.
+**************************************************************************/
+.anchor-nav-container {
+	/**background-color: rgb(241, 241, 241);**/
+    height: 100%;
+    z-index:10000;
+}
+
+.anchor-nav-container.affix {
+	top: 100px;
+    width: 160px;
+
+}
+
+.anchor-navlist-toggle .anchor-nav-container.affix {
+    width: 36px;
+}
+
+.anchor-nav-container.affix-top {
+	top: 10%;
+    width: 160px;
+}
+
+.anchored {
+	display: block;
+    padding-top: 110px;
+    margin-top: -110px;
+    visibility: hidden;
+}
+
+.tab-content.anchor-panel-container {
+	border-left-width: 0px;
+    > .tab-pane.anchor-panel-content {
+        display: block;
+    }
+}
+
+.anchor-navigators.tab-navigators > li > a {
+  padding-left: 36px;
+}
+
+.anchor-navigators.tab-navigators > li a {
+overflow-wrap: break-word;
+}
+
+.anchor-navigators.tab-navigators > li.active > ul >li.active a {
+color: #ffffff;
+background-color: #10BDEC;;
+}
+.tab-navigators-vertical > li.active > .tab-navigators-vertical li {
+padding-left: 0px;
+}        
+
+[id$="_guide-item-container"].anchor-panel-container > [id$="_guide-item"].anchor-panel-content {
+	display: block;
+}
+
+.anchor-navlist-toggle {
+    width: 36px;
+}
+
+.anchor-navlist-toggle .anchor-navigators.anchor-navigators.tab-navigators > li > a,
+.anchor-navlist-toggle .anchor-navigators.tab-navigators > li > a {
+	line-height: 30px;
+	font-size: 0px;
+	padding-right: 0px;
+}
+
+.anchor-nav-container.affix .anchor-navlist-toggle {
+	width: auto;
+}
+
+.anchor-nav-container.affix .anchor-navlist-toggle a {
+        color: transparent;
+}
+
+.data-anchor-nav-toggler {
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 18px;
+}
+.collapse-anchor {
+    background-image: url("../../images/SideCollapse.png");
+}
+.expand-anchor {
+    background-image: url("../../images/SideExpand.png");
+}
+
+.anchorToolbar {
+    margin-left: 250px;
+}
+
+.mobileScrollIndicator {
+    display: none;
+}
+
+[data-anchor-nav-scroller="up"],
+[data-anchor-nav-scroller="down"] {
+
+	height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 38px;
+
+}
+
+.anchor-navlist-toggle [data-anchor-nav-scroller="up"],.anchor-navlist-toggle [data-anchor-nav-scroller="down"]{
+    margin-left: 5%;
+ }    
+/*
+.anchor-navlist-toggle [data-anchor-nav-scroller="up"],
+.anchor-navlist-toggle [data-anchor-nav-scroller="down"] {
+    margin-left: 5%;
+    margin-right: 5%;
+	border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+}*/
+
+[data-anchor-nav-scroller="up"] {
+
+    background-image: url(../../images/previous.png);
+    background-repeat: no-repeat;
+    margin-bottom: -10px;
+
+
+}
+
+[data-anchor-nav-scroller="down"] {
+
+    background-image: url(../../images/next.png);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+
+
+}
+
+/*
+.anchor-navlist-toggle [data-anchor-nav-scroller="up"] {
+	border-bottom: 25px solid rgb(239, 101, 34);
+}
+
+.anchor-navlist-toggle [data-anchor-nav-scroller="down"] {
+	border-top: 25px solid rgb(239, 101, 34);
+}
+*/
+
+.anchor-nav-list-container {
+    height: 55%;
+    overflow-y: hidden;
+
+
+}
+
+.hideScroll {
+    display: none;
+    }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.anchor-nav-container.affix {
+    	width: 13.8%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.anchor-navigators.anchor-navigators.tab-navigators > li > a,
+	.anchor-navigators.tab-navigators > li > a {
+    	font-size: 11px;
+    }
+
+    .anchor-nav-container.affix {
+    	width: 15%;
+    }
+
+    [data-anchor-nav-scroller="up"],
+    [data-anchor-nav-scroller="down"] {
+        border-left: 40px solid transparent;
+        border-right: 40px solid transparent;
+    }
+   /* [data-anchor-nav-scroller="up"] {
+        border-bottom: 50px solid rgb(239, 101, 34);
+    }
+
+    [data-anchor-nav-scroller="down"] {
+        border-top: 50px solid rgb(239, 101, 34);
+    }
+*/  
+    [data-anchor-nav-scroller="up"],[data-anchor-nav-scroller="down"] {
+
+	height: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+.anchor-navlist-toggle [data-anchor-nav-scroller="up"],.anchor-navlist-toggle [data-anchor-nav-scroller="down"]{
+    margin-left: -30px;
+ }
+.anchor-nav-container.affix-top {
+width: 120px;
+
+}        
+}
+/*
+@media(max-width: 767px){
+.anchor-navlist-toggle-mobile{
+width:36px;
+    }
+
+.anchor-nav-container.affix {
+width: inherit;
+}    
+}
+*/

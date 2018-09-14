@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:language="de"
+    jcr:mixinTypes="[mix:language]"
+    jcr:primaryType="sling:Folder"
+    sling:basename="/content/forms/af/we-gov/child-support/css/jcr:content/guideContainer/assets/dictionary">
+    <fd__x0028_xxx_x0029__x0020_xxx-1942860700
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_(xxx) xxx-xxxx"
+        sling:message="(xxx) xxx-xxxx"/>
+    <fd__x003c_div_x0020_class1362248754
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;div class=&quot;guideFieldLabel top&quot;>&lt;label>Payment of $25 fee is compulsory for your application to get processed.&lt;/label>&lt;/div>&#xa;"
+        sling:message="&lt;div class=&quot;guideFieldLabel top&quot;>&lt;label>Die Zahlung der Gebühr von $25 ist erforderlich, damit Ihr Antrag bearbeitet wird.&lt;/label>&lt;/div>&#xa;"/>
+    <fd__x003c_p_x003e_A_x0020_fee_x0020_o-2015826368
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>A fee of 25$ will be charged for this application&lt;/p>&#xa;"
+        sling:message="&lt;p>Für diesen Antrag wird eine Gebühr von $25 berechnet&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_A_x0020_fee_x0020_o60910054
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>A fee of $25 will be charged for this application&lt;/p>&#xa;"
+        sling:message="&lt;p>A fee of $25 will be charged for this application&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Custodi-1189763721
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Custodial parent - the parent the child lives with.&lt;/p>&#xd;&#xa;&#xd;&#xa;&lt;p>Non-custodial parent -&amp;nbsp;a parent the child doesn’t live with.&lt;br>&#xd;&#xa;&#xd;&#xa;&lt;/p>&#xd;&#xa;&#xd;&#xa;"
+        sling:message="&lt;p>Elternteil mit Sorgerecht – der Elternteil, bei dem das Kind lebt.&lt;/p>&#xd; &#xd; &lt;p>Elternteil ohne Sorgerecht – ein Elternteil, bei dem das Kind nicht lebt.&lt;/p>&#xd; &#xd; &lt;/p>&#xd; &#xd;&#xa;"/>
+    <fd__x003c_p_x003e_It_x0020_seem-12691819
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>It seems that you might not be eligible for receiving Child Support Services&lt;/p>&#xa;"
+        sling:message="&lt;p>Es sieht so aus, als wären Sie nicht berechtigt, Kinderunterhalt zu erhalten.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Please_x0020_805173684
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Please visit one of our local offices or call customer care for details.&lt;/p>&#xa;"
+        sling:message="&lt;p>Bitte besuchen Sie eines unserer Büros vor Ort oder rufen Sie die Kundenunterstützung an.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Support-369856766
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Supported cards&lt;/p>&#xa;"
+        sling:message="&lt;p>Unterstützte Karten&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_You_x0020_are607865062
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>You are eligible to receive Child Support Services&lt;/p>&#xa;"
+        sling:message="&lt;p>Sie sind berechtigt, Kindesunterhalt zu empfangen&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Your_x0020_Pa-381734540
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Your Payment is being processed.Do not refresh or close this webpage.&lt;/p>&#xa;"
+        sling:message="&lt;p>Ihre Zahlung wird verarbeitet. Aktualisieren oder schließen Sie diese Webseite nicht.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Â_x00a9__x0020_20161120676733
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Â© 2016 We Gov | All rights reserved&lt;/p>&#xa;"
+        sling:message="&lt;p>Â© 2016 We Gov | Alle Rechte vorbehalten&lt;/p>&#xa;"/>
+    <fd_A_x0020_child_x0020_over_x0020_12_x0020_years_x0020_old
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_A child over 12 years old"
+        sling:message="Ein Kind über 12 Jahre"/>
+    <fd_A_x0020_grandparent_x0020_or_x0020_other_x0020_guardian
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_A grandparent or other guardian"
+        sling:message="Ein Großelternteil oder anderer Erziehungsberechtigter"/>
+    <fd_A_x0020_non-custodial_x0020_parent
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_A non-custodial parent"
+        sling:message="Elternteil ohne Sorgerecht"/>
+    <fd_abc_x0040_xyz.co-558172722
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_abc@xyz.com"
+        sling:message="abc@xyz.com"/>
+    <fd_About_x0020_Appl389172241
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_About Applicant "
+        sling:message="Über Anmelder"/>
+    <fd_Additional2137025203
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Additional Information"
+        sling:message="Sonstige Angaben"/>
+    <fd_Address_x0020_li-1408932000
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Address line "
+        sling:message="Adresszeile "/>
+    <fd_Address_x0020_Li369239264
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Address Line"
+        sling:message="Adresszeile"/>
+    <fd_Applicant_x0020_-1097677618
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Applicant Information"
+        sling:message="Informationen zum Antragsteller"/>
+    <fd_Applicatio-1804380958
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Application status"
+        sling:message="Antragsstatus"/>
+    <fd_Applicatio1205680794
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Application for Child Support Services"
+        sling:message="Antrag auf Kindesunterhalt"/>
+    <fd_Applicatio2049127542
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Application Fee"
+        sling:message="Application Fee"/>
+    <fd_Are_x0020_you_x0025_3A
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Are you:"
+        sling:message="Sind Sie:"/>
+    <fd_Attach
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Attach"
+        sling:message="Anlage"/>
+    <fd_AZ
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_AZ"
+        sling:message="AZ"/>
+    <fd_Bank_x0020_accou-733436192
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Bank account number"
+        sling:message="Kontonummer"/>
+    <fd_Bank_x0020_name
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Bank name"
+        sling:message="Name der Bank"/>
+    <fd_Bank_x0020_routi-1153703385
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Bank routing number"
+        sling:message="Bankleitzahl"/>
+    <fd_Basic_x0020_Info1362692090
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Basic Information"
+        sling:message="Allgemeine Informationen"/>
+    <fd_Basics
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Basics"
+        sling:message="Allgemein"/>
+    <fd_Card_x0020_numbe-2126651847
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Card number"
+        sling:message="Kartennummer"/>
+    <fd_cardSecure1111677339
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_cardSecureDetails"
+        sling:message="cardSecureDetails"/>
+    <fd_Check_x0020_Elig1608071753
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Check Eligibility for Child Support"
+        sling:message="Prüfen der Berechtigung für Kindesunterhalt"/>
+    <fd_Child_x0020_Info-563465240
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Child Information"
+        sling:message="Angaben zum Kind"/>
+    <fd_Child_x0027_s_x0020_in16212020
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Child's information"
+        sling:message="Angaben zum Kind"/>
+    <fd_City
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_City"
+        sling:message="Stadt"/>
+    <fd_Come_x0020_back_x0020_-568137585
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Come back later"
+        sling:message="Versuchen Sie es später noch einmal"/>
+    <fd_Credit_x0020_Car1304940503
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Credit Card"
+        sling:message="Kreditkarte"/>
+    <fd_Current_x0020_ad-20503507
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Current address"
+        sling:message="Aktuelle Adresse"/>
+    <fd_Current_x0020_Ad1644149773
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Current Address"
+        sling:message="Aktuelle Adresse"/>
+    <fd_Date_x0020_of_x0020_bi13991240
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Date of birth"
+        sling:message="Geburtsdatum"/>
+    <fd_Date_x0020_Of_x0020_Ex1278518198
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Date Of Expiry MM"
+        sling:message="Ablaufdatum MM"/>
+    <fd_Date_x0020_Of_x0020_Ex1278518582
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Date Of Expiry YY"
+        sling:message="Ablaufdatum JJ"/>
+    <fd_Date_x0020_of_x0020_ex533398986
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Date of expiry"
+        sling:message="Ablaufdatum"/>
+    <fd_dateofExpi926899096
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_dateofExpiry"
+        sling:message="dateofExpiry"/>
+    <fd_Divorced
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Divorced"
+        sling:message="Geschieden"/>
+    <fd_Do_x0020_you_x0020_liv1293607424
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Do you live in the state of GX?"
+        sling:message="Leben Sie im Staat GX?"/>
+    <fd_Does_x0020_the_x0020_c1123134123
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Does the child lives in the state of GX?"
+        sling:message="Lebt das Kind im Staat GX?"/>
+    <fd_Does_x0020_the_x0020_c321358020
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Does the child live in the state of GX?"
+        sling:message="Does the child live in the state of GX?"/>
+    <fd_Eligibilit1117375568
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Eligibility Result"
+        sling:message="Berechtigungsergebnis"/>
+    <fd_Eligibilit739079279
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Eligibility Details"
+        sling:message="Details zu den Voraussetzungen"/>
+    <fd_Email_x0020_addr1901549392
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Email address"
+        sling:message="E-Mail-Adresse"/>
+    <fd_failMsg
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_failMsg"
+        sling:message="failMsg"/>
+    <fd_Fee_x0020_Paymen-956517588
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Fee Payment"
+        sling:message="Gebührenzahlung"/>
+    <fd_First_x0020_name
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_First name"
+        sling:message="Vorname"/>
+    <fd_First_x0020_name-774845423
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_First name on account"
+        sling:message="Vorname für das Konto"/>
+    <fd_Five
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Five"
+        sling:message="Fünf"/>
+    <fd_footer
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_footer"
+        sling:message="footer"/>
+    <fd_Form_x0020_Detai1338737382
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Form Details"
+        sling:message="Formulardetails"/>
+    <fd_Form_x0020_Payme-1005665622
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Form Payment"
+        sling:message="Formularbezahlung"/>
+    <fd_Four
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Four"
+        sling:message="Vier"/>
+    <fd_GO_x0020_TO_x0020_MAIN119834145
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_GO TO MAIN SITE"
+        sling:message="RUFEN SIE DIE HAUPTSEITE AUF"/>
+    <fd_Go_x0020_to_x0020_main768458241
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Go to main site"
+        sling:message="Go to main site"/>
+    <fd_GX
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_GX"
+        sling:message="GX"/>
+    <fd_header
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_header"
+        sling:message="header"/>
+    <fd_How_x0020_many_x0020_c622474180
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_How many children do you want to claim Child Support Services for?"
+        sling:message="Für wie viele Kinder möchten Sie Kindesunterhalt beantragen?"/>
+    <fd_I_x0020_have_x0020_sole_x0020_custody
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_I have sole custody"
+        sling:message="Ich habe alleiniges Sorgerecht"/>
+    <fd_ID_x0020_number
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_ID number"
+        sling:message="ID-Nummer"/>
+    <fd_Is_x0020_the_x0020_chi359097063
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Is the child you are applying for:"
+        sling:message="Ist das Kind, für das Sie den Antrag stellen:"/>
+    <fd_Last_x0020_name
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Last name"
+        sling:message="Nachname"/>
+    <fd_Last_x0020_name_x0020_2052580407
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Last name on account"
+        sling:message="Nachname für das Konto"/>
+    <fd_Living_x0020_with_x0020_a_x0020_partner_x0020_as_x0020_if_x0020_you_x0020_are_x0020_married
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Living with a partner as if you are married"
+        sling:message="Eheähnliche Lebensgemeinschaft mit Partner"/>
+    <fd_Logo
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Logo"
+        sling:message="Logo"/>
+    <fd_Married
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Married"
+        sling:message="Verheiratet"/>
+    <fd_Middle_x0020_nam2030759446
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Middle name"
+        sling:message="Weitere Vornamen"/>
+    <fd_mm
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_mm"
+        sling:message="mm"/>
+    <fd_multipleCh-2051396678
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_multipleChildInfo"
+        sling:message="multipleChildInfo"/>
+    <fd_Name_x0020_on_x0020_ca-290660292
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Name on card"
+        sling:message="Name auf Karte"/>
+    <fd_Next
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Next"
+        sling:message="Weiter"/>
+    <fd_None_x0020_of_x0020_the_x0020_above
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_None of the above"
+        sling:message="Keine der oben genannten Optionen"/>
+    <fd_One
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_One"
+        sling:message="Eins"/>
+    <fd_passMsg
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_passMsg"
+        sling:message="passMsg"/>
+    <fd_Payment
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Payment"
+        sling:message="Zahlung"/>
+    <fd_Payment_x0020_In1327229394
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Payment Information"
+        sling:message="Zahlungsinformationen"/>
+    <fd_Payment_x0020_Pr-572336619
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Payment Process"
+        sling:message="Zahlungsprozess"/>
+    <fd_Phone_x0020_numb-526187941
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Phone number"
+        sling:message="Telefonnummer"/>
+    <fd_Place_x0020_of_x0020_b-143809457
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Place of birth"
+        sling:message="Geburtsort"/>
+    <fd_Please_x0020_ent204435809
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please enter the correct email address."
+        sling:message="Bitte geben Sie die richtige E-Mail-Adresse ein."/>
+    <fd_Please_x0020_pro-1253123801
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please provide information of the bank&#xa;account in which you want to receive the&#xa;Child Support compensation."
+        sling:message="Geben Sie Informationen zum Konto an, auf das die Kindesunterhaltszahlung ausgezahlt werden soll."/>
+    <fd_Please_x0020_pro-451196586
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please provide your 10 digit account number."
+        sling:message="Geben Sie Ihre 10-stellige Kontonummer an."/>
+    <fd_Please_x0020_pro1017357671
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please provide information of the bank&#xd;&#xa;account in which you want to receive the&#xd;&#xa;Child Support compensation."
+        sling:message="Please provide information of the bank&#xd;&#xa;account in which you want to receive the&#xd;&#xa;Child Support compensation."/>
+    <fd_Please_x0020_pro290499136
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please provide a valid Social Security number."
+        sling:message="Bitte geben Sie eine gültige Sozialversicherungsnummer an."/>
+    <fd_Please_x0020_Sig1800343123
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please Sign the Applicaton"
+        sling:message="Bitte unterschreiben Sie den Antrag"/>
+    <fd_Previous
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Previous"
+        sling:message="Zurück"/>
+    <fd_Proof_x0020_of_x0020_I-182676984
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Proof of ID"
+        sling:message="Nachweis der ID"/>
+    <fd_Relationsh-97531304
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Relationship"
+        sling:message="Beziehung"/>
+    <fd_Security_x0020_C35148493
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Security Code"
+        sling:message="Sicherheitscode"/>
+    <fd_Security_x0020_c36101805
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Security code"
+        sling:message="Sicherheitscode"/>
+    <fd_securityCo807729485
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_securityCode"
+        sling:message="securityCode"/>
+    <fd_Separated
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Separated"
+        sling:message="Getrennt"/>
+    <fd_Sign
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Sign"
+        sling:message="Unterschreiben"/>
+    <fd_Sign_x0020_able_x0020_950709534
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Sign able document will be shown here."
+        sling:message="Unterschreibbares Dokument wird hier angezeigt."/>
+    <fd_Six
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Six"
+        sling:message="Sechs"/>
+    <fd_Social_x0020_sec432482710
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Social security number"
+        sling:message="Sozialversicherungsnummer"/>
+    <fd_Start_x0020_agai-1676254718
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Start again"
+        sling:message="Fang nochmal an"/>
+    <fd_State
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_State"
+        sling:message="Status"/>
+    <fd_Submission-1286852878
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Submission summary"
+        sling:message="Einreichungsdatum"/>
+    <fd_Summary
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Summary"
+        sling:message="Zusammenfassung"/>
+    <fd_Thanks_x0020__x0024__x007b_o-716407878
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Thanks ${owner} for submitting the ${guideName} form.&lt;br> Your reference number is ${submitID}.&lt;br> Submitted form can be downloaded from the &lt;a target=&quot;_blank&quot; href=&quot;${path}&quot;>Link&lt;/a>."
+        sling:message="Danke ${owner} für das Einreichen des Formulars ${guideName}.&lt;br> Ihre Referenznummer lautet ${submitID}.&lt;br> Das eingereichte Formular kann unter diesem &lt;a target=&quot;_blank&quot; href=&quot;${path}&quot;>Link&lt;/a> heruntergeladen werden."/>
+    <fd_The_x0020_custodial_x0020_parent
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_The custodial parent"
+        sling:message="Elternteil mit Sorgerecht"/>
+    <fd_The_x0020_other_x0020_party_x0020_and_x0020_I_x0020_share_x0020_custody
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_The other party and I share custody"
+        sling:message="Die andere Partei und ich haben gemeinsames Sorgerecht"/>
+    <fd_The_x0020_other_x0020_party_x0020_has_x0020_sole_x0020_custody
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_The other party has sole custody"
+        sling:message="Die andere Partei hat alleiniges Sorgerecht"/>
+    <fd_This_x0020_is_x0020_a_x0020_1228342924
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_This is a required Field"
+        sling:message="This is a required Field"/>
+    <fd_This_x0020_is_x0020_a_x0020_340057858
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_This is a required field."
+        sling:message="This is a required field."/>
+    <fd_Three
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Three"
+        sling:message="Drei"/>
+    <fd_Toolbar
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Toolbar"
+        sling:message="Symbolleiste"/>
+    <fd_Two
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Two"
+        sling:message="Zwei"/>
+    <fd_TX
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_TX"
+        sling:message="TX"/>
+    <fd_Under_x0020_16_x0020_years
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Under 16 years"
+        sling:message="Unter 16 Jahre"/>
+    <fd_Under_x0020_20_x0020_years_x0020_and_x0020_in_x0020_full-time_x0020_education_x0020__x0028_High_x0020_School_x0020_or_x0020_equivalent_x0029_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Under 20 years and in full-time education (High School or equivalent)"
+        sling:message="Unter 20 Jahre und Vollzeit in Ausbildung (Hochschule oder entsprechend)"/>
+    <fd_Under_x0020_20_x0020_years_x0020_and_x0020_living_x0020_with_x0020_a_x0020_parent_x0020_who_x0020_has_x0020_registered_x0020_for_x0020_Child_x0020_Support_x0020_Services_x0020_for_x0020_them
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Under 20 years and living with a parent who has registered for Child Support Services for them"
+        sling:message="Unter 20 Jahre und wohnhaft mit Elternteil, der einen Antrag auf Kindesunterhalt für diese Person gestellt hat"/>
+    <fd_Who_x0020_has_x0020_th-1958496287
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Who has the main day-to-day care of the child?"
+        sling:message="Wer kümmert sich im Alltag um das Kind?"/>
+    <fd_xxx
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_xxx"
+        sling:message="xxx"/>
+    <fd_xxx-xx-xxx-1414689448
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_xxx-xx-xxxx"
+        sling:message="xxx-xx-xxxx"/>
+    <fd_xxxx-xxxx--1248185971
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_xxxx-xxxx-xxxx-xxxx"
+        sling:message="xxxx-xxxx-xxxx-xxxx"/>
+    <fd_Yes
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Yes"
+        sling:message="Ja"/>
+    <fd_yy
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_yy"
+        sling:message="yy"/>
+    <fd_Zip_x0020_Code
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Zip Code"
+        sling:message="Postleitzahl"/>
+    <fd_Zip_x0020_code
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Zip code"
+        sling:message="Postleitzahl"/>
+</jcr:root>

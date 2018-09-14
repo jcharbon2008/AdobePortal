@@ -1,0 +1,49 @@
+<!--/*
+
+  ADOBE CONFIDENTIAL
+  __________________
+
+   Copyright 2014 Adobe Systems Incorporated
+   All Rights Reserved.
+
+  NOTICE:  All information contained herein is, and remains
+  the property of Adobe Systems Incorporated and its suppliers,
+  if any.  The intellectual and technical concepts contained
+  herein are proprietary to Adobe Systems Incorporated and its
+  suppliers and are protected by trade secret or copyright law.
+  Dissemination of this information or reproduction of this material
+  is strictly forbidden unless prior written permission is obtained
+  from Adobe Systems Incorporated.
+
+  Text & Image component
+  Re-uses the existing Text and Image sightly components
+*/-->
+<div data-sly-use.textImage="/libs/mcm/campaign/components/textimage/textimage.js"
+     data-sly-use.emptyRenderer="emptytextimage.html"
+     data-sly-call="${emptyRenderer.emptyTextImageTemplate @ textImage=textImage}" data-sly-unwrap></div>
+
+<table style="width:100%;">
+    <tr>
+        <td valign="top" style="width:15%;">
+<div
+    data-sly-test="${textImage.hasContent}"
+    data-sly-resource="${'image' @ resourceType='we-gov/components/mcm/campaign/components/image', wcmmode='disabled'}" data-sly-unwrap></div>
+    </td >
+    <td style="width:85%;">
+    <p class="main-title">${properties.title}</p>      
+<div
+    data-sly-test="${properties.text}"
+	data-sly-resource="${'.' @ resourceType='wcm/foundation/components/text', wcmmode='disabled'}" data-sly-unwrap></div>
+	</td>
+    </tr>
+
+</table>    
+
+<div data-sly-test="${!wcmmode.disabled}" data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}" data-sly-unwrap >
+	<meta data-sly-call="${clientLib.all @ categories='cq.personalization'}" data-sly-unwrap></meta>
+	<script type="text/javascript">
+		CQ.personalization.variables.Variables.applyToEditComponent("${resource.path @ context='scriptString'}");
+	</script>
+</div>
+
+        

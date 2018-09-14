@@ -1,0 +1,366 @@
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+*  Copyright 2014 Adobe Systems Incorporated
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe Systems Incorporated and its suppliers,
+* if any.  The intellectual and technical concepts contained
+* herein are proprietary to Adobe Systems Incorporated and its
+* suppliers and are protected by all applicable intellectual property 
+* laws, including trade secret and copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe Systems Incorporated.
+**************************************************************************/
+.__FP_draftlink, .__FP_submittedGuidelink,.__FP_submittedFormLink{
+    font-size: 16px !important;
+    text-overflow: inherit;
+	overflow: visible;
+	white-space: normal;
+    color: white !important;
+    cursor: pointer;
+    font-family: Open sans, Arial, Helvetica, sans-serif !important;
+    padding:0px !important;
+}
+
+.__FP_draftPanel, .__FP_submittedGuidePanel{
+    z-index: 1000;
+    background: transparent;
+    width: 100%;
+    /*border-top-right-radius: 5px;*/
+    /*border-bottom-right-radius: 5px;*/
+    /*border-bottom-left-radius: 5px;*/
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.__FP_draftContainer, .__FP_submittedGuideContainer{
+    width: 100%;
+}
+.__FP_drafts, .__FP_submittedGuides{
+    padding: 0px !important;
+}
+.__FP_draftsTitle, .__FP_submittedGuideTitle{
+    color: rgb(133, 213, 209);
+    margin-top: 0px;
+    font-size: 28px;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+.__FP_draftDesc, .__FP_submittedGuideDesc{
+    margin-right: 70px;
+    /*min-height: 30px;*/
+    font-size:14px;
+    font-family: Open sans, Arial, Helvetica, sans-serif !important;
+}
+.__FP_draftlinkTime, .__FP_submittedGuidelinkTime{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: rgb(133, 213, 209);
+    font-size: 12px !important;
+    margin-right: 13px;
+    font-family: 'Open Sans', sans-serif!important;
+}
+.__FP_eachDraftLink, .__FP_eachSubmittedGuideLink{
+    margin-top: -15px;
+    margin-bottom: 0px;
+          padding-top: 0px;
+}
+
+.__FP_deleteDraft, .__FP_deleteSubmission{
+    float: right;
+    font-size: 12px !important;
+    margin-right: 30px;
+    margin-top: 0px;
+    background: url('/etc/clientlibs/fd/fp/images/delete-up.png') no-repeat;
+    height: 25px;
+    width: 21px;
+    color: black !important;
+}
+.__FP_deleteDraft:hover,  .__FP_deleteSubmission:hover{
+    background: url('/etc/clientlibs/fd/fp/images/delete-hover.png') no-repeat;
+}
+
+.__FP_deleteDraft:focus,  .__FP_deleteSubmission:focus{
+    background: url('/etc/clientlibs/fd/fp/images/delete-hover.png') no-repeat;
+}
+
+
+.__FP_newInstance{
+    float: right;
+    font: 12px Adobe Clean, Arial;
+    background: url("/etc/clientlibs/fd/fp/images/prefill-up.png") no-repeat;
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+}
+.__FP_editDraft{
+    float: right;
+    font: 12px Adobe Clean, Arial;
+    background: url("/etc/designs/we-gov/images/edit.png") no-repeat;
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+}
+.__FP_newInstance:hover{
+    background: url("/etc/clientlibs/fd/fp/images/prefill-hover.png") no-repeat;
+}
+.__FP_newInstance:focus{
+    background: url("/etc/clientlibs/fd/fp/images/prefill-down.png") no-repeat;
+}
+.__FP_dor{
+    float: right;
+    font: 12px Adobe Clean, Arial;
+    background: url("/etc/clientlibs/fd/fp/images/getpdf-up.png") no-repeat;
+    height: 25px;
+    width: 25px;
+    margin-right: 0px;
+}
+
+.__FP_dor:hover{
+    background: url("/etc/clientlibs/fd/fp/images/getpdf-hover.png") no-repeat;
+}
+.__FP_dor:focus{
+    background: url("/etc/clientlibs/fd/fp/images/getpdf-down.png") no-repeat;
+}
+.__FP_semiTransparentBackground{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 500;
+    position: absolute;
+}
+.__FP_horizontalRuler{
+  min-height: 1px;
+  clear: both;
+  width: 99%;
+  border-bottom: 1px solid #144C9B;
+  height: 1px;
+  margin-top: -6px;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+}
+
+.__FP_more{
+    margin-top: -4px;
+    height: 24px;
+    background: #132b4d;
+    text-align: center;
+    color: white;
+}
+.__FP_draftTextSearch, .__FP_submittedFormsTextSearch{
+   /* padding-left: 15px;*/
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+.__FP_draftTextSearch input[type="text"], .__FP_submittedFormsTextSearch input[type="text"] {
+background: url(/etc/clientlibs/fd/fp/images/search.png) no-repeat 10px 6px rgb(241, 241, 241);
+  background-size: 18px 20px;
+  border: 0 none;
+  font: bold 12px Open sans,Arial,Helvetica,Sans-serif;
+  color: black;
+  width: 100%;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  height: 30px;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  box-sizing: border-box;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 6px 15px 6px 35px;
+}
+
+.__FP_draftTextSearch input[type="text"]:focus, .__FP_submittedFormsTextSearch input[type="text"]:focus {
+    color: black;
+    width: 99%;
+    /*   -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+       -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+       box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+       text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);*/
+}
+.__FP_contentRemaining{
+    margin-left: 60px;
+}
+
+.__FP_iconClass0{
+    background: #ff9933;
+}
+
+.__FP_iconClass1{
+    background: #ff6600;
+}
+
+.__FP_iconClass2{
+    background: #cc0000;
+}
+
+.__FP_iconClass3{
+    background: #a1c554;
+}
+
+.__FP_iconClass4{
+    background: #3e6bc0;
+}
+
+.__FP_iconClass5{
+    background: #6c3696;
+}
+
+.__FP_display_none{
+    display: none;
+}
+/*Custom Styles */
+.link.__FP_draftlink, .link.__FP_submittedGuidelink{
+color: rgb( 0, 121, 193);
+    }      
+
+#tabs{
+border:none;
+} 
+
+.ui-widget-header {
+  border: 1px solid #132b4d;
+  background: transparent!important;
+  color: #132b4d;
+  font-weight: bold;
+}
+.ui-corner-all{
+border-bottom-right-radius: 0px !important;
+border-bottom-left-radius: 0px !important;
+border-top-left-radius: 0px !important;
+border-top-right-radius: 0px !important;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+background:none;
+}        
+#tabs>ul>li{
+margin-bottom: 0px;   
+
+} 
+
+/***** css chanes for portal**/
+
+#tabs > ul {
+  border: none;
+  border-bottom: solid 2px;
+  padding: 0px;  
+}
+
+#tabs > ul > li.ui-tabs-active>a {
+  color: #17b28d;
+  font: 14px Open sans,Myriad Pro, Adobe Clean, Arial;
+  border-bottom: solid 5px;  
+}
+#tabs > ul > li.ui-tabs-active {
+  color: #17b28d;  
+}
+#tabs > ul > li {
+  font: 14px Open sans,Myriad Pro, Adobe Clean, Arial;
+  width: 50%;
+  margin: 0px;
+  border: none;
+}
+#tabs > ul > li >a {
+  width: 100%;
+  text-align: center;
+  color: #b2b2b2;
+}
+.ui-tabs .ui-tabs-panel{
+padding:0px;
+}
+
+/************ends****/
+@media (min-width: 668px)
+{
+
+/*** Media Query ***/
+
+.__FP_iconClass {
+  float: left;
+  height: 60px;
+  width: 60px;
+  font: 35px/60px Open sans,Myriad Pro, Adobe Clean, Arial;
+  text-align: center;
+  color: #ffffff;
+  margin-right: 10px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+.__FP_horizontalRuler{
+  padding-top: 20px;
+}
+.__FP_draftlinkTime, .__FP_submittedGuidelinkTime {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #808080;
+  font: 12px Open sans,Myriad Pro, Adobe Clean, Arial;
+  margin-right: 18px;
+}
+.__FP_draftlink,.__FP_submittedGuidelink,.__FP_submittedFormLink {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #222222;
+  font: 14px Open sans,Myriad Pro, Adobe Clean, Arial;
+  height: 22px;
+  cursor: pointer;
+}
+#tabs > ul > li.ui-tabs-active {
+ border-bottom: solid 5px;
+}
+.__FP_deleteDraft,.__FP_newInstance,.__FP_dor,.__FP_deleteSubmission,.__FP_editDraft{
+  margin-top: 10px;
+}
+.page-content{
+margin-top:0px;
+}
+body{
+background-color: #1A3A65; 
+}
+.title-text{
+  font-family: 'Open Sans', sans-serif!important;
+}
+#tabs{
+  background-color: transparent;
+}
+.ui-widget-content a{
+color:white;
+}
+.draftsAndSubmissions .__FP_submittedGuidelinkTime, .draftsAndSubmissions .__FP_draftlinkTime {
+  color: white;
+}  
+.ui-widget-content{
+background:none;
+}
+
+}
+
+@media (max-width: 320px)
+{
+
+/*** Media Query ***/
+
+.__FP_draftlinkTime, .__FP_submittedGuidelinkTime{
+	position: relative;
+	top: 10px;
+	left: -80%;
+    width: 200%;
+}
+
+}

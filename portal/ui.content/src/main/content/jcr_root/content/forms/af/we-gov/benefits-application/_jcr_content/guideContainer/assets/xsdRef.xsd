@@ -1,0 +1,1056 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="topmostSubform">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Page3">
+          <xs:complexType>
+            <xs:choice maxOccurs="unbounded" minOccurs="0">
+              <xs:element type="xs:string" name="TELEPHONE_NUMBER_1"/>
+              <xs:element type="xs:string" name="WELFARE_CASE_NUMBER"/>
+              <xs:element type="xs:boolean" name="WOMENPROGRAM"/>
+              <xs:element type="xs:boolean" name="WELLBABYCLINIC"/>
+              <xs:element type="xs:boolean" name="CHILDSUPPOTSERVICES"/>
+              <xs:element type="xs:boolean" name="SECURITYINCOME"/>
+              <xs:element type="xs:boolean" name="FAMILYPLANNING"/>
+              <xs:element type="xs:boolean" name="LIFELINE"/>
+              <xs:element type="xs:boolean" name="SPECIALALLOWANCE"/>
+              <xs:element type="xs:boolean" name="CHILDCARE"/>
+              <xs:element type="xs:boolean" name="EMPLOYMENTANDTRAINING"/>
+              <xs:element type="xs:boolean" name="SCHOOLMEAL"/>
+              <xs:element type="xs:boolean" name="IMMUNITIZATIONS"/>
+              <xs:element type="xs:boolean" name="FOODBANKS"/>
+              <xs:element type="xs:boolean" name="ENERGYASSISTANCELETTER"/>
+              <xs:element type="xs:boolean" name="HOUSINGINSURANCE"/>
+              <xs:element type="xs:string" name="WHAT_LANGUAGE_UNDERSTAND"/>
+              <xs:element type="xs:boolean" name="OTHER_2"/>
+              <xs:element type="xs:string" name="OTHER_1"/>
+              <xs:element type="xs:boolean" name="MEDICAL_ASSISTANCE"/>
+              <xs:element type="xs:boolean" name="FOOD_STAMP_BENEFITS"/>
+              <xs:element type="xs:boolean" name="CASH_ASSISTANCE"/>
+              <!--xs:element type="xs:byte" name="RadioButtonList" maxOccurs="unbounded" minOccurs="0"/-->
+			  <xs:element name="RadioButtonList1">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+					<xs:enumeration id="1" value="YES"/>
+					<xs:enumeration id="2" value="NO"/>
+					</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="RadioButtonList2">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+					<xs:enumeration id="1" value="YES"/>
+					<xs:enumeration id="2" value="NO"/>
+					</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="RadioButtonList3">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+					<xs:enumeration id="1" value="YES"/>
+					<xs:enumeration id="2" value="NO"/>
+					</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="RadioButtonList4">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+					<xs:enumeration id="1" value="YES"/>
+					<xs:enumeration id="2" value="NO"/>
+					</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="RadioButtonList5">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+					<xs:enumeration id="1" value="YES"/>
+					<xs:enumeration id="2" value="NO"/>
+					</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="RadioButtonList6">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+					<xs:enumeration id="1" value="YES"/>
+					<xs:enumeration id="2" value="NO"/>
+					</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="RadioButtonList7">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+					<xs:enumeration id="1" value="YES"/>
+					<xs:enumeration id="2" value="NO"/>
+					</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="RadioButtonList8">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+					<xs:enumeration id="1" value="YES"/>
+					<xs:enumeration id="2" value="NO"/>
+					</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="RadioButtonList9">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+					<xs:enumeration id="1" value="YES"/>
+					<xs:enumeration id="2" value="NO"/>
+					</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="RadioButtonList10">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+					<xs:enumeration id="1" value="YES"/>
+					<xs:enumeration id="2" value="NO"/>
+					</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				
+			  
+              <xs:element type="xs:date" name="DATE"/>
+              <xs:element type="xs:string" name="SOCIAL_SECURITY"/>
+              <xs:element type="xs:string" name="NAME"/>
+              <xs:element type="xs:date" name="TO"/>
+              <xs:element type="xs:date" name="FROM"/>
+              <xs:element type="xs:integer" name="RECORD"/>
+              <xs:element type="xs:string" name="COUNTRY"/>
+              <xs:element type="xs:string" name="STATE_2"/>
+              <xs:element type="xs:string" name="State_2"/>
+              <xs:element type="xs:string" name="City_2"/>
+              <xs:element type="xs:string" name="Zip"/>
+              <xs:element type="xs:string" name="PREVIOUS_ADDRESS"/>
+              <xs:element type="xs:string" name="TELEPHONE_NUMBER_2"/>
+              <xs:element type="xs:string" name="TOWNSHIP_CIVILSUBDIVISION"/>
+              <xs:element type="xs:string" name="SCHOOL_DISTRICT"/>
+              <xs:element type="xs:string" name="ADDRESS"/>
+              <xs:element type="xs:string" name="Street_1"/>
+              <xs:element type="xs:string" name="CITY_1"/>
+              <xs:element type="xs:string" name="STATE_1"/>
+              <xs:element type="xs:string" name="ZIP_CODE"/>
+              <xs:element type="xs:float" name="PLUS4"/>
+              <xs:element type="xs:byte" name="MONTHS"/>
+              <xs:element type="xs:byte" name="YEARS"/>
+              <xs:element type="xs:string" name="MIDDLE_INITIAL"/>
+              <xs:element type="xs:string" name="FIRST_NAME"/>
+              <xs:element type="xs:string" name="LAST_NAME"/>
+            </xs:choice>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Page4">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="GRADE_LEVEL"/>
+              <xs:element name="Records">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Table1" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="Header1"/>
+                          <xs:element name="Row1">
+                            <xs:complexType>
+                              <xs:choice maxOccurs="unbounded" minOccurs="0">
+                                <xs:element type="xs:string" name="LINE"/>
+                                <xs:element type="xs:string" name="LAST_NAME"/>
+                                <xs:element type="xs:string" name="FIRST_NAME"/>
+                                <xs:element type="xs:string" name="MIDDLE_INITIAL"/>
+                                <xs:element type="xs:string" name="JR_SR"/>
+                                <xs:element name="RadioButtonList1">
+									<xs:simpleType>
+										<xs:restriction base="xs:string">
+										<xs:enumeration id="1" value="YES"/>
+										<xs:enumeration id="2" value="NO"/>
+										</xs:restriction>
+									</xs:simpleType>
+								</xs:element>
+				
+                                <xs:element type="xs:string" name="FORMER_MARRIED_NAME"/>
+                                <xs:element type="xs:string" name="BIRTH_DATE"/>
+								<xs:element name="RadioButtonList2">
+									<xs:simpleType>
+										<xs:restriction base="xs:string">
+										<xs:enumeration id="2" value="M"/>
+										<xs:enumeration id="3" value="F"/>
+										</xs:restriction>
+									</xs:simpleType>
+								</xs:element>
+				
+                                <xs:element type="xs:string" name="SOCIAL_SECURITY_NUMBER"/>
+                                <xs:element type="xs:string" name="RELATION"/>
+                                <xs:element type="xs:string" name="EDUCATION"/>
+                              </xs:choice>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element type="xs:string" name="Header2"/>
+                          <xs:element name="Row2">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="CITIZENSHIP_STATUS"/>
+                                <xs:element type="xs:string" name="VETERAN_STATUS"/>
+                                <xs:element type="xs:string" name="MARITAL_STATUS"/>
+                                <xs:element type="xs:boolean" name="RACE_1"/>
+                                <xs:element type="xs:boolean" name="RACE_3"/>
+                                <xs:element type="xs:boolean" name="RACE_4"/>
+                                <xs:element type="xs:boolean" name="RACE_5"/>
+                                <xs:element type="xs:boolean" name="RACE_7"/>
+                                <xs:element type="xs:boolean" name="RACE_2"/>
+                                <xs:element name="RadioButtonList3">
+									<xs:simpleType>
+										<xs:restriction base="xs:string">
+										<xs:enumeration id="1" value="YES"/>
+										<xs:enumeration id="2" value="NO"/>
+										</xs:restriction>
+									</xs:simpleType>
+								</xs:element>
+				
+                                <xs:element type="xs:string" name="BIRTH_CERTIFICATE_NAME"/>
+                                <xs:element type="xs:string" name="STATE_OF_BIRTH"/>
+                                <xs:element type="xs:string" name="COUNTRY_OF_BIRTH"/>
+                                <xs:element type="xs:string" name="CITY_OF_BIRTH"/>
+                                <xs:element type="xs:string" name="MOTHER_MAIDEN_NAME"/>
+                                <xs:element type="xs:string" name="ID_NUMBER"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:string" name="Page5">
+			<xs:complexType>
+				<xs:sequence>
+					<xs:element type="xs:string" name="SIGNATURE"/>
+					<xs:element type="xs:date" name="DATE"/>
+				</xs:sequence>
+			</xs:complexType>
+        </xs:element>
+		
+        <xs:element name="Page6">
+          <xs:complexType>
+            <xs:choice maxOccurs="1" minOccurs="0">
+              <xs:element name="Header">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="RadioButtonList1">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+							<xs:enumeration id="1" value="YES"/>
+							<xs:enumeration id="2" value="NO"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Records">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="SubRecords" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="POLICY_HOLDER_NAME"/>
+                          <xs:element type="xs:string" name="POLICY_HOLDER_ADDRESS"/>
+                          <xs:element type="xs:string" name="INSURANCE_COMPANY_NAME"/>
+                          <xs:element type="xs:string" name="POLICY_NUMBER"/>
+                          <xs:element type="xs:string" name="GROUP_NAME_NUMBER"/>
+                          <xs:element type="xs:string" name="INSURANCE_COMPANY_PHONE_NUMBER"/>
+                          <xs:element type="xs:string" name="INSURANCE_COMPANY_ADDRESS"/>
+                          <xs:element type="xs:string" name="COVERED"/>
+                          <xs:element name="Subform1">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="RadioButtonList1">
+									<xs:simpleType>
+										<xs:restriction base="xs:string">
+										<xs:enumeration id="1" value="MEDICARE A"/>
+										<xs:enumeration id="2" value="MEDICARE B"/>
+										<xs:enumeration id="3" value="VISION"/>
+										<xs:enumeration id="4" value="HOSPITAL ONLY"/>
+										<xs:enumeration id="5" value="PRESCRIPTION"/>
+										<xs:enumeration id="6" value="DENTAL"/>
+										<xs:enumeration id="7" value="MAJOR MEDICAL"/>
+										<xs:enumeration id="8" value="WORKERS' COMP"/>
+										<xs:enumeration id="9" value="HMO"/>
+										<xs:enumeration id="10" value="BASIC HOST?PHYSICIAN"/>
+										</xs:restriction>
+									</xs:simpleType>
+								</xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="RadioButtonList1">
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+								<xs:enumeration id="1" value="YES"/>
+								<xs:enumeration id="2" value="NO"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <!--xs:element type="xs:byte" name="RadioButtonList" minOccurs="0"/-->
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:choice>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Page7">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="HOUSEHOLD_MEMBERS_WARRANT"/>
+              <xs:element type="xs:string" name="HOUSEHOLD_MEMBERS_MISDEMEANOR_1"/>
+              <xs:element type="xs:string" name="HOUSEHOLD_MEMBERS_MISDEMEANOR_2"/>
+              <xs:element type="xs:string" name="HOUSEHOLD_MEMBERS_Felony_AfterAUG_1"/>
+              <xs:element type="xs:string" name="HOUSEHOLD_MEMBERS_Felony_AfterAUG_2"/>
+              <xs:element type="xs:string" name="HOUSEHOLD_MEMBERS_WELFARE_FRAUD_1"/>
+              <xs:element type="xs:string" name="HOUSEHOLD_MEMBERS_WELFARE_FRAUD_2"/>
+              <xs:element type="xs:string" name="HOUSEHOLD_MEMBERS_PAY_FINE"/>
+              <xs:element type="xs:string" name="HOUSEHOLD_MEMBERS_PAROLE"/>
+              <xs:element type="xs:string" name="HOUSEHOLD_MEMBERS_ENFORCEMENT_OFFICIALS_2"/>
+              <xs:element type="xs:string" name="HOUSEHOLD_MEMBERS_ENFORCEMENT_OFFICIALS_1"/>
+              <xs:element type="xs:float" name="CurrentPage"/>
+              <xs:element type="xs:float" name="PageCount"/>
+              <xs:element name="RadioButtonList1">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+					<xs:enumeration id="1" value="YES"/>
+					<xs:enumeration id="2" value="NO"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="RadioButtonList2">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+					<xs:enumeration id="1" value="YES"/>
+					<xs:enumeration id="2" value="NO"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="RadioButtonList3">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+					<xs:enumeration id="1" value="YES"/>
+					<xs:enumeration id="2" value="NO"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="RadioButtonList4">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+					<xs:enumeration id="1" value="YES"/>
+					<xs:enumeration id="2" value="NO"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="RadioButtonList5">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+					<xs:enumeration id="1" value="YES"/>
+					<xs:enumeration id="2" value="NO"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="RadioButtonList6">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+					<xs:enumeration id="1" value="YES"/>
+					<xs:enumeration id="2" value="NO"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="RadioButtonList7">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+					<xs:enumeration id="1" value="YES"/>
+					<xs:enumeration id="2" value="NO"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="RadioButtonList8">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+					<xs:enumeration id="1" value="YES"/>
+					<xs:enumeration id="2" value="NO"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Page8">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RadioButtonList1">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+					<xs:enumeration id="1" value="YES"/>
+					<xs:enumeration id="2" value="NO"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="RadioButtonList2">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+					<xs:enumeration id="1" value="YES"/>
+					<xs:enumeration id="2" value="NO"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+              <xs:element name="Table3">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Row3" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="NAME_OF_RELATIVE"/>
+                          <xs:element type="xs:string" name="IF_DECEASED"/>
+                          <xs:element type="xs:string" name="HOW_THIS_PERSON_RELATED"/>
+                          <xs:element type="xs:string" name="SOCIAL_SECURITY_NUMBER"/>
+                          <xs:element type="xs:date" name="BIRTH_DATE"/>
+                          <xs:element name="RadioButtonList1">
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+								<xs:enumeration id="1" value="M"/>
+								<xs:enumeration id="2" value="F"/>
+								</xs:restriction>
+							</xs:simpleType>
+						  </xs:element>
+                          <xs:element type="xs:string" name="RACE"/>
+                          <xs:element type="xs:string" name="PHONE_NUMBER_1"/>
+                          <xs:element type="xs:string" name="ZIP_CODE_1"/>
+                          <xs:element type="xs:string" name="ADDRESS"/>
+                          <xs:element type="xs:string" name="PHONE_NUMBER_2"/>
+                          <xs:element type="xs:string" name="ZIP_CODE_2"/>
+                          <xs:element type="xs:string" name="EMPLOYERS_ADDRESS"/>
+                          <xs:element type="xs:string" name="NAME_OF_RELATIVE_EMPLOYER"/>
+                          <xs:element type="xs:string" name="RESPONSIBLE_PERSON_FROM_PAGE2"/>
+                          <xs:element type="xs:string" name="PAID_TO_WHOME"/>
+                          <xs:element type="xs:date" name="LAST_DATE_PAID"/>
+                          <xs:element type="xs:string" name="HOW_OFTEN"/>
+                          <xs:element type="xs:float" name="HOW_MUCH"/>
+                          <xs:element type="xs:string" name="COUNTRY_COURT_NAME"/>
+                          <xs:element type="xs:string" name="SPECIAL_TERMS_IF_ANY"/>
+                          <xs:element type="xs:date" name="DATE_OF_ORDER"/>
+                          <xs:element type="xs:string" name="HOW_OFTEN_PAID"/>
+                          <xs:element type="xs:float" name="AMOUNT"/>
+                          <xs:element type="xs:string" name="COURT_ORDER"/>
+                          <xs:element type="xs:string" name="SERIAL_NUMBER"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+		
+        <xs:element name="Page9">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FirstSub">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="RadioButtonList1">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+							<xs:enumeration id="1" value="YES"/>
+							<xs:enumeration id="2" value="NO"/>
+							</xs:restriction>
+						</xs:simpleType>
+					  </xs:element>
+					  <xs:element name="RadioButtonList2">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+							<xs:enumeration id="1" value="YES"/>
+							<xs:enumeration id="2" value="NO"/>
+							</xs:restriction>
+						</xs:simpleType>
+					  </xs:element>
+					  <xs:element name="RadioButtonList3">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+							<xs:enumeration id="1" value="YES"/>
+							<xs:enumeration id="2" value="NO"/>
+							</xs:restriction>
+						</xs:simpleType>
+					  </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="MasterSub1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Table1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="BodyRow1" type="Page9_BodyRow1" maxOccurs="unbounded" minOccurs="0" />
+                            
+                          <xs:element type="xs:string" name="AddRemove"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="SecondSub">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="RadioButtonList1">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+							<xs:enumeration id="1" value="YES"/>
+							<xs:enumeration id="2" value="NO"/>
+							</xs:restriction>
+						</xs:simpleType>
+					  </xs:element>
+					  <xs:element name="RadioButtonList2">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+							<xs:enumeration id="1" value="YES"/>
+							<xs:enumeration id="2" value="NO"/>
+							</xs:restriction>
+						</xs:simpleType>
+					  </xs:element>
+					  <xs:element name="RadioButtonList3">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+							<xs:enumeration id="1" value="YES"/>
+							<xs:enumeration id="2" value="NO"/>
+							</xs:restriction>
+						</xs:simpleType>
+					  </xs:element>
+					  <xs:element name="RadioButtonList4">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+							<xs:enumeration id="1" value="YES"/>
+							<xs:enumeration id="2" value="NO"/>
+							</xs:restriction>
+						</xs:simpleType>
+					  </xs:element>
+                    <xs:element type="xs:date" name="COVERAGE_ENDED_DATE"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="MasterSub2">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Table2">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="BodyRow2" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="NAME"/>
+                                <xs:element type="xs:string" name="ILLNESS"/>
+                                <xs:element type="xs:date" name="PREGNANCY_DUE_DATE"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element type="xs:string" name="AddRemove"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="ThirdSub">
+                <xs:complexType>
+                  <xs:sequence>
+					<xs:element name="RadioButtonList13">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+							<xs:enumeration id="1" value="YES"/>
+							<xs:enumeration id="2" value="NO"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+                    <xs:element name="RadioButtonList1">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+							<xs:enumeration id="1" value="YES"/>
+							<xs:enumeration id="2" value="NO"/>
+							</xs:restriction>
+						</xs:simpleType>
+					 </xs:element>
+					<xs:element name="RadioButtonList2">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+							<xs:enumeration id="1" value="YES"/>
+							<xs:enumeration id="2" value="NO"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="RadioButtonList3">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+							<xs:enumeration id="1" value="YES"/>
+							<xs:enumeration id="2" value="NO"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="RadioButtonList4">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+							<xs:enumeration id="1" value="YES"/>
+							<xs:enumeration id="2" value="NO"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="RadioButtonList5">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+							<xs:enumeration id="1" value="YES"/>
+							<xs:enumeration id="2" value="NO"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="RadioButtonList6">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+							<xs:enumeration id="1" value="YES"/>
+							<xs:enumeration id="2" value="NO"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="RadioButtonList7">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+							<xs:enumeration id="1" value="YES"/>
+							<xs:enumeration id="2" value="NO"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="RadioButtonList8">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+							<xs:enumeration id="1" value="YES"/>
+							<xs:enumeration id="2" value="NO"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="RadioButtonList9">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+							<xs:enumeration id="1" value="YES"/>
+							<xs:enumeration id="2" value="NO"/>
+							</xs:restriction>
+						</xs:simpleType>
+					  </xs:element>
+					<xs:element name="RadioButtonList10">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+							<xs:enumeration id="1" value="YES"/>
+							<xs:enumeration id="2" value="NO"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="RadioButtonList11">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+							<xs:enumeration id="1" value="YES"/>
+							<xs:enumeration id="2" value="NO"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="RadioButtonList12">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+							<xs:enumeration id="1" value="YES"/>
+							<xs:enumeration id="2" value="NO"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>					
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="MasterSub3">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Table3">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="BodyRow3" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="NAME_OF_OWNER"/>
+                                <xs:element type="xs:string" name="TYPE_OF_RESOURCE"/>
+                                <xs:element type="xs:float" name="CURRENT_VALUE"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element type="xs:string" name="AddRemove"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="FourthSub">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="TYPE_OF_RESOURCE"/>
+                    <xs:element name="RadioButtonList1">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+							<xs:enumeration id="1" value="YES"/>
+							<xs:enumeration id="2" value="NO"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>	
+					<xs:element name="RadioButtonList2">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+							<xs:enumeration id="1" value="YES"/>
+							<xs:enumeration id="2" value="NO"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+                    <xs:element type="xs:string" name="TextField2"/>
+                    <xs:element type="xs:string" name="VALUE"/>
+                    <xs:element type="xs:string" name="VALUE2"/>
+                    <xs:element type="xs:date" name="DATE"/>
+                    <xs:element type="xs:date" name="RECEIVED_DATE"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Page10">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Sub1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="RadioButtonList1">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+							<xs:enumeration id="1" value="YES"/>
+							<xs:enumeration id="2" value="NO"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>	
+					<xs:element name="RadioButtonList2">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+							<xs:enumeration id="1" value="YES"/>
+							<xs:enumeration id="2" value="NO"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="RadioButtonList3">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+							<xs:enumeration id="1" value="YES"/>
+							<xs:enumeration id="2" value="NO"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>	
+					<xs:element name="RadioButtonList4">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+							<xs:enumeration id="1" value="YES"/>
+							<xs:enumeration id="2" value="NO"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="RadioButtonList5">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+							<xs:enumeration id="1" value="YES"/>
+							<xs:enumeration id="2" value="NO"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>	
+					<xs:element name="RadioButtonList6">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+							<xs:enumeration id="1" value="YES"/>
+							<xs:enumeration id="2" value="NO"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="RadioButtonList7">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+							<xs:enumeration id="1" value="YES"/>
+							<xs:enumeration id="2" value="NO"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>	
+					<xs:element name="RadioButtonList8">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+							<xs:enumeration id="1" value="YES"/>
+							<xs:enumeration id="2" value="NO"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+                    <xs:element type="xs:string" name="EXPENSES_SHARED"/>
+                    <xs:element type="xs:string" name="UTILITY_ALLOWANCE_AMOUNT"/>
+                    <xs:element type="xs:string" name="SHARE_EXPENSES_WHOME"/>
+                    <xs:element type="xs:string" name="CONTRIBUTE"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="FirstTable">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="FirstHeader"/>
+                    <xs:element type="xs:string" name="SecondHeader"/>
+                    <xs:element name="BodyRow">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="FirstRow">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:float" name="HOW_MUCH"/>
+                                <xs:element type="xs:string" name="HOW_OFTEN"/>
+                                <xs:element name="RadioButtonList1">
+									<xs:simpleType>
+										<xs:restriction base="xs:string">
+										<xs:enumeration id="1" value="YES"/>
+										<xs:enumeration id="2" value="NO"/>
+										</xs:restriction>
+									</xs:simpleType>
+								</xs:element>	
+								<xs:element name="RadioButtonList2">
+									<xs:simpleType>
+										<xs:restriction base="xs:string">
+										<xs:enumeration id="1" value="YES"/>
+										<xs:enumeration id="2" value="NO"/>
+										</xs:restriction>
+									</xs:simpleType>
+								</xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="SecondRow">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:float" name="HOW_MUCH"/>
+                                <xs:element type="xs:string" name="HOW_OFTEN"/>
+                                <xs:element name="RadioButtonList1">
+									<xs:simpleType>
+										<xs:restriction base="xs:string">
+										<xs:enumeration id="1" value="YES"/>
+										<xs:enumeration id="2" value="NO"/>
+										</xs:restriction>
+									</xs:simpleType>
+								</xs:element>	
+								<xs:element name="RadioButtonList2">
+									<xs:simpleType>
+										<xs:restriction base="xs:string">
+										<xs:enumeration id="1" value="YES"/>
+										<xs:enumeration id="2" value="NO"/>
+										</xs:restriction>
+									</xs:simpleType>
+								</xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="ThirdRow">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:float" name="HOW_MUCH"/>
+                                <xs:element type="xs:string" name="HOW_OFTEN"/>
+                                <xs:element name="RadioButtonList1">
+									<xs:simpleType>
+										<xs:restriction base="xs:string">
+										<xs:enumeration id="1" value="YES"/>
+										<xs:enumeration id="2" value="NO"/>
+										</xs:restriction>
+									</xs:simpleType>
+								</xs:element>	
+								<xs:element name="RadioButtonList2">
+									<xs:simpleType>
+										<xs:restriction base="xs:string">
+										<xs:enumeration id="1" value="YES"/>
+										<xs:enumeration id="2" value="NO"/>
+										</xs:restriction>
+									</xs:simpleType>
+								</xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="ForthRow">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:float" name="HOW_MUCH"/>
+                                <xs:element type="xs:string" name="HOW_OFTEN"/>
+                                <xs:element name="RadioButtonList1">
+									<xs:simpleType>
+										<xs:restriction base="xs:string">
+										<xs:enumeration id="1" value="YES"/>
+										<xs:enumeration id="2" value="NO"/>
+										</xs:restriction>
+									</xs:simpleType>
+								</xs:element>	
+								<xs:element name="RadioButtonList2">
+									<xs:simpleType>
+										<xs:restriction base="xs:string">
+										<xs:enumeration id="1" value="YES"/>
+										<xs:enumeration id="2" value="NO"/>
+										</xs:restriction>
+									</xs:simpleType>
+								</xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="FirstFooter">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Subform1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="OUTSIDE_EXPENSES_TO_WHOME"/>
+                          <xs:element type="xs:float" name="OUTSIDE_EXPENSES_HOW_MUCH"/>
+                          <xs:element type="xs:string" name="OUTSIDE_EXPENSES_WHAT"/>
+                          <xs:element name="RadioButtonList1">
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+								<xs:enumeration id="1" value="YES"/>
+								<xs:enumeration id="2" value="NO"/>
+								</xs:restriction>
+							</xs:simpleType>
+						  </xs:element>							
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:boolean" name="WAGES"/>
+              <xs:element type="xs:boolean" name="SELF_EMPLOYMENT"/>
+              <xs:element type="xs:boolean" name="BABYSITTING"/>
+              <xs:element type="xs:boolean" name="ROOM_AND_BOARD"/>
+              <xs:element type="xs:boolean" name="SOCIAL_SECURITY"/>
+              <xs:element type="xs:boolean" name="RENT"/>
+              <xs:element type="xs:boolean" name="SUPPORT"/>
+              <xs:element type="xs:boolean" name="SSI"/>
+              <xs:element type="xs:boolean" name="UNEMPLOYMENT_OR_WORKERSCOMPENSATION"/>
+              <xs:element type="xs:boolean" name="SICK_BENEFIT"/>
+              <xs:element type="xs:boolean" name="MONEY_FOR_TRAINING"/>
+              <xs:element type="xs:boolean" name="DIVIDENDS_OR_INTEREST"/>
+              <xs:element type="xs:boolean" name="PENSION"/>
+              <xs:element type="xs:boolean" name="COMMISIONS"/>
+              <xs:element type="xs:boolean" name="UNION_PAY"/>
+              <xs:element name="RadioButtonList1">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+					<xs:enumeration id="1" value="YES"/>
+					<xs:enumeration id="2" value="NO"/>
+					</xs:restriction>
+				</xs:simpleType>
+			  </xs:element>
+              <xs:element name="SecondTable">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="SecondHeader"/>
+                    <xs:element name="SecondBodyRow" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="NAME"/>
+                          <xs:element type="xs:string" name="TYPE_OF_INCOME"/>
+                          <xs:element type="xs:float" name="HOW_MUCH"/>
+                          <xs:element type="xs:string" name="HOW_OFTEN"/>
+                          <xs:element type="xs:date" name="DATE_RECEIVED"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Page11">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="FirstSub"/>
+              <xs:element type="xs:string" name="FirstHeader"/>
+              <xs:element name="Master">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Parentsub">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="FirstBodyRow" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="NAME"/>
+                                <xs:element type="xs:string" name="TYPE_OF_INCOME"/>
+                                <xs:element type="xs:date" name="DATE_RECEIVED"/>
+                                <xs:element type="xs:float" name="HOW_MUCH"/>
+                                <xs:element type="xs:date" name="WHEN_YOU_EXPECT"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="Buttons"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="MastesSecondHeader">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="SecondHeader"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="SecondTable">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="SecondBodyRow" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="NAME_OF_PERSON"/>
+                          <xs:element type="xs:string" name="NAME_OF_CARE_GIVER"/>
+                          <xs:element type="xs:float" name="HOW_MUCH"/>
+                          <xs:element type="xs:string" name="HOW_OFTEN"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="Buttons"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="Page9_BodyRow1">
+                            
+                             
+                                <xs:attribute type="xs:string" name="NAME"/>
+                                <xs:attribute type="xs:string" name="EMPLOYER_NAME"/>
+                                <xs:attribute type="xs:string" name="EMPLOYER_ADDRESS"/>
+                                <xs:attribute type="xs:string" name="PHONE"/>
+                                <xs:attribute type="xs:date" name="START_DATE"/>
+                                <xs:attribute type="xs:date" name="END_DATE"/>
+                                <xs:attribute type="xs:float" name="NO_OF_HOURS"/>
+                              
+                            
+                          </xs:complexType>
+</xs:schema>

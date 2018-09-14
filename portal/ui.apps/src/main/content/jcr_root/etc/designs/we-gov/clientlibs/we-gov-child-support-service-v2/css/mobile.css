@@ -1,0 +1,84 @@
+.container {
+    width: 100%;
+}
+
+.col-md-10 {
+    width:100%;
+}
+
+        
+@media (max-width: 767px){
+div.section1-ApplicantInformation.verticalTabbedPanelLayout.guide-1458027467443
+	{
+	overflow-x:hidden;
+	}
+}
+
+@media (max-width: 767px){
+.hidden-xs {
+     display: inline !important; 
+}
+ .esign_outer_div, .verify_outer_div, .summary_component_div{
+
+        height:400px !important;
+    }
+ div.dateOfExpiryMM{
+     width:49.9% !important;
+     float:left;
+    padding-right:1px;
+}
+
+ div.dateOfExpiryYY{
+     width:49.9% !important;
+     float:left;
+    padding-left:1px;
+    margin-top:4px !important;
+}
+.tab-navigators > li {
+    display: block;
+}
+/*Added Fix for aem app*/
+#guideContainerForm > div.guideContainerWrapperNode.guideContainerNode.container{
+padding-top:40px;
+}
+
+}
+
+@media (max-width: 667px)
+    {
+.formDetailsPanel ul[id$='appRoot-formDetailsPanel___guide-item-nav-container'] li, .formPaymentPanel ul[id$='appRoot-pay___guide-item-nav-container'] li {
+    width: 100%;
+}
+}
+
+.__web-inspector-hide-shortcut__, .__web-inspector-hide-shortcut__ *, .__web-inspector-hidebefore-shortcut__::before, .__web-inspector-hideafter-shortcut__::after
+{
+    visibility: visible;
+}
+
+@media (min-width: 1650px){
+#guideContainer-rootPanel-appRoot-formDetailsPanel___guide-item-container{
+
+    max-height: 620px !important;
+}
+
+#guideContainer-rootPanel-appRoot-pay___guide-item-container{
+
+    max-height: 620px !important;
+}
+}
+
+@media (min-width: 668px){
+#guideContainer-rootPanel-appRoot-formDetailsPanel___guide-item-container{
+
+    max-height: 490px ;
+    overflow-y: auto ;
+    padding-right:8px;
+}
+#guideContainer-rootPanel-appRoot-pay___guide-item-container{
+
+    max-height: 500px !important;
+    overflow-y: auto !important;
+    padding-right:8px;
+}
+}

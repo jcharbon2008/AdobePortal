@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <clientlibs_jquery/>
+    <jcr:content
+        cq:doctype="html_5"
+        cq:lastModified="{Date}2011-09-26T23:42:43.050+02:00"
+        cq:lastModifiedBy="admin"
+        cq:styleExcludedComponents="[cq/personalization/components/target]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Canada Demo Site"
+        sling:resourceType="wcm/core/components/designer">
+        <contentpage jcr:primaryType="nt:unstructured">
+            <par
+                jcr:lastModified="{Date}2010-11-30T09:53:19.494+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[/libs/foundation/components/carousel,/libs/foundation/components/chart,/libs/foundation/components/download,/libs/foundation/components/flash,/libs/foundation/components/image,/apps/geometrixx/components/list,/libs/foundation/components/mvt,/libs/foundation/components/reference,/libs/foundation/components/search,/libs/foundation/components/sitemap,/libs/foundation/components/slideshow,/libs/foundation/components/table,/libs/cq/tagging/components/tagcloud,/libs/foundation/components/text,/libs/foundation/components/textimage,/apps/geometrixx/components/title,/libs/foundation/components/video,/libs/collab/calendar/components/event,group:Columns,group:Form,group:Forum,/libs/dam/cfm/components/contentfragment]">
+                <colctrl
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys/colctrl"
+                    layouts="2;cq-colctrl-lt0&#x9;2 Columns (50%, 50%)&#xa;3;cq-colctrl-lt1&#x9;3 Columns (33%, 33%, 33%)&#xa;4;cq-colctrl-lt2&#x9;4 Columns (16%, 16%, 16%, 33%)&#xa;4;cq-colctrl-lt3&#x9;4 Columns (25%, 25%, 25%, 25%)&#xa;5;cq-colctrl-lt4&#x9;5 Columns (20%, 20%, 20%, 20%, 20%)"/>
+                <video
+                    jcr:lastModified="{Date}2010-12-05T01:13:19.808+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/video"
+                    height="394"
+                    profiles="[hq,firefoxhq]"
+                    width="700"/>
+                <forum jcr:primaryType="nt:unstructured">
+                    <searchbox
+                        jcr:lastModified="{Date}2010-10-14T16:13:52.078+02:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="social/commons/components/hbs/search"
+                        searchResultPath="/content/geometrixx/en/community/search"/>
+                </forum>
+                <textimage jcr:primaryType="nt:unstructured">
+                    <cq:styles jcr:primaryType="nt:unstructured">
+                        <imagealign
+                            jcr:primaryType="nt:unstructured"
+                            title="Image alignment">
+                            <image_left
+                                jcr:primaryType="nt:unstructured"
+                                text="Left"/>
+                            <image_right
+                                jcr:primaryType="nt:unstructured"
+                                text="Right"/>
+                        </imagealign>
+                    </cq:styles>
+                </textimage>
+                <text jcr:primaryType="nt:unstructured">
+                    <cq:styles jcr:primaryType="nt:unstructured">
+                        <texttype
+                            jcr:primaryType="nt:unstructured"
+                            title="Text Style">
+                            <textsize_normal
+                                jcr:primaryType="nt:unstructured"
+                                text="Normal"
+                                value=""/>
+                            <text_large
+                                jcr:primaryType="nt:unstructured"
+                                text="Large"/>
+                            <text_quote
+                                jcr:primaryType="nt:unstructured"
+                                text="Quote"/>
+                        </texttype>
+                        <spacer
+                            jcr:primaryType="nt:unstructured"
+                            title="Spacer">
+                            <none
+                                jcr:primaryType="nt:unstructured"
+                                text="None"
+                                value=""/>
+                            <spacer_before
+                                jcr:primaryType="nt:unstructured"
+                                text="Before"/>
+                            <spacer_after
+                                jcr:primaryType="nt:unstructured"
+                                text="After"/>
+                            <spacer_both
+                                jcr:primaryType="nt:unstructured"
+                                text="Before and after"/>
+                        </spacer>
+                    </cq:styles>
+                </text>
+                <section jcr:primaryType="nt:unstructured"/>
+            </par>
+            <rightpar
+                jcr:lastModified="{Date}2010-08-24T22:14:16.005+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/iparsys"
+                components="[/libs/foundation/components/image,/apps/geometrixx/components/list,/apps/geometrixx/components/text,/apps/geometrixx/components/title,/libs/cq/personalization/components/teaser]"/>
+        </contentpage>
+        <homepage jcr:primaryType="nt:unstructured">
+            <par
+                jcr:lastModified="{Date}2011-01-25T11:28:02.432+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[/libs/foundation/components/download,/libs/foundation/components/image,/libs/foundation/components/mvt,/libs/foundation/components/table,/libs/foundation/components/textimage,/libs/foundation/components/parsys/colctrl,/libs/foundation/components/text,/apps/geometrixx/components/title,/libs/dam/cfm/components/contentfragment]">
+                <section
+                    jcr:primaryType="nt:unstructured"
+                    div.padding="0"/>
+                <colctrl
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys/colctrl"
+                    layouts="2;cq-colctrl-lt0&#x9;2 Columns (50%, 50%)&#xa;"/>
+            </par>
+            <rightpar
+                jcr:lastModified="{Date}2010-08-23T22:57:55.661+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[/libs/foundation/components/list,/apps/geometrixx/components/title,/libs/cq/personalization/components/teaser]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </rightpar>
+        </homepage>
+        <page jcr:primaryType="nt:unstructured">
+            <clientcontext
+                jcr:lastModified="{Date}2013-05-14T16:00:55.000+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="cq/personalization/components/clientcontext"
+                path="/etc/clientcontext/default"
+                segmentPath="/etc/segmentation/geometrixx"/>
+            <image
+                jcr:primaryType="nt:unstructured"
+                maxHeight="270"
+                maxWidth="700"/>
+            <textimage
+                jcr:primaryType="nt:unstructured"
+                image_styles="image_left&#x9;Left aligned&#xd;&#xa;image_right&#x9;Right aligned"
+                maxHeight="270"
+                maxWidth="700"/>
+            <text jcr:primaryType="nt:unstructured">
+                <cq:styles jcr:primaryType="nt:unstructured">
+                    <textsize
+                        jcr:primaryType="nt:unstructured"
+                        defaultValue="normal"
+                        title="Text Size">
+                        <small
+                            jcr:primaryType="nt:unstructured"
+                            text="Small"/>
+                        <normal
+                            jcr:primaryType="nt:unstructured"
+                            text="Normal"/>
+                        <large
+                            jcr:primaryType="nt:unstructured"
+                            text="Large"/>
+                    </textsize>
+                </cq:styles>
+            </text>
+            <logo
+                jcr:lastModified="{Date}2010-08-19T18:23:43.667+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/logo"
+                div_x0020_img.margin="0"
+                imageRotate="0">
+                <image/>
+            </logo>
+            <breadcrumb
+                jcr:lastModified="{Date}2010-08-25T17:09:12.782+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/breadcrumb"
+                absParent="2"
+                delim="&amp;nbsp;&amp;raquo;&amp;nbsp;"
+                relParent="1"
+                trail="&amp;nbsp;&amp;raquo;&amp;nbsp;"/>
+            <title
+                jcr:lastModified="{Date}2010-08-25T17:55:33.411+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx/components/title"
+                defaultType="extralarge"/>
+            <toptoolbar
+                jcr:lastModified="{Date}2010-08-25T22:41:18.208+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/toolbar"
+                list="true"
+                toolbar="top"/>
+            <toolbar
+                jcr:lastModified="{Date}2010-08-25T22:45:03.342+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/toolbar"
+                list="true"
+                toolbar="bottom"/>
+            <par
+                jcr:lastModified="{Date}2010-08-24T23:38:17.805+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys">
+                <cq:authoring jcr:primaryType="nt:unstructured">
+                    <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                        <image
+                            jcr:primaryType="nt:unstructured"
+                            assetGroup="media"
+                            assetMimetype="image/*"
+                            droptarget="image"
+                            resourceType="foundation/components/image"
+                            type="Images"/>
+                        <flash
+                            jcr:primaryType="nt:unstructured"
+                            assetGroup="media"
+                            assetMimetype="application/x-shockwave-flash"
+                            droptarget="flash"
+                            resourceType="foundation/components/flash"
+                            type="Images"/>
+                        <document
+                            jcr:primaryType="nt:unstructured"
+                            assetGroup="media"
+                            assetMimetype="[application/vnd.openxmlformats,application/msword,application/vnd.ms-powerpoint,application/mspowerpoint,application/powerpoint,application/x-mspowerpoint,application/x-msexcel,application/x-excel,application/excel,application/vnd.ms-excel,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document]"
+                            droptarget="file"
+                            resourceType="foundation/components/download"
+                            type="Images"/>
+                        <video
+                            jcr:primaryType="nt:unstructured"
+                            assetGroup="media"
+                            assetMimetype="video/*"
+                            droptarget="video"
+                            resourceType="foundation/components/video"
+                            type="Images"/>
+                        <fragment
+                            jcr:primaryType="nt:unstructured"
+                            assetGroup="media"
+                            assetMimetype="text/html"
+                            droptarget="fragment"
+                            resourceType="dam/cfm/components/contentfragment"
+                            type="Content Fragment"/>
+                    </assetToComponentMapping>
+                </cq:authoring>
+                <chart
+                    jcr:primaryType="nt:unstructured"
+                    bgColor="FFFFFF"
+                    dataColors="94BF4A:4F960F:E7E7E7:444F55"
+                    labelColor="444F55"
+                    lineColor="444F55"/>
+                <tagcloud
+                    jcr:lastModified="{Date}2009-12-11T10:25:18.896+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="cq/tagging/components/tagcloud"
+                    linkTemplate="/content/geometrixx/en/toolbar/search.html?tag=${tagid}&amp;path=${searchpath}"
+                    showOnlyLeafTags="true"/>
+                <title
+                    jcr:lastModified="{Date}2010-08-25T17:56:27.191+02:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="geometrixx/components/title"
+                    defaultType="small"/>
+            </par>
+            <rightpar
+                jcr:lastModified="{Date}2010-08-24T22:14:16.005+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/iparsys">
+                <cq:authoring jcr:primaryType="nt:unstructured">
+                    <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                        <image
+                            jcr:primaryType="nt:unstructured"
+                            assetGroup="media"
+                            assetMimetype="image/*"
+                            droptarget="image"
+                            resourceType="foundation/components/image"
+                            type="Images"/>
+                    </assetToComponentMapping>
+                </cq:authoring>
+                <title
+                    jcr:lastModified="{Date}2010-08-25T17:56:27.191+02:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="geometrixx/components/title"
+                    defaultType="small"/>
+            </rightpar>
+            <userinfo
+                jcr:lastModified="{Date}2010-09-29T14:35:32.984+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/userinfo"/>
+        </page>
+        <teaserpage jcr:primaryType="nt:unstructured">
+            <par
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[/apps/geometrixx/components/title,/libs/foundation/components/flash,/libs/foundation/components/image,/libs/foundation/components/slideshow,/libs/foundation/components/text,/libs/foundation/components/textimage]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </par>
+        </teaserpage>
+        <assetshare jcr:primaryType="nt:unstructured">
+            <lenses
+                jcr:lastModified="{Date}2010-01-05T12:22:21.744+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[/libs/cq/search/components/lenses/list,/libs/cq/search/components/lenses/mosaic]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </lenses>
+            <actions
+                jcr:lastModified="{Date}2010-01-05T13:25:44.921+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[/libs/dam/components/assetshare/actions/delete,/libs/dam/components/assetshare/actions/download,/libs/dam/components/assetshare/actions/lightbox,/libs/dam/components/assetshare/actions/move,/libs/dam/components/assetshare/actions/tags,/libs/dam/components/assetshare/actions/viewasset]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </actions>
+            <querybuilder
+                jcr:primaryType="nt:unstructured"
+                compontents="[group:Predicates]">
+                <left
+                    jcr:lastModified="{Date}2010-01-05T12:20:53.611+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys"
+                    components="[/libs/cq/search/components/predicates/date,/libs/dam/components/search/predicates/notexpired,/libs/cq/search/components/predicates/options,/libs/cq/search/components/predicates/path,/libs/cq/search/components/predicates/property]">
+                    <section jcr:primaryType="nt:unstructured"/>
+                </left>
+                <top
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys"
+                    components="[/libs/cq/search/components/predicates/date,/libs/dam/components/search/predicates/notexpired,/libs/cq/search/components/predicates/options,/libs/cq/search/components/predicates/path,/libs/cq/search/components/predicates/property]"/>
+            </querybuilder>
+        </assetshare>
+        <asseteditor jcr:primaryType="nt:unstructured">
+            <par
+                jcr:lastModified="{Date}2010-01-05T13:19:02.767+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[/libs/dam/components/asseteditor/form/start,/libs/dam/components/asseteditor/form/metadata,/libs/dam/components/asseteditor/subassets,/libs/dam/components/asseteditor/tags,/libs/dam/components/asseteditor/thumbnail,/libs/dam/components/asseteditor/title,/libs/foundation/components/parsys/colctrl]">
+                <colctrl
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys/colctrl"
+                    layouts="2;cq-colctrl-lt0&#x9;2 Columns&#xa;"/>
+                <actions
+                    jcr:lastModified="{Date}2010-01-05T13:16:31.612+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys"
+                    components="[/libs/dam/components/asseteditor/actions/download,/libs/dam/components/asseteditor/actions/editors,/libs/dam/components/asseteditor/actions/lightbox,/libs/dam/components/asseteditor/actions/references,/libs/dam/components/asseteditor/actions/versioning,/libs/dam/components/asseteditor/actions/locking]">
+                    <section jcr:primaryType="nt:unstructured"/>
+                </actions>
+                <section jcr:primaryType="nt:unstructured"/>
+            </par>
+        </asseteditor>
+        <formpage jcr:primaryType="nt:unstructured">
+            <par
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[group:Form,group:Event Form]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </par>
+        </formpage>
+        <widepage jcr:primaryType="nt:unstructured">
+            <par
+                jcr:lastModified="{Date}2010-08-31T12:24:30.038+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[/libs/foundation/components/chart,/libs/foundation/components/download,/libs/foundation/components/flash,/libs/foundation/components/image,/apps/geometrixx/components/list,/libs/foundation/components/mvt,/libs/foundation/components/reference,/libs/foundation/components/search,/libs/foundation/components/sitemap,/libs/foundation/components/slideshow,/apps/geometrixx/components/spacer,/libs/foundation/components/table,/libs/cq/tagging/components/tagcloud,/libs/foundation/components/text,/libs/foundation/components/textimage,/apps/geometrixx/components/title,/libs/foundation/components/video,/libs/collab/calendar/components/calendar,/libs/collab/calendar/components/event,group:Columns,group:Form,/libs/cq/personalization/components/mygadgets]">
+                <section jcr:primaryType="nt:unstructured"/>
+                <colctrl
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys/colctrl"
+                    layouts="2;cq-colctrl-lt5&#x9;2 Columns (50%, 50%)&#xa;4;cq-colctrl-lt6&#x9;4 Columns (25% each)&#xa;"/>
+                <calendar
+                    jcr:lastModified="{Date}2010-11-26T14:39:16.388+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="collab/calendar/components/calendar"
+                    colors="[40864B,964B3C,456177,967C01]">
+                    <lenses
+                        jcr:lastModified="{Date}2010-06-21T18:30:50.096+02:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="collab/calendar/components/lenses/parsys"
+                        components="[/libs/collab/calendar/components/lenses/agenda,/libs/collab/calendar/components/lenses/month]"/>
+                </calendar>
+                <video
+                    jcr:lastModified="{Date}2010-12-05T01:13:19.808+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/video"
+                    height="529"
+                    profiles="[hq,firefoxhq]"
+                    width="940"/>
+                <textimage jcr:primaryType="nt:unstructured">
+                    <cq:styles jcr:primaryType="nt:unstructured">
+                        <imagealign
+                            jcr:primaryType="nt:unstructured"
+                            title="Image alignment">
+                            <image_left
+                                jcr:primaryType="nt:unstructured"
+                                text="Left"/>
+                            <image_right
+                                jcr:primaryType="nt:unstructured"
+                                text="Right"/>
+                        </imagealign>
+                    </cq:styles>
+                </textimage>
+                <text jcr:primaryType="nt:unstructured">
+                    <cq:styles jcr:primaryType="nt:unstructured">
+                        <texttype
+                            jcr:primaryType="nt:unstructured"
+                            title="Text Style">
+                            <textsize_normal
+                                jcr:primaryType="nt:unstructured"
+                                text="Normal"
+                                value=""/>
+                            <text_large
+                                jcr:primaryType="nt:unstructured"
+                                text="Large"/>
+                            <text_quote
+                                jcr:primaryType="nt:unstructured"
+                                text="Quote"/>
+                        </texttype>
+                        <spacer
+                            jcr:primaryType="nt:unstructured"
+                            title="Spacer">
+                            <none
+                                jcr:primaryType="nt:unstructured"
+                                text="None"
+                                value=""/>
+                            <spacer_before
+                                jcr:primaryType="nt:unstructured"
+                                text="Before"/>
+                            <spacer_after
+                                jcr:primaryType="nt:unstructured"
+                                text="After"/>
+                            <spacer_both
+                                jcr:primaryType="nt:unstructured"
+                                text="Before and after"/>
+                        </spacer>
+                    </cq:styles>
+                </text>
+            </par>
+        </widepage>
+        <forum jcr:primaryType="nt:unstructured">
+            <par
+                jcr:lastModified="{Date}2010-09-08T11:00:25.767+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[/libs/foundation/components/parsys/colctrl/virtual/2cols,/libs/foundation/components/parsys/colctrl,group:Forum]">
+                <section jcr:primaryType="nt:unstructured"/>
+                <forum jcr:primaryType="nt:unstructured">
+                    <searchbox
+                        jcr:lastModified="{Date}2010-09-09T10:11:54.827+02:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="social/commons/components/hbs/search"
+                        searchResultPath="/content/geometrixx/en/community/search"/>
+                </forum>
+            </par>
+        </forum>
+        <flashapp-page jcr:primaryType="nt:unstructured">
+            <par
+                jcr:lastModified="{Date}2011-09-26T23:42:43.020+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx/components/flashapp-parsys"
+                components="[/libs/foundation/components/image,/libs/foundation/components/text,/apps/geometrixx/components/title]"/>
+        </flashapp-page>
+    </jcr:content>
+    <images/>
+    <ui.widgets.css/>
+    <favicon.ico/>
+    <clientlibs/>
+    <resources/>
+    <static.css/>
+    <dev/>
+</jcr:root>

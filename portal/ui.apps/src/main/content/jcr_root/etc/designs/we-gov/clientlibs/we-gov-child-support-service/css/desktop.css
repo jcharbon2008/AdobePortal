@@ -1,0 +1,1102 @@
+/*Common Styles*/
+
+*{
+    outline: none !important;
+}
+
+
+.guideFieldLabel label, .guideWidgetLabel label {
+    color: #fffafa;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+div[data-mandatory="true"] label::after {
+    color: red;
+    content: "*";
+}
+
+.guideFieldNode .guideFieldError {
+    color: #d9534f;
+}
+
+.guideFieldWidget input[type="date"], 
+.guideFieldWidget input[type="text"], 
+.guideFieldWidget input[type="password"], 
+.guideFieldWidget select, 
+.guideFieldWidget textarea { 
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.42857143;
+    font-weight: 400;
+    background-image: none;
+    background-color: rgba(255, 250, 250, 0.8);
+    background-repeat: no-repeat;
+    height: 40px !important;
+    padding: 5px;
+    margin: 0px;
+}
+
+.guideFieldWidget input[type="date"]:focus, 
+.guideFieldWidget input[type="text"]:focus, 
+.guideFieldWidget input[type="password"]:focus, 
+.guideFieldWidget select:focus, 
+.guideFieldWidget textarea:focus{
+    background-color: rgba(255, 250, 250, 1);
+    border-color:#17b28d;
+}
+
+.guideFieldNode .guideFieldDescription.long{
+    
+    padding: 10px 15px;
+    border: none;
+    border-left: none;
+    background-color: transparent;
+    font-size: 14px;
+    color: rgba(255, 250, 250, 0.8);
+}
+
+
+
+/* Placeholders consistency */
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #777;
+    font-style: italic;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+    color: #777;
+    font-style: italic;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    color: #777;
+    font-style: italic;
+}
+
+
+.highlight{
+    background: #0079C1 !important;
+}
+
+.guideWidgetLabel.right {
+    margin-right: 0px;
+    width: 98%;
+}
+
+.page2panel.panel, .guideFieldNode.applicantStatus.guideRadioButtonGroup, .guideFieldNode.childAgeStatus.guideRadioButtonGroup  {
+    margin-top: 15px;
+}
+
+.fileUpload > button {
+    width: 100%;
+    padding: 15px 0px;
+    background-image: url("../images/spritesheet.png");
+    background-repeat: no-repeat;
+    background-size: 246px 1909px;
+    background-position: -12px -1698px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.eligibilityResultPanel{
+    padding: 0px;
+}
+
+hr.guideSeparator {
+    border-top-color: rgba(19, 43, 77, 0.8)!important;
+    border-top-width: 2px!important;
+    border-bottom-color: rgba(19, 43, 77, 0.8)!important;
+    border-bottom-width: 2px!important;
+    margin: 10px 0px;
+}
+
+div.guideSeparator{
+    border-bottom:none;
+}
+
+.guidecheckbox .guideFieldLabel {
+    display: inline-block;
+    width: 80%;
+    float: left
+}
+.guidecheckbox .guideCheckBoxGroupItems{
+    display: inline-block;
+    width: 15%;
+    float: right;
+} 
+
+.previouslyAppliedStatus .accordion-navigators[id$="_guide-item-container"] > [id$="_guide-item"] > .guideHeader,.multipleChildInfo .accordion-navigators[id$="_guide-item-container"] > [id$="_guide-item"] > .guideHeader {
+    margin-bottom: 2px;
+}
+
+div[id$="previouslyAppliedStatus-prevAppliedTANF___guide-item"], div[id$="previouslyAppliedStatus-prevAppliedCSS___guide-item"] {
+    margin-bottom: 8px;
+}
+
+.accordion-navigators[id$="_guide-item-container"] > [id$="_guide-item"] > .guideHeader > a > .repeatableButtons{
+    display:none;
+}
+
+
+/*Applicant information panel*/
+div.guideDropDownList.title1 select {
+    width: auto !important;
+}
+
+/*Repeatable child info panel ends*/
+
+.guideImage img{
+    width:375px;
+}
+
+/*ends*/
+
+/*Hiding mobile layout*/
+.mobileLayout.simple, .mobileScrollIndicator{
+    display:none;
+}
+
+.assistance{
+    display: none;
+}
+
+.header {
+    height: 50px;
+}
+
+
+.upperNavigation{
+    display:none;
+}
+
+.tab-content{
+    border: none;
+}
+
+.title {
+    display: inline-block;
+    font-size: 24px;
+    padding: 0px;
+    padding-left: 10px;
+    width: 50%;
+    line-height: 50px;
+}
+
+.titleLinks {
+    display: inline-block;
+    float: right;
+    margin-top: 0px;
+    width: 50%;
+    text-align: right;
+    line-height: 50px;
+}
+
+.panel{
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    margin-bottom: 0px;
+}
+
+.guideFieldLabel, .guidePanelDescription{
+    color: #fffafa;
+}
+
+.guide-header-bar{
+    background-color:#132b4d;
+    padding: 20px 10px;
+}
+
+.guide-header-bar .guide-breadcrumb{
+    padding-top:0px;
+    color:#5cb85c;
+}
+
+.guide-nav-toolbar{
+    display:none;
+}
+
+/*Fancy Radio button*/
+
+div.guideRadioButtonGroup.fancyRB input {
+    display: none;
+}
+
+div.guideRadioButtonItem.fancyRB {
+    background: #132b4d;
+    padding: 10px 5px;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+
+
+div.guideRadioButtonItem.fancyRB label{
+    color: #fffafa;
+    margin: 0;
+}
+
+/*Image checkbox*/
+
+.fancyYesNo.guideCheckBoxItem {
+    background-image: url('../images/spritesheet.png');
+    background-size: 246px 1909px;
+    width: 50px;
+    background-repeat: no-repeat;
+    height: 24px;
+    background-position: -25px -1258px;
+    float: right;
+}
+.fancyYesNo.imageCheckButtonChecked {
+    background-position:  -25px -1860px;
+}
+
+/*Payment Panel*/
+
+div.CC{
+    margin-left:10px;
+    display:inline-block;
+    float:left;
+}
+
+div.amex.CC {
+    background: url('../images/spritesheet.png') no-repeat -25px -130px;
+    background-size: 246px 1909px;
+    width: 30px;
+    height: 30px;
+}
+
+div.master.CC {
+    background: url('../images/spritesheet.png') no-repeat -50px -2146px;
+    width: 50px;
+    height: 30px;
+}
+
+div.visa.CC {
+    background: url('../images/spritesheet.png') no-repeat -25px -1780px;
+    background-size: 246px 1909px;
+    width: 48px;
+    height: 30px;
+}
+
+.paymentFeeMessage {
+    margin-top: 15px;
+}
+
+.cardSecureDetails .row {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.dateofExpiry .guidePanelDescription, .securityCode .guidePanelDescription {
+    margin: 0px;
+    padding: 5px;
+    padding-bottom: 5px;
+}
+
+.supportedCardMessage {
+    padding-bottom: 15px;
+}
+
+
+.dateOfExpiryMM {
+    padding-right: 0px;
+}
+
+.dateOfExpiryMM input{ 
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border: #2d62ac 1px solid !important;
+}
+
+.dateOfExpiryYY {
+    padding-left: 0px;
+}
+
+.dateOfExpiryYY input{ 
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border: #2d62ac 1px solid !important;
+}
+
+
+/* Eligibility Pass message  */
+
+div.eligibilityPassMsg{
+    max-width:375px;
+    text-align:center;
+    margin: 0 auto;
+}
+div.eligibilityPassMsg p.greenTick{
+    
+    background: url('../images/spritesheet.png') no-repeat -25px -1486px;
+    background-size: 246px 1909px;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom:20px;
+}
+
+div.eligibilityPassMsg p.yellowWarning {
+    background-image: url("/etc/designs/we-gov/clientlibs/we-gov-child-support-service/images/warningIcon.png");
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-size: contain;
+}
+
+
+div.eligibilityPassMsg p.progressBar{
+    background: url('../images/spritesheet.png') no-repeat -50px -1644px;
+    width: 42px;
+    height: 42px;
+    margin: 0 auto;
+    margin-bottom:20px;
+}
+
+div.eligibilityPassMsg p.primaryPassMsg{
+    font-size:30px; 
+    font-weight:300; 
+    font-family: Open-Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color:#fffafa;;
+}
+
+div.eligibilityPassMsg p.secondaryPassMsg{
+    font-family:Open-Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color:#fffafa;
+}
+
+form#guideContainerForm {
+    margin-bottom: 0;
+    height: 100%;
+}
+.getEligibilityPanel_nav,.afRootPanel_nav  {
+    color:#fafafa !important;
+    font-weight:900;
+    font-size: 24px!important;
+    font-family: Merriweather, Wergia, Times New Roman, Times, serif;
+    line-height: 24px;
+}
+.mobileFixedToolbarLayout{
+    max-width:610px;
+    width:100%;
+}
+.modal-footer{
+    border-top:0px;
+}
+.sendEmail{
+    border-radius: 0px;
+    background-color: #2d62ac;
+    border: 0px;    
+}
+.modal-body {
+    overflow-y: hidden;
+    height: 100px; 
+}
+.text-warning,.modal-body{
+    color: #555555;
+    font-family: Open-Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height: 24px;
+    font-size: 16px;      
+}
+.modal-header {
+    background-color: #2d62ac;
+}
+.modal-title{
+    color: #fafafa;
+    font-weight: 400;
+    font-size: 20px;
+    background-color:#2d62ac;  
+}
+
+
+/*Elibigility Toolbar styles*/
+.eligibilityResultPanel>.gridFluidLayout>.toolbar {
+      position: fixed;
+  z-index: 999;
+  bottom: 3%;
+  width: 100%;
+  max-width: 610px;
+}
+
+.goToMainSite{
+    padding:0;
+}
+
+.goToMainSite button{
+    max-width: 610px !important;
+    width: 100% !important;
+    background: #17b28d !important;
+    line-height: 30px !important;
+    padding: 10px 15px !important;
+    cursor: pointer !important;
+    border: 0 !important;
+    border-radius: 0px !important;
+}
+
+.eligibilityToolbar .guidetoolbar>div {
+  width: 100%;
+}
+
+/*Document upload panel*/
+
+.guideFileUpload {
+    padding: 0px;
+}
+
+.documentInfoPanel .guidePanelDescription {
+    margin-bottom: 10px!important;
+}
+
+/*Previously applied accordion*/
+
+.previouslyAppliedStatus .accordion-navigators[id$="_guide-item-container"] > [id$="_guide-item"] > .guideHeader > a,
+.previouslyAppliedStatus .accordion-navigators[id$="_guide-item-container"] > [id$="_guide-item"] > .guideHeader > a:hover{
+    background-image: none;
+    background-color: #132b4d;
+    color: #fffafa;
+    padding: 20px 10px;
+    font-weight: normal;
+    font-size: 16px;   
+}
+
+
+.previouslyAppliedStatus .accordion-navigators[id$="_guide-item-container"] > [id$="_guide-item"].active > .guideHeader > a
+{
+    background-image: none;
+    background-color:#132b4d;
+    color:#ffffff;
+    font-weight: 600;
+} 
+
+/***accordian panel****/
+
+.prevAppliedTANF div.guidePanelNode, .prevAppliedCSS div.guidePanelNode,.prevAppliedMedicalAssistance div.guidePanelNode{
+    background-color: #132b4d;
+    padding: 20px 10px !important;
+    padding-top: 5px !important;
+}
+
+
+/***ends*****/
+
+/*high level rules on product css*/
+.guidePanelDescription {
+    font-size: 16px;
+    padding: 5px;
+    margin: 0px;
+    margin-bottom: -10px !important;
+}
+
+.previouslyAppliedStatus .guidePanelDescription {
+  margin: 0px;
+  margin-bottom: 10px !important;
+}
+
+/*############################################################################################################*/
+
+/*Desktop specific*/
+@media (min-width: 668px){
+
+.container {
+        max-width: 610px;
+        padding: 0px;
+        width: 100%;
+    }
+    
+    .col-md-10 {
+    width: 100%;
+}
+
+.guideFieldNode {
+    width: 100%;
+}
+
+div#footer{
+    display:none;
+}
+
+.universalFooter .guideFieldWidget {
+    width: 100% !important;
+}
+
+.panel .guidefield .guideFieldLabel:before{
+    content:none;
+}
+
+.getEligibilityPanel>.wizard>.row>div.col-md-12.clearfix, .applicationFormRoot.afRootPanel>.wizard>.row>div.col-md-12.clearfix {
+    display: none;
+}
+
+.formDetailsPanel.formDetails>.verticalTabbedPanelLayout>.row>div.col-md-12.hidden-xs {
+    position: fixed;
+    top: 65px;
+    right: 6%;
+    z-index: 1001;
+    height: 84px;
+    width: auto;
+    font-family: Merriweather, Wergia, Times New Roman, Times, serif;
+}
+
+.formPaymentPanel.afRootPanel>.verticalTabbedPanelLayout>.row>div.col-md-12.hidden-xs {
+    position: fixed;
+    top: 65px;
+    right: 6%;
+    z-index: 1001;
+    height: 84px;
+    width: auto;
+    font-family: Merriweather, Wergia, Times New Roman, Times, serif;
+}
+
+.bg-blue {
+    height: 65px;
+}
+
+
+body{
+    background-color: #1A3A65;
+    padding-top: 0px;
+}
+
+div[id$='rootPanel___layoutPanelContainer']{
+    height: 70%;
+    margin-top: 150px;
+    width: 100%;
+    max-width: 610px;
+    overflow-y: scroll;
+}
+
+.toolbar.universalFooter {
+  position: fixed;
+  width: 100%;
+  bottom: 15px;
+  max-width: 610px;
+  height: auto;
+}
+
+/*Layout containter scrollbar*/
+div[id$='rootPanel___layoutPanelContainer']::-webkit-scrollbar-thumb{
+    background-color:rgba(255, 250, 250, 0.3);
+    border: 3px solid rgba(0,0,0,0);
+    background-clip: padding-box;
+    -webkit-border-radius: 7px;
+}
+
+div[id$='rootPanel___layoutPanelContainer']::-webkit-scrollbar-thumb:hover{
+    background-color:rgba(255, 250, 250, 0.4);
+}
+
+div[id$='rootPanel___layoutPanelContainer']::-webkit-scrollbar-thumb:active{
+    background-color:rgba(255, 250, 250, 0.4);
+} 
+
+div[id$='rootPanel___layoutPanelContainer']::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+    
+}
+
+
+button#menu_click {
+    display: none;
+}
+
+
+
+
+/*Repeatable child info panel starts*/
+
+.childRepeatablePanel.guidePanelNode {
+    background-color: #132B4D;
+    padding: 20px 10px !important;
+    padding-top: 5px !important;
+}
+
+.multipleChildInfo .accordion-navigators[id$="_guide-item-container"] > [id$="_guide-item"] > .guideHeader > a,
+.multipleChildInfo .accordion-navigators[id$="_guide-item-container"] > [id$="_guide-item"].active > .guideHeader > a:hover{
+    background-color:#132b4d;
+    color:#ffffff;    
+    padding: 20px 10px; 
+    background-image: url("../images/spritesheet.png");
+    background-repeat: no-repeat;
+    background-position: 770px -45px;
+    background-size: 246px 1909px;
+}
+
+
+.guideContainerNode{
+    padding-top:0px;
+    background-color: #1A3A65;
+    padding:0px;
+}
+
+div.guidePanelNode{
+    background: transparent;
+    padding:0px !Important;
+}
+
+
+
+.guideFieldLabel.top {
+    height: auto;
+    padding-top: 0px;
+    margin: 0px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    font-weight: normal;
+    float:none;
+    text-align:left;
+}
+.section1-ApplicantInformation.panel {
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+}
+
+.guideCheckBoxGroupItems, .guideRadioButtonGroupItems{
+    float:none;
+    width:100%
+}
+
+/*Top-level header*/
+.guideRootPanel .wizard-navigators>li.active:before, .wizard-navigators>li:before{
+    content:none;
+}
+.guideRootPanel .wizard-navigators>li.active{
+    display:block !important;
+}
+
+.guideRootPanel .wizard-navigators>li{
+    display:none;
+    width: 100% !important;
+    background: transparent;
+    color: #17b28d;
+    padding: 30px 6%;
+    font-size: 20px;
+    
+}
+
+.wizard-navigators > li > a{
+    padding: 0px;
+}
+
+.progress, .indicator {
+    display: none;
+}
+
+.getEligibilityPanel_nav, .afRootPanel_nav {
+    margin-top:0px !important;
+    text-transform: initial;
+}
+
+
+
+
+
+/*Top tap layout bar in mobile*/
+
+div[id$='formDetailsPanel-section1-ApplicantInformation___guide-item'] div.guide-tab-scroller+div {
+    overflow: auto;
+}
+.formDetailsPanel ul{
+    overflow: auto;    
+} 
+.formDetailsPanel [id$="formDetailsPanel___layoutContainer"]> div{
+    display:block !important;
+}    
+.rootPanel [id$="rootPanel___guide-item-nav-container"]{
+    display:block !important;
+    background: #132b4d;
+    position: fixed;
+    top: 65px;
+    left: 0px;
+    z-index: 999;
+    width: 100%;
+}   
+.applicantInfoPanel > .verticalTabbedPanelLayout > .row > div.hidden-xs {
+    display: block !important;
+    overflow: auto;
+}
+
+
+.formDetailsPanel ul[id$='formDetailsPanel-section1-ApplicantInformation___guide-item-nav-container']{
+    width:100%;
+    border-bottom: 2px solid #132b4d;
+    height: 50px;    
+}
+.formDetailsPanel ul[id$='applicationFormRoot-formDetailsPanel___guide-item-nav-container'],.formPaymentPanel ul[id$='applicationFormRoot-formPaymentPanel___guide-item-nav-container']{
+    width:100%;    
+    background-color: transparent;
+}
+
+.formPaymentPanel ul[id$='applicationFormRoot-formPaymentPanel___guide-item-nav-container'] li {  
+    display:none;
+}
+
+ul[id$='applicationFormRoot-formPaymentPanel___guide-item-nav-container'] li.active >a>span{
+    color:#17B28D;
+}
+
+.formDetailsPanel ul[id$='applicationFormRoot-formDetailsPanel___guide-item-nav-container'] li.active,.formPaymentPanel ul[id$='applicationFormRoot-formPaymentPanel___guide-item-nav-container'] li.active{
+    display:block;  
+    
+}
+
+.formDetailsPanel [id$='formDetailsPanel-section1-ApplicantInformation___guide-item-nav-container'],.formPaymentPanel [id$='formPaymentPanel-makePayment___guide-item-nav-container']{
+    background-color:transparent; 
+    
+}
+.formDetailsPanel ul[id$='applicationFormRoot-formDetailsPanel___guide-item-nav-container'] li >a,.formPaymentPanel ul[id$='applicationFormRoot-formPaymentPanel___guide-item-nav-container'] li >a{
+    margin: 0px;
+    background-color: transparent;
+    padding: 30px 0px 30px 30px;
+    color: rgba(255, 250, 250, 0.5);
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    outline: none;
+}
+
+.formDetailsPanel ul[id$='applicationFormRoot-formDetailsPanel___guide-item-nav-container'] li.active >a>span {
+    padding-bottom: 22px;
+    border-bottom: 5px solid rgb(23, 178, 141);
+    color: #17B28D;
+    font-weight: 700;
+    outline: none;
+}
+
+.formDetailsPanel [id$='formDetailsPanel-section1-ApplicantInformation___guide-item-nav-container'] > li > a,.formPaymentPanel [id$='formPaymentPanel-makePayment___guide-item-nav-container'] > li > a{
+    color: rgba(255, 250, 250, 0.6);
+    padding-left:16px;
+    background-color:transparent; 
+}
+.formDetailsPanel [id$='formDetailsPanel-section1-ApplicantInformation___guide-item-nav-container'] > li > a > span,.formPaymentPanel [id$='formPaymentPanel-makePayment___guide-item-nav-container'] > li > a > span{
+    padding-bottom:7px;      
+}
+.formDetailsPanel [id$='formDetailsPanel-section1-ApplicantInformation___guide-item-nav-container'] li,.formPaymentPanel [id$='formPaymentPanel-makePayment___guide-item-nav-container'] li{
+    background-color:transparent; 
+}
+.formDetailsPanel [id$='formDetailsPanel-section1-ApplicantInformation___guide-item-nav-container'] > li.stepped > a,.formPaymentPanel [id$='formPaymentPanel-makePayment___guide-item-nav-container'] > li.stepped > a{
+    color: rgba(255, 250, 250, 0.6);
+    background-color:transparent; 
+    font-weight: 400;
+}
+.formDetailsPanel [id$='formDetailsPanel-section1-ApplicantInformation___guide-item-nav-container'] > li.active > a {
+    color:  #17b28d;
+    background-color:transparent;          
+}
+.formDetailsPanel [id$='formDetailsPanel-section1-ApplicantInformation___guide-item-nav-container'] > li.active > a > span{
+    border-bottom: solid 5px #17b28d;          
+}
+.formPaymentPanel [id$='formPaymentPanel-makePayment___guide-item-nav-container'] > li.active > a{
+    color: #17b28d;
+    padding: 0px 20px 0px 0px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 20px !important;
+}
+
+
+
+/*********form payment panel****/
+
+.formPaymentPanel .row>div.hidden-xs {
+    display: block !important;
+}
+
+/********ends******/
+
+
+/*******generic classes for toolbar starts**********/
+/*****common*****/
+.formDetailsPanel .guidetoolbar > [id$="_guide-item"] button{
+    width:100%;
+}
+
+
+/*******ends*****/
+
+/*3 panel layout*/
+.mobileToolbar{
+    background-color:#f3f3f3;
+    height: 50px;
+}
+.mobileToolbar .saveGuideDraft .iconButton-label{
+    display:inline-block;
+    color:#808080;
+}
+.mobileToolbar .saveGuideDraft .iconButton-icon{
+    display:none;
+}            
+
+.guidetoolbar > [id$="itemnav___guide-item"] button span.iconButton-icon{
+    
+    margin-top: 0px!important; 
+    vertical-align: -webkit-baseline-middle;
+}
+.guidetoolbar > [id$="itemnav___guide-item"] button span.iconButton-label{
+    
+    margin-top: 0px!important; 
+    vertical-align: middle;
+}
+
+.guidetoolbar > [id$="previtemnav___guide-item"] button span{
+    
+    color:#b2b2b2;
+    
+}
+.guidetoolbar > [id$="nextitemnav___guide-item"] button span{
+    
+    color:white;
+    
+}
+.guidetoolbar > [id$="nextitemnav___guide-item"] button span.iconButton-label{
+
+    float:left;
+    text-align: right;
+    width: 52%;   
+
+}
+.guidetoolbar > [id$="nextitemnav___guide-item"] button span.iconButton-icon{
+
+    width: 46%;
+    float: right;
+}
+
+.guideButton .moveNext .iconButton-icon{
+    
+    background: url('../images/spritesheet.png') no-repeat -22px -1187px;
+    background-size: 246px 1909px;
+    
+}
+
+.guideButton .movePrev .iconButton-icon{
+    
+    background: url('../images/spritesheet.png') no-repeat -12px -1325px;
+    background-size: 246px 1909px;
+    float: left;
+    margin-left: 30%;
+
+}
+
+.guidetoolbar > [id$="nextitemnav___guide-item"] button{
+    
+    background:#17b28d;
+    border-radius: 0px;
+    line-height: 30px;
+    float: right;
+    width: 100%;
+    
+}
+.guidetoolbar > [id$="previtemnav___guide-item"] button{
+    border-radius: 0px;
+    line-height: 30px;
+    width: 100%;
+    background-color: transparent;
+    
+}
+.guidetoolbar > [id$="saveGuideDraft___guide-item"] button{
+    word-break: break-all;
+    line-height: 50px;
+    border-radius: 0px;
+    vertical-align: bottom;
+    width: 100%;
+    padding: 0px;
+    background-color: transparent;
+    border-left: 2px solid rgb(26, 58, 101);
+    border-right: 2px solid rgb(26, 58, 101);
+    
+}        
+.guidetoolbar > [id$="nextitemnav___guide-item"]{
+    
+    float: right !important;
+    
+}
+
+
+
+.threeCol.guidetoolbar > [id$="saveGuideDraft___guide-item"]{
+    width:50%;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+}
+.threeCol.guidetoolbar > [id$="previtemnav___guide-item"], .guidetoolbar > [id$="nextitemnav___guide-item"]{
+    
+    width:25%;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    
+}
+.threeCol.guidetoolbar > [id$="previtemnav___guide-item"] button .iconButton-label {
+    width: 25%;
+    text-align:left; 
+    margin-left: -10px;
+}
+.threeCol.guidetoolbar > [id$="previtemnav___guide-item"] button .iconButton-icon {
+    margin-left: 17%;
+}        
+.nextitemnav,.previtemnav,.saveGuideDraft{  
+    padding:0px;
+}
+
+
+/*ends*/
+.oneCol.guidetoolbar > [id$="previtemnav___guide-item"],.oneCol.guidetoolbar > [id$="submit___guide-item"],.oneCol.guidetoolbar > [id$="saveGuideDraft___guide-item"]{
+    display:none;          
+}
+.oneCol.guidetoolbar > [id$="nextitemnav___guide-item"]{
+    width:100%;
+}
+.oneCol.guidetoolbar > [id$="nextitemnav___guide-item"] button span.iconButton-label{
+    display:block;
+    display: block;
+    width: 100%;
+    text-align: right;
+}
+
+.twoCol.guidetoolbar > [id$="saveGuideDraft___guide-item"]{
+    display:none;
+}
+
+
+.twoCol.guidetoolbar > [id$="previtemnav___guide-item"], .twoCol.guidetoolbar > [id$="nextitemnav___guide-item"]{
+    
+    width:50%;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    
+}
+.twoCol.guidetoolbar > [id$="previtemnav___guide-item"] .iconButton-label, .twoCol.guidetoolbar > [id$="nextitemnav___guide-item"] .iconButton-label{
+    
+    display:inline-block;
+    vertical-align: middle;
+    
+    
+}
+.twoCol.guidetoolbar > [id$="previtemnav___guide-item"] button .iconButton-label {
+    width: 50%;
+    text-align:left;          
+}
+.twoColNoIcon{
+    float: none;
+    width: 100%;
+}
+
+/****************Custom User CSS********************************/
+
+
+/*tnc*/
+div.guideTermsAndConditions div.guideFieldWidget{
+    max-height: 390px;
+}
+
+.guideTermsAndConditions .guideFieldLabel.top label {
+    color: #17b28d;
+    padding: 0px 20px 20px 0px;
+    width: 70%;
+    font-weight: 400;
+    font-size: 20px !important;
+}
+
+.guideFieldWidget .guide-tnc-content {
+    border: none;
+    overflow-y: scroll;
+    padding: 20px 20px 0px 20px;
+    background-image: none;
+    background-color: rgba(255, 250, 250, 0.8);
+    background-repeat: no-repeat;
+    font-size: 14px;
+    color: #555555;
+    font-weight: 400;
+}
+
+/*Custom Scrollbar for TnC*/
+
+.guide-tnc-content::-webkit-scrollbar-thumb{
+    background-color:rgba(0, 0, 0, 0.3);
+    border: 3px solid rgba(0,0,0,0);
+    background-clip: padding-box;
+    -webkit-border-radius: 7px;
+}
+
+.guide-tnc-content::-webkit-scrollbar-thumb:hover{
+    background-color:rgba(0, 0, 0, 0.4);
+}
+
+.guide-tnc-content::-webkit-scrollbar-thumb:active{
+    background-color:rgba(0, 0, 0, 0.4);
+} 
+
+.guide-tnc-content::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+    
+}
+
+.guideTermsAndConditions div.guideFieldWidget > div {
+  overflow: auto;
+  height: 80% !important;
+}
+
+
+
+
+/*Misc.*/
+#guideContainer-rootPanel-applicationFormRoot-formPaymentPanel-paymentProcess___guide-item-nav{
+    display:none;
+}
+
+
+
+div[id$="ChildInformation-multipleChildInfo___guide-item-container"] div[data-guide-parent-id$="ChildInformation-multipleChildInfo__"] {
+    margin-bottom: 10px;
+}
+
+div[id$="ApplicantInformation-section1-1-BasicInformation___guide-item"] div.verticalTabbedPanelLayout {
+    display: none;
+}
+
+div.eligibilityPassMsg{
+margin-top:20%;
+}
+/*Transparency*/
+
+.guideBody, .guideContainerNode, .guidePanelNode,.panel {
+    background-color:transparent;
+    background:transparent;
+}
+
+
+.checkEligibilityBg{
+    background-image:linear-gradient(
+        rgba(19, 43, 77, 0.8), 
+        rgba(19, 43, 77, 0.8) 
+        ), url("../images/completedBG.jpg");
+    background-size: cover;
+}
+
+.passBg{
+    background-image:linear-gradient(
+        rgba(19, 43, 77, 0.8), 
+        rgba(19, 43, 77, 0.8) 
+        ), url("../images/eligibilityBG.jpg");
+    background-size: cover;
+}
+
+.applicationFormBg{
+    background-image:linear-gradient(
+        rgba(19, 43, 77, 0.8), 
+        rgba(19, 43, 77, 0.8) 
+        ), url("../images/applicationBG.jpg");
+    background-size: cover;
+}
+
+
+
+}
+.XfaCheckBox input[type='radio'] {
+    display: none;
+}

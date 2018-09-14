@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-04-05T19:10:01.710+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/we-gov/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="My Applications"
+        sling:resourceType="we-gov/components/page/services-contentpage">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <draftsandsubmissions
+                jcr:created="{Date}2014-03-04T09:58:20.201+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-04-05T19:10:01.706+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/fp/components/draftsAndSubmissions"
+                customStylePath="/etc/designs/we-gov/draftsAndSubmissions.css"
+                defaultTab="draftTab"
+                displayOptions="[draftOnly,submittedOnly,pendingSignOnly]"
+                draftTemplate="/etc/designs/we-gov/fp/draft/template.html/jcr:content"
+                draftTitleText="Drafts"
+                pendignSignTemplate="/etc/designs/we-gov/fp/pendingSign/template.html/jcr:content"
+                style="Custom Style"
+                submissionTemplate="/etc/designs/we-gov/fp/submission/template.html/jcr:content"
+                submittedTitleText="Submissions">
+                <save
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/fp/draftsandSubmissionServlet"/>
+            </draftsandsubmissions>
+        </par>
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,245 @@
+/*************************************************************************
+*
+* ADOBE CONFIDENTIAL
+* __________________
+*
+*  Copyright 2014 Adobe Systems Incorporated
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe Systems Incorporated and its suppliers,
+* if any.  The intellectual and technical concepts contained
+* herein are proprietary to Adobe Systems Incorporated and its
+* suppliers and may be covered by U.S. and Foreign Patents,
+* patents in process, and are protected by trade secret or copyright law.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe Systems Incorporated.
+**************************************************************************/
+
+body {
+    padding-top: 0px;
+        background-color: #2D62AC;
+}
+
+#wrap{
+    padding-bottom:0px;
+}
+
+.govDept>div{
+    width: 100%;
+    padding: 0px;
+}
+
+div.parsys_column{
+float: none;
+    display:inline-block;
+}
+
+#topnav>.active > a{
+    color:white;
+}
+
+.top_container .heroImageContainer>img{
+min-height: 200px;
+}
+
+
+.govDeptTitle{
+    font-family: Open-Sans, Helvetica Neue, Helvetica, Arial, sans-serif!important;
+    font-size: 24px;    
+}
+.govDeptDesc{
+    font-family: Open-Sans, Helvetica Neue, Helvetica, Arial, sans-serif!important;
+    font-size: 16px;
+    width: auto;    
+}
+/*.navbar-container{
+width:30% !important;
+}*/
+.bottom_container.container{
+    text-align:center;
+    max-width:1000px;
+}
+.govDept{
+    max-height: 290px;
+    max-width: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 15px;
+    padding: 20px 10px;
+    display:inline-block;
+    text-align:left;  
+}
+
+.top_image {
+    margin-top: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:66%;
+}
+#mobile-navbar{
+    float:right;
+}
+.TopImageButton{
+    width: 25%;
+    height: 7%;
+    background-color: #17b38d;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.buttonDiv{
+    
+    margin-top: 20px;
+}
+.TopImageWrapper{
+    position: relative;
+    top: 40%;
+    padding-left: 30%;
+}
+.TopImageText{
+    
+    color: white;  
+    font-family: Open-Sans, Helvetica Neue, Helvetica, Arial, sans-serif!important;
+    font-size: 38px;
+    padding-right: 40%;
+}
+
+.text-overlay-image.cardImage {
+    max-height: 290px;
+    max-width: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 15px;
+    display: inline-block;
+    text-align: left;
+}
+
+
+.cardImage .text {
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.topImage .overlayImageButton {
+    margin-left: 25%;
+    margin-top: 20px;
+    height: 50px;
+    width: 220px;
+}
+.topImage .text{
+    padding-top: 10%;
+    padding-left: 25%;
+}
+
+/* Changes Required in base.css */            
+.page-content {
+    margin-top: 65px;
+}
+
+
+@media(min-width:769px) and (max-width:1280px){
+.page-content {
+    margin-top: 130px !important;
+}
+
+.TopImageText {
+    padding-right: 10%;
+        font-size: 30px;
+}
+
+.topImage .text {
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+.topImage .overlayImageButton {
+    margin-left: 10%;
+}
+
+
+}
+
+@media(min-width:668px) and (max-width:768px){
+.page-content {
+    margin-top: 32px !important;
+}
+
+.TopImageText {
+    padding-right: 10%;
+        font-size: 26px;
+}
+
+.topImage .text {
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+.topImage .overlayImageButton {
+    margin-left: 10%;
+}
+
+}
+
+@media (max-width: 667px){
+
+.text-overlay-image.cardImage {
+    height: 190px;
+    width: 300px;
+}
+
+.topImage .overlayImageButton {
+    margin-left: 4%;
+    margin-top: 3%;
+        height: 40px;
+    width: 180px;
+
+}
+.topImage .text {
+    padding-top: 3%;
+    padding-left: 4%;
+}  
+.page-content {
+    margin-top: 32px !important;
+}
+
+.govDept{
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 15px;
+    padding: 20px 10px;
+    display:inline-block;
+    text-align:left;  
+    min-height:150px;
+}
+.navbar-nav{
+    margin:0px;
+}
+#mobile-custom-navbar {
+    display: none !important;
+}
+.TopImageWrapper {
+    padding-left: 8%;
+    padding-top: 8%;
+}
+.TopImageButton {
+    width: 55%;
+    height: 4%;
+}
+.TopImageText{
+    
+    font-size: 16px;
+    padding-right: 0%;
+}
+.top_image {
+    min-height: 150px;
+    height: auto;
+    margin-top: 35px;
+}
+
+}

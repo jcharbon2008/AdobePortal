@@ -1,0 +1,116 @@
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+*  Copyright 2014 Adobe Systems Incorporated
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe Systems Incorporated and its suppliers,
+* if any.  The intellectual and technical concepts contained
+* herein are proprietary to Adobe Systems Incorporated and its
+* suppliers and are protected by all applicable intellectual property 
+* laws, including trade secret and copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe Systems Incorporated.
+**************************************************************************/
+/******
+.anchorToolbar.toolbar{
+position: fixed;
+right: 50px;
+bottom: 50px;
+ } 
+*/
+.progress.bottomProgressMeter {
+    height: 7px;
+    border: 1px solid black;
+    background-color: rgb(240, 245, 247);
+    margin-bottom: 0px;
+}
+
+.wizard-navigators.bottom-navigators li {
+    margin-right: -10px;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+.wizard-navigators.bottom-navigators > li:before {
+    content: initial;
+}
+
+.bottomNavigator {
+    margin-bottom: 50px;
+    width: 400px;
+    margin-right: 25%;
+    margin-left: 25%;
+    position: fixed;
+    bottom: -50px;
+    background-color: rgb(249, 249, 249);
+    z-index: 1000;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.progressmeterup {
+    background-image: url('../images/progressbarup.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    width: 20px;
+    height: 14px;
+    margin-left: 200px;
+    margin-right: 200px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.progressmeterdown {
+    background-image: url('../images/progressbardown.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    width: 20px;
+    height: 14px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.progressmeter {
+    display: none;
+    width: 100%;
+    margin: 10px;
+}
+
+
+/* EchoSign Fix */
+.esign_outer_div {
+    height: 1000px !important;
+}
+
+@media (min-width: 768px) {
+    .Echosign .row {
+        margin-left: -45%;
+        margin-right: -45%;
+        z-index: 10;
+        position: relative;
+        -webkit-transform: scale(0.85);
+        background-color: white;
+    }
+}
+
+@media (min-width: 992px) {
+    .Echosign .row {
+        margin-left: -20%;
+        margin-right: -20%;
+        z-index: 10;
+        position: relative;
+        background-color: white;
+    }
+}
+
+#summaryMessage {
+    height: 100%;
+}
+
+.guideImage img {
+    height: inherit;
+}                

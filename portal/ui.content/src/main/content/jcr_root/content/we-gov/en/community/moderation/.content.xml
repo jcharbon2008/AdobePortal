@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2017-09-18T12:14:36.003+02:00"
+        cq:lastModifiedBy="msm-service"
+        cq:lastRolledout="{Date}2017-09-18T12:14:36.005+02:00"
+        cq:lastRolledoutBy="msm-service"
+        jcr:mixinTypes="[cq:LiveSync]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="AEM Communities Moderation"
+        sling:resourceType="social/console/components/moderationpublishshell"
+        hideInNav="true"
+        pageTitle="AEM Communities Moderation">
+        <shell2/>
+        <shell3/>
+        <cq:LiveSyncConfig
+            cq:isDeep="{Boolean}false"
+            cq:master="/content/communities/templates/basetemplate/moderation"
+            cq:rolloutConfigs="[/etc/msm/rolloutconfigs/default]"
+            jcr:primaryType="cq:LiveCopy"/>
+    </jcr:content>
+</jcr:root>

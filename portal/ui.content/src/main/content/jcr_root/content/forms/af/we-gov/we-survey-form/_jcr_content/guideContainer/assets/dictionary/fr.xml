@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:language="fr"
+    jcr:mixinTypes="[mix:language]"
+    jcr:primaryType="sling:Folder"
+    sling:basename="/content/forms/af/we-gov/we-survey-form/jcr:content/guideContainer/assets/dictionary">
+    <fd_1-3_x0020_months
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_1-3 months"
+        sling:message="1 à 3 mois"/>
+    <fd_3-6_x0020_months
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_3-6 months"
+        sling:message="3 à 6 mis"/>
+    <fd_6_x0020_months_x0020_to_x0020_1_x0020_year
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_6 months to 1 year"
+        sling:message="De 6 mois à 1 an"/>
+    <fd__x003c_p_x003e__x0026_nbsp_x003b__x0020_807283991
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p>&#xa;"
+        sling:message="&lt;p>&amp;nbsp; &amp;nbsp; -&amp;nbsp;; -&amp;nbsp;; -&amp;nbsp;; -&amp;nbsp;; -&amp;nbsp;; -&amp;nbsp;; -&amp;nbsp;; -&amp;nbsp;; &amp;nbsp;&amp;nbsp;&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Neutral-1739524500
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Neutral&lt;/p>&#xa;"
+        sling:message="&lt;p>Neutre&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Satisfi2082138209
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Satisfied&lt;/p>&#xa;"
+        sling:message="&lt;p>Satisfait&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Unsatis-1683278662
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Unsatisfied&lt;/p>&#xa;"
+        sling:message="&lt;p>Insatisfait&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Very_x0020_Sa-1365625961
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Very Satisfied&lt;/p>&#xa;"
+        sling:message="&lt;p>Très satisfait&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Very_x0020_Un730106480
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Very Unsatisfied&lt;/p>&#xa;"
+        sling:message="&lt;p>Très insatisfait&lt;/p>&#xa;"/>
+    <fd_Additional-15061555
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Additional Comments"
+        sling:message="Autres commentaires"/>
+    <fd_Attentive
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Attentive"
+        sling:message="Attentif"/>
+    <fd_Benefit_x0020_or-680272561
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Benefit or Service availed"
+        sling:message="Avantage ou service utilisé"/>
+    <fd_Courteous
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Courteous"
+        sling:message="Courtois"/>
+    <fd_Customer_x0020_S-454476324
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Customer Survey"
+        sling:message="Enquête auprès des clients"/>
+    <fd_Date
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Date"
+        sling:message="Date"/>
+    <fd_Direct_x0020_Email
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Direct Email"
+        sling:message="E-mail direct"/>
+    <fd_Ease_x0020_of_x0020_se-31147794
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Ease of service application"
+        sling:message="Facilité de la demande de service"/>
+    <fd_Email
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Email"
+        sling:message="E-mail"/>
+    <fd_First_x0020_Name
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_First Name"
+        sling:message="Prénom"/>
+    <fd_How_x0020_did_x0020_yo-921056742
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_How did you hear about our services?"
+        sling:message="Comment avez-vous connu nos services ?"/>
+    <fd_How_x0020_do_x0020_you1892153250
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_How do you prefer to receive information about status of your application?"
+        sling:message="Comment préférez-vous recevoir les informations concernant le statut de votre demande ?"/>
+    <fd_How_x0020_often_x0020_-1886122551
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_How often have you availed benefits that we provide."
+        sling:message="Combien de fois avez-vous utilisé les avantages que nous proposons ?"/>
+    <fd_Knowledgea875151032
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Knowledgeable"
+        sling:message="Bien renseigné"/>
+    <fd_Last_x0020_Name
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Last Name"
+        sling:message="Nom"/>
+    <fd_Less_x0020_than_x0020_a_x0020_month
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Less than a month"
+        sling:message="Inférieur à un mois"/>
+    <fd_More_x0020_than_x0020_1_x0020_year
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_More than 1 year"
+        sling:message="Plus d'un an"/>
+    <fd_Neutral
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Neutral"
+        sling:message="Neutre"/>
+    <fd_Never_x0020_used
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Never used"
+        sling:message="Jamais utilisé"/>
+    <fd_Online_x0020_search
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Online search"
+        sling:message="Recherche en ligne"/>
+    <fd_Other
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Other"
+        sling:message="Autre"/>
+    <fd_Overall_x0020_Ex1529047901
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Overall Experience"
+        sling:message="Expérience globale"/>
+    <fd_Price
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Price"
+        sling:message="Prix"/>
+    <fd_Print_x0020_Advertisement
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Print Advertisement"
+        sling:message="Publicité imprimée"/>
+    <fd_Prompt
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Prompt"
+        sling:message="Invite"/>
+    <fd_Quality
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Quality"
+        sling:message="Qualité"/>
+    <fd_Radio
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Radio"
+        sling:message="Radio"/>
+    <fd_Reset
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Reset"
+        sling:message="Réinitialiser"/>
+    <fd_Responsive
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Responsive"
+        sling:message="Réactif(ve)"/>
+    <fd_Responsive-661945813
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Responsiveness"
+        sling:message="Réactivité"/>
+    <fd_Satisfied
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Satisfied"
+        sling:message="Satisfait"/>
+    <fd_Save
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Save"
+        sling:message="Enregistrer"/>
+    <fd_Social_x0020_Media
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Social Media"
+        sling:message="Médias sociaux"/>
+    <fd_Submit
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Submit"
+        sling:message="Envoyer"/>
+    <fd_Survey
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Survey"
+        sling:message="Enquête"/>
+    <fd_Television
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Television"
+        sling:message="Télévision"/>
+    <fd_Unsatisfied
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Unsatisfied"
+        sling:message="Insatisfait"/>
+    <fd_Very_x0020_Satisfied
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Very Satisfied"
+        sling:message="Très satisfait"/>
+    <fd_Very_x0020_Unsatisfied
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Very Unsatisfied"
+        sling:message="Très insatisfait"/>
+    <fd_Website
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Website"
+        sling:message="Site Web"/>
+    <fd_Word_x0020_of_x0020_mouth
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Word of mouth"
+        sling:message="Bouche à oreille"/>
+</jcr:root>

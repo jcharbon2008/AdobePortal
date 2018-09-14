@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Application Form Header Component"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab1
+                jcr:primaryType="cq:Panel"
+                title="Basic">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <application
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Application Name"
+                        name="./applicationName"
+                        xtype="textfield"/>
+                    <description
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Application Description"
+                        name="./applicationDescription"
+                        xtype="textfield"/>
+                    <time
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Average Time Completion"
+                        fieldSubLabel="(In Minutes)"
+                        name="./applicationCompletionTime"
+                        xtype="numberfield"/>
+                    <terms
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Disable Terms"
+                        name="./terms"
+                        type="checkbox"
+                        xtype="selection"/>
+                    <demo
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Disable Demo"
+                        name="./demo"
+                        type="checkbox"
+                        xtype="selection"/>
+                    <help
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Disable Help"
+                        name="./help"
+                        type="checkbox"
+                        xtype="selection"/>
+                    <need
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Disable 'What you Need'"
+                        name="./need"
+                        type="checkbox"
+                        xtype="selection"/>
+                </items>
+            </tab1>
+        </items>
+    </items>
+</jcr:root>

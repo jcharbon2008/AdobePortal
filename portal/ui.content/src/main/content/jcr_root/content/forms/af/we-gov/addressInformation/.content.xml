@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/fd/af/default"
+        cq:deviceGroups="/etc/mobile/groups/responsive"
+        cq:lastModified="{Date}2016-01-21T16:28:26.926+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/fd/af/templateForFragment/defaultFragmentTemplate"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Address Information GOV"
+        sling:resourceType="fd/af/components/page/basePageForFragment">
+        <guideContainer
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="fd/af/components/guideFragmentContainer"
+            guideCss="guideContainer"
+            guideNodeClass="guideContainerNode"
+            name="fragment1">
+            <layout
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/layouts/defaultGuideLayout"
+                toolbarPosition="Bottom"/>
+            <rootPanel
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/components/rootPanel"
+                guideNodeClass="rootPanelNode"
+                name="guideRootPanel"
+                panelSetType="Navigable">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/gridFluidLayout"
+                    nonNavigable="true"
+                    toolbarPosition="Bottom"/>
+                <items
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/gridFluidLayout">
+                    <addressInfo
+                        jcr:description="Address Information"
+                        jcr:lastModified="{Date}2016-01-21T15:38:17.603+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Address Information"
+                        sling:resourceType="fd/af/components/panel"
+                        guideNodeClass="guidePanel"
+                        name="addressInfo"
+                        textIsRich="true">
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                            <guidenumericbox
+                                jcr:created="{Date}2016-01-21T13:49:25.863+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2016-02-05T05:02:54.001Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Zip Code"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                displayPictureClause="text{99999}"
+                                dorExclusion="false"
+                                expJson="\{&quot;nodeName&quot;:&quot;RULES&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;ROOT&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.addressInfo.ZipCode_Numericbox&quot;,&quot;type&quot;:&quot;FIELD&quot;,&quot;name&quot;:&quot;ZipCode_Numericbox&quot;}},{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;is changed&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;,&quot;choice&quot;:null}]},&quot;nested&quot;:false},{&quot;nodeName&quot;:&quot;Then&quot;,&quot;value&quot;:null},{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;WSDL_STATEMENT&quot;,&quot;value&quot;:{&quot;inputModel&quot;:{&quot;ZIP&quot;:{&quot;nodeName&quot;:&quot;PARAMETER&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.addressInfo.ZipCode_Numericbox&quot;,&quot;displayName&quot;:&quot;Zip Code&quot;,&quot;type&quot;:&quot;NUMBER&quot;,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Address Information/Zip Code/&quot;,&quot;name&quot;:&quot;ZipCode_Numericbox&quot;}}}},&quot;outputModel&quot;:{&quot;GetCityForecastByZIPResponse.GetCityForecastByZIPResult.Success&quot;:&quot;&quot;,&quot;GetCityForecastByZIPResponse.GetCityForecastByZIPResult.ResponseText&quot;:&quot;&quot;,&quot;GetCityForecastByZIPResponse.GetCityForecastByZIPResult.State&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.addressInfo.state_textbox&quot;,&quot;displayName&quot;:&quot;State&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Address Information/State/&quot;,&quot;name&quot;:&quot;state_textbox&quot;}},&quot;GetCityForecastByZIPResponse.GetCityForecastByZIPResult.City&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.addressInfo.city_Textbox&quot;,&quot;displayName&quot;:&quot;City&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Address Information/City/&quot;,&quot;name&quot;:&quot;city_Textbox&quot;}},&quot;GetCityForecastByZIPResponse.GetCityForecastByZIPResult.WeatherStationCity&quot;:&quot;&quot;,&quot;GetCityForecastByZIPResponse.GetCityForecastByZIPResult.ForecastResult.Forecast.Date&quot;:&quot;&quot;,&quot;GetCityForecastByZIPResponse.GetCityForecastByZIPResult.ForecastResult.Forecast.WeatherID&quot;:&quot;&quot;,&quot;GetCityForecastByZIPResponse.GetCityForecastByZIPResult.ForecastResult.Forecast.Desciption&quot;:&quot;&quot;,&quot;GetCityForecastByZIPResponse.GetCityForecastByZIPResult.ForecastResult.Forecast.Temperatures.MorningLow&quot;:&quot;&quot;,&quot;GetCityForecastByZIPResponse.GetCityForecastByZIPResult.ForecastResult.Forecast.Temperatures.DaytimeHigh&quot;:&quot;&quot;,&quot;GetCityForecastByZIPResponse.GetCityForecastByZIPResult.ForecastResult.Forecast.ProbabilityOfPrecipiation.Nighttime&quot;:&quot;&quot;,&quot;GetCityForecastByZIPResponse.GetCityForecastByZIPResult.ForecastResult.Forecast.ProbabilityOfPrecipiation.Daytime&quot;:&quot;&quot;},&quot;wsdlInfo&quot;:{&quot;wsdlEndPoint&quot;:&quot;/apps/aem-forms/web-services/getLocByZip&quot;,&quot;webServiceTitle&quot;:&quot;Get location by Zip&quot;,&quot;operationName&quot;:&quot;GetCityForecastByZIP&quot;,&quot;soapActionURI&quot;:&quot;http://ws.cdyne.com/WeatherWS/GetCityForecastByZIP&quot;,&quot;serviceEndPoint&quot;:&quot;http://wsf.cdyne.com/WeatherWS/Weather.asmx&quot;,&quot;namespace&quot;:&quot;http://ws.cdyne.com/WeatherWS/&quot;,&quot;port&quot;:&quot;WeatherSoap&quot;}}}}]}]}}],&quot;isValid&quot;:true,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nvar wsdlInfo = {\\n    \\&quot;wsdlEndPoint\\&quot;: \\&quot;/apps/aem-forms/web-services/getLocByZip\\&quot;,\\n    \\&quot;webServiceTitle\\&quot;: \\&quot;Get location by Zip\\&quot;,\\n    \\&quot;operationName\\&quot;: \\&quot;GetCityForecastByZIP\\&quot;,\\n    \\&quot;soapActionURI\\&quot;: \\&quot;http://ws.cdyne.com/WeatherWS/GetCityForecastByZIP\\&quot;,\\n    \\&quot;serviceEndPoint\\&quot;: \\&quot;http://wsf.cdyne.com/WeatherWS/Weather.asmx\\&quot;,\\n    \\&quot;namespace\\&quot;: \\&quot;http://ws.cdyne.com/WeatherWS/\\&quot;,\\n    \\&quot;port\\&quot;: \\&quot;WeatherSoap\\&quot;\\n};\\nvar inputs = {\\n    \\&quot;ZIP\\&quot; : this\\n};\\nvar outputs = {\\n    \\&quot;GetCityForecastByZIPResponse.GetCityForecastByZIPResult.State\\&quot; : state_textbox,\\n    \\&quot;GetCityForecastByZIPResponse.GetCityForecastByZIPResult.City\\&quot; : city_Textbox\\n};\\nguidelib.wsdlUtils.executeWSDLFunction(wsdlInfo, inputs, outputs);;\\n\\n&quot;,&quot;eventName&quot;:&quot;Value Commit&quot;}]}"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                name="ZipCode_Numericbox"
+                                textIsRich="[true,true]"
+                                validatePictureClauseMessage="Field not filled in expected format."
+                                valueCommitScript="&#xa;try {&#xa;    var wsdlInfo = {&#xa;        &quot;wsdlEndPoint&quot;: &quot;/apps/aem-forms/web-services/getLocByZip&quot;,&#xa;        &quot;webServiceTitle&quot;: &quot;Get location by Zip&quot;,&#xa;        &quot;operationName&quot;: &quot;GetCityForecastByZIP&quot;,&#xa;        &quot;soapActionURI&quot;: &quot;http://ws.cdyne.com/WeatherWS/GetCityForecastByZIP&quot;,&#xa;        &quot;serviceEndPoint&quot;: &quot;http://wsf.cdyne.com/WeatherWS/Weather.asmx&quot;,&#xa;        &quot;namespace&quot;: &quot;http://ws.cdyne.com/WeatherWS/&quot;,&#xa;        &quot;port&quot;: &quot;WeatherSoap&quot;&#xa;    };&#xa;    var inputs = {&#xa;        &quot;ZIP&quot; : this&#xa;    };&#xa;    var outputs = {&#xa;        &quot;GetCityForecastByZIPResponse.GetCityForecastByZIPResult.State&quot; : state_textbox,&#xa;        &quot;GetCityForecastByZIPResponse.GetCityForecastByZIPResult.City&quot; : city_Textbox&#xa;    };&#xa;    guidelib.wsdlUtils.executeWSDLFunction(wsdlInfo, inputs, outputs);;&#xa;    &#xa;    &#xa;} catch (e) {&#xa;    /*log here */&#xa;}&#xa;"/>
+                            <guidetextbox_309453108
+                                jcr:created="{Date}2016-01-21T13:50:37.485+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2016-01-21T13:51:58.842+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Street Address"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                displayPatternType="null"
+                                dorExclusion="false"
+                                guideNodeClass="guideTextBox"
+                                mandatory="false"
+                                name="streetAddressTextbox"
+                                textIsRich="[true,true]"
+                                validationPatternType="null"/>
+                            <guidetextbox_819487954
+                                jcr:created="{Date}2016-01-21T13:50:27.454+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2016-01-21T13:52:18.313+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="City"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                displayPatternType="null"
+                                dorExclusion="false"
+                                guideNodeClass="guideTextBox"
+                                mandatory="false"
+                                name="city_Textbox"
+                                textIsRich="[true,true]"
+                                validationPatternType="null"/>
+                            <guidetextbox
+                                jcr:created="{Date}2016-01-21T13:50:19.106+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2016-01-21T13:52:45.910+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="State"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                displayPatternType="null"
+                                dorExclusion="false"
+                                guideNodeClass="guideTextBox"
+                                mandatory="false"
+                                name="state_textbox"
+                                textIsRich="[true,true]"
+                                validationPatternType="null"/>
+                        </items>
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                            columns="1"
+                            nonNavigable="true"
+                            toolbarPosition="Bottom"/>
+                    </addressInfo>
+                </items>
+            </rootPanel>
+            <assets jcr:primaryType="nt:unstructured">
+                <dictionary jcr:primaryType="nt:unstructured">
+                    <fr/>
+                    <de/>
+                </dictionary>
+            </assets>
+        </guideContainer>
+    </jcr:content>
+</jcr:root>

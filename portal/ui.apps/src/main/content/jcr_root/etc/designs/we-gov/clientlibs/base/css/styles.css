@@ -1,0 +1,370 @@
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+*  Copyright 2014 Adobe Systems Incorporated
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe Systems Incorporated and its suppliers,
+* if any.  The intellectual and technical concepts contained
+* herein are proprietary to Adobe Systems Incorporated and its
+* suppliers and are protected by all applicable intellectual property 
+* laws, including trade secret and copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe Systems Incorporated.
+**************************************************************************/
+.container {
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.nopad {
+padding: 0;
+}
+
+
+.navbar-default .navbar-toggle {
+margin-top: 20px;
+margin-right: 5px;
+background-color: rgb(5, 89, 132);
+border: none;
+padding: 8px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+background-color: rgb(163, 194, 210);
+height: 3px;
+}
+
+.navbar-default .navbar-brand {
+color: rgb(255, 255, 255);
+padding: 25px 15px;
+font-size: 28px;
+}
+
+.nopad-left {
+padding-left: 0;
+}
+
+.nopad-right {
+padding-right: 0;
+}
+
+.nobrdbg {
+background: none;
+border: none;
+}
+
+.navbar-default .form-control {
+float: right;
+margin-top: 21px;
+margin-right: 5px;
+height: 32px;
+border-radius: 4px;
+box-shadow: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+color: rgb(255, 255, 255);
+}
+
+.navbar-nav > li:last-child {
+margin-left: 35px;
+}
+.user{
+background: url('../images/user.png') no-repeat 50%;
+height: 30px;
+width: 26px;                                                                                
+}
+.search{
+background: url('../images/search.png') no-repeat 50%;
+height: 30px;
+width: 26px;                                                                                
+} 
+.fullscreen{
+background: url('../images/fullscreen.png') no-repeat 50%;
+height: 30px;
+width: 26px;                                                                                
+}
+
+a, a:link {
+outline: none;
+text-decoration: none;
+}
+.row {
+margin-bottom: 0px;
+}
+.text-upper {
+text-transform: uppercase;
+}
+.text-blue {
+color: rgb( 0, 121, 193);
+}                                                        
+#footer {
+height: 60px;
+}
+.bg-dk-grey {
+background: rgb(72, 72, 72);
+color: rgb(255, 255, 255);
+}
+
+.bg-dk-grey:hover {
+background: rgb(106, 106, 106);
+}
+
+#footer > .container {
+padding-left: 15px;
+padding-right: 15px;
+}
+.container .text-muted {
+margin: 20px 0;
+}
+.text-white {
+color: rgb(255, 255, 255);
+}       
+
+
+/***************************/
+.menu-item-toggle.user{
+background: url('../images/user.png') no-repeat 50%;
+height: 30px;
+width: 26px;                                                                                
+}
+.menu-item-toggle.search{
+background: url('../images/search.png') no-repeat 50%;
+height: 30px;
+width: 26px;                                                                                
+} 
+.menu-item-toggle.fullscreen{
+background: url('../images/fullscreen.png') no-repeat 50%;
+height: 30px;
+width: 26px;                                                                                
+}
+.terms{
+background: url('../images/terms.png') no-repeat 50%;
+
+}
+.demo{
+background: url('../images/demo.png') no-repeat 50%;
+
+}
+.help{
+background: url('../images/help.png') no-repeat 50%;
+
+} 
+.toggle{
+background: url('../images/toggle.png') no-repeat 50%;
+height:27px;    
+
+}
+
+
+.icon{
+vertical-align: middle; 
+border: 0;
+}    
+.right-images .icon {
+padding: 30px 0 0;
+
+}
+
+.page-content{
+margin-top:40px;
+}
+
+.top_image{
+    margin-top:-40px;
+}
+
+#topnav>.active > a{
+color: #fff47a;
+background-color: transparent;
+}    
+
+.right-images div.bordered {
+border-left: 2px solid rgb(255, 255, 255);
+border-right: 2px solid rgb(255, 255, 255);
+}
+
+/*Application Header CSS */
+.ellipsis-text {
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+}      
+
+.text-blue.need-link:before, .text-blue.more-link:before {
+content: '[+]';
+padding-right: 5px;
+}
+
+.text-blue.need-link.clicked:before, .text-blue.more-link.clicked:before {
+content: '[--]';
+padding-right: 5px;
+}
+
+@media (max-width:767px){
+.applicationformheader h3{
+font-size:15px;
+}
+
+.applicationformheader h4{
+font-size:12px;
+}    
+}
+
+/*Signin Dialog CSS */
+
+#login_modal .modal-header{
+background-color:rgb(5,89,132);
+color: rgb(255,255,255);
+}
+
+#login_modal .modal-body{
+background-color:rgb(214,214,214);
+overflow-y:hidden; 
+height:auto;
+}
+
+#login_modal label{
+/*text-align:center;*/
+
+}
+
+
+#login_modal .sv-social h4 {
+	color: #666;
+	font-weight: normal;
+	margin: 30px 0 20px;
+	text-align: center;
+}
+#login_modal .sv-social ul{
+	overflow: hidden;
+	display: block;
+	padding: 0;
+	margin: 0 -1%;
+}
+#login_modal .sv-social ul li{
+	list-style: none;
+	float: left;
+	width: 31.33%;
+	margin: 0 1%;
+}
+#login_modal .sv-social ul li a{
+	display: inline-block;
+	/*font-size: 24px;*/
+	text-decoration: none;
+	color: #fff;
+	padding: 6px;
+	display: block;
+	text-align: center;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+#login_modal .sv-social ul li a:hover{opacity: .8;}
+#login_modal .sv-social ul li a.facebook{
+	background: #3a589a;
+}
+#login_modal .sv-social ul li a.twitter {
+	background: #4099ff;
+}
+#login_modal .sv-social ul li a.google-plus {
+	padding: 3px 6px;
+	background: #e9544f;
+}
+#login_modal .sv-social ul li a svg {
+	display: inline-block;
+	vertical-align: middle;
+	width: 22px;
+	line-height: 22px;
+}
+#login_modal .sv-social ul li a.google-plus svg {
+	width: 28px;
+}
+#login_modal .divider {
+	background: rgba(90, 90, 90, 0.2);
+	height: 2px;
+	display: block;
+	position: relative;
+	margin: 30px auto;
+}
+#login_modal .divider span{
+	width: 30px;
+	height: 20px;
+	background: rgb(214,214,214);
+	position: absolute;
+	left: 50%;
+	margin-left: -10px;
+	top: -12px;
+	text-align: center;
+	/*color: #999;*/
+}
+
+.lead.desc-text{
+font-size:18px;
+}
+
+/*** Help Content Button Icon ***/
+.submit-btn, .reset-btn, .save-btn{
+	background: url(../images/help-sprites.png) no-repeat;
+	display:inline-block;
+}
+
+
+.submit-btn{
+	background-position: -10px -60px ;
+	width: 45px;
+	height: 20px;
+}
+
+.reset-btn{
+	background-position: -170px -60px ;
+	width: 45px;
+	height: 20px;
+}
+
+.save-btn{
+	background-position: -90px -60px ;
+	width: 45px;
+	height: 20px;
+}
+
+@media (max-width: 767px) {
+	.submit-btn{
+		background-position: -110px -10px ;
+		width: 18px;
+		height: 17px;
+	}
+	
+	.reset-btn{
+		background-position: -10px -10px ;
+		width: 18px;
+		height: 17px;
+	}
+	
+	.save-btn{
+		background-position: -60px -10px ;
+		width: 18px;
+		height: 17px;
+	}
+}
+
+
+.text-small {
+	font-size: smaller;
+}
+
+.sv-userProfile {
+	margin-bottom: 100px;
+}
+
+#changePassword_modal .modal-body {
+	height: auto;
+}

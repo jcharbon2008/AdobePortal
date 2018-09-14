@@ -1,0 +1,29 @@
+@media (max-width: 767px) {
+    .guide-header-bar,
+    .visible-xs {
+        display: none !important;
+    }
+    [id$="_guide-item-container"] {
+        overflow-x: visible;
+    }
+    .guide-1495432434493 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart) {
+        padding-top4px;
+    }
+    .guide-1495432392356 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart) {
+        float: none !important;
+    }
+    .guide-1495432444346 .multiline.textField textArea {
+        min-height: 310px !important;
+    }
+.title.section
+{
+color:#FFF !important;
+}
+}
+/** Header Color***/
+.afHeader{
+background:#1f599c
+
+    }
+.afHeader p {
+}

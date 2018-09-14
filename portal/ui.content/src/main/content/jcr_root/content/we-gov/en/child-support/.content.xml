@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <applications/>
+    <thankyou.html/>
+    <jcr:content
+        cq:designPath="/etc/designs/we-gov"
+        cq:deviceGroups="/etc/mobile/groups/responsive"
+        cq:lastModified="{Date}2016-04-25T16:07:15.058+05:30"
+        cq:lastModifiedBy="admin"
+        cq:loginPage="/content/we-gov/en/login"
+        cq:template="/apps/we-gov/templates/homepage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Child Support"
+        sling:resourceType="we-gov/components/page/childsupportpage">
+        <parsys_top
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <image
+                jcr:created="{Date}2015-07-27T06:37:19.250+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-04-25T16:07:15.058+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="we-gov/components/image"
+                buttonBorderRadius="5px"
+                buttonColor="17b38d"
+                buttonFontColor="FFFFFF"
+                buttonFontSize="16px"
+                buttonLink="/content/forms/af/we-gov/child-support/css"
+                buttonTitle="Check Your Eligibility"
+                cssClass="topImage"
+                fileReference="/content/dam/we-gov/child-support/child-homepage-hero.png"
+                imageRotate="0"
+                linearGradient="rgba(19, 43, 77, 0.8), rgba(19, 43, 77, 0.8)"
+                text="&lt;div class=&quot;TopImageText&quot;>Child Support can help you take care of your child after separation.&lt;/div>"/>
+        </parsys_top>
+        <parsys_bottom
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <colctrl
+                jcr:created="{Date}2015-07-27T06:43:26.427+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-07-27T06:43:26.427+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys/colctrl"
+                controlType="start"
+                layout="3;cq-colctrl-lt1"/>
+            <image
+                jcr:created="{Date}2015-07-27T06:45:12.177+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-07-27T07:08:10.945+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="we-gov/components/image"
+                cssClass="cardImage"
+                fileReference="/content/dam/we-gov/child-support/child-homepage-calculator.png"
+                imageRotate="0"
+                linearGradient="rgba(19, 43, 77, 0.8), rgba(19, 43, 77, 0.8)"
+                text="&lt;h4 class=&quot;text-white govDeptTitle&quot;>Child support calculator&lt;/h4>&#xa;&lt;p class=&quot;govDeptDesc text-white&quot;>Get an estimate of the amount that you could expect to pay or receive.&lt;/p>"/>
+            <col_break14379596064270
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys/colctrl"
+                controlType="break"/>
+            <image_1318176083
+                jcr:created="{Date}2015-07-27T06:45:17.405+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-07-27T07:09:22.852+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="we-gov/components/image"
+                cssClass="cardImage"
+                fileReference="/content/dam/we-gov/child-support/child-homepage-paternity.png"
+                imageRotate="0"
+                linearGradient="rgba(19, 43, 77, 0.8), rgba(19, 43, 77, 0.8)"
+                text="&lt;h4 class=&quot;text-white govDeptTitle&quot;>Paternity establishment&lt;/h4>&#xa;&lt;p class=&quot;govDeptDesc text-white&quot;>Unmarried parents can establish fatherhood for their baby.&lt;/p>"/>
+            <col_break14379596064271
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys/colctrl"
+                controlType="break"/>
+            <image_135610005
+                jcr:created="{Date}2015-07-27T06:45:22.132+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-07-27T07:10:27.833+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="we-gov/components/image"
+                cssClass="cardImage"
+                fileReference="/content/dam/we-gov/child-support/child-homepage-payment.png"
+                imageRotate="0"
+                linearGradient="rgba(19, 43, 77, 0.8), rgba(19, 43, 77, 0.8)"
+                text="&lt;h4 class=&quot;text-white govDeptTitle&quot;>Make a payment&lt;/h4>&#xa;&lt;p class=&quot;govDeptDesc text-white&quot;>Support your child by paying for his/her support to a custodial party.&lt;/p>"/>
+            <col_end14379596064272
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys/colctrl"
+                controlType="end"/>
+        </parsys_bottom>
+        <image/>
+    </jcr:content>
+    <support-calculator/>
+    <paternity-establishment/>
+    <payments/>
+</jcr:root>

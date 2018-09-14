@@ -1,0 +1,22 @@
+/*Common Styles*/
+
+*{
+    outline: none !important;
+}
+
+/* Datepicker icon isn't exposed in Theme editor */
+.datepicker-calendar-icon {
+    width: 16px !important;
+    height: 16px !important;
+    top: 30%;
+    right: 10px;
+}
+
+.afFooter {
+    position: fixed;
+    bottom: 0;
+}
+
+.afFooter p {
+    margin:0px !important;
+}

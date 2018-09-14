@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    activeTab="{Long}0"
+    helpPath="en/cq/current/wcm/default_components.html#Image"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <image
+            jcr:primaryType="cq:Widget"
+            path="/libs/foundation/components/image/dialog/items/image.infinity.json"
+            xtype="cqinclude"/>
+        <text
+            jcr:primaryType="cq:Widget"
+            name="./text"
+            title="Text"
+            xtype="richtext">
+            <rtePlugins jcr:primaryType="nt:unstructured">
+                <misctools
+                    jcr:primaryType="nt:unstructured"
+                    features="*"/>
+            </rtePlugins>
+        </text>
+        <button
+            jcr:primaryType="cq:Widget"
+            title="Button"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <title
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Title"
+                    name="./buttonTitle"
+                    xtype="textfield"/>
+                <link
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Link to"
+                    name="./buttonLink"
+                    xtype="pathfield"/>
+                <color
+                    jcr:primaryType="cq:Widget"
+                    editable="{Boolean}true"
+                    fieldLabel="Color"
+                    name="./buttonColor"
+                    showHexValue="{Boolean}true"
+                    xtype="colorfield"/>
+                <fontColor
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Font Color"
+                    name="./buttonFontColor"
+                    showHexValue="{Boolean}true"
+                    xtype="colorfield"/>
+                <borderRadius
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Border Radius"
+                    name="./buttonBorderRadius"
+                    xtype="textfield"/>
+                <fontSize
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Font Size"
+                    name="./buttonFontSize"
+                    xtype="textfield"/>
+            </items>
+        </button>
+        <advanced
+            jcr:primaryType="cq:Widget"
+            path="/libs/foundation/components/image/dialog/items/advanced.infinity.json"
+            xtype="cqinclude"/>
+        <style
+            jcr:primaryType="cq:Widget"
+            title="Style"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <class
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="CSS Class"
+                    name="./cssClass"
+                    xtype="textfield"/>
+                <gradient
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Linear Gradient"
+                    name="./linearGradient"
+                    xtype="textfield"/>
+            </items>
+        </style>
+    </items>
+</jcr:root>

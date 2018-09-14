@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/we-gov"
+        cq:deviceGroups="/etc/mobile/groups/responsive"
+        cq:lastModified="{Date}2016-04-11T10:33:28.610Z"
+        cq:lastModifiedBy="admin"
+        jcr:description="This template enables one to have a single page survey form with submit."
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Benefits Explorer"
+        jcr:uuid="13000acb-3e0f-4eae-bcdd-4875d16b62c0"
+        sling:resourceType="we-gov/components/page/survey-page"
+        guideTemplate="{Boolean}true">
+        <guideContainer
+            jcr:lastModified="{Date}2014-04-24T19:45:13.558+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="fd/af/components/guideContainerWrapper"
+            actionType="fd/af/components/guidesubmittype/restendpoint"
+            autoSaveStrategyType="fd/fp/components/actions/autosave/timebased"
+            clientLibRef="benefit-explorer"
+            guideCss="guideContainer"
+            guideNodeClass="guideContainerNode"
+            name="Container1457777357846"
+            useExistingAF="false">
+            <layout
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="/libs/fd/af/layouts/defaultGuideLayout"
+                mobileLayout="fd/af/layouts/mobile/simple"/>
+            <rootPanel
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/components/rootPanel"
+                guideNodeClass="rootPanelNode"
+                name="guideRootPanel"
+                panelSetType="Navigable">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/gridFluidLayout"
+                    guideNavigatorTab="tab"
+                    nonNavigable="true"/>
+                <items jcr:primaryType="nt:unstructured">
+                    <guidepanel_879805661044659
+                        jcr:description="Answer a few questions about yourself"
+                        jcr:lastModified="{Date}2014-04-03T13:27:45.973+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="BENEFITS EXPLORER"
+                        sling:resourceType="fd/af/components/panel"
+                        css="leftchildpanel"
+                        fullqualifiedname="GeneralInformation"
+                        guideComponentType="true"
+                        guideNodeClass="guidePanel"
+                        name="GeneralInformation">
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                            columns="1"
+                            guideNavigatorTab="tab"
+                            nonNavigable="true"/>
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                            <yes_no_questions
+                                jcr:created="{Date}2014-01-24T15:27:50.563+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2014-05-04T14:30:26.253+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Are you a veteran of the Armed Forces? "
+                                sling:resourceType="we-gov/components/qna"
+                                fullqualifiedname="GeneralInformation.yes_no_questions"
+                                guideComponentType="true"
+                                guideNodeClass="guideRadioButton"
+                                name="yes_no_questions_1"
+                                options="[0=No,1=Yes]"
+                                validateExpMessage="1"/>
+                            <yes_no_questions_0
+                                jcr:created="{Date}2014-01-24T15:27:53.788+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2014-05-04T18:07:58.465+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Were you separated from active service under Honorable or General under Honorable conditions?"
+                                sling:resourceType="we-gov/components/qna"
+                                expJson="\{&quot;nodeName&quot;:&quot;RULES&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;ROOT&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.GeneralInformation.yes_no_questions_2&quot;,&quot;displayName&quot;:&quot;Were you separated from active service under Honorable or General under Honorable conditions?&quot;,&quot;type&quot;:&quot;AFCOMPONENT&quot;,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/BENEFITS EXPLORER/Were you separated from active service under Honorable or General under Honorable conditions?/&quot;,&quot;name&quot;:&quot;yes_no_questions_2&quot;}},{&quot;nodeName&quot;:&quot;When&quot;,&quot;value&quot;:null},{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.GeneralInformation.yes_no_questions_1&quot;,&quot;displayName&quot;:&quot;Are you a veteran of the Armed Forces? &quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/BENEFITS EXPLORER/Are you a veteran of the Armed Forces? /&quot;,&quot;name&quot;:&quot;yes_no_questions_1&quot;}}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;,&quot;value&quot;:&quot;1&quot;}}]}},{&quot;nodeName&quot;:&quot;Else&quot;,&quot;value&quot;:null},{&quot;nodeName&quot;:&quot;DONOTHING_OR_HIDE&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Hide&quot;,&quot;value&quot;:null}}]}}],&quot;isValid&quot;:true,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif (FORM.guideRootPanel.GeneralInformation.yes_no_questions_1.value == \\&quot;1\\&quot;) {\\n    true;\\n } else {\\n    false;\\n}\\n&quot;,&quot;eventName&quot;:&quot;Visibility&quot;}]}"
+                                fullqualifiedname="GeneralInformation.yes_no_questions_0"
+                                guideComponentType="true"
+                                guideNodeClass="guideRadioButton"
+                                name="yes_no_questions_2"
+                                options="[0=No,1=Yes]"
+                                visibleExp="var Visibility;&#xa;&#xa;try {&#xa;    if (yes_no_questions_1.value == &quot;1&quot;) {&#xa;        Visibility = true;&#xa;     } else {&#xa;        Visibility = false;&#xa;    }&#xa;    &#xa;} catch (e) {&#xa;    /*log here */&#xa;}&#xa;&#xa;if (Visibility === undefined) {&#xa;    this.visible;&#xa;}&#xa; else {&#xa;    Visibility;&#xa;}"/>
+                            <yes_no_questions_1
+                                jcr:created="{Date}2014-01-24T15:27:56.595+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2014-05-04T14:08:44.737+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Did you enter service after September 7, 1980? "
+                                sling:resourceType="we-gov/components/qna"
+                                expJson="\{&quot;nodeName&quot;:&quot;RULES&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;ROOT&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.GeneralInformation.yes_no_questions_3&quot;,&quot;displayName&quot;:&quot;Did you enter service after September 7, 1980? &quot;,&quot;type&quot;:&quot;AFCOMPONENT&quot;,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/BENEFITS EXPLORER/Did you enter service after September 7, 1980? /&quot;,&quot;name&quot;:&quot;yes_no_questions_3&quot;}},{&quot;nodeName&quot;:&quot;When&quot;,&quot;value&quot;:null},{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BOOLEAN_BINARY_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.GeneralInformation.yes_no_questions_2&quot;,&quot;displayName&quot;:&quot;Were you separated from active service under Honorable or General under Honorable conditions?&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/BENEFITS EXPLORER/Were you separated from active service under Honorable or General under Honorable conditions?/&quot;,&quot;name&quot;:&quot;yes_no_questions_2&quot;}}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;,&quot;value&quot;:&quot;1&quot;}}]}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;AND&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.GeneralInformation.yes_no_questions_1&quot;,&quot;displayName&quot;:&quot;Are you a veteran of the Armed Forces? &quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/BENEFITS EXPLORER/Are you a veteran of the Armed Forces? /&quot;,&quot;name&quot;:&quot;yes_no_questions_1&quot;}}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;,&quot;value&quot;:&quot;1&quot;}}]}}]}},{&quot;nodeName&quot;:&quot;Else&quot;,&quot;value&quot;:null},{&quot;nodeName&quot;:&quot;DONOTHING_OR_HIDE&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Hide&quot;,&quot;value&quot;:null}}]}}],&quot;isValid&quot;:true,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif (yes_no_questions_2.value == \\&quot;1\\&quot; &amp;&amp; yes_no_questions_1.value == \\&quot;1\\&quot;) {\\n    true;\\n } else {\\n    false;\\n}\\n&quot;,&quot;eventName&quot;:&quot;Visibility&quot;}]}"
+                                fullqualifiedname="GeneralInformation.yes_no_questions_1"
+                                guideComponentType="true"
+                                guideNodeClass="guideRadioButton"
+                                name="yes_no_questions_3"
+                                options="[0=No,1=Yes]"
+                                visibleExp="var Visibility;&#xa;&#xa;try {&#xa;    if (yes_no_questions_2.value == &quot;1&quot; &amp;&amp; yes_no_questions_1.value == &quot;1&quot;) {&#xa;        Visibility = true;&#xa;     } else {&#xa;        Visibility = false;&#xa;    }&#xa;    &#xa;} catch (e) {&#xa;    /*log here */&#xa;}&#xa;&#xa;if (Visibility === undefined) {&#xa;    this.visible;&#xa;}&#xa; else {&#xa;    Visibility;&#xa;}"/>
+                            <yes_no_questions_2
+                                jcr:created="{Date}2014-01-24T15:28:01.221+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2014-05-04T18:08:36.016+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Did you serve at least 24 months of regular service?"
+                                sling:resourceType="we-gov/components/qna"
+                                expJson="\{&quot;nodeName&quot;:&quot;RULES&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;ROOT&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.GeneralInformation.yes_no_questions_4&quot;,&quot;displayName&quot;:&quot;Did you serve at least 24 months of regular service?&quot;,&quot;type&quot;:&quot;AFCOMPONENT&quot;,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/BENEFITS EXPLORER/Did you serve at least 24 months of regular service?/&quot;,&quot;name&quot;:&quot;yes_no_questions_4&quot;}},{&quot;nodeName&quot;:&quot;When&quot;,&quot;value&quot;:null},{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BOOLEAN_BINARY_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.GeneralInformation.yes_no_questions_1&quot;,&quot;displayName&quot;:&quot;Are you a veteran of the Armed Forces? &quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/BENEFITS EXPLORER/Are you a veteran of the Armed Forces? /&quot;,&quot;name&quot;:&quot;yes_no_questions_1&quot;}}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;,&quot;value&quot;:&quot;1&quot;}}]}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;AND&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BOOLEAN_BINARY_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.GeneralInformation.yes_no_questions_2&quot;,&quot;displayName&quot;:&quot;Were you separated from active service under Honorable or General under Honorable conditions?&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/BENEFITS EXPLORER/Were you separated from active service under Honorable or General under Honorable conditions?/&quot;,&quot;name&quot;:&quot;yes_no_questions_2&quot;}}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;,&quot;value&quot;:&quot;1&quot;}}]}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;AND&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.GeneralInformation.yes_no_questions_3&quot;,&quot;displayName&quot;:&quot;Did you enter service after September 7, 1980? &quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/BENEFITS EXPLORER/Did you enter service after September 7, 1980? /&quot;,&quot;name&quot;:&quot;yes_no_questions_3&quot;}}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;,&quot;value&quot;:&quot;1&quot;}}]}}]}}]}},{&quot;nodeName&quot;:&quot;Else&quot;,&quot;value&quot;:null},{&quot;nodeName&quot;:&quot;DONOTHING_OR_HIDE&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Hide&quot;,&quot;value&quot;:null}}]}}],&quot;isValid&quot;:true,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif (FORM.guideRootPanel.GeneralInformation.yes_no_questions_1.value == \\&quot;1\\&quot; &amp;&amp; FORM.guideRootPanel.GeneralInformation.yes_no_questions_2.value == \\&quot;1\\&quot; &amp;&amp; FORM.guideRootPanel.GeneralInformation.yes_no_questions_3.value == \\&quot;1\\&quot;) {\\n    true;\\n } else {\\n    false;\\n}\\n&quot;,&quot;eventName&quot;:&quot;Visibility&quot;}]}"
+                                fullqualifiedname="GeneralInformation.yes_no_questions_2"
+                                guideComponentType="true"
+                                guideNodeClass="guideRadioButton"
+                                name="yes_no_questions_4"
+                                options="[0=No,1=Yes]"
+                                visibleExp="var Visibility;&#xa;&#xa;try {&#xa;    if (yes_no_questions_1.value == &quot;1&quot; &amp;&amp; yes_no_questions_2.value == &quot;1&quot; &amp;&amp; yes_no_questions_3.value == &quot;1&quot;) {&#xa;        Visibility = true;&#xa;     } else {&#xa;        Visibility = false;&#xa;    }&#xa;    &#xa;} catch (e) {&#xa;    /*log here */&#xa;}&#xa;&#xa;if (Visibility === undefined) {&#xa;    this.visible;&#xa;}&#xa; else {&#xa;    Visibility;&#xa;}"/>
+                            <yes_no_questions_3
+                                jcr:created="{Date}2014-01-24T15:28:01.221+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2014-05-04T14:09:59.410+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Were you discharged for a disability incurred or aggravated in the line of duty or for a hardship or early out?"
+                                sling:resourceType="we-gov/components/qna"
+                                expJson="\{&quot;nodeName&quot;:&quot;RULES&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;ROOT&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.GeneralInformation.yes_no_questions_5&quot;,&quot;displayName&quot;:&quot;Were you discharged for a disability incurred or aggravated in the line of duty or for a hardship or early out?&quot;,&quot;type&quot;:&quot;AFCOMPONENT&quot;,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/BENEFITS EXPLORER/Were you discharged for a disability incurred or aggravated in the line of duty or for a hardship or early out?/&quot;,&quot;name&quot;:&quot;yes_no_questions_5&quot;}},{&quot;nodeName&quot;:&quot;When&quot;,&quot;value&quot;:null},{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BOOLEAN_BINARY_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.GeneralInformation.yes_no_questions_1&quot;,&quot;displayName&quot;:&quot;Are you a veteran of the Armed Forces? &quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/BENEFITS EXPLORER/Are you a veteran of the Armed Forces? /&quot;,&quot;name&quot;:&quot;yes_no_questions_1&quot;}}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;,&quot;value&quot;:&quot;1&quot;}}]}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;AND&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BOOLEAN_BINARY_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.GeneralInformation.yes_no_questions_2&quot;,&quot;displayName&quot;:&quot;Were you separated from active service under Honorable or General under Honorable conditions?&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/BENEFITS EXPLORER/Were you separated from active service under Honorable or General under Honorable conditions?/&quot;,&quot;name&quot;:&quot;yes_no_questions_2&quot;}}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;,&quot;value&quot;:&quot;1&quot;}}]}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;AND&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BOOLEAN_BINARY_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.GeneralInformation.yes_no_questions_3&quot;,&quot;displayName&quot;:&quot;Did you enter service after September 7, 1980? &quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/BENEFITS EXPLORER/Did you enter service after September 7, 1980? /&quot;,&quot;name&quot;:&quot;yes_no_questions_3&quot;}}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;,&quot;value&quot;:&quot;1&quot;}}]}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;AND&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.GeneralInformation.yes_no_questions_4&quot;,&quot;displayName&quot;:&quot;Did you serve at least 24 months of regular service?&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/BENEFITS EXPLORER/Did you serve at least 24 months of regular service?/&quot;,&quot;name&quot;:&quot;yes_no_questions_4&quot;}}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;,&quot;value&quot;:&quot;0&quot;}}]}}]}}]}}]}},{&quot;nodeName&quot;:&quot;Else&quot;,&quot;value&quot;:null},{&quot;nodeName&quot;:&quot;DONOTHING_OR_HIDE&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Hide&quot;,&quot;value&quot;:null}}]}}],&quot;isValid&quot;:true,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif (FORM.guideRootPanel.GeneralInformation.yes_no_questions_1.value == \\&quot;1\\&quot; &amp;&amp; FORM.guideRootPanel.GeneralInformation.yes_no_questions_2.value == \\&quot;1\\&quot; &amp;&amp; FORM.guideRootPanel.GeneralInformation.yes_no_questions_3.value == \\&quot;1\\&quot; &amp;&amp; FORM.guideRootPanel.GeneralInformation.yes_no_questions_4.value == \\&quot;0\\&quot;) {\\n    true;\\n } else {\\n    false;\\n}\\n&quot;,&quot;eventName&quot;:&quot;Visibility&quot;}]}"
+                                fullqualifiedname="GeneralInformation.yes_no_questions_3"
+                                guideComponentType="true"
+                                guideNodeClass="guideRadioButton"
+                                name="yes_no_questions_5"
+                                options="[0=No,1=Yes]"
+                                visibleExp="var Visibility;&#xa;&#xa;try {&#xa;    if (yes_no_questions_1.value == &quot;1&quot; &amp;&amp; yes_no_questions_2.value == &quot;1&quot; &amp;&amp; yes_no_questions_3.value == &quot;1&quot; &amp;&amp; yes_no_questions_4.value == &quot;0&quot;) {&#xa;        Visibility = true;&#xa;     } else {&#xa;        Visibility = false;&#xa;    }&#xa;    &#xa;} catch (e) {&#xa;    /*log here */&#xa;}&#xa;&#xa;if (Visibility === undefined) {&#xa;    this.visible;&#xa;}&#xa; else {&#xa;    Visibility;&#xa;}"/>
+                            <panel
+                                jcr:created="{Date}2014-01-24T18:46:25.758+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2014-05-04T20:01:47.060+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="result_panel"
+                                sling:resourceType="fd/af/components/panel"
+                                css="result_section"
+                                expJson="\{&quot;nodeName&quot;:&quot;RULES&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;ROOT&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.GeneralInformation.result_panel&quot;,&quot;displayName&quot;:&quot;result_panel&quot;,&quot;type&quot;:&quot;AFCOMPONENT&quot;,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/BENEFITS EXPLORER/result_panel/&quot;,&quot;name&quot;:&quot;result_panel&quot;}},{&quot;nodeName&quot;:&quot;When&quot;,&quot;value&quot;:null},{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BOOLEAN_BINARY_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BOOLEAN_BINARY_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.GeneralInformation.yes_no_questions_3&quot;,&quot;displayName&quot;:&quot;Did you enter service after September 7, 1980? &quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/BENEFITS EXPLORER/Did you enter service after September 7, 1980? /&quot;,&quot;name&quot;:&quot;yes_no_questions_3&quot;}}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;,&quot;value&quot;:&quot;1&quot;}}]},&quot;nested&quot;:false},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;AND&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BOOLEAN_BINARY_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.GeneralInformation.yes_no_questions_4&quot;,&quot;displayName&quot;:&quot;Did you serve at least 24 months of regular service?&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/BENEFITS EXPLORER/Did you serve at least 24 months of regular service?/&quot;,&quot;name&quot;:&quot;yes_no_questions_4&quot;}}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;,&quot;value&quot;:&quot;1&quot;}}]},&quot;nested&quot;:true},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;AND&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.GeneralInformation.yes_no_questions_2&quot;,&quot;displayName&quot;:&quot;Were you separated from active service under Honorable or General under Honorable conditions?&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/BENEFITS EXPLORER/Were you separated from active service under Honorable or General under Honorable conditions?/&quot;,&quot;name&quot;:&quot;yes_no_questions_2&quot;}}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;,&quot;value&quot;:&quot;1&quot;}}]},&quot;nested&quot;:false}]},&quot;nested&quot;:false}]},&quot;nested&quot;:true},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;OR&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BOOLEAN_BINARY_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BOOLEAN_BINARY_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.GeneralInformation.yes_no_questions_2&quot;,&quot;displayName&quot;:&quot;Were you separated from active service under Honorable or General under Honorable conditions?&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/BENEFITS EXPLORER/Were you separated from active service under Honorable or General under Honorable conditions?/&quot;,&quot;name&quot;:&quot;yes_no_questions_2&quot;}}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;,&quot;value&quot;:&quot;1&quot;}}]},&quot;nested&quot;:false},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;AND&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.GeneralInformation.yes_no_questions_3&quot;,&quot;displayName&quot;:&quot;Did you enter service after September 7, 1980? &quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/BENEFITS EXPLORER/Did you enter service after September 7, 1980? /&quot;,&quot;name&quot;:&quot;yes_no_questions_3&quot;}}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;,&quot;value&quot;:&quot;0&quot;}}]},&quot;nested&quot;:false}]},&quot;nested&quot;:true},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;OR&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BOOLEAN_BINARY_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.GeneralInformation.yes_no_questions_3&quot;,&quot;displayName&quot;:&quot;Did you enter service after September 7, 1980? &quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/BENEFITS EXPLORER/Did you enter service after September 7, 1980? /&quot;,&quot;name&quot;:&quot;yes_no_questions_3&quot;}}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;,&quot;value&quot;:&quot;1&quot;}}]},&quot;nested&quot;:false},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;AND&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BOOLEAN_BINARY_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.GeneralInformation.yes_no_questions_2&quot;,&quot;displayName&quot;:&quot;Were you separated from active service under Honorable or General under Honorable conditions?&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/BENEFITS EXPLORER/Were you separated from active service under Honorable or General under Honorable conditions?/&quot;,&quot;name&quot;:&quot;yes_no_questions_2&quot;}}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;,&quot;value&quot;:&quot;1&quot;}}]},&quot;nested&quot;:false},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;AND&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BOOLEAN_BINARY_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.GeneralInformation.yes_no_questions_5&quot;,&quot;displayName&quot;:&quot;Were you discharged for a disability incurred or aggravated in the line of duty or for a hardship or early out?&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/BENEFITS EXPLORER/Were you discharged for a disability incurred or aggravated in the line of duty or for a hardship or early out?/&quot;,&quot;name&quot;:&quot;yes_no_questions_5&quot;}}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;,&quot;value&quot;:&quot;1&quot;}}]},&quot;nested&quot;:false},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;AND&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.GeneralInformation.yes_no_questions_4&quot;,&quot;displayName&quot;:&quot;Did you serve at least 24 months of regular service?&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/BENEFITS EXPLORER/Did you serve at least 24 months of regular service?/&quot;,&quot;name&quot;:&quot;yes_no_questions_4&quot;}}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;,&quot;value&quot;:&quot;0&quot;}}]},&quot;nested&quot;:false}]},&quot;nested&quot;:false}]},&quot;nested&quot;:false}]},&quot;nested&quot;:true}]},&quot;nested&quot;:true}]}},{&quot;nodeName&quot;:&quot;Else&quot;,&quot;value&quot;:null},{&quot;nodeName&quot;:&quot;DONOTHING_OR_HIDE&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Hide&quot;,&quot;value&quot;:null}}]}}],&quot;isValid&quot;:true,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif ( ( FORM.guideRootPanel.GeneralInformation.yes_no_questions_3.value == \\&quot;1\\&quot; &amp;&amp;  ( FORM.guideRootPanel.GeneralInformation.yes_no_questions_4.value == \\&quot;1\\&quot; )  &amp;&amp; FORM.guideRootPanel.GeneralInformation.yes_no_questions_2.value == \\&quot;1\\&quot; )  ||  (  ( FORM.guideRootPanel.GeneralInformation.yes_no_questions_2.value == \\&quot;1\\&quot; &amp;&amp; FORM.guideRootPanel.GeneralInformation.yes_no_questions_3.value == \\&quot;0\\&quot; )  ||  ( FORM.guideRootPanel.GeneralInformation.yes_no_questions_3.value == \\&quot;1\\&quot; &amp;&amp; FORM.guideRootPanel.GeneralInformation.yes_no_questions_2.value == \\&quot;1\\&quot; &amp;&amp; FORM.guideRootPanel.GeneralInformation.yes_no_questions_5.value == \\&quot;1\\&quot; &amp;&amp; FORM.guideRootPanel.GeneralInformation.yes_no_questions_4.value == \\&quot;0\\&quot; )  ) ) {\\n    true;\\n } else {\\n    false;\\n}\\n&quot;,&quot;eventName&quot;:&quot;Visibility&quot;}]}"
+                                fullqualifiedname="GeneralInformation.panel"
+                                guideComponentType="true"
+                                guideNodeClass="guidePanel"
+                                name="result_panel"
+                                visibleExp="var Visibility;&#xa;&#xa;try {&#xa;    if ( ( yes_no_questions_3.value == &quot;1&quot; &amp;&amp;  ( yes_no_questions_4.value == &quot;1&quot; )  &amp;&amp; yes_no_questions_2.value == &quot;1&quot; )  ||  (  ( yes_no_questions_2.value == &quot;1&quot; &amp;&amp; yes_no_questions_3.value == &quot;0&quot; )  ||  ( yes_no_questions_3.value == &quot;1&quot; &amp;&amp; yes_no_questions_2.value == &quot;1&quot; &amp;&amp; yes_no_questions_5.value == &quot;1&quot; &amp;&amp; yes_no_questions_4.value == &quot;0&quot; )  ) ) {&#xa;        Visibility = true;&#xa;     } else {&#xa;        Visibility = false;&#xa;    }&#xa;    &#xa;} catch (e) {&#xa;    /*log here */&#xa;}&#xa;&#xa;if (Visibility === undefined) {&#xa;    this.visible;&#xa;}&#xa; else {&#xa;    Visibility;&#xa;}">
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                    columns="3"
+                                    guideNavigatorTab="tab"
+                                    nonNavigable="true"/>
+                                <items
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout">
+                                    <enrol_panel
+                                        jcr:lastModified="{Date}2014-05-04T14:28:47.636+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="enrol_panel"
+                                        sling:resourceType="fd/af/components/panel"
+                                        css="enrol"
+                                        guideNodeClass="guidePanel"
+                                        name="enrol_panel">
+                                        <items
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                                            <guidetextdraw
+                                                jcr:created="{Date}2014-04-24T19:09:50.253+05:30"
+                                                jcr:createdBy="admin"
+                                                jcr:lastModified="{Date}2014-04-24T19:09:50.253+05:30"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="fd/af/components/guidetextdraw"
+                                                _value="&lt;p>GREAT!&lt;/p>&#xa;&lt;p>You are eligible for healthcare benefits. &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p>&#xa;"
+                                                guideNodeClass="guideTextDraw"
+                                                name="textdraw_0"/>
+                                            <guidebutton
+                                                jcr:created="{Date}2014-04-24T19:10:00.767+05:30"
+                                                jcr:createdBy="admin"
+                                                jcr:lastModified="{Date}2014-04-24T22:49:28.212+05:30"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="ENROL NOW"
+                                                sling:resourceType="fd/af/components/guidebutton"
+                                                assistPriority="custom"
+                                                buttonType="button-default"
+                                                clickExp="&#xa;try {&#xa;    enrollUrl();;&#xa;    &#xa;    &#xa;} catch (e) {&#xa;    /*log here */&#xa;}&#xa;"
+                                                expJson="\{&quot;nodeName&quot;:&quot;RULES&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;ROOT&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.GeneralInformation.result_panel.enrol_panel.guidebutton&quot;,&quot;displayName&quot;:&quot;ENROL NOW&quot;,&quot;type&quot;:&quot;BUTTON&quot;,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/BENEFITS EXPLORER/result_panel/enrol_panel/ENROL NOW/&quot;,&quot;name&quot;:&quot;guidebutton&quot;}},{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;is clicked&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;,&quot;choice&quot;:null}]},&quot;nested&quot;:false},{&quot;nodeName&quot;:&quot;Then&quot;,&quot;value&quot;:null},{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;FUNCTION_CALL&quot;,&quot;functionName&quot;:{&quot;id&quot;:&quot;enrollUrl&quot;,&quot;displayName&quot;:&quot;enrollUrl&quot;,&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN&quot;,&quot;isDuplicate&quot;:false,&quot;displayPath&quot;:&quot;&quot;,&quot;args&quot;:[],&quot;impl&quot;:&quot;$0();&quot;},&quot;params&quot;:[]}}]}]}}],&quot;isValid&quot;:true,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nenrollUrl();;\\n\\n&quot;,&quot;eventName&quot;:&quot;Click&quot;}]}"
+                                                fullqualifiedname="GeneralInformation.panel.panel.guidebutton"
+                                                guideComponentType="true"
+                                                guideNodeClass="guideButton"
+                                                name="guidebutton"
+                                                type="button"/>
+                                        </items>
+                                        <layout
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                            columns="1"
+                                            nonNavigable="true"
+                                            toolbarPosition="Bottom"/>
+                                    </enrol_panel>
+                                    <continue_panel
+                                        jcr:lastModified="{Date}2014-04-24T19:17:11.595+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="continue_panel"
+                                        sling:resourceType="fd/af/components/panel"
+                                        css="continue"
+                                        guideNodeClass="guidePanel"
+                                        name="continue_panel">
+                                        <items
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                                            <guidetextdraw
+                                                jcr:created="{Date}2014-04-24T19:10:10.134+05:30"
+                                                jcr:createdBy="admin"
+                                                jcr:lastModified="{Date}2016-02-26T15:19:13.856+05:30"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="fd/af/components/guidetextdraw"
+                                                _value="&lt;p>Almost done, just a few more questions to determine if you are eligible for any other benefits.&lt;/p>&#xa;"
+                                                guideNodeClass="guideTextDraw"
+                                                name="textdraw"
+                                                textIsRich="true"/>
+                                            <guidebutton
+                                                jcr:created="{Date}2014-04-24T19:10:17.332+05:30"
+                                                jcr:createdBy="admin"
+                                                jcr:lastModified="{Date}2014-05-04T15:35:55.119+05:30"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="CONTINUE"
+                                                sling:resourceType="fd/af/components/guidebutton"
+                                                assistPriority="custom"
+                                                buttonSize="button-medium"
+                                                buttonType="button-default"
+                                                clickExp="&#xa;try {&#xa;    additional_questions.visible = true;&#xa;    &#xa;    &#xa;} catch (e) {&#xa;    /*log here */&#xa;}&#xa;&#xa;try {&#xa;    additional_questions.visible = true;&#xa;    GeneralInformation.visible = false;&#xa;    &#xa;    &#xa;} catch (e) {&#xa;    /*log here */&#xa;}&#xa;"
+                                                expJson="\{&quot;nodeName&quot;:&quot;RULES&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;ROOT&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.GeneralInformation.result_panel.continue_panel.button&quot;,&quot;type&quot;:&quot;BUTTON|AFCOMPONENT&quot;,&quot;name&quot;:&quot;button&quot;}},{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;is clicked&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;,&quot;choice&quot;:null}]}},{&quot;nodeName&quot;:&quot;Then&quot;,&quot;value&quot;:null},{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_STATEMENT&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.additional_questions&quot;,&quot;displayName&quot;:&quot;BENEFITS EXPLORER&quot;,&quot;type&quot;:&quot;AFCOMPONENT&quot;,&quot;isDuplicate&quot;:true,&quot;displayPath&quot;:&quot;guide/guideRootPanel/BENEFITS EXPLORER/&quot;,&quot;name&quot;:&quot;additional_questions&quot;}}]}}]}]}}],&quot;isValid&quot;:true,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nFORM.guideRootPanel.additional_questions.visible = true;\\n\\n&quot;,&quot;eventName&quot;:&quot;Click&quot;},{&quot;nodeName&quot;:&quot;ROOT&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.GeneralInformation.result_panel.continue_panel.button&quot;,&quot;displayName&quot;:&quot;CONTINUE&quot;,&quot;type&quot;:&quot;BUTTON&quot;,&quot;isDuplicate&quot;:true,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/BENEFITS EXPLORER/result_panel/continue_panel/CONTINUE/&quot;,&quot;name&quot;:&quot;button&quot;}},{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;is clicked&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;,&quot;choice&quot;:null}]},&quot;nested&quot;:false},{&quot;nodeName&quot;:&quot;Then&quot;,&quot;value&quot;:null},{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_STATEMENT&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.additional_questions&quot;,&quot;displayName&quot;:&quot;BENEFITS EXPLORER&quot;,&quot;type&quot;:&quot;AFCOMPONENT&quot;,&quot;isDuplicate&quot;:true,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/BENEFITS EXPLORER/&quot;,&quot;name&quot;:&quot;additional_questions&quot;}}]}},{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;HIDE_STATEMENT&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.GeneralInformation&quot;,&quot;displayName&quot;:&quot;BENEFITS EXPLORER&quot;,&quot;type&quot;:&quot;AFCOMPONENT&quot;,&quot;isDuplicate&quot;:true,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/BENEFITS EXPLORER/&quot;,&quot;name&quot;:&quot;GeneralInformation&quot;}}]}}]}]}}],&quot;isValid&quot;:true,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nFORM.guideRootPanel.additional_questions.visible = true;\\nGeneralInformation.visible = false;\\n\\n&quot;,&quot;eventName&quot;:&quot;Click&quot;}]}"
+                                                guideComponentType="true"
+                                                guideNodeClass="guideButton"
+                                                name="button"
+                                                type="button"/>
+                                        </items>
+                                        <layout
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                            columns="1"
+                                            nonNavigable="true"
+                                            toolbarPosition="Bottom"/>
+                                    </continue_panel>
+                                </items>
+                            </panel>
+                            <panel1399197198947
+                                jcr:lastModified="{Date}2014-05-04T20:05:12.516+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="message_panel"
+                                sling:resourceType="fd/af/components/panel"
+                                expJson="\{&quot;nodeName&quot;:&quot;RULES&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;ROOT&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.GeneralInformation.message_panel&quot;,&quot;type&quot;:&quot;AFCOMPONENT&quot;,&quot;name&quot;:&quot;message_panel&quot;}},{&quot;nodeName&quot;:&quot;When&quot;,&quot;value&quot;:null},{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BOOLEAN_BINARY_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.GeneralInformation.yes_no_questions_1&quot;,&quot;displayName&quot;:&quot;Are you a veteran of the Armed Forces? &quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;displayPath&quot;:&quot;guide/guideRootPanel/BENEFITS EXPLORER/Are you a veteran of the Armed Forces? /&quot;,&quot;name&quot;:&quot;yes_no_questions_1&quot;}}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;,&quot;value&quot;:&quot;0&quot;}}]}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;OR&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BOOLEAN_BINARY_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.GeneralInformation.yes_no_questions_2&quot;,&quot;displayName&quot;:&quot;Were you separated from active service under Honorable or General under Honorable conditions?&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;displayPath&quot;:&quot;guide/guideRootPanel/BENEFITS EXPLORER/Were you separated from active service under Honorable or General under Honorable conditions?/&quot;,&quot;name&quot;:&quot;yes_no_questions_2&quot;}}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;,&quot;value&quot;:&quot;0&quot;}}]}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;OR&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.GeneralInformation.yes_no_questions_5&quot;,&quot;displayName&quot;:&quot;Were you discharged for a disability incurred or aggravated in the line of duty or for a hardship or early out?&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;displayPath&quot;:&quot;guide/guideRootPanel/BENEFITS EXPLORER/Were you discharged for a disability incurred or aggravated in the line of duty or for a hardship or early out?/&quot;,&quot;name&quot;:&quot;yes_no_questions_5&quot;}}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;,&quot;value&quot;:&quot;0&quot;}}]}}]}}]}},{&quot;nodeName&quot;:&quot;Else&quot;,&quot;value&quot;:null},{&quot;nodeName&quot;:&quot;DONOTHING_OR_HIDE&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Hide&quot;,&quot;value&quot;:null}}]}}],&quot;isValid&quot;:true,&quot;script&quot;:&quot;/**\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif (guide.guideRootPanel.GeneralInformation.yes_no_questions_1.value == \\&quot;0\\&quot; || guide.guideRootPanel.GeneralInformation.yes_no_questions_2.value == \\&quot;0\\&quot; || guide.guideRootPanel.GeneralInformation.yes_no_questions_5.value == \\&quot;0\\&quot;) {\\n    true;\\n } else {\\n    false;\\n}\\n&quot;,&quot;eventName&quot;:&quot;Visibility&quot;}]}"
+                                guideNodeClass="guidePanel"
+                                name="message_panel"
+                                visibleExp="var Visibility;&#xa;&#xa;try {&#xa;    if (yes_no_questions_1.value == &quot;0&quot; || yes_no_questions_2.value == &quot;0&quot; || yes_no_questions_5.value == &quot;0&quot;) {&#xa;        Visibility = true;&#xa;     } else {&#xa;        Visibility = false;&#xa;    }&#xa;    &#xa;} catch (e) {&#xa;    /*log here */&#xa;}&#xa;&#xa;if (Visibility === undefined) {&#xa;    this.visible;&#xa;}&#xa;">
+                                <items
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout">
+                                    <guidetextdraw
+                                        jcr:created="{Date}2014-05-04T15:24:13.921+05:30"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2014-05-04T19:57:57.855+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        _value="&lt;p>Based on your response, you may not be eligible for enrolment. However, there can be an exception. We recommend that you contact our service center at 1-800-xxx-xxxx and speak to an eligibility specialist.&lt;br>&#xa;&lt;/p>&#xa;"
+                                        css="enrol"
+                                        guideNodeClass="guideTextDraw"
+                                        name="textdraw"/>
+                                </items>
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                    columns="3"
+                                    nonNavigable="true"
+                                    toolbarPosition="Bottom"/>
+                            </panel1399197198947>
+                        </items>
+                    </guidepanel_879805661044659>
+                    <guidepanel_936167221225552
+                        jcr:description="Check all that apply"
+                        jcr:lastModified="{Date}2014-05-04T18:00:43.915+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="BENEFITS EXPLORER"
+                        sling:resourceType="fd/af/components/panel"
+                        expJson="\{&quot;nodeName&quot;:&quot;RULES&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;ROOT&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;VISIBLE_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.additional_questions&quot;,&quot;type&quot;:&quot;AFCOMPONENT&quot;,&quot;name&quot;:&quot;additional_questions&quot;}},{&quot;nodeName&quot;:&quot;When&quot;,&quot;value&quot;:null},{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;,&quot;choice&quot;:null},{&quot;nodeName&quot;:&quot;Else&quot;,&quot;value&quot;:null},{&quot;nodeName&quot;:&quot;DONOTHING_OR_SHOW&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Show&quot;,&quot;value&quot;:null}}]}}],&quot;isValid&quot;:true,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nfalse;\\n\\n&quot;,&quot;eventName&quot;:&quot;Visibility&quot;}]}"
+                        fullqualifiedname="subForm_936193258122463"
+                        guideComponentType="true"
+                        guideNodeClass="guidePanel"
+                        name="additional_questions"
+                        visibleExp="var Visibility;&#xa;&#xa;try {&#xa;    Visibility = false;&#xa;    &#xa;    &#xa;} catch (e) {&#xa;    /*log here */&#xa;}&#xa;&#xa;if (Visibility === undefined) {&#xa;    this.visible;&#xa;}&#xa; else {&#xa;    Visibility;&#xa;}">
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                            columns="1"
+                            guideNavigatorTab="tab"
+                            nonNavigable="true"/>
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                            <yes_no_questions
+                                jcr:created="{Date}2014-01-24T15:59:48.792+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2014-05-04T15:50:39.055+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Are you a former prisoner of war? "
+                                sling:resourceType="we-gov/components/qna"
+                                fullqualifiedname="subForm_936193258122463.yes_no_questions"
+                                guideComponentType="true"
+                                guideNodeClass="guideRadioButton"
+                                name="qna_1"
+                                options="[0=No,1=Yes]"/>
+                            <guidedatepicker
+                                jcr:created="{Date}2014-01-24T15:59:55.981+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2014-05-04T15:50:53.494+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="When were you imprisoned?"
+                                sling:resourceType="fd/af/components/guidedatepicker"
+                                assistPriority="custom"
+                                expJson="\{&quot;nodeName&quot;:&quot;RULES&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;ROOT&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.additional_questions.guidedatepicker&quot;,&quot;type&quot;:&quot;AFCOMPONENT&quot;,&quot;name&quot;:&quot;guidedatepicker&quot;}},{&quot;nodeName&quot;:&quot;When&quot;,&quot;value&quot;:null},{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.additional_questions.qna_1&quot;,&quot;displayName&quot;:&quot;Are you a former prisoner of war? &quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/BENEFITS EXPLORER/Are you a former prisoner of war? /&quot;,&quot;name&quot;:&quot;qna_1&quot;}}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;,&quot;value&quot;:&quot;1&quot;}}]}},{&quot;nodeName&quot;:&quot;Else&quot;,&quot;value&quot;:null},{&quot;nodeName&quot;:&quot;DONOTHING_OR_HIDE&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Hide&quot;,&quot;value&quot;:null}}]}}],&quot;isValid&quot;:true,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif (FORM.guideRootPanel.additional_questions.qna_1.value == \\&quot;1\\&quot;) {\\n    true;\\n } else {\\n    false;\\n}\\n&quot;,&quot;eventName&quot;:&quot;Visibility&quot;}]}"
+                                fullqualifiedname="subForm_936193258122463.guidedatepicker"
+                                guideComponentType="true"
+                                guideNodeClass="guideDatePicker"
+                                name="guidedatepicker"
+                                visibleExp="var Visibility;&#xa;&#xa;try {&#xa;    if (qna_1.value == &quot;1&quot;) {&#xa;        Visibility = true;&#xa;     } else {&#xa;        Visibility = false;&#xa;    }&#xa;    &#xa;} catch (e) {&#xa;    /*log here */&#xa;}&#xa;&#xa;if (Visibility === undefined) {&#xa;    this.visible;&#xa;}&#xa; else {&#xa;    Visibility;&#xa;}"/>
+                            <guidetextbox
+                                jcr:created="{Date}2014-01-24T16:00:13.029+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2014-05-04T15:51:04.118+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="For how long?"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                assistPriority="custom"
+                                expJson="\{&quot;nodeName&quot;:&quot;RULES&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;ROOT&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.additional_questions.guidetextbox&quot;,&quot;type&quot;:&quot;AFCOMPONENT&quot;,&quot;name&quot;:&quot;guidetextbox&quot;}},{&quot;nodeName&quot;:&quot;When&quot;,&quot;value&quot;:null},{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.additional_questions.qna_1&quot;,&quot;displayName&quot;:&quot;Are you a former prisoner of war? &quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/BENEFITS EXPLORER/Are you a former prisoner of war? /&quot;,&quot;name&quot;:&quot;qna_1&quot;}}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;,&quot;value&quot;:&quot;1&quot;}}]}},{&quot;nodeName&quot;:&quot;Else&quot;,&quot;value&quot;:null},{&quot;nodeName&quot;:&quot;DONOTHING_OR_HIDE&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Hide&quot;,&quot;value&quot;:null}}]}}],&quot;isValid&quot;:true,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif (FORM.guideRootPanel.additional_questions.qna_1.value == \\&quot;1\\&quot;) {\\n    true;\\n } else {\\n    false;\\n}\\n&quot;,&quot;eventName&quot;:&quot;Visibility&quot;}]}"
+                                fullqualifiedname="subForm_936193258122463.guidetextbox"
+                                guideComponentType="true"
+                                guideNodeClass="guideTextBox"
+                                name="guidetextbox"
+                                visibleExp="var Visibility;&#xa;&#xa;try {&#xa;    if (qna_1.value == &quot;1&quot;) {&#xa;        Visibility = true;&#xa;     } else {&#xa;        Visibility = false;&#xa;    }&#xa;    &#xa;} catch (e) {&#xa;    /*log here */&#xa;}&#xa;&#xa;if (Visibility === undefined) {&#xa;    this.visible;&#xa;}&#xa; else {&#xa;    Visibility;&#xa;}"/>
+                            <yes_no_questions_0
+                                jcr:created="{Date}2014-01-24T16:00:17.371+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2014-05-04T19:45:47.198+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Are you receiving veteran pension?"
+                                sling:resourceType="we-gov/components/qna"
+                                fullqualifiedname="subForm_936193258122463.yes_no_questions_0"
+                                guideComponentType="true"
+                                guideNodeClass="guideRadioButton"
+                                name="qna_2"
+                                options="[0=No,1=Yes]"/>
+                            <yes_no_questions_1
+                                jcr:created="{Date}2014-01-24T16:00:22.243+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2014-05-04T16:19:26.827+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Are you purple heart recipient?"
+                                sling:resourceType="we-gov/components/qna"
+                                fullqualifiedname="subForm_936193258122463.yes_no_questions_1"
+                                guideComponentType="true"
+                                guideNodeClass="guideRadioButton"
+                                name="qna_3"
+                                options="[0=No,1=Yes]"/>
+                            <yes_no_questions_2
+                                jcr:created="{Date}2014-01-24T16:00:35.178+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2014-05-04T19:44:24.877+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Were you discharged from the service due to a disability incurred or aggravated in the line of duty?"
+                                sling:resourceType="we-gov/components/qna"
+                                fullqualifiedname="subForm_936193258122463.yes_no_questions_2"
+                                guideComponentType="true"
+                                guideNodeClass="guideRadioButton"
+                                name="qna_4"
+                                options="[0=No,1=Yes]"/>
+                            <qna
+                                jcr:created="{Date}2014-05-04T15:36:39.478+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2014-05-04T16:19:51.302+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Do you need long term care services?"
+                                sling:resourceType="we-gov/components/qna"
+                                expJson="\{&quot;nodeName&quot;:&quot;RULES&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;ROOT&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.additional_questions.qna_5&quot;,&quot;type&quot;:&quot;AFCOMPONENT&quot;,&quot;name&quot;:&quot;qna_5&quot;}},{&quot;nodeName&quot;:&quot;When&quot;,&quot;value&quot;:null},{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.additional_questions.qna_4&quot;,&quot;displayName&quot;:&quot;Were you discharged from the service due to a disability incurred or aggravated in the line of duty?&quot;,&quot;type&quot;:&quot;STRING&quot;,&quot;displayPath&quot;:&quot;guide/guideRootPanel/BENEFITS EXPLORER/Were you discharged from the service due to a disability incurred or aggravated in the line of duty?/&quot;,&quot;name&quot;:&quot;qna_4&quot;}}},{&quot;nodeName&quot;:&quot;OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;EXPRESSION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;,&quot;value&quot;:&quot;1&quot;}}]}},{&quot;nodeName&quot;:&quot;Else&quot;,&quot;value&quot;:null},{&quot;nodeName&quot;:&quot;DONOTHING_OR_HIDE&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Hide&quot;,&quot;value&quot;:null}}]}}],&quot;isValid&quot;:true,&quot;script&quot;:&quot;/**\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif (guide.guideRootPanel.additional_questions.qna_4.value == \\&quot;1\\&quot;) {\\n    true;\\n } else {\\n    false;\\n}\\n&quot;,&quot;eventName&quot;:&quot;Visibility&quot;}]}"
+                                guideComponentType="true"
+                                guideNodeClass="guideRadioButton"
+                                name="qna_5"
+                                options="[0=No,1=Yes]"
+                                visibleExp="var Visibility;&#xa;&#xa;try {&#xa;    if (qna_4.value == &quot;1&quot;) {&#xa;        Visibility = true;&#xa;     } else {&#xa;        Visibility = false;&#xa;    }&#xa;    &#xa;} catch (e) {&#xa;    /*log here */&#xa;}&#xa;&#xa;if (Visibility === undefined) {&#xa;    this.visible;&#xa;}&#xa;"/>
+                            <yes_no_questions_3
+                                jcr:created="{Date}2014-01-24T16:00:41.579+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2014-05-04T19:44:44.298+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Did you suffer any serious injury (including traumatic brain injury, psychological trauma or other mental disorder)  in the line of duty?"
+                                sling:resourceType="we-gov/components/qna"
+                                fullqualifiedname="subForm_936193258122463.yes_no_questions_3"
+                                guideComponentType="true"
+                                guideNodeClass="guideRadioButton"
+                                name="qna_6"
+                                options="[0=No,1=Yes]"/>
+                            <panel
+                                jcr:created="{Date}2014-02-21T10:45:49.641+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2014-05-04T16:28:59.376+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="fd/af/components/panel"
+                                guideComponentType="true"
+                                guideNodeClass="guidePanel"
+                                name="panel">
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                    columns="3"
+                                    guideNavigatorTab="tab"
+                                    nonNavigable="true"/>
+                                <items
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout">
+                                    <guidebutton_0
+                                        jcr:created="{Date}2014-02-21T10:47:22.810+05:30"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2014-05-04T16:46:20.909+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="CONTINUE"
+                                        sling:resourceType="fd/af/components/guidebutton"
+                                        assistPriority="custom"
+                                        buttonSize="button-medium"
+                                        buttonType="button-default"
+                                        clickExp="&#xa;try {&#xa;    navigationTo();;&#xa;    &#xa;    &#xa;} catch (e) {&#xa;    /*log here */&#xa;}&#xa;"
+                                        css="centerbutton"
+                                        expJson="\{&quot;nodeName&quot;:&quot;RULES&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;ROOT&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.additional_questions.panel.button_0&quot;,&quot;displayName&quot;:&quot;CONTINUE&quot;,&quot;type&quot;:&quot;BUTTON&quot;,&quot;isDuplicate&quot;:true,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/BENEFITS EXPLORER/panel/CONTINUE/&quot;,&quot;name&quot;:&quot;button_0&quot;}},{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;is clicked&quot;,&quot;value&quot;:null}},{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;,&quot;choice&quot;:null}]},&quot;nested&quot;:false},{&quot;nodeName&quot;:&quot;Then&quot;,&quot;value&quot;:null},{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;FUNCTION_CALL&quot;,&quot;functionName&quot;:{&quot;id&quot;:&quot;navigationTo&quot;,&quot;displayName&quot;:&quot;navigationTo&quot;,&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN&quot;,&quot;isDuplicate&quot;:false,&quot;displayPath&quot;:&quot;&quot;,&quot;args&quot;:[],&quot;impl&quot;:&quot;$0();&quot;},&quot;params&quot;:[]}}]}]}}],&quot;isValid&quot;:true,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nnavigationTo();;\\n\\n&quot;,&quot;eventName&quot;:&quot;Click&quot;}]}"
+                                        guideComponentType="true"
+                                        guideNodeClass="guideButton"
+                                        name="button_0"
+                                        type="button"/>
+                                </items>
+                            </panel>
+                        </items>
+                    </guidepanel_936167221225552>
+                </items>
+            </rootPanel>
+            <assets jcr:primaryType="nt:unstructured">
+                <dictionary jcr:primaryType="nt:unstructured">
+                    <fr/>
+                    <de/>
+                </dictionary>
+            </assets>
+            <autoSaveInfo
+                jcr:primaryType="nt:unstructured"
+                metadataselector="global"/>
+        </guideContainer>
+    </jcr:content>
+    <thumbnail.png/>
+</jcr:root>

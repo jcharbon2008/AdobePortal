@@ -1,0 +1,273 @@
+<header role="banner" data-sly-use.header="header.js">
+    <div id="wb-bnr">
+        <div id="wb-bar">
+            <div class="container">
+                <div class="row">
+                    <img id="gcwu-sig" src="/etc/designs/canada/images/sig-en.svg" aria-label="Government of Canada"/>
+                    <ul id="gc-bar" class="list-inline">
+                        <sly data-sly-resource="${'userinfo' @ resourceType='we-gov/components/userinfo'}"></sly>
+                        <li id="wb-lng"><h2>${'Language selection' @ i18n}</h2>
+                            <ul class="list-inline">
+                                <li><a lang="${header.toggleLanguage.code}" href="/content/we-gov/${header.toggleLanguage.code}.html">${header.toggleLanguage.name}</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
+                        <h2>${'Search and menus' @ i18n}</h2>
+                        <ul class="pnl-btn list-inline text-right">
+                            <li><a href="#mb-pnl" title="Search and menus" aria-controls="mb-pnl"
+                                   class="overlay-lnk btn btn-sm btn-default" role="button"><span
+                                    class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span
+                                    class="wb-inv">${'Search and menus' @ i18n}</span></span></span></a></li>
+                        </ul>
+                        <div id="mb-pnl" class=" wb-overlay modal-content overlay-def wb-panel-r wb-overlay-inited"
+                             aria-hidden="true">
+                            <div class="modal-header">
+                                <div class="modal-title">${'Search and menus' @ i18n}</div>
+                            </div>
+                            <div class="modal-body">
+                                <section class="srch-pnl">
+                                    <h3>${'Search' @ i18n}</h3>
+                                    <form action="https://google.ca/search" method="get" role="search"
+                                          class="form-inline">
+                                        <div class="form-group">
+                                            <label for="wb-srch-q-imprt">${'Search website' @ i18n}</label>
+                                            <input id="wb-srch-q-imprt" class="form-control" name="q" type="search"
+                                                   value="" size="27" maxlength="150">
+                                            <input type="hidden" name="q"
+                                                   value="site:wet-boew.github.io OR site:github.com/wet-boew/">
+                                        </div>
+                                        <button type="submit" id="wb-srch-sub-imprt" class="btn btn-default">${'Search' @ i18n}
+                                        </button>
+                                    </form>
+                                </section>
+                                <section class="lng-ofr">
+                                    <h3>${'Language selection' @ i18n}</h3>
+                                    <ul class="list-inline">
+                                        <li><a lang="${header.toggleLanguage.code}"
+                                               href="/content/we-gov/${header.toggleLanguage.code}.html">${header.toggleLanguage.name}</a>
+                                        </li>
+                                    </ul>
+                                </section>
+                                <nav role="navigation" typeof="SiteNavigationElement" id="sm-pnl"
+                                     class="sm-pnl wb-menu wb-menu-inited wb-init wb-navcurr-inited">
+                                    <h3>${'Topics menu' @ i18n}</h3>
+                                    <ul class="list-unstyled mb-menu" role="menu">
+                                        <li>
+                                            <details>
+                                                <summary class="mb-item" aria-haspopup="true" tabindex="0"><span
+                                                        role="menuitem">WET project</span></summary>
+                                                <ul class="list-unstyled mb-sm" role="menu" aria-expanded="false"
+                                                    aria-hidden="true">
+                                                    <li><a role="menuitem" tabindex="-1"
+                                                           href="http://wet-boew.github.io/v4.0-ci/index-en.html#about">About
+                                                        the Web Experience Toolkit</a></li>
+                                                    <li><a role="menuitem" tabindex="-1"
+                                                           href="http://wet-boew.github.io/v4.0-ci/index-en.html#benefits">Benefits</a>
+                                                    </li>
+                                                    <li><a role="menuitem" tabindex="-1"
+                                                           href="http://wet-boew.github.io/wet-boew/docs/ref/accolades-en.html">Awards,
+                                                        articles and videos</a></li>
+                                                    <li><a role="menuitem" tabindex="-1"
+                                                           href="http://wet-boew.github.io/wet-boew/docs/events-en.html">Events</a>
+                                                    </li>
+                                                    <li><a role="menuitem" tabindex="-1"
+                                                           href="https://github.com/wet-boew/wet-boew/">Main project
+                                                        page</a></li>
+                                                    <li><a role="menuitem" tabindex="-1"
+                                                           href="http://wet-boew.github.io/v4.0-ci/License-en.html">Terms
+                                                        and conditions</a></li>
+                                                    <li><a role="menuitem" tabindex="-1"
+                                                           href="http://wet-boew.github.io/wet-boew/docs/versions/rdmp-en.html">Roadmap
+                                                        of past and future releases</a></li>
+                                                    <li><a role="menuitem" tabindex="-1"
+                                                           href="http://wet-boew.github.io/wet-boew/docs/versions/index-en.html">Version
+                                                        history</a></li>
+                                                    <li><a role="menuitem" tabindex="-1"
+                                                           href="http://www.tbs-sct.gc.ca/ws-nw/index-eng.asp">About the
+                                                        Web Standards</a></li>
+                                                </ul>
+                                            </details>
+                                        </li>
+                                        <li>
+                                            <details>
+                                                <summary class="mb-item" aria-haspopup="true" tabindex="-1"><span
+                                                        role="menuitem">Implement WET</span></summary>
+                                                <ul class="list-unstyled mb-sm" role="menu" aria-expanded="false"
+                                                    aria-hidden="true">
+                                                    <li><a role="menuitem" tabindex="-1"
+                                                           href="http://wet-boew.github.io/wet-boew/docs/start-en.html">Getting
+                                                        started with WET</a></li>
+                                                    <li><a role="menuitem" tabindex="-1"
+                                                           href="http://wet-boew.github.io/wet-boew/docs/versions/dwnld-en.html">Download
+                                                        WET</a></li>
+                                                    <li><a role="menuitem" tabindex="-1"
+                                                           href="http://wet-boew.github.io/v4.0-ci/demos/index-en.html">Working
+                                                        examples</a></li>
+                                                    <li><a role="menuitem" tabindex="-1"
+                                                           href="http://wet-boew.github.io/wet-boew/docs/index-en.html">Documentation</a>
+                                                    </li>
+                                                </ul>
+                                            </details>
+                                        </li>
+                                        <li>
+                                            <details>
+                                                <summary class="mb-item" aria-haspopup="true" tabindex="-1"><span
+                                                        role="menuitem">Contribute to WET</span></summary>
+                                                <ul class="list-unstyled mb-sm" role="menu" aria-expanded="false"
+                                                    aria-hidden="true">
+                                                    <li><a role="menuitem" tabindex="-1"
+                                                           href="http://wet-boew.github.io/wet-boew/docs/bugs-en.html">Filing
+                                                        a bug or an issue</a></li>
+                                                    <li><a role="menuitem" tabindex="-1"
+                                                           href="http://wet-boew.github.io/wet-boew/docs/pull-en.html">Creating
+                                                        a pull request</a></li>
+                                                    <li><a role="menuitem" tabindex="-1"
+                                                           href="http://wet-boew.github.io/wet-boew/docs/pull-en.html#test">Testing
+                                                        your code</a></li>
+                                                    <li><a role="menuitem" tabindex="-1"
+                                                           href="http://wet-boew.github.io/wet-boew/docs/start-en.html#develop">Developing
+                                                        for WET</a></li>
+                                                </ul>
+                                            </details>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <nav role="navigation" typeof="SiteNavigationElement" id="info-pnl"
+                                     class="info-pnl wb-menu wb-menu-inited wb-init">
+                                    <h3>About this site</h3>
+                                    <ul class="list-unstyled mb-menu" role="menu">
+                                        <li class="no-sect"><a class="mb-item" role="menuitem" tabindex="0"
+                                                               rel="license"
+                                                               href="http://wet-boew.github.io/wet-boew/License-en.html">Terms
+                                            and conditions</a></li>
+                                        <li class="no-sect"><a class="mb-item" role="menuitem" tabindex="-1"
+                                                               href="http://www.tbs-sct.gc.ca/tbs-sct/common/trans-eng.asp">Transparency</a>
+                                        </li>
+                                        <li>
+                                            <details>
+                                                <summary class="mb-item" aria-haspopup="true" tabindex="-1"><span
+                                                        role="menuitem">Contact us</span></summary>
+                                                <ul class="list-unstyled mb-sm" role="menu" aria-expanded="false"
+                                                    aria-hidden="true">
+                                                    <li><a role="menuitem" tabindex="-1"
+                                                           href="https://github.com/wet-boew/wet-boew/issues/new">Questions
+                                                        or comments?</a></li>
+                                                </ul>
+                                            </details>
+                                        </li>
+                                        <li>
+                                            <details>
+                                                <summary class="mb-item" aria-haspopup="true" tabindex="-1"><span
+                                                        role="menuitem">About</span></summary>
+                                                <ul class="list-unstyled mb-sm" role="menu" aria-expanded="false"
+                                                    aria-hidden="true">
+                                                    <li><a role="menuitem" tabindex="-1"
+                                                           href="http://wet-boew.github.io/v4.0-ci/index-en.html#about">About
+                                                        the Web Experience Toolkit</a></li>
+                                                    <li><a role="menuitem" tabindex="-1"
+                                                           href="http://www.tbs-sct.gc.ca/ws-nw/index-eng.asp">About the
+                                                        Web Standards</a></li>
+                                                </ul>
+                                            </details>
+                                        </li>
+                                        <li>
+                                            <details>
+                                                <summary class="mb-item" aria-haspopup="true" tabindex="-1"><span
+                                                        role="menuitem">News</span></summary>
+                                                <ul class="list-unstyled mb-sm" role="menu" aria-expanded="false"
+                                                    aria-hidden="true">
+                                                    <li><a role="menuitem" tabindex="-1"
+                                                           href="https://github.com/wet-boew/wet-boew/pulse">Recent
+                                                        project activity</a></li>
+                                                    <li><a role="menuitem" tabindex="-1"
+                                                           href="https://github.com/wet-boew/wet-boew/graphs">Project
+                                                        statistics</a></li>
+                                                </ul>
+                                            </details>
+                                        </li>
+                                        <li>
+                                            <details>
+                                                <summary class="mb-item" aria-haspopup="true" tabindex="-1"><span
+                                                        role="menuitem">Stay connected</span></summary>
+                                                <ul class="list-unstyled mb-sm" role="menu" aria-expanded="false"
+                                                    aria-hidden="true">
+                                                    <li><a role="menuitem" tabindex="-1"
+                                                           href="https://twitter.com/WebExpToolkit">Twitter</a></li>
+                                                </ul>
+                                            </details>
+                                        </li>
+                                        <li class="no-sect"><a class="mb-item" role="menuitem" tabindex="-1"
+                                                               href="http://healthycanadians.gc.ca"><span>Health</span></a>
+                                        </li>
+                                        <li class="no-sect"><a class="mb-item" role="menuitem" tabindex="-1"
+                                                               href="http://travel.gc.ca"><span>Travel</span></a></li>
+                                        <li class="no-sect"><a class="mb-item" role="menuitem" tabindex="-1"
+                                                               href="http://www.servicecanada.gc.ca/eng/home.shtml"><span>Service Canada</span></a>
+                                        </li>
+                                        <li class="no-sect"><a class="mb-item" role="menuitem" tabindex="-1"
+                                                               href="http://www.jobbank.gc.ca"><span>Jobs</span></a>
+                                        </li>
+                                        <li class="no-sect"><a class="mb-item" role="menuitem" tabindex="-1"
+                                                               href="http://actionplan.gc.ca/en"><span>Economy</span></a>
+                                        </li>
+                                        <li class="no-sect"><a class="mb-item" role="menuitem" tabindex="-1"
+                                                               href="http://www.canada.ca/en/index.html">Canada.ca</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" id="ftrClose"
+                                        class="btn btn-sm btn-primary pull-left overlay-close" style=""
+                                        title="Close (escape key)">Close<span class="wb-inv">(escape key)</span>
+                                </button>
+                            </div>
+                            <button type="button" id="hdrClose" class="mfp-close overlay-close"
+                                    title="Close: Search and menus (escape key)">×<span class="wb-inv"> Close: Search and menus (escape key)</span>
+                            </button>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div id="wb-sttl" class="col-md-5">
+                    <a href="${header.homePath}.html">
+                        ${header.title}
+                    </a>
+                </div>
+                <img id="wmms" src="/etc/designs/canada/images/wmms.svg"
+                     aria-label="Symbol of the Government of Canada"/>
+                <section id="wb-srch" class="visible-md visible-lg">
+                    <h2>${'Search' @ i18n}</h2>
+                    <form action="https://google.ca/search" method="get" role="search" class="form-inline">
+                        <div class="form-group">
+                            <label for="wb-srch-q">${'Search website' @ i18n}</label>
+                            <input id="wb-srch-q" class="form-control" name="q" type="search" value="" size="27"
+                                   maxlength="150">
+                            <input type="hidden" name="q" value="site:wet-boew.github.io OR site:github.com/wet-boew/">
+                        </div>
+                        <button type="submit" id="wb-srch-sub" class="btn btn-default">${'Search' @ i18n}</button>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </div>
+    <nav role="navigation" id="wb-sm" data-ajax-replace="./ajax/sitemenu-en.html" data-trgt="mb-pnl"
+         class="wb-menu visible-md visible-lg wb-init wb-data-ajax-replace-inited wb-menu-inited wb-navcurr-inited"
+         typeof="SiteNavigationElement">
+
+        <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+        wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+        <!-- DataAjaxFragmentStart -->
+        <div class="pnl-strt container visible-md visible-lg nvbar">
+            <h2>Topics menu</h2>
+            <div class="row">
+                <sly data-sly-resource="${'topnav' @ resourceType='we-gov/components/services-topnav'}"></sly>
+            </div>
+        </div>
+        <!-- DataAjaxFragmentEnd -->
+    </nav>
+</header>

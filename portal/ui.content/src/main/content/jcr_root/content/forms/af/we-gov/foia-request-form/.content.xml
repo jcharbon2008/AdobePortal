@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/fd/af/default"
+        cq:deviceGroups="/etc/mobile/groups/responsive"
+        cq:lastModified="{Date}2017-05-04T16:11:03.564+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/fd/af/templates/surveyTemplate2"
+        jcr:language="en"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="FOIA Request Form"
+        sling:resourceType="fd/af/components/page2/afStaticTemplatePage">
+        <guideheader
+            cq:cssClass="guide-1475754389387"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="fd/af/components/guideheader"
+            cssStyle=".guide-1475754389387 .afHeader{&#xa;background:#205493;&#xa;&#xa;}&#xa;">
+            <guideimage
+                cq:cssClass="guide-1475754352645"
+                jcr:lastModified="{Date}2016-10-06T11:45:46.802Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Logo Image"
+                sling:resourceType="fd/af/components/guideimage"
+                css="logoImage"
+                cssStyle=".guide-1475754352645 .guideImage img{&#xa;padding-right:10px;&#xa;padding-bottom:10px;&#xa;padding-left:10px;&#xa;padding-top:10px;&#xa;&#xa;}&#xa;"
+                fileName="logo.png"
+                fileReference="/content/dam/we-gov/logo.png"
+                guideNodeClass="guideImage"
+                imageRotate="0"
+                name="logoImage">
+                <style jcr:primaryType="nt:unstructured">
+                    <af_guideimage
+                        jcr:primaryType="nt:unstructured"
+                        default_x0023_default="[padding-right=10px,padding-bottom=10px,padding-left=10px,padding-top=10px]"
+                        default_x0023_default_x0023_ui="[paddingPopover=10px]"/>
+                </style>
+            </guideimage>
+            <guidetextdraw
+                cq:cssClass="guide-1475754398475"
+                jcr:lastModified="{Date}2016-10-06T11:45:35.601Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/components/guidetextdraw"
+                _value="&lt;p>Freedom of Information Act Request Form&lt;br>&#xa;&lt;/p>&#xa;"
+                css="headerText"
+                cssStyle=".guide-1475754398475 .guideTextDraw{&#xa;color:#ffffff;&#xa;font-family:inherit;&#xa;font-size:1.35rem;&#xa;line-height:1.75rem;&#xa;height:80px;&#xa;font-family: &quot;Source Sans Pro&quot;, Helvetica, Arial, sans-serif;&#xa;}"
+                guideNodeClass="guideTextDraw"
+                name="headerText"
+                textIsRich="true">
+                <style jcr:primaryType="nt:unstructured">
+                    <af_textdraw
+                        jcr:primaryType="nt:unstructured"
+                        default_x0023_default="[color=#ffffff,font-family=inherit,cssOverride=font-family: &quot;Source Sans Pro&quot;\, Helvetica\, Arial\, sans-serif;,font-size=1.35rem,line-height=1.75rem,height=80px]"
+                        default_x0023_default_x0023_ui="[fontFamilyFieldContainer={&quot;itemList&quot;:[{&quot;id&quot;:&quot;fontFamily.1475754765974&quot;\,&quot;fontFamily&quot;:&quot;inherit&quot;\,&quot;fontName&quot;:&quot;Inherit From Parent&quot;}]}]"/>
+                </style>
+            </guidetextdraw>
+            <style jcr:primaryType="nt:unstructured">
+                <af_header
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[background=#205493]"
+                    default_x0023_default_x0023_ui="[backgroundColor=#205493]"/>
+                <af_headertext
+                    jcr:primaryType="nt:unstructured"
+                    phone_x0023_default="[height:57px,font-size:12px]"/>
+            </style>
+        </guideheader>
+        <guideContainer
+            cq:cssClass="guide-1494411619818"
+            fd:version="1.1"
+            jcr:lastModified="{Date}2017-03-29T17:25:35.237+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="fd/af/components/guideContainerWrapper"
+            actionType="fd/dashboard/components/actions/aemworkflowsubmit"
+            afVersion="{Long}1"
+            attachmentsFolderPath="foia"
+            autoSaveStrategyType="fd/fp/components/actions/autosave/timebased"
+            cssFileRef="/etc/designs/we-gov/clientlibs/FOIA_styles.css"
+            cssStyle="@media (max-width : 767px){&#xa;.guide-1494411619818 .guide-mobile-navigator .navigator-toggle{&#xa;display:none;&#xa;&#xa;}&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1494411619818 .guide-nav-prev.guide-nav-toolbar-button{&#xa;display:none;&#xa;&#xa;}&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1494411619818 .guide-nav-next.guide-nav-toolbar-button{&#xa;display:none;&#xa;&#xa;}&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1494411619818 .guide-header-bar{&#xa;padding-left:22px;&#xa;background:#102e50;&#xa;padding-top:12px;&#xa;padding-bottom:12px;&#xa;height:auto;&#xa;position:relative;&#xa;top:-16px;&#xa;margin-bottom:0px;&#xa;&#xa;}&#xa;}&#xa;"
+            dataXMLPath="foia.xml"
+            disableSwipeGesture="{Boolean}false"
+            dorPath="foia.pdf"
+            dorTemplateRef="/content/dam/formsanddocuments/we-gov/foia-request-form/jcr:content/renditions/dorTemplate"
+            dorType="generate"
+            guideCss="guideContainer"
+            guideNodeClass="guideContainerNode"
+            name="guide1"
+            schemaType="xmlschema"
+            textIsRich="true"
+            thankYouMessage="Thank you for submitting the form."
+            thankYouOption="page"
+            themeRef="/content/dam/formsanddocuments-themes/reference-themes/ultramarine"
+            useExistingAF="false"
+            workflowModel="/etc/workflow/models/we-gov-foia/jcr:content/model"
+            xsdRef="/assets/xsdRef.xsd"
+            xsdRootElement="foiaApplication">
+            <layout
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/layouts/defaultGuideLayout"
+                mobileLayout="fd/af/layouts/mobile/simple"
+                toolbarPosition="Bottom"/>
+            <rootPanel
+                cq:cssClass="guide-1475753807940"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Root Panel"
+                sling:resourceType="fd/af/components/rootPanel"
+                cssStyle=""
+                dorExcludeDescription="true"
+                dorExcludeTitle="true"
+                guideNodeClass="rootPanelNode"
+                name="guideRootPanel"
+                panelSetType="Navigable">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/gridFluidLayout"
+                    nonNavigable="{Boolean}true"
+                    toolbarPosition="Bottom"/>
+                <items jcr:primaryType="nt:unstructured">
+                    <_x0031_475752223586
+                        cq:cssClass="guide-1475756046214"
+                        jcr:lastModified="{Date}2016-10-06T11:51:10.243Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="FOIA Application"
+                        sling:resourceType="fd/af/components/panel"
+                        bindRef="/foiaApplication"
+                        completionExpReq="{Boolean}false"
+                        cssStyle=".guide-1475756046214 .guideGridFluidLayout{&#xa;margin-top:0px;&#xa;&#xa;}&#xa;"
+                        guideNodeClass="guidePanel"
+                        maxOccur="{Long}1"
+                        minOccur="{Long}1"
+                        name="foiaApplication"
+                        textIsRich="true">
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                            columns="1"
+                            dorLayoutType="columnar"
+                            dorNumCols="1"
+                            nonNavigable="true"
+                            toolbarPosition="Bottom"/>
+                        <items jcr:primaryType="nt:unstructured">
+                            <filledByApplicant
+                                cq:cssClass="guide-1475753865223"
+                                jcr:description="Please fill the information below:"
+                                jcr:lastModified="{Date}2016-10-06T11:48:44.611Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="To Be Filled By Applicant"
+                                sling:resourceType="fd/af/components/panel"
+                                bindRef="/foiaApplication/filledByApplicant"
+                                completionExpReq="{Boolean}false"
+                                cssStyle=".guide-1475753865223 .guideGridFluidLayout{&#xa;&#xa;}&#xa;.guide-1475753865223 .guideGridFluidDescription.guidePanelDescription{&#xa;&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1475753865223 .guideGridFluidDescription.guidePanelDescription{&#xa;display:block;&#xa;&#xa;}&#xa;}&#xa;"
+                                dorExcludeTitle="true"
+                                guideNodeClass="guidePanel"
+                                maxOccur="{Long}1"
+                                minOccur="{Long}1"
+                                name="filledByApplicant"
+                                textIsRich="true"
+                                validateOnStepCompletion="{Boolean}false">
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                    columns="1"
+                                    dorLayoutType="columnar"
+                                    dorNumCols="1"
+                                    nonNavigable="true"
+                                    toolbarPosition="Bottom"/>
+                                <items
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout">
+                                    <guidedropdownlist
+                                        cq:cssClass="guide-1487742884801"
+                                        jcr:created="{Date}2016-12-19T17:10:17.495+05:30"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2016-12-19T17:12:48.781+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Agency"
+                                        sling:resourceType="fd/af/components/guidedropdownlist"
+                                        cssStyle=".guide-1487742884801 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:450px;&#xa;&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1487742884801 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:auto;&#xa;padding-left:16px;&#xa;&#xa;}&#xa;}&#xa;"
+                                        enabled="{Boolean}true"
+                                        guideNodeClass="guideDropDownList"
+                                        mandatory="true"
+                                        name="dropdownlist1482147617734"
+                                        options="[0=CBP FOIA Division,1=Defense Logistics Agency,2=Department of Defense Office of Inspector General,3=Department of Justice - Office of Information Policy,4=Department of the Navy,5=Environmental Protection Agency]"
+                                        placeholderText="Select an Agency"
+                                        textIsRich="[true,true]"
+                                        visible="{Boolean}true">
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_dropdownlist
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[width:450px]"
+                                                phone_x0023_default="[width:auto,padding-left:16px]"
+                                                phone_x0023_default_x0023_mask="[backgroundColor]"
+                                                phone_x0023_default_x0023_ui="[backgroundColor:rgb(230\,127\,127),paddingLock:linkOff,paddingPopover:—\, —\, —\, 16px]"/>
+                                        </style>
+                                    </guidedropdownlist>
+                                    <guideseparator
+                                        cq:cssClass="guide-1487742933614"
+                                        jcr:created="{Date}2016-12-19T17:10:09.180+05:30"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2016-12-19T17:10:09.180+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Separator"
+                                        sling:resourceType="fd/af/components/guideseparator"
+                                        cssStyle=".guide-1487742933614 hr{&#xa;&#xa;}&#xa;"
+                                        guideNodeClass="guideSeparator"
+                                        name="separator1482147609485"
+                                        thickness="1">
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_separator
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[]"/>
+                                        </style>
+                                    </guideseparator>
+                                    <requestDate
+                                        cq:cssClass="guide-1487742903705"
+                                        jcr:lastModified="{Date}2016-10-06T12:25:36.184Z"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Request date"
+                                        sling:resourceType="fd/af/components/guidedatepicker"
+                                        bindRef="/foiaApplication/filledByApplicant/requestDate"
+                                        cssStyle=".guide-1487742903705 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:450px;&#xa;&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1487742903705 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;padding-left:16px;&#xa;width:auto;&#xa;&#xa;}&#xa;}&#xa;"
+                                        defaultToCurrentDate="true"
+                                        displayPatternType="date{MMMM DD, YYYY}"
+                                        displayPictureClause="date{MMMM DD, YYYY}"
+                                        editPatternType="none"
+                                        guideNodeClass="guideDatePicker"
+                                        mandatory="true"
+                                        mandatoryMessage="Please enter the request date."
+                                        name="requestDate"
+                                        placeholderText="January 1, 1960"
+                                        textIsRich="[true,true]"
+                                        validationPatternType="none">
+                                        <fd:rules
+                                            fd:enabled="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;DISABLE_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.foiaApplication.filledByApplicant.requestDate&quot;\,&quot;type&quot;:&quot;FIELD&quot;\,&quot;name&quot;:&quot;requestDate&quot;}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:null}\,{&quot;nodeName&quot;:&quot;Else&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;DONOTHING_OR_ENABLE&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Enable&quot;\,&quot;value&quot;:null}}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nfalse;\\n\\n&quot;\,&quot;eventName&quot;:&quot;Enabled&quot;}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_daypicker
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[width:450px]"
+                                                default_x0023_default_x0023_mask="[]"
+                                                phone_x0023_default="[padding-left:16px,width:auto]"
+                                                phone_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:—\, —\, —\, 16px]"/>
+                                        </style>
+                                    </requestDate>
+                                    <requestorName
+                                        cq:cssClass="guide-1487742971203"
+                                        jcr:lastModified="{Date}2016-10-06T12:09:25.614Z"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Requestor name"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        bindRef="/foiaApplication/filledByApplicant/requestorName"
+                                        cssStyle=".guide-1487742971203 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:450px;&#xa;&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1487742971203 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:auto;&#xa;padding-left:16px;&#xa;&#xa;}&#xa;}&#xa;"
+                                        displayPatternType="none"
+                                        guideNodeClass="guideTextBox"
+                                        mandatory="true"
+                                        mandatoryMessage="Please enter the name of the requestor."
+                                        name="requestorName"
+                                        textIsRich="[true,true,true]"
+                                        validationPatternType="none">
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_textbox
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[width:450px]"
+                                                phone_x0023_default="[width:auto,padding-left:16px]"
+                                                phone_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:—\, —\, —\, 16px]"/>
+                                        </style>
+                                    </requestorName>
+                                    <organizationName
+                                        cq:cssClass="guide-1487742987192"
+                                        jcr:lastModified="{Date}2016-10-06T12:09:35.239Z"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Organization name"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        bindRef="/foiaApplication/filledByApplicant/organizationName"
+                                        cssStyle=".guide-1487742987192 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:450px;&#xa;&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1487742987192 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:auto;&#xa;padding-left:16px;&#xa;&#xa;}&#xa;}&#xa;"
+                                        displayPatternType="none"
+                                        guideNodeClass="guideTextBox"
+                                        mandatory="true"
+                                        mandatoryMessage="Please enter the organisation name."
+                                        name="organizationName"
+                                        textIsRich="[true,true,true]"
+                                        validationPatternType="none">
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_textbox
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[width:450px]"
+                                                phone_x0023_default="[width:auto,padding-left:16px]"
+                                                phone_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:—\, —\, —\, 16px]"/>
+                                        </style>
+                                    </organizationName>
+                                    <guideseparator_911609572
+                                        jcr:created="{Date}2016-10-06T11:14:46.394Z"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2016-10-06T11:14:46.394Z"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Separator"
+                                        sling:resourceType="fd/af/components/guideseparator"
+                                        guideNodeClass="guideSeparator"
+                                        name="separator_9116095721475752486519"
+                                        thickness="1"/>
+                                    <emailAddress
+                                        cq:cssClass="guide-1487742996367"
+                                        jcr:lastModified="{Date}2017-01-03T12:38:08.610+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="E-mail"
+                                        sling:resourceType="fd/af/components/guideemail"
+                                        autocomplete="true"
+                                        autofillFieldKeyword="email"
+                                        bindRef="/foiaApplication/filledByApplicant/emailAddress"
+                                        cssStyle=".guide-1487742996367 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:450px;&#xa;&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1487742996367 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;padding-left:16px;&#xa;width:auto;&#xa;&#xa;}&#xa;}&#xa;"
+                                        displayPatternType="none"
+                                        enabled="{Boolean}true"
+                                        guideNodeClass="guideTextBox"
+                                        mandatory="true"
+                                        mandatoryMessage="Please enter the e-mail address."
+                                        name="emailAddress"
+                                        placeholderText="abc@xyz.com"
+                                        textIsRich="[true,true,true]"
+                                        validatePictureClause="^[a-zA-Z0-9.!#$%&amp;’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$"
+                                        validationPatternType="^[a-zA-Z0-9.!#$%&amp;’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$"
+                                        visible="{Boolean}true">
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_textbox
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[width:450px]"
+                                                phone_x0023_default="[padding-left:16px,width:auto]"
+                                                phone_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:—\, —\, —\, 16px]"/>
+                                        </style>
+                                    </emailAddress>
+                                    <phoneNumber
+                                        cq:cssClass="guide-1487743001526"
+                                        jcr:lastModified="{Date}2017-01-03T12:39:03.101+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Phone "
+                                        sling:resourceType="fd/af/components/guidetelephone"
+                                        autocomplete="true"
+                                        autofillFieldKeyword="tel"
+                                        bindRef="/foiaApplication/filledByApplicant/phoneNumber"
+                                        cssStyle=".guide-1487743001526 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:450px;&#xa;&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1487743001526 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:auto;&#xa;padding-left:16px;&#xa;&#xa;}&#xa;}&#xa;"
+                                        displayPatternType="custom"
+                                        displayPictureClause="text{'('999')' 999-9999}"
+                                        enabled="{Boolean}true"
+                                        guideNodeClass="guideTelephone"
+                                        mandatory="true"
+                                        mandatoryMessage="Please enter the phone number."
+                                        name="phoneNumber"
+                                        placeholderText="(123) 456-7890"
+                                        textIsRich="[true,true]"
+                                        visible="{Boolean}true">
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_textbox
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[width:450px]"
+                                                phone_x0023_default="[width:auto,padding-left:16px]"
+                                                phone_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:—\, —\, —\, 16px]"/>
+                                        </style>
+                                    </phoneNumber>
+                                    <guideseparator_522948139
+                                        jcr:created="{Date}2016-10-06T11:16:27.454Z"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2016-10-06T11:16:27.454Z"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Separator"
+                                        sling:resourceType="fd/af/components/guideseparator"
+                                        guideNodeClass="guideSeparator"
+                                        name="separator_5229481391475752587548"
+                                        thickness="1"/>
+                                    <guidenumericbox
+                                        cq:cssClass="guide-1487743006667"
+                                        jcr:created="{Date}2016-12-19T17:02:20.146+05:30"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2016-12-19T17:34:59.109+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Will Pay Up To :"
+                                        sling:resourceType="fd/af/components/guidenumericbox"
+                                        cssStyle=".guide-1487743006667 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:450px;&#xa;&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1487743006667 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:auto;&#xa;padding-left:16px;&#xa;&#xa;}&#xa;}&#xa;.guide-1487743006667 .numericInput input[type='text'], .numericInput input[type='number']{&#xa;&#xa;}&#xa; .guideFieldWidget.numericInput {&#xa;width:100%;&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1487743006667 .guideFieldNode .guideHelpQuestionMark{&#xa;top:2px;&#xa;&#xa;}&#xa;}&#xa;"
+                                        enabled="{Boolean}true"
+                                        guideNodeClass="guideNumericBox"
+                                        longDescription="&lt;p>This is not a prescribed amount but rather an administration fee which is used to collate and make physical copies of the information requested.&lt;br>&#xd;&#xa;&lt;/p>&#xd;&#xa;"
+                                        mandatory="true"
+                                        name="payment"
+                                        textIsRich="[true,true]"
+                                        visible="{Boolean}true">
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_numericbox
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[width:450px]"
+                                                phone_x0023_default="[width:auto,padding-left:16px]"
+                                                phone_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:—\, —\, —\, 16px]"/>
+                                            <af_numericboxwidgetandtext
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldWidget.numericInput&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;100%&quot;}}}}]"
+                                                default_x0023_default_x0023_ui="[width:100%]"/>
+                                            <af_fieldhelpicon
+                                                jcr:primaryType="nt:unstructured"
+                                                phone_x0023_default="[top:2px]"
+                                                phone_x0023_default_x0023_ui="[positionPopover:Set]"/>
+                                        </style>
+                                    </guidenumericbox>
+                                    <requestInDetail
+                                        cq:cssClass="guide-1487743012001"
+                                        jcr:lastModified="{Date}2016-10-06T12:23:58.697Z"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Describe the request in detail"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        bindRef="/foiaApplication/filledByApplicant/requestInDetail"
+                                        cssStyle=".guide-1487743012001 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:450px;&#xa;&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1487743012001 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:auto;&#xa;padding-left:16px;&#xa;&#xa;}&#xa;}&#xa;"
+                                        displayPatternType="none"
+                                        guideNodeClass="guideTextBox"
+                                        mandatory="true"
+                                        mandatoryMessage="Please describe your Freedom of Information Act request in detail."
+                                        multiLine="true"
+                                        name="requestInDetail"
+                                        placeholderText="Use this space to provide the additional information within this request."
+                                        textIsRich="[true,true,true]"
+                                        validationPatternType="none">
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_textbox
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[width:450px]"
+                                                phone_x0023_default="[width:auto,padding-left:16px]"
+                                                phone_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:—\, —\, —\, 16px]"/>
+                                        </style>
+                                    </requestInDetail>
+                                    <guidefileupload
+                                        cq:cssClass="guide-1487743019373"
+                                        jcr:created="{Date}2016-12-19T17:08:03.705+05:30"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2016-12-19T17:08:18.713+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Attach Supporting Files"
+                                        sling:resourceType="fd/af/components/guidefileupload"
+                                        buttonText="Attach"
+                                        cssStyle=".guide-1487743019373 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:450px;&#xa;&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1487743019373 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:auto;&#xa;padding-left:16px;&#xa;&#xa;}&#xa;}&#xa;"
+                                        dorExclusion="true"
+                                        enabled="{Boolean}true"
+                                        guideNodeClass="guideFileUpload"
+                                        mimeType="[audio/*, video/*, image/*, text/*, .pdf]"
+                                        name="supportFiles"
+                                        textIsRich="[true,true]"
+                                        visible="{Boolean}true">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <fileattachment
+                                                jcr:primaryType="nt:unstructured"
+                                                guideNodeClass="guideCompositeFieldItem"
+                                                name="fileAttachment"/>
+                                            <comment
+                                                jcr:primaryType="nt:unstructured"
+                                                guideNodeClass="guideCompositeFieldItem"
+                                                name="comment"/>
+                                        </items>
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_fileuploadfield
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[width:450px]"
+                                                phone_x0023_default="[width:auto,padding-left:16px]"
+                                                phone_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:—\, —\, —\, 16px]"/>
+                                        </style>
+                                    </guidefileupload>
+                                    <guideseparator_1505504440
+                                        jcr:created="{Date}2016-10-06T11:16:34.053Z"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2016-10-06T11:16:34.053Z"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Separator"
+                                        sling:resourceType="fd/af/components/guideseparator"
+                                        guideNodeClass="guideSeparator"
+                                        name="separator_15055044401475752594193"
+                                        thickness="1"/>
+                                    <guideradiobutton
+                                        cq:cssClass="guide-1487743024257"
+                                        jcr:created="{Date}2016-12-19T17:03:20.093+05:30"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2016-12-19T17:36:39.119+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Request a Fee Waiver"
+                                        sling:resourceType="fd/af/components/guideradiobutton"
+                                        alignment="guideFieldHorizontalAlignment"
+                                        cssStyle=".guide-1487743024257 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:450px;&#xa;&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1487743024257 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;padding-left:16px;&#xa;width:auto;&#xa;&#xa;}&#xa;}&#xa;"
+                                        enabled="{Boolean}true"
+                                        guideNodeClass="guideRadioButton"
+                                        longDescription="&lt;p>&lt;g class=&quot;gr_ gr_8 gr-alert gr_gramm gr_run_anim Grammar multiReplace&quot; id=&quot;8&quot; data-gr-id=&quot;8&quot;>Requester&lt;/g> may request that all fees associated with the request be waived.&lt;br>&#xd;&#xa;&lt;/p>&#xd;&#xa;"
+                                        name="feeWaiver"
+                                        options="[Yes=Yes,No=No]"
+                                        shortVisible="true"
+                                        textIsRich="[true,true]"
+                                        visible="{Boolean}true">
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_radiobutton
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[width:450px]"
+                                                phone_x0023_default="[padding-left:16px,width:auto]"
+                                                phone_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:—\, —\, —\, 16px]"/>
+                                        </style>
+                                    </guideradiobutton>
+                                    <guidetextbox
+                                        cq:cssClass="guide-1487743032426"
+                                        jcr:created="{Date}2016-12-19T17:18:48.271+05:30"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2016-12-19T18:17:49.187+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Details"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        autofillFieldKeyword="name"
+                                        cssStyle=".guide-1487743032426 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:450px;&#xa;&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1487743032426 .multiline.textField textArea{&#xa;padding-left:16px;&#xa;&#xa;}&#xa; .guideFieldWidget.textField.multiline {&#xa;width:auto;&#xa;}&#xa;}&#xa;"
+                                        enabled="{Boolean}true"
+                                        guideNodeClass="guideTextBox"
+                                        hideTitle="true"
+                                        mandatory="true"
+                                        multiLine="true"
+                                        name="feeWaiver_Details"
+                                        placeholderText="Please provide details here ..."
+                                        textIsRich="[true,true,true]"
+                                        visible="{Boolean}true">
+                                        <fd:rules
+                                            fd:visible="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.foiaApplication.filledByApplicant.feeWaiver_Details&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;name&quot;:&quot;feeWaiver_Details&quot;}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.foiaApplication.filledByApplicant.feeWaiver&quot;\,&quot;displayName&quot;:&quot;Request a Fee Waiver&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/Root Panel/FOIA Application/To Be Filled By Applicant/Request a Fee Waiver/&quot;\,&quot;name&quot;:&quot;feeWaiver&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.foiaApplication.filledByApplicant&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;Yes&quot;}}]}}\,{&quot;nodeName&quot;:&quot;Else&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;DONOTHING_OR_HIDE&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Hide&quot;\,&quot;value&quot;:null}}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif (feeWaiver.value == \\&quot;Yes\\&quot;) {\\n    true;\\n } else {\\n    false;\\n}\\n&quot;\,&quot;eventName&quot;:&quot;Visibility&quot;}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_textbox
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[width:450px]"/>
+                                            <af_textareawidgetandtext
+                                                jcr:primaryType="nt:unstructured"
+                                                phone_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldWidget.textField.multiline&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;auto&quot;}}}},padding-left:16px]"
+                                                phone_x0023_default_x0023_ui="[width:auto,paddingLock:linkOff,paddingPopover:—\, —\, —\, 16px]"/>
+                                        </style>
+                                    </guidetextbox>
+                                    <guideradiobutton_950647202
+                                        cq:cssClass="guide-1487743040328"
+                                        jcr:created="{Date}2016-12-19T17:04:17.166+05:30"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-05-10T16:23:53.161+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Request Expedited Processing"
+                                        sling:resourceType="fd/af/components/guideradiobutton"
+                                        alignment="guideFieldHorizontalAlignment"
+                                        cssStyle=".guide-1487743040328 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:450px;&#xa;&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1487743040328 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:auto;&#xa;padding-left:16px;&#xa;&#xa;}&#xa;}&#xa;"
+                                        enabled="{Boolean}true"
+                                        guideNodeClass="guideRadioButton"
+                                        longDescription="&lt;p>Requestor may ask for processing on an expedited basis&lt;br>&#xd;&#xa;&lt;/p>&#xd;&#xa;"
+                                        name="expeditedProcess"
+                                        options="[Yes=Yes,No=No]"
+                                        textIsRich="[true,true]"
+                                        visible="{Boolean}true">
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_radiobutton
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[width:450px]"
+                                                phone_x0023_default="[width:auto,padding-left:16px]"
+                                                phone_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:—\, —\, —\, 16px]"/>
+                                        </style>
+                                    </guideradiobutton_950647202>
+                                    <guidetextbox_1821705783
+                                        cq:cssClass="guide-1487743045974"
+                                        jcr:created="{Date}2016-12-19T17:19:00.323+05:30"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2016-12-19T18:18:07.902+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Details"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        autofillFieldKeyword="name"
+                                        cssStyle=".guide-1487743045974 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:450px;&#xa;&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1487743045974 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:auto;&#xa;padding-left:16px;&#xa;&#xa;}&#xa;}&#xa;"
+                                        enabled="{Boolean}true"
+                                        guideNodeClass="guideTextBox"
+                                        hideTitle="true"
+                                        mandatory="true"
+                                        multiLine="true"
+                                        name="expeditedProcess_Details"
+                                        placeholderText="Please provide details here ..."
+                                        textIsRich="[true,true,true]"
+                                        visible="{Boolean}true">
+                                        <fd:rules
+                                            fd:visible="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.foiaApplication.filledByApplicant.expeditedProcess_Details&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;name&quot;:&quot;expeditedProcess_Details&quot;}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.foiaApplication.filledByApplicant.expeditedProcess&quot;\,&quot;displayName&quot;:&quot;Request Expedited Processing&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/Root Panel/FOIA Application/To Be Filled By Applicant/Request Expedited Processing/&quot;\,&quot;name&quot;:&quot;expeditedProcess&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.foiaApplication.filledByApplicant&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;Yes&quot;}}]}}\,{&quot;nodeName&quot;:&quot;Else&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;DONOTHING_OR_HIDE&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Hide&quot;\,&quot;value&quot;:null}}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif (expeditedProcess.value == \\&quot;Yes\\&quot;) {\\n    true;\\n } else {\\n    false;\\n}\\n&quot;\,&quot;eventName&quot;:&quot;Visibility&quot;}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_textbox
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[width:450px]"
+                                                phone_x0023_default="[width:auto,padding-left:16px]"
+                                                phone_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:—\, —\, —\, 16px]"/>
+                                        </style>
+                                    </guidetextbox_1821705783>
+                                    <guideseparator_723076085
+                                        jcr:created="{Date}2016-12-19T17:22:11.000+05:30"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2016-12-19T17:22:11.000+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Separator"
+                                        sling:resourceType="fd/af/components/guideseparator"
+                                        guideNodeClass="guideSeparator"
+                                        name="separator_7230760851482148331341"
+                                        thickness="1"/>
+                                    <contactMediumPreference
+                                        cq:cssClass="guide-1487743050999"
+                                        jcr:lastModified="{Date}2016-10-06T12:10:46.034Z"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="How would you like us to contact you?"
+                                        sling:resourceType="fd/af/components/guidedropdownlist"
+                                        bindRef="/foiaApplication/filledByApplicant/contactMediumPreference"
+                                        cssStyle=".guide-1487743050999 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:450px;&#xa;&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1487743050999 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:auto;&#xa;padding-left:16px;&#xa;&#xa;}&#xa;}&#xa;"
+                                        guideNodeClass="guideDropDownList"
+                                        mandatory="true"
+                                        mandatoryMessage="Please select your preferred contact medium."
+                                        name="contactMediumPreference"
+                                        options="[E-mail=E-mail,Phone=Phone,Cell Phone=Cell Phone]"
+                                        placeholderText="Select"
+                                        textIsRich="[true,true]">
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_dropdownlist
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[width:450px]"
+                                                phone_x0023_default="[width:auto,padding-left:16px]"
+                                                phone_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:—\, —\, —\, 16px]"/>
+                                        </style>
+                                    </contactMediumPreference>
+                                    <contactDatePreference
+                                        cq:cssClass="guide-1487743055680"
+                                        jcr:lastModified="{Date}2017-02-22T11:31:46.473+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Date by which information is required?"
+                                        sling:resourceType="fd/af/components/guidedatepicker"
+                                        bindRef="/foiaApplication/filledByApplicant/contactDatePreference"
+                                        cssStyle=".guide-1487743055680 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:450px;&#xa;&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1487743055680 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:auto;&#xa;padding-left:16px;&#xa;&#xa;}&#xa;}&#xa;"
+                                        displayPatternType="date{MMMM DD, YYYY}"
+                                        displayPictureClause="date{MMMM DD, YYYY}"
+                                        enabled="{Boolean}true"
+                                        guideNodeClass="guideDatePicker"
+                                        mandatory="true"
+                                        mandatoryMessage="Please select your preferred date of contact."
+                                        name="contactDatePreference"
+                                        placeholderText="January 1, 2017"
+                                        textIsRich="[true,true]"
+                                        visible="{Boolean}true">
+                                        <fd:rules
+                                            fd:validate="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;VALIDATE_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.foiaApplication.filledByApplicant.contactDatePreference&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;name&quot;:&quot;contactDatePreference&quot;}}\,{&quot;nodeName&quot;:&quot;Using&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;Expression&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.foiaApplication.filledByApplicant.contactDatePreference&quot;\,&quot;displayName&quot;:&quot;Date by which information is required?&quot;\,&quot;type&quot;:&quot;DATE&quot;\,&quot;displayPath&quot;:&quot;FORM/Root Panel/FOIA Application/To Be Filled By Applicant/Date by which information is required?/&quot;\,&quot;name&quot;:&quot;contactDatePreference&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.foiaApplication.filledByApplicant&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;IS_AFTER&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;FUNCTION_CALL&quot;\,&quot;functionName&quot;:{&quot;id&quot;:&quot;getCurrentDate&quot;\,&quot;displayName&quot;:&quot;Get Current Date&quot;\,&quot;type&quot;:&quot;DATE&quot;\,&quot;isDuplicate&quot;:false\,&quot;displayPath&quot;:&quot;&quot;\,&quot;args&quot;:[]\,&quot;impl&quot;:&quot;(new Date().toISOString().slice(0\,10))&quot;}\,&quot;params&quot;:[]}}]}\,&quot;nested&quot;:false}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nnew Date(this.value)>new Date((new Date().toISOString().slice(0\,10)));\\n\\n&quot;\,&quot;eventName&quot;:&quot;Validate&quot;}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_daypicker
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[width:450px]"
+                                                phone_x0023_default="[width:auto,padding-left:16px]"
+                                                phone_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:—\, —\, —\, 16px]"/>
+                                        </style>
+                                    </contactDatePreference>
+                                    <guidetextbox_1959526281
+                                        cq:cssClass="guide-1487743062285"
+                                        jcr:created="{Date}2017-01-30T16:49:57.406+05:30"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-02-22T11:32:22.208+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Show Internal Use"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        _value="false"
+                                        autofillFieldKeyword="name"
+                                        cssStyle=".guide-1487743062285 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:450px;&#xa;&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1487743062285 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:auto;&#xa;padding-left:16px;&#xa;&#xa;}&#xa;}&#xa;"
+                                        enabled="{Boolean}true"
+                                        guideNodeClass="guideTextBox"
+                                        name="showInternalUseBlock"
+                                        textIsRich="[true,true,true]"
+                                        visible="{Boolean}true">
+                                        <fd:rules
+                                            fd:visible="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;VISIBLE_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.foiaApplication.filledByApplicant.showInternalUseBlock&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;name&quot;:&quot;showInternalUseBlock&quot;}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:null}\,{&quot;nodeName&quot;:&quot;Else&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;DONOTHING_OR_SHOW&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Show&quot;\,&quot;value&quot;:null}}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nfalse;\\n\\n&quot;\,&quot;eventName&quot;:&quot;Visibility&quot;}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_textbox
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[width:450px]"
+                                                phone_x0023_default="[width:auto,padding-left:16px]"
+                                                phone_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:—\, —\, —\, 16px]"/>
+                                        </style>
+                                    </guidetextbox_1959526281>
+                                </items>
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_responsivepanel
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[]"
+                                        default_x0023_default_x0023_ui="[marginLock=linkOff,marginPopover=Set]"/>
+                                    <af_responsivepaneldescription
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[]"
+                                        phone_x0023_default="[display:block]"/>
+                                </style>
+                            </filledByApplicant>
+                            <internalUse
+                                cq:cssClass="guide-1475756251791"
+                                jcr:description="Internal Use"
+                                jcr:lastModified="{Date}2016-10-06T11:19:21.834Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Internal Use"
+                                sling:resourceType="fd/af/components/panel"
+                                bindRef="/foiaApplication/internalUse"
+                                completionExpReq="{Boolean}false"
+                                cssStyle=".guide-1475756251791 .guideGridFluidLayout{&#xa;padding-right:10px;&#xa;padding-bottom:10px;&#xa;padding-left:10px;&#xa;padding-top:10px;&#xa;background:rgba(221,221,221,0.85);&#xa;&#xa;}&#xa;"
+                                guideNodeClass="guidePanel"
+                                maxOccur="{Long}1"
+                                minOccur="{Long}1"
+                                name="internalUse"
+                                textIsRich="true">
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                    columns="1"
+                                    dorLayoutType="columnar"
+                                    dorNumCols="1"
+                                    nonNavigable="true"
+                                    toolbarPosition="Bottom"/>
+                                <items
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout">
+                                    <handledBy
+                                        cq:cssClass="guide-1487743076144"
+                                        jcr:lastModified="{Date}2016-10-06T12:07:58.971Z"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Handled by"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        bindRef="/foiaApplication/internalUse/handledBy"
+                                        cssStyle=".guide-1487743076144 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:450px;&#xa;&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1487743076144 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:auto;&#xa;padding-left:16px;&#xa;&#xa;}&#xa;}&#xa;"
+                                        displayPatternType="none"
+                                        guideNodeClass="guideTextBox"
+                                        name="handledBy"
+                                        textIsRich="[true,true,true]"
+                                        validationPatternType="none">
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_textbox
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[width:450px]"
+                                                phone_x0023_default="[width:auto,padding-left:16px]"
+                                                phone_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:—\, —\, —\, 16px]"/>
+                                        </style>
+                                    </handledBy>
+                                    <requestID
+                                        cq:cssClass="guide-1487743083576"
+                                        jcr:lastModified="{Date}2016-10-06T12:08:02.684Z"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Request ID"
+                                        sling:resourceType="fd/af/components/guidenumericbox"
+                                        bindRef="/foiaApplication/internalUse/requestID"
+                                        cssStyle=".guide-1487743083576 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:450px;&#xa;&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1487743083576 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:auto;&#xa;padding-top:16px;&#xa;padding-right:16px;&#xa;padding-bottom:16px;&#xa;padding-left:16px;&#xa;&#xa;}&#xa;}&#xa;.guide-1487743083576 .numericInput input[type='text'], .numericInput input[type='number']{&#xa;&#xa;}&#xa; .guideFieldWidget.numericInput {&#xa;width:100%;&#xa;}&#xa;"
+                                        dataType="integer"
+                                        displayPatternType="none"
+                                        guideNodeClass="guideNumericBox"
+                                        name="requestID"
+                                        textIsRich="[true,true]"
+                                        validationPatternType="none">
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_numericbox
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[width:450px]"
+                                                phone_x0023_default="[width:auto,padding-top:16px,padding-right:16px,padding-bottom:16px,padding-left:16px]"
+                                                phone_x0023_default_x0023_ui="[paddingPopover:16px]"/>
+                                            <af_numericboxwidgetandtext
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldWidget.numericInput&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;100%&quot;}}}}]"
+                                                default_x0023_default_x0023_ui="[width:100%]"/>
+                                        </style>
+                                    </requestID>
+                                    <reviewerComments
+                                        cq:cssClass="guide-1487743088413"
+                                        jcr:lastModified="{Date}2016-10-06T12:08:06.849Z"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Reviewer's Comments"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        bindRef="/foiaApplication/internalUse/reviewerComments"
+                                        cssStyle=".guide-1487743088413 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:450px;&#xa;&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1487743088413 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;width:auto;&#xa;padding-left:16px;&#xa;&#xa;}&#xa;}&#xa;"
+                                        displayPatternType="none"
+                                        guideNodeClass="guideTextBox"
+                                        multiLine="true"
+                                        name="reviewerComments"
+                                        textIsRich="[true,true,true]"
+                                        validationPatternType="none">
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_textbox
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[width:450px]"
+                                                phone_x0023_default="[width:auto,padding-left:16px]"
+                                                phone_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:—\, —\, —\, 16px]"/>
+                                        </style>
+                                    </reviewerComments>
+                                </items>
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_responsivepanel
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[padding-right=10px,padding-bottom=10px,padding-left=10px,padding-top=10px,background=rgba(221\,221\,221\,0.85)]"
+                                        default_x0023_default_x0023_ui="[paddingPopover=10px,backgroundColor=rgba(221\,221\,221\,0.85)]"/>
+                                </style>
+                                <fd:rules
+                                    fd:visible="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;VISIBLE_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.foiaApplication.internalUse&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;name&quot;:&quot;internalUse&quot;}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.foiaApplication.filledByApplicant.showInternalUseBlock&quot;\,&quot;displayName&quot;:&quot;Show Internal Use&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/Root Panel/FOIA Application/To Be Filled By Applicant/Show Internal Use/&quot;\,&quot;name&quot;:&quot;showInternalUseBlock&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.foiaApplication.filledByApplicant&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;false&quot;}}]}}\,{&quot;nodeName&quot;:&quot;Else&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;DONOTHING_OR_SHOW&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Show&quot;\,&quot;value&quot;:null}}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n *  HIDE Show Internal Use\\n *\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif (showInternalUseBlock.value == \\&quot;false\\&quot;) {\\n    false;\\n } else {\\n    true;\\n}\\n&quot;\,&quot;eventName&quot;:&quot;Visibility&quot;}]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <fd:scripts jcr:primaryType="nt:unstructured"/>
+                            </internalUse>
+                        </items>
+                        <style jcr:primaryType="nt:unstructured">
+                            <af_responsivepanel
+                                jcr:primaryType="nt:unstructured"
+                                default_x0023_default="[margin-top=0px]"
+                                default_x0023_default_x0023_ui="[marginLock=linkOff,marginPopover=0px\, —\, —\, —]"/>
+                        </style>
+                    </_x0031_475752223586>
+                </items>
+                <style jcr:primaryType="nt:unstructured">
+                    <af_responsivepanel
+                        jcr:primaryType="nt:unstructured"
+                        default_x0023_default="[margin-top=0px]"
+                        default_x0023_default_x0023_ui="[marginLock=linkOff,marginPopover=0px\, —\, —\, —]"/>
+                    <af_responsivepaneldescription
+                        jcr:primaryType="nt:unstructured"
+                        default_x0023_default="[width:450px]"
+                        phone_x0023_default="[width:auto]"/>
+                </style>
+            </rootPanel>
+            <toolbar
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Toolbar"
+                sling:resourceType="fd/af/components/toolbar"
+                guideNodeClass="guideToolbar"
+                name="toolbar">
+                <items jcr:primaryType="nt:unstructured">
+                    <reset
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Reset"
+                        sling:resourceSuperType="fd/af/components/guidebutton"
+                        sling:resourceType="fd/af/components/actions/reset"
+                        clickExp="window.guideBridge.reset()"
+                        guideNodeClass="guideButton"
+                        name="reset"
+                        type="reset"/>
+                    <saveGuideDraft
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Save"
+                        sling:resourceSuperType="fd/af/components/guidebutton"
+                        sling:resourceType="fd/fp/components/actions/saveGuideDraft"
+                        clickExp="handleDraftSave(this)"
+                        guideNodeClass="guideButton"
+                        name="saveGuideDraft"
+                        type="save"/>
+                    <submit
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Submit"
+                        sling:resourceSuperType="fd/af/components/guidebutton"
+                        sling:resourceType="fd/af/components/actions/submit"
+                        clickExp="window.guideBridge.submit()"
+                        guideNodeClass="guideButton"
+                        name="submit"
+                        type="submit"/>
+                </items>
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/toolbar/mobileFixedToolbarLayout"/>
+            </toolbar>
+            <assets jcr:primaryType="nt:unstructured">
+                <xsdRef.xsd/>
+            </assets>
+            <autoSaveInfo
+                jcr:primaryType="nt:unstructured"
+                metadataselector="global"/>
+            <signerInfo
+                jcr:primaryType="nt:unstructured"
+                firstSigner="false"
+                firstSignerFormFiller="false"
+                signConfigPath="/etc/cloudservices/echosign/Refsite"
+                workflowType="SEQUENTIAL">
+                <signer0
+                    jcr:primaryType="nt:unstructured"
+                    countryCodeSource="form"
+                    emailSource="form"
+                    phoneSource="form"
+                    securityOption="NONE"
+                    signerTitle="Signer One"/>
+            </signerInfo>
+            <view jcr:primaryType="nt:unstructured">
+                <print
+                    jcr:lastModified="{Date}2017-05-04T16:11:03.516+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/authoring/components/dor/dorProperties"
+                    accentColor="#3878BA"
+                    fontFamily="Arial"
+                    hidePanelDescriptions="true"
+                    metaTemplateRef="/libs/fd/af/dor/templates/defaultTemplate.xdp"
+                    optionSeparator=", "
+                    showSelectedOptions="true">
+                    <branding jcr:primaryType="nt:unstructured">
+                        <items jcr:primaryType="nt:unstructured">
+                            <Header jcr:primaryType="nt:unstructured">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <AF_LOGO_IMAGE
+                                        jcr:primaryType="nt:unstructured"
+                                        fileName="[we.GOV_Dor.png,we.GOV_Dor.png,we.GOV_Dor1.png,we.GOV_Dor1.png]"
+                                        valueFrom="     ">
+                                        <file/>
+                                    </AF_LOGO_IMAGE>
+                                    <HeaderInfo jcr:primaryType="nt:unstructured">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <AF_FORM_TITLE
+                                                jcr:primaryType="nt:unstructured"
+                                                resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                                value="FOIA Application"/>
+                                            <AF_HEADER_TEXT
+                                                jcr:primaryType="nt:unstructured"
+                                                resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                                valueFrom="footerText"/>
+                                        </items>
+                                    </HeaderInfo>
+                                </items>
+                            </Header>
+                            <Footer jcr:primaryType="nt:unstructured">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <disclaimerLabel
+                                        jcr:primaryType="nt:unstructured"
+                                        resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                        value="DISCLAIMER"
+                                        valueFrom="     "/>
+                                    <disclaimerText
+                                        jcr:primaryType="nt:unstructured"
+                                        resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                        value="This document is strictly private, confidential and personal to its recipients and should not be copied, distributed or reproduced in whole or in part, nor passed to any third party."/>
+                                </items>
+                            </Footer>
+                        </items>
+                    </branding>
+                </print>
+            </view>
+            <style jcr:primaryType="nt:unstructured">
+                <af_mobilemenubutton
+                    jcr:primaryType="nt:unstructured"
+                    phone_x0023_default="[display:none]"/>
+                <af_mobiletitlebarprevnav
+                    jcr:primaryType="nt:unstructured"
+                    phone_x0023_default="[display:none]"/>
+                <af_mobiletitlebarnextnav
+                    jcr:primaryType="nt:unstructured"
+                    phone_x0023_default="[display:none]"/>
+                <af_mobiletitlebar
+                    jcr:primaryType="nt:unstructured"
+                    phone_x0023_default="[padding-left:22px,background:#102e50,padding-top:12px,padding-bottom:12px,height:auto,position:relative,top:-16px,margin-bottom:0px]"
+                    phone_x0023_default_x0023_ui="[paddingLock:linkOff,backgroundColor:#102e50,paddingPopover:12px\, —\, 12px\, 22px,positionPopover:relative,marginLock:linkOff,marginPopover:—\, —\, 0px\, —]"/>
+            </style>
+        </guideContainer>
+        <guidefooter
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="fd/af/components/guidefooter">
+            <guidetextdraw1
+                jcr:lastModified="{Date}2017-05-04T16:00:44.901+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/components/guidetextdraw"
+                _value="&lt;p>© 2017 We Gov | All rights reserved&lt;/p>&#xa;"
+                css="footerText"
+                guideNodeClass="guideTextDraw"
+                name="footerText"
+                textIsRich="true"/>
+        </guidefooter>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <smallScreen
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Decimal}479"/>
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Phone"
+                    width="{Decimal}767"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Decimal}991"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:language="de"
+    jcr:mixinTypes="[mix:language]"
+    jcr:primaryType="sling:Folder"
+    sling:basename="/content/forms/af/we-gov/application-for-health-benefits/jcr:content/guideContainer/assets/dictionary">
+    <fd__x003c_p_x0020_style_x003d__x0022_-370984354
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Gross Annual Income From Employment(wages, Bonuses, Tips, Etc.) Excluding Income From Your Farm, Ranch, Property Or Business&lt;/p>&#xa;"
+        sling:message="&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Jährliches Bruttoeinkommen aus Anstellung (Gehalt, Boni, Trinkgeld usw.) Ausschließlich Einkommen aus Ihrem landwirtschaftlichen Betrieb, Ihrer Farm, Immobilien oder Unternehmen&lt;/p>&#xa;"/>
+    <fd__x003c_p_x0020_style_x003d__x0022_-577240662
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>List Other Income Amounts (e.g., Social Security, Compensation, Pension, Interests, Dividends) Excluding Welfare.&lt;/p>&#xa;"
+        sling:message="&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Liste andere Einkünfte (z.B. Sozialversicherung, Entschädigung, Rente, Zinsen, Dividenden) Ausschließlich Sozialhilfe.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x0020_style_x003d__x0022_1718865915
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Net Income From Your Farm, Ranch, Property Or Business&lt;/p>&#xa;"
+        sling:message="&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Nettoeinkommen aus Ihrem landwirtschaftlichen Betrieb, Ihrer Farm, Immobilien oder Unternehmen&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_i-2027009618
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter in $&lt;/p>&#xa;"
+        sling:message="&lt;p>Eingabe in $&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_y1983263876
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter your Group Code.&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie Ihren Gruppencode ein.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_y817255870
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter your 9 digit Social Security Number&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie Ihre 9-stellige Sozialversicherungsnummer ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_I_x0020_am_x0020_ap430423710
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>I am applying for health benefits.&lt;/p>&#xa;&lt;ol>&#xa;&lt;li>I understand that there are medical and economic features yet to be considered before I am eligible for this benefit, and that I will soon be notified of the action taken on this application.&lt;/li>&#xa;&lt;li>I also understand cost limitations for health benefits. Entitlements to this benefit terminates when the cost limit is reached.&lt;/li>&#xa;&lt;/ol>&#xa;"
+        sling:message="&lt;p>Ich beantrage Gesundheitsfürsorgeleistungen.&lt;/p> &lt;ol> &lt;li>Ich verstehe, dass es medizinische und wirtschaftliche Fakten gibt, die noch in Betracht gezogen werden müssen, bevor ich für diese Hilfeleistung berechtigt bin, und dass ich benachrichtigt werde, sobald mein Antrag weiter bearbeitet wird.&lt;/li> &lt;li>Ich verstehe auch, dass es Kostenbegrenzungen für Gesundheitsfürsorgeleistungen gibt. Ansprüche an diese Hilfeleistung enden, wenn diese Kostenbegrenzung erreicht ist.&lt;/li> &lt;/ol>&#xa;"/>
+    <fd__x003c_p_x003e_Please_x0020_-1678246150
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Please enter valid Policy Number.&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie eine gültige Policennummer ein.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Please_x0020_775999427
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Please enter Group Code as provided by your insurance provider.&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie einen Gruppencode ein, der Ihnen vom Versicherungsanbieter bereit gestellt wurde.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Use_x0020_one-871739151
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Use one of the following:&lt;/p>&#xa;&lt;p>Air Force&lt;/p>&#xa;&lt;p>Army&lt;/p>&#xa;&lt;p>Coast Guard&lt;/p>&#xa;&lt;p>Marine Corps&lt;/p>&#xa;"
+        sling:message="&lt;p>Verwenden Sie eine der folgenden Optionen:&lt;/p> &lt;p>Air Force&lt;/p> &lt;p>Army&lt;/p> &lt;p>Coast Guard&lt;/p> &lt;p>Marine Corps&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Use_x0020_One314345578
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Use One of the following:&lt;/p>&#xa;&lt;p>Honorable&lt;/p>&#xa;&lt;p>General&lt;/p>&#xa;&lt;p>Other Than Honorable&lt;/p>&#xa;&lt;p>Bad Conduct&lt;/p>&#xa;&lt;p>Dishonorable&lt;/p>&#xa;&lt;p>Undesireable&lt;/p>&#xa;"
+        sling:message="&lt;p>Verwenden Sie eine der folgenden Optionen:&lt;/p> &lt;p>Ehrenhaft&lt;/p> &lt;p>Allgemein&lt;/p> &lt;p>Nicht ehrenhaft&lt;/p> &lt;p>Fehlverhalten&lt;/p> &lt;p>Unehrenhaft&lt;/p> &lt;p>Unerwünscht&lt;/p>&#xa;"/>
+    <fd_Air_x0020_Force
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Air Force"
+        sling:message="Air Force"/>
+    <fd_Are_x0020_You_x0020_Co-590037545
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Are You Covered By Health Insurance?"
+        sling:message="Haben Sie eine Krankenversicherung?"/>
+    <fd_Army
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Army"
+        sling:message="Army"/>
+    <fd_Attach
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Attach"
+        sling:message="Anfügen"/>
+    <fd_Back
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Back"
+        sling:message="Zurück"/>
+    <fd_Bad_x0020_Conduct
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Bad Conduct"
+        sling:message="Unangemessenes Verhalten"/>
+    <fd_Coast_x0020_Guard
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Coast Guard"
+        sling:message="Coast Guard"/>
+    <fd_Current_x0020_Ma976522142
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Current Marital State"
+        sling:message="Aktueller Familienstand"/>
+    <fd_Date_x0020_of_x0020_Bi-15561432
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Date of Birth"
+        sling:message="Geburtsdatum"/>
+    <fd_Discharge_x0020_-2133466088
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Discharge Type"
+        sling:message="Entlassungstyp"/>
+    <fd_Dishonorable
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Dishonorable"
+        sling:message="Unehrenhaft"/>
+    <fd_Divorced
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Divorced"
+        sling:message="Geschieden"/>
+    <fd_Do_x0020_you_x0020_wan-300805338
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Do you want to provide your financial information so that we can determine your eligibility for other services and enrollment or if you will be charged copays for care and medication?"
+        sling:message="Möchten Sie Ihre finanziellen Informationen angeben, damit wir Ihre Berechtigung für andere Dienste und Registrierung sowie mögliche Gebühren für Kostenbeteiligungen für Pflege und Medikamente ermitteln können?"/>
+    <fd_Enter_x0020_Your-1001058015
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Enter Your Health Insurance Company Name, Address And Telephone Number"
+        sling:message="Geben Sie den Namen, die Adresse und die Telefonnummer Ihrer Krankenversicherung ein"/>
+    <fd_Female
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Female"
+        sling:message="Weiblich"/>
+    <fd_Fill
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Fill"
+        sling:message="Füllfarbe"/>
+    <fd_Financial_x0020_956351225
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Financial Assessment"
+        sling:message="Finanzprüfung"/>
+    <fd_Gender
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Gender"
+        sling:message="Geschlecht"/>
+    <fd_General
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_General"
+        sling:message="Allgemeines"/>
+    <fd_Getting_x0020_St929492837
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Getting Started"
+        sling:message="Erste Schritte"/>
+    <fd_Gross_x0020_Inco-1066434747
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Gross Income"
+        sling:message="Bruttoeinkommen"/>
+    <fd_Group_x0020_Code
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Group Code"
+        sling:message="Gruppencode"/>
+    <fd_Honorable
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Honorable"
+        sling:message="Ehrenhaft"/>
+    <fd_I_x0020_agree_x0020_to1628167156
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_I agree to the terms &amp; conditions"
+        sling:message="Ich stimme den Nutzungsbedingungen zu"/>
+    <fd_Insurance_x0020_-1694807898
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Insurance Information"
+        sling:message="Versicherungsinformationen"/>
+    <fd_Last_x0020_Branc603545504
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Last Branch Of Service"
+        sling:message="Letzte Teilstreitkraft"/>
+    <fd_Last_x0020_Disch-1199668426
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Last Discharge Date"
+        sling:message="Letztes Entlassungsdatum"/>
+    <fd_Last_x0020_Entry2117976710
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Last Entry Date"
+        sling:message="Datum des letzten Eintrags"/>
+    <fd_Male
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Male"
+        sling:message="Männlich"/>
+    <fd_Married
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Married"
+        sling:message="Verheiratet"/>
+    <fd_Military_x0020_S1263037582
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Military Service Information"
+        sling:message="Informationen zum Militärdienst"/>
+    <fd_Mother_x0027_s_x0020_M-1898074174
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Mother's Maiden Name"
+        sling:message="Mädchenname der Mutter"/>
+    <fd_Name_x0020_Of_x0020_Po-472420666
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Name Of Policy Holder"
+        sling:message="Name des Inhabers der Police"/>
+    <fd_Net_x0020_Income
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Net Income"
+        sling:message="Nettoeinkommen"/>
+    <fd_Never_x0020_Married
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Never Married"
+        sling:message="Nie verheiratet"/>
+    <fd_No
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_No"
+        sling:message="Nein"/>
+    <fd_Other_x0020_Inco-165365511
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Other Income"
+        sling:message="Weitere Einkünfte"/>
+    <fd_Other_x0020_Than_x0020_Honorable
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Other Than Honorable"
+        sling:message="Nicht ehrenhaft"/>
+    <fd_Personal_x0020_I-1176714420
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Personal Information"
+        sling:message="Persönliche Informationen"/>
+    <fd_Place_x0020_of_x0020_B-173362129
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Place of Birth"
+        sling:message="Geburtsort"/>
+    <fd_Please_x0020_fil715369536
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please fill in a valid Policy Number"
+        sling:message="Geben Sie eine gültige Policennummer ein"/>
+    <fd_Please_x0020_Pro-917872605
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please Provide Military Service Information"
+        sling:message="Geben Sie Informationen zum Militärdienst an"/>
+    <fd_Please_x0020_Pro1459337293
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please Provide Your Last, Middle and First Name"
+        sling:message="Geben Sie Vor-, zweiten Vor- und Nachnamen an"/>
+    <fd_Policy_x0020_Num2046680567
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Policy Number"
+        sling:message="Policennumer"/>
+    <fd_Provide_x0020_In873380935
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Provide Insurance Information"
+        sling:message="Geben Sie Versicherungsinformationen ein"/>
+    <fd_Reset
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Reset"
+        sling:message="Zurücksetzen"/>
+    <fd_Save
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Save"
+        sling:message="Speichern"/>
+    <fd_Seperated
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Seperated"
+        sling:message="Getrennt"/>
+    <fd_Sign_x0020_able_x0020_950709534
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Sign able document will be shown here."
+        sling:message="Unterschreibbares Dokument wird hier angezeigt."/>
+    <fd_Sign_x0020_and_x0020_S-1309158204
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Sign and Submit"
+        sling:message="Unterschreiben und einreichen"/>
+    <fd_Social_x0020_Sec-1480667754
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Social Security Number"
+        sling:message="Sozialversicherungsnummer"/>
+    <fd_Submit
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Submit"
+        sling:message="Senden"/>
+    <fd_Summary
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Summary"
+        sling:message="Zusammenfassung"/>
+    <fd_Terms_x0020_And_x0020_1233065146
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Terms And Conditions"
+        sling:message="Geschäftsbedingungen"/>
+    <fd_Terms_x0020_and_x0020_241593466
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Terms and conditions"
+        sling:message="Geschäftsbedingungen"/>
+    <fd_Thanks_x0020__x0024__x007b_o-1777584685
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Thanks ${owner} for submitting the ${guideName} form.&lt;br> Your reference number is ${submitID}.&lt;br> Submitted form can be downloaded from &lt;a target=&quot;_blank&quot; href=&quot;${path}&quot;>here&lt;/a>."
+        sling:message="Danke ${owner} für das Einreichen des Formulars ${guideName}.&lt;br> Ihre Referenznummer lautet ${submitID}.&lt;br> Das eingereichte Formular kann &lt;a target=&quot;_blank&quot; href=&quot;${path}&quot;>hier&lt;/a> heruntergeladen werden."/>
+    <fd_To_x0020_expedit1634670032
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_To expedite processing of your application, please attach copy of your insurance card"
+        sling:message="Für eine schnelle Bearbeitung Ihres Antrags fügen Sie bitte eine Kopie Ihrer Versicherungskarte hinzu"/>
+    <fd_Toolbar
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Toolbar"
+        sling:message="Symbolleiste"/>
+    <fd_Undesireable
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Undesireable"
+        sling:message="Unerwünscht"/>
+    <fd_Verifiable1736085304
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Verifiable document will be shown here."
+        sling:message="Prüfbares Dokument wird hier angezeigt."/>
+    <fd_Verify
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Verify"
+        sling:message="Überprüfen"/>
+    <fd_Veteran_x0027_s_x0020_-918557696
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Veteran's Last Name"
+        sling:message="Nachname des Veteranen"/>
+    <fd_Veteran_x0027_s_x0020_1510397345
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Veteran's Middle Name"
+        sling:message="Zweiter Vorname des Veteranen"/>
+    <fd_Veteran_x0027_s_x0020_925305200
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Veteran's First Name"
+        sling:message="Vorname des Veteranen"/>
+    <fd_Widowed
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Widowed"
+        sling:message="Verwitwet"/>
+    <fd_Yes
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Yes"
+        sling:message="Ja"/>
+</jcr:root>

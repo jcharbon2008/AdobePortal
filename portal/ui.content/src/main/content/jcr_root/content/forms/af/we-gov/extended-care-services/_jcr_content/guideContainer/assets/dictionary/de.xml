@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:language="de"
+    jcr:mixinTypes="[mix:language]"
+    jcr:primaryType="sling:Folder"
+    sling:basename="/content/forms/af/we-gov/extended-care-services/jcr:content/guideContainer/assets/dictionary">
+    <fd_Back
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Back"
+        sling:message="Zurück"/>
+    <fd_Document_x0020_t-255472882
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Document to be filled shown here."
+        sling:message="Das auszufüllende Dokument wird hier angezeigt."/>
+    <fd_Fill
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Fill"
+        sling:message="Füllfarbe"/>
+    <fd_Sign_x0020_able_x0020_950709534
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Sign able document will be shown here."
+        sling:message="Unterschreibbares Dokument wird hier angezeigt."/>
+    <fd_Sign_x0020_and_x0020_S-1309158204
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Sign and Submit"
+        sling:message="Unterschreiben und einreichen"/>
+    <fd_Summary
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Summary"
+        sling:message="Zusammenfassung"/>
+    <fd_Thanks_x0020__x0024__x007b_o-1777584685
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Thanks ${owner} for submitting the ${guideName} form.&lt;br> Your reference number is ${submitID}.&lt;br> Submitted form can be downloaded from &lt;a target=&quot;_blank&quot; href=&quot;${path}&quot;>here&lt;/a>."
+        sling:message="Danke ${owner} für das Einreichen des Formulars ${guideName}.&lt;br> Ihre Referenznummer lautet ${submitID}.&lt;br> Das eingereichte Formular kann &lt;a target=&quot;_blank&quot; href=&quot;${path}&quot;>hier&lt;/a> heruntergeladen werden."/>
+    <fd_The_x0020_text_x0020_w121850961
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_The text will appear here"
+        sling:message="Der Text wird hier angezeigt"/>
+</jcr:root>

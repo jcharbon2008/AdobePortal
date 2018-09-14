@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:language="fr"
+    jcr:mixinTypes="[mix:language]"
+    jcr:primaryType="sling:Folder"
+    sling:basename="/content/forms/af/we-gov/child-support/child-support-services-assessment-form/jcr:content/guideContainer/assets/dictionary">
+    <fd__x003c_p_x003e_Does_x0020_th-1336765424
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Does the information provided by the applicant in the application tally with the information verified by you?&lt;/p>&#xa;"
+        sling:message="&lt;p>Les informations fournies par le demandeur dans le formulaire de demande corroborent-elles les informations vérifiées par vous ?&lt;/p>&#xa;"/>
+    <fd_Additional-79705683
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Additional comments"
+        sling:message="Autres commentaires"/>
+    <fd_Applicant_x0020_-830781190
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Applicant signature"
+        sling:message="Signature du demandeur"/>
+    <fd_Child_x0020_for_x0020_-143205135
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Child for whom Child Support Services are needed is living with applicant"
+        sling:message="L'enfant pour lequel les Services d'aide à l'enfance sont sollicités vit avec le demandeur"/>
+    <fd_Child_x0020_Supp294857837
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Child Support Services Applicant Assessment"
+        sling:message="Evaluation du demandeur de Services d'aide à l'enfance"/>
+    <fd_Child_x2019_s_x0020_ag-1138495648
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Child’s age on Birth Certificate"
+        sling:message="Âge de l'enfant d'après le certificat de naissance"/>
+    <fd_Five
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Five"
+        sling:message="Cinq"/>
+    <fd_Four
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Four"
+        sling:message="Quatre"/>
+    <fd_Have_x0020_you_x0020_a-1428697396
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Have you asked the applicant to visit a local Child Support Services office for interview?"
+        sling:message="Avez-vous invité le demandeur à visiter un bureau local des Services d'aide à l'enfance en vue d'un entretien ?"/>
+    <fd_Home_x0020_addre-215862829
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Home address"
+        sling:message="Adresse du domicile"/>
+    <fd_How_x0020_many_x0020_c1326096083
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_How many children does the applicant have?"
+        sling:message="Combien d'enfants le demandeur a-t-il ?"/>
+    <fd_Marital_x0020_st-401766210
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Marital status"
+        sling:message="État civil"/>
+    <fd_One
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_One"
+        sling:message="Un"/>
+    <fd_Select_x0020_number
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Select number"
+        sling:message="Sélectionner un numéro"/>
+    <fd_Services_x0020_t1891186017
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Services that the applicant has previously applied for or received (Child Support Services, TANF/AFDC, Medical Assistance)"
+        sling:message="Services pour lesquels le demandeur a fait une demande antérieurement ou qu'il a perçus (Services d'aide à l'enfance, TANF/AFDC, Assistance médicale)"/>
+    <fd_Six
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Six"
+        sling:message="Six"/>
+    <fd_Three
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Three"
+        sling:message="Trois"/>
+    <fd_Two
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Two"
+        sling:message="Deux"/>
+    <fd_Type_x0020_here
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Type here"
+        sling:message="Saisissez ici"/>
+    <fd_Work_x0020_addre-1516981755
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Work address"
+        sling:message="Adresse professionnelle"/>
+    <fd_Yes
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Yes"
+        sling:message="Oui"/>
+</jcr:root>

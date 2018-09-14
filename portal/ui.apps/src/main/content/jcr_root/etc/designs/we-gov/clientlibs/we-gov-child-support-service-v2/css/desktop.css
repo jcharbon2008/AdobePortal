@@ -1,0 +1,149 @@
+/*Common Styles*/
+
+.wizard-navigators > li > a > span{ left:0px;}
+
+
+#guideContainer-rootPanel-checkEligibility___guide-item-nav > a{ border:none; font-size:20px;}
+
+
+
+
+*{
+outline: none !important;
+}
+
+div[data-mandatory="true"] label::after {
+color: red;
+content: "*";
+}
+
+.guideFieldNode .guideFieldError {
+color: #d9534f;
+}
+
+
+/*Layout containter scrollbar*/
+#guideContainer-rootPanel-appRoot-formDetailsPanel___guide-item-container::-webkit-scrollbar-thumb{
+    background-color:rgba(255, 250, 250, 0.3);
+    border: 3px solid rgba(0,0,0,0);
+    background-clip: padding-box;
+    -webkit-border-radius: 7px;
+}
+
+#guideContainer-rootPanel-appRoot-formDetailsPanel___guide-item-container::-webkit-scrollbar-thumb:hover{
+    background-color:rgba(255, 250, 250, 0.4);
+}
+
+#guideContainer-rootPanel-appRoot-formDetailsPanel___guide-item-container::-webkit-scrollbar-thumb:active{
+    background-color:rgba(255, 250, 250, 0.4);
+}
+
+#guideContainer-rootPanel-appRoot-formDetailsPanel___guide-item-container::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+    
+}
+
+#guideContainer-rootPanel-appRoot-pay___guide-item-container::-webkit-scrollbar-thumb{
+    background-color:rgba(255, 250, 250, 0.3);
+    border: 3px solid rgba(0,0,0,0);
+    background-clip: padding-box;
+    -webkit-border-radius: 7px;
+}
+
+#guideContainer-rootPanel-appRoot-pay___guide-item-container::-webkit-scrollbar-thumb:hover{
+    background-color:rgba(255, 250, 250, 0.4);
+}
+
+#guideContainer-rootPanel-appRoot-pay___guide-item-container::-webkit-scrollbar-thumb:active{
+    background-color:rgba(255, 250, 250, 0.4);
+}
+
+#guideContainer-rootPanel-appRoot-pay___guide-item-container::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+    
+}
+
+
+/*Custom Scrollbar for TnC*/
+
+.afTermsAndConditions ::-webkit-scrollbar-thumb{
+    background-color:rgba(0, 0, 0, 0.3);
+    border: 3px solid rgba(0,0,0,0);
+    background-clip: padding-box;
+    -webkit-border-radius: 7px;
+}
+
+.afTermsAndConditions ::-webkit-scrollbar-thumb:hover{
+    background-color:rgba(0, 0, 0, 0.4);
+}
+
+.afTermsAndConditions ::-webkit-scrollbar-thumb:active{
+    background-color:rgba(0, 0, 0, 0.4);
+} 
+
+.afTermsAndConditions ::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+    
+}
+
+
+/*custom scrollbar for esign */
+  .summary_component_div::-webkit-scrollbar-thumb{
+    background-color:rgba(0, 0, 0, 0.3);
+    border: 3px solid rgba(0,0,0,0);
+    background-clip: padding-box;
+    -webkit-border-radius: 7px;
+}
+.summary_component_div::-webkit-scrollbar-thumb:hover{
+    background-color:rgba(0, 0, 0, 0.4);
+}
+ .summary_component_div::-webkit-scrollbar-thumb:active{
+    background-color:rgba(0, 0, 0, 0.4);
+} 
+ .summary_component_div::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+    
+}
+
+
+#esign_title, #verify_title, #summary_title {
+    background:none !important;
+    padding-left: 0px !important;
+    border-bottom: 2px solid;
+}
+
+div.fileUpload{
+overflow:hidden !important;
+}
+
+
+#guideContainerForm > div.guideContainerWrapperNode.guideContainerNode.container{
+padding-top:56px;
+}
+#draftModal > div > div > div.modal-header > button{
+background:none;
+padding-top:0px;
+}
+#draftModal > div > div > div.modal-footer > button.btn.btn-primary.sendEmail.moveNext,#draftModal > div > div > div.modal-footer > button.btn.btn-primary.closeBox.moveNext
+{
+line-height: 15px;
+}
+
+
+
+div.mainSite button{
+    background: white !important; 
+    color: #808080 !important; 
+}
+/* Datepicker icon isn't exposed in Theme editor */
+.datepicker-calendar-icon {
+    width: 18px !important;
+    height: 18px !important;
+    top: 30%;
+    right: 10px;
+}
+

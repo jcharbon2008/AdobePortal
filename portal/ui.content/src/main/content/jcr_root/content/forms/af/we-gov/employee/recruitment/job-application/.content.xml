@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2017-05-24T01:38:00.469Z"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/we-gov/settings/wcm/templates/we-gov-emp-template"
+        jcr:language="en"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Employee Onboarding"
+        sling:resourceType="fd/af/components/page2/aftemplatedpage">
+        <guideContainer
+            fd:version="1.1"
+            jcr:lastModified="{Date}2017-05-24T01:16:36.735Z"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="fd/af/components/guideContainer"
+            actionType="fd/dashboard/components/actions/aemworkflowsubmit"
+            afVersion="{Long}1"
+            attachmentsFolderPath="attachments"
+            autoSaveStrategyType="fd/fp/components/actions/autosave/timebased"
+            dataXMLPath="candidate-profile.json"
+            disableSwipeGesture="{Boolean}true"
+            dorPath="dor/candidate-profile.pdf"
+            dorTemplateRef="/content/dam/formsanddocuments/we-gov/employee/recruitment/job-application/jcr:content/renditions/dorTemplate"
+            dorType="generate"
+            enableAsyncSubmission="true"
+            guideCss="guideContainer"
+            guideNodeClass="guideContainerNode"
+            name="guide1"
+            prefillService="FDM"
+            schemaRef="/content/dam/formsanddocuments-fdm/job-applicants"
+            schemaType="formdatamodel"
+            textIsRich="true"
+            thankYouMessage="Thank you for submitting the form."
+            thankYouOption="page"
+            themeRef="/content/dam/formsanddocuments-themes/we-gov/employee"
+            useExistingAF="false"
+            workflowModel="/etc/workflow/models/we-gov/employee/recruitment/we-gov-employee-recruiting-post-interview-workflow/jcr:content/model">
+            <layout
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/layouts/defaultGuideLayout"
+                mobileLayout="fd/af/layouts/mobile/simple"
+                toolbarPosition="Bottom"/>
+            <rootPanel
+                jcr:lastModified="{Date}2017-05-22T17:20:01.208Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/components/rootPanel"
+                completionExpReq="{Boolean}false"
+                dorExcludeDescription="true"
+                dorExcludeTitle="true"
+                guideNodeClass="rootPanelNode"
+                name="guideRootPanel"
+                panelSetType="Navigable"
+                validateOnStepCompletion="{Boolean}false">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/gridFluidLayout"
+                    nonNavigable="true"
+                    toolbarPosition="Bottom"/>
+                <items jcr:primaryType="nt:unstructured">
+                    <jobapplicants
+                        jcr:lastModified="{Date}2017-05-24T01:28:26.375Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Job Applicant Root"
+                        sling:resourceType="fd/af/components/panel"
+                        bindRef="/JOB_APPLICANTS_1495441871609"
+                        completionExpReq="{Boolean}false"
+                        dorExcludeTitle="true"
+                        guideNodeClass="guidePanel"
+                        name="JOB_APPLICANTS"
+                        textIsRich="true"
+                        validateOnStepCompletion="{Boolean}false">
+                        <items jcr:primaryType="nt:unstructured">
+                            <personalinfo14748865
+                                jcr:lastModified="{Date}2017-05-22T16:53:40.498Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Personal Information"
+                                sling:resourceType="fd/af/components/panel"
+                                bindRef="/JOB_APPLICANTS_1495441871609"
+                                completionExpReq="{Boolean}false"
+                                guideNodeClass="guidePanel"
+                                name="personalInfo"
+                                textIsRich="true"
+                                validateOnStepCompletion="{Boolean}false">
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                    columns="1"
+                                    dorLayoutType="columnar"
+                                    dorNumCols="1"
+                                    nonNavigable="true"
+                                    toolbarPosition="Bottom"/>
+                                <items
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout">
+                                    <guidetextbox
+                                        cq:cssClass="guide-1495589723293"
+                                        jcr:created="{Date}2017-05-24T01:33:33.485Z"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-05-24T01:34:45.532Z"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Job Title"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        autofillFieldKeyword="name"
+                                        bindRef="/JOB_APPLICANTS_1495441871609/JOB_ID"
+                                        cssStyle=".guide-1495589723293 [data-disabled='true'] .textField input[type='text']{&#xa;background:rgb(230,230,230);&#xa;&#xa;}&#xa;"
+                                        guideNodeClass="guideTextBox"
+                                        name="jobTitle"
+                                        textIsRich="[true,true,true]">
+                                        <fd:rules
+                                            fd:enabled="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;DISABLE_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.JOB_APPLICANTS.personalInfo.jobTitle&quot;\,&quot;type&quot;:&quot;FIELD&quot;\,&quot;name&quot;:&quot;jobTitle&quot;}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:null}\,{&quot;nodeName&quot;:&quot;Else&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;DONOTHING_OR_ENABLE&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Enable&quot;\,&quot;value&quot;:null}}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nfalse;\\n\\n&quot;\,&quot;eventName&quot;:&quot;Enabled&quot;}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_textboxwidgetandtext
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_disabled="[background:rgb(230\,230\,230)]"
+                                                default_x0023_disabled_x0023_ui="[backgroundColor:rgb(230\,230\,230)]"/>
+                                        </style>
+                                    </guidetextbox>
+                                    <guidenumericbox
+                                        cq:cssClass="guide-1495589857741"
+                                        jcr:created="{Date}2017-05-22T11:25:10.969Z"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-05-22T11:25:34.141Z"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Applicant ID"
+                                        sling:resourceType="fd/af/components/guidenumericbox"
+                                        bindRef="/JOB_APPLICANTS_1495441871609/ID"
+                                        cssStyle=".guide-1495589857741 [data-disabled='true'] .numericInput input[type='text'], [data-disabled='true'] .numericInput input[type='number']{&#xa;background:rgb(230,230,230);&#xa;&#xa;}&#xa;"
+                                        guideNodeClass="guideNumericBox"
+                                        name="applicantID"
+                                        textIsRich="[true,true]">
+                                        <fd:rules
+                                            fd:enabled="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;DISABLE_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.JOB_APPLICANTS.personalInfo.applicantID&quot;\,&quot;type&quot;:&quot;FIELD&quot;\,&quot;name&quot;:&quot;applicantID&quot;}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:null}\,{&quot;nodeName&quot;:&quot;Else&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;DONOTHING_OR_ENABLE&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Enable&quot;\,&quot;value&quot;:null}}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nfalse;\\n\\n&quot;\,&quot;eventName&quot;:&quot;Enabled&quot;}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_numericboxwidgetandtext
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_disabled="[background:rgb(230\,230\,230)]"
+                                                default_x0023_disabled_x0023_ui="[backgroundColor:rgb(230\,230\,230)]"/>
+                                        </style>
+                                    </guidenumericbox>
+                                    <firstName
+                                        jcr:lastModified="{Date}2017-05-22T10:45:23.375Z"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="First Name"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        autofillFieldKeyword="name"
+                                        bindRef="/JOB_APPLICANTS_1495441871609/FIRST_NAME"
+                                        guideNodeClass="guideTextBox"
+                                        mandatory="true"
+                                        name="firstName"
+                                        textIsRich="[true,true,true]"/>
+                                    <lastName
+                                        jcr:lastModified="{Date}2017-05-22T10:45:36.433Z"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Last Name"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        autofillFieldKeyword="name"
+                                        bindRef="/JOB_APPLICANTS_1495441871609/LAST_NAME"
+                                        guideNodeClass="guideTextBox"
+                                        mandatory="true"
+                                        name="lastName"
+                                        textIsRich="[true,true,true]"/>
+                                    <guideemail
+                                        jcr:created="{Date}2017-04-19T11:29:42.175+05:30"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-05-22T10:45:53.187Z"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Email"
+                                        sling:resourceType="fd/af/components/guideemail"
+                                        autocomplete="true"
+                                        autofillFieldKeyword="email"
+                                        bindRef="/JOB_APPLICANTS_1495441871609/EMAIL"
+                                        guideNodeClass="guideTextBox"
+                                        mandatory="true"
+                                        name="email"
+                                        textIsRich="[true,true]"
+                                        validatePictureClause="^[a-zA-Z0-9.!#$%&amp;’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$"
+                                        validationPatternType="^[a-zA-Z0-9.!#$%&amp;’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$"/>
+                                    <dateOfBirth
+                                        jcr:lastModified="{Date}2017-05-22T10:49:25.408Z"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Date Of Birth"
+                                        sling:resourceType="fd/af/components/guidedatepicker"
+                                        bindRef="/JOB_APPLICANTS_1495441871609/DOB"
+                                        displayPatternType="date{MMMM DD, YYYY}"
+                                        displayPictureClause="date{MMMM DD, YYYY}"
+                                        guideNodeClass="guideDatePicker"
+                                        name="dateOfBirth"
+                                        placeholderText="DOB"
+                                        textIsRich="[true,true]"/>
+                                    <gender
+                                        jcr:lastModified="{Date}2017-05-22T10:49:48.860Z"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Gender"
+                                        sling:resourceType="fd/af/components/guideradiobutton"
+                                        alignment="guideFieldHorizontalAlignment"
+                                        bindRef="/JOB_APPLICANTS_1495441871609/GENDER"
+                                        guideNodeClass="guideRadioButton"
+                                        name="gender"
+                                        options="[Male=Male,Female=Female]"
+                                        textIsRich="[true,true]"/>
+                                </items>
+                                <fd:rules jcr:primaryType="nt:unstructured"/>
+                                <fd:scripts jcr:primaryType="nt:unstructured"/>
+                            </personalinfo14748865>
+                            <educationinfo1474886
+                                jcr:description="Please provide your last educational degree details"
+                                jcr:lastModified="{Date}2017-05-22T23:37:21.297Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Education Information"
+                                sling:resourceType="fd/af/components/panel"
+                                completionExpReq="{Boolean}false"
+                                dorExcludeTitle="true"
+                                guideNodeClass="guidePanel"
+                                name="educationInfo"
+                                textIsRich="true"
+                                validateOnStepCompletion="{Boolean}false">
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/panel/accordion"
+                                    columns="1"
+                                    dorLayoutType="columnar"
+                                    dorNumCols="1"
+                                    enableLayoutOptimization="true"
+                                    toolbarPosition="Bottom"/>
+                                <items
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout">
+                                    <eduexpsec
+                                        jcr:lastModified="{Date}2017-05-22T17:15:42.283Z"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Education experience"
+                                        sling:resourceType="fd/af/components/panel"
+                                        bindRef="/JOB_APPLICANTS_1495441871609/JOB_APPLICANTS_EDUCATION_JOB_APPLICANTS_EDUCATION_1495442231254"
+                                        colspan="1"
+                                        completionExpReq="{Boolean}false"
+                                        guideNodeClass="guidePanel"
+                                        maxOccur="-1"
+                                        minOccur="1"
+                                        name="eduExpSec"
+                                        summaryExpVisible="yes"
+                                        textIsRich="true"
+                                        validateOnStepCompletion="{Boolean}false">
+                                        <layout
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                            columns="1"
+                                            dorLayoutType="columnar"
+                                            dorNumCols="1"
+                                            nonNavigable="true"
+                                            toolbarPosition="Bottom"/>
+                                        <items
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                                            <levelOfStudy
+                                                jcr:lastModified="{Date}2017-05-22T11:51:56.999Z"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Degree"
+                                                sling:resourceType="fd/af/components/guidedropdownlist"
+                                                bindRef="/JOB_APPLICANTS_1495441871609/JOB_APPLICANTS_EDUCATION_JOB_APPLICANTS_EDUCATION_1495442231254/DEGREE"
+                                                guideNodeClass="guideDropDownList"
+                                                mandatory="true"
+                                                name="levelOfStudy"
+                                                options="[Undergraduate=Undergraduate,Postgraduate=Postgraduate,Doctrate=Doctrate,Specialization=Specialization,Internship=Internship,Training=Training]"
+                                                placeholderText="Select"
+                                                textIsRich="[true,true]"/>
+                                            <instituteName
+                                                jcr:lastModified="{Date}2017-05-22T11:52:17.601Z"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Educational Institution"
+                                                sling:resourceType="fd/af/components/guidetextbox"
+                                                autofillFieldKeyword="name"
+                                                bindRef="/JOB_APPLICANTS_1495441871609/JOB_APPLICANTS_EDUCATION_JOB_APPLICANTS_EDUCATION_1495442231254/EDUCATIONAL_INSTITUTE"
+                                                guideNodeClass="guideTextBox"
+                                                mandatory="true"
+                                                name="instituteName"
+                                                placeholderText="Institution name"
+                                                textIsRich="[true,true,true]"/>
+                                            <degreeStatus
+                                                jcr:lastModified="{Date}2017-05-22T11:55:37.797Z"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Degree Status"
+                                                sling:resourceType="fd/af/components/guidedropdownlist"
+                                                bindRef="/JOB_APPLICANTS_1495441871609/JOB_APPLICANTS_EDUCATION_JOB_APPLICANTS_EDUCATION_1495442231254/DEGREE_STATUS"
+                                                guideNodeClass="guideDropDownList"
+                                                mandatory="true"
+                                                name="degreeStatus"
+                                                options="[Completed=Completed,Attending=Attending,Incomplete=Incomplete]"
+                                                placeholderText="Select"
+                                                textIsRich="[true,true]"/>
+                                            <yearsOfCompletion
+                                                jcr:lastModified="{Date}2017-05-22T11:55:55.657Z"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Years Of Completion"
+                                                sling:resourceType="fd/af/components/guidedatepicker"
+                                                bindRef="/JOB_APPLICANTS_1495441871609/JOB_APPLICANTS_EDUCATION_JOB_APPLICANTS_EDUCATION_1495442231254/DATE_OF_COMPLETION"
+                                                displayPatternType="date{MMMM DD, YYYY}"
+                                                displayPictureClause="date{MMMM DD, YYYY}"
+                                                guideNodeClass="guideDatePicker"
+                                                mandatory="true"
+                                                name="yearsOfCompletion"
+                                                placeholderText="Date"
+                                                textIsRich="[true,true]"/>
+                                        </items>
+                                    </eduexpsec>
+                                </items>
+                            </educationinfo1474886>
+                            <employmentinfo147488
+                                jcr:description="Please provide your last employment details"
+                                jcr:lastModified="{Date}2017-05-22T23:38:25.099Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Employment Summary"
+                                sling:resourceType="fd/af/components/panel"
+                                completionExpReq="{Boolean}false"
+                                dorExcludeTitle="true"
+                                guideNodeClass="guidePanel"
+                                name="employmentInfo"
+                                textIsRich="true"
+                                validateOnStepCompletion="{Boolean}false">
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                    columns="1"
+                                    dorLayoutType="columnar"
+                                    dorNumCols="1"
+                                    nonNavigable="true"
+                                    toolbarPosition="Bottom"/>
+                                <items
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout">
+                                    <employmentHistory
+                                        jcr:lastModified="{Date}2017-05-22T11:04:05.597Z"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Does you employment history include at least one job ?"
+                                        sling:resourceType="fd/af/components/guideradiobutton"
+                                        _value="No"
+                                        alignment="guideFieldHorizontalAlignment"
+                                        guideNodeClass="guideRadioButton"
+                                        mandatory="true"
+                                        name="employmentHistory"
+                                        options="[Yes=Yes,No=No]"
+                                        textIsRich="[true,true]">
+                                        <fd:rules
+                                            fd:valueCommit="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.employmentInfo.employmentHistory&quot;\,&quot;type&quot;:&quot;DROP DOWN|FIELD|AFCOMPONENT|STRING|DROPDOWN&quot;\,&quot;name&quot;:&quot;employmentHistory&quot;}}\,{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;Yes&quot;}}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;Then&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_STATEMENT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.employmentInfo.workExperience&quot;\,&quot;displayName&quot;:&quot;Work Experience&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Employment Summary/Work Experience/&quot;\,&quot;name&quot;:&quot;workExperience&quot;\,&quot;parent&quot;:&quot;FORM.guideRootPanel.employmentInfo&quot;}}]}}]}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif (this.value == \\&quot;Yes\\&quot;) {\\n    FORM.guideRootPanel.employmentInfo.workExperience.visible = true;\\n}\\n&quot;\,&quot;eventName&quot;:&quot;Value Commit&quot;},{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.employmentInfo.employmentHistory&quot;\,&quot;type&quot;:&quot;DROP DOWN|FIELD|AFCOMPONENT|STRING|DROPDOWN&quot;\,&quot;name&quot;:&quot;employmentHistory&quot;}}\,{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;No&quot;}}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;Then&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;HIDE_STATEMENT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.employmentInfo.workExperience&quot;\,&quot;displayName&quot;:&quot;Work Experience&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Employment Summary/Work Experience/&quot;\,&quot;name&quot;:&quot;workExperience&quot;\,&quot;parent&quot;:&quot;FORM.guideRootPanel.employmentInfo&quot;}}]}}]}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif (this.value == \\&quot;No\\&quot;) {\\n    FORM.guideRootPanel.employmentInfo.workExperience.visible = false;\\n}\\n&quot;\,&quot;eventName&quot;:&quot;Value Commit&quot;}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                    </employmentHistory>
+                                    <workExperience
+                                        jcr:lastModified="{Date}2017-05-22T17:17:31.199Z"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Work Experience"
+                                        sling:resourceType="fd/af/components/panel"
+                                        completionExpReq="{Boolean}false"
+                                        guideNodeClass="guidePanel"
+                                        name="workExperience"
+                                        textIsRich="true"
+                                        validateOnStepCompletion="{Boolean}false">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <prevworkexpsec
+                                                jcr:lastModified="{Date}2017-05-22T17:16:43.407Z"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Job details"
+                                                sling:resourceType="fd/af/components/panel"
+                                                bindRef="/JOB_APPLICANTS_1495441871609/JOB_APPLICANTS_EMPLOYMENT_JOB_APPLICANTS_EMPLOYMENT_1495442295227"
+                                                completionExpReq="{Boolean}false"
+                                                guideNodeClass="guidePanel"
+                                                maxOccur="{Long}-1"
+                                                minOccur="{Long}1"
+                                                name="prevWorkExpSec"
+                                                summaryExpVisible="yes"
+                                                textIsRich="true"
+                                                validateOnStepCompletion="{Boolean}false">
+                                                <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                                    columns="1"
+                                                    dorLayoutType="columnar"
+                                                    dorNumCols="1"
+                                                    nonNavigable="true"
+                                                    toolbarPosition="Bottom"/>
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <designation
+                                                        jcr:lastModified="{Date}2017-05-22T11:56:52.516Z"
+                                                        jcr:lastModifiedBy="admin"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="Designation"
+                                                        sling:resourceType="fd/af/components/guidetextbox"
+                                                        autofillFieldKeyword="name"
+                                                        bindRef="/JOB_APPLICANTS_1495441871609/JOB_APPLICANTS_EMPLOYMENT_JOB_APPLICANTS_EMPLOYMENT_1495442295227/DESIGNATION"
+                                                        guideNodeClass="guideTextBox"
+                                                        mandatory="true"
+                                                        name="designation"
+                                                        placeholderText="Designation"
+                                                        textIsRich="[true,true,true]"/>
+                                                    <prevEmployerName
+                                                        jcr:lastModified="{Date}2017-05-22T11:57:21.782Z"
+                                                        jcr:lastModifiedBy="admin"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="Organization Name"
+                                                        sling:resourceType="fd/af/components/guidetextbox"
+                                                        autofillFieldKeyword="name"
+                                                        bindRef="/JOB_APPLICANTS_1495441871609/JOB_APPLICANTS_EMPLOYMENT_JOB_APPLICANTS_EMPLOYMENT_1495442295227/ORGANIZATION"
+                                                        guideNodeClass="guideTextBox"
+                                                        mandatory="true"
+                                                        name="prevEmployerName"
+                                                        placeholderText="Organization Name"
+                                                        textIsRich="[true,true,true]"/>
+                                                    <location
+                                                        jcr:lastModified="{Date}2017-05-22T11:59:53.657Z"
+                                                        jcr:lastModifiedBy="admin"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="Location"
+                                                        sling:resourceType="fd/af/components/guidetextbox"
+                                                        autofillFieldKeyword="name"
+                                                        bindRef="/JOB_APPLICANTS_1495441871609/JOB_APPLICANTS_EMPLOYMENT_JOB_APPLICANTS_EMPLOYMENT_1495442295227/LOCATION"
+                                                        guideNodeClass="guideTextBox"
+                                                        mandatory="true"
+                                                        name="location"
+                                                        placeholderText="Location"
+                                                        textIsRich="[true,true,true]"/>
+                                                    <joiningDatePrevEmployer
+                                                        jcr:lastModified="{Date}2017-05-22T12:00:50.204Z"
+                                                        jcr:lastModifiedBy="admin"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="From"
+                                                        sling:resourceType="fd/af/components/guidedateinput"
+                                                        bindRef="/JOB_APPLICANTS_1495441871609/JOB_APPLICANTS_EMPLOYMENT_JOB_APPLICANTS_EMPLOYMENT_1495442295227/FROMDATE"
+                                                        dateDisplayFormat="date{M/D/YYYY}"
+                                                        displayPatternType="none"
+                                                        editPatternType="none"
+                                                        guideNodeClass="guideDatePicker"
+                                                        mandatory="true"
+                                                        name="joiningDatePrevEmployer"
+                                                        placeholderDay="DD"
+                                                        placeholderMonth="MM"
+                                                        placeholderYear="YYYY"
+                                                        textIsRich="[true,true]"
+                                                        titleDay="Day"
+                                                        titleMonth="Month"
+                                                        titleYear="Year"
+                                                        validationPatternType="none"/>
+                                                    <relievingDatePrevEmployer
+                                                        jcr:lastModified="{Date}2017-05-22T12:01:13.766Z"
+                                                        jcr:lastModifiedBy="admin"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="To"
+                                                        sling:resourceType="fd/af/components/guidedateinput"
+                                                        bindRef="/JOB_APPLICANTS_1495441871609/JOB_APPLICANTS_EMPLOYMENT_JOB_APPLICANTS_EMPLOYMENT_1495442295227/TODATE"
+                                                        dateDisplayFormat="date{M/D/YYYY}"
+                                                        displayPatternType="none"
+                                                        editPatternType="none"
+                                                        guideNodeClass="guideDatePicker"
+                                                        mandatory="true"
+                                                        name="relievingDatePrevEmployer"
+                                                        placeholderDay="DD"
+                                                        placeholderMonth="MM"
+                                                        placeholderYear="YYYY"
+                                                        textIsRich="[true,true]"
+                                                        titleDay="Day"
+                                                        titleMonth="Month"
+                                                        titleYear="Year"
+                                                        validationPatternType="none"/>
+                                                </items>
+                                            </prevworkexpsec>
+                                        </items>
+                                        <layout
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/panel/accordion"
+                                            columns="1"
+                                            dorLayoutType="columnar"
+                                            dorNumCols="1"
+                                            enableLayoutOptimization="true"
+                                            toolbarPosition="Bottom"/>
+                                        <fd:rules
+                                            fd:init="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.employmentInfo.workExperience&quot;\,&quot;type&quot;:&quot;PANEL|AFCOMPONENT&quot;\,&quot;name&quot;:&quot;workExperience&quot;}}\,{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;is initialized&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;\,&quot;choice&quot;:null}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;Then&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;HIDE_STATEMENT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.employmentInfo.workExperience&quot;\,&quot;displayName&quot;:&quot;Work Experience&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Employment Summary/Work Experience/&quot;\,&quot;name&quot;:&quot;workExperience&quot;\,&quot;parent&quot;:&quot;FORM.guideRootPanel.employmentInfo&quot;}}]}}]}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nthis.visible = false;\\n\\n&quot;\,&quot;eventName&quot;:&quot;Initialize&quot;}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                    </workExperience>
+                                </items>
+                            </employmentinfo147488>
+                            <skillsandinterest147
+                                jcr:lastModified="{Date}2017-05-22T12:06:02.172Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Skills &amp; Interest"
+                                sling:resourceType="fd/af/components/panel"
+                                completionExpReq="{Boolean}false"
+                                guideNodeClass="guidePanel"
+                                maxOccur="{Long}1"
+                                minOccur="{Long}1"
+                                name="skillsAndInterest"
+                                textIsRich="true"
+                                validateOnStepCompletion="{Boolean}false">
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/panel/accordion"
+                                    columns="1"
+                                    dorLayoutType="columnar"
+                                    dorNumCols="1"
+                                    enableLayoutOptimization="true"
+                                    toolbarPosition="Bottom"/>
+                                <items jcr:primaryType="nt:unstructured">
+                                    <achievements
+                                        jcr:lastModified="{Date}2017-05-22T11:10:00.250Z"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Achievements"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        autofillFieldKeyword="name"
+                                        guideNodeClass="guideTextBox"
+                                        multiLine="true"
+                                        name="achievements"
+                                        placeholderText="Please list your achievements here"
+                                        textIsRich="[true,true,true]"/>
+                                    <skills
+                                        jcr:lastModified="{Date}2017-05-22T13:27:34.258Z"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Skills"
+                                        sling:resourceType="fd/af/components/panel"
+                                        bindRef="/JOB_APPLICANTS_1495441871609/JOB_APPLICANTS_SKILLS_JOB_APPLICANTS_SKILLS_1495442455695"
+                                        guideNodeClass="guidePanel"
+                                        maxOccur="-1"
+                                        minOccur="1"
+                                        name="skills"
+                                        summaryExpVisible="yes"
+                                        textIsRich="true"
+                                        validateOnStepCompletion="{Boolean}false">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <hobbies
+                                                jcr:lastModified="{Date}2017-05-22T12:08:18.110Z"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Skills &amp; Hobbies"
+                                                sling:resourceType="fd/af/components/guidetextbox"
+                                                autofillFieldKeyword="name"
+                                                bindRef="/JOB_APPLICANTS_1495441871609/JOB_APPLICANTS_SKILLS_JOB_APPLICANTS_SKILLS_1495442455695/SKILLS"
+                                                guideNodeClass="guideTextBox"
+                                                name="hobbies"
+                                                textIsRich="[true,true,true]"/>
+                                        </items>
+                                        <layout
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                            columns="1"
+                                            dorLayoutType="columnar"
+                                            dorNumCols="1"
+                                            toolbarPosition="Bottom"/>
+                                    </skills>
+                                    <language
+                                        jcr:lastModified="{Date}2017-05-22T13:27:55.550Z"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Languages"
+                                        sling:resourceType="fd/af/components/panel"
+                                        bindRef="/JOB_APPLICANTS_1495441871609/JOB_APPLICANTS_LANGUAGES_JOB_APPLICANTS_LANGUAGES_1495442407343"
+                                        guideNodeClass="guidePanel"
+                                        maxOccur="-1"
+                                        minOccur="1"
+                                        name="languages"
+                                        summaryExpVisible="yes"
+                                        textIsRich="true"
+                                        validateOnStepCompletion="{Boolean}false">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <languages
+                                                jcr:lastModified="{Date}2017-05-22T12:07:40.000Z"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Language"
+                                                sling:resourceType="fd/af/components/guidedropdownlist"
+                                                bindRef="/JOB_APPLICANTS_1495441871609/JOB_APPLICANTS_LANGUAGES_JOB_APPLICANTS_LANGUAGES_1495442407343/LANGUAGE"
+                                                displayPatternType="none"
+                                                guideNodeClass="guideDropDownList"
+                                                name="language"
+                                                optionsLoadPath="/etc/designs/we-gov/dropdownItems/allLanguages/languageList"
+                                                placeholderText="Select"
+                                                textIsRich="[true,true]"
+                                                validatePictureClause="([a-zA-Z]{2}|[iI]-[a-zA-Z]+|[xX]-[a-zA-Z]{1,8})(-[a-zA-Z]{1,8})*"
+                                                validationPatternType="custom"/>
+                                        </items>
+                                        <layout
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                            columns="1"
+                                            dorLayoutType="columnar"
+                                            dorNumCols="1"
+                                            toolbarPosition="Bottom"/>
+                                    </language>
+                                </items>
+                            </skillsandinterest147>
+                        </items>
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/panel/tabbedPanelLayout"
+                            columns="1"
+                            dorLayoutType="columnar"
+                            dorNumCols="1"
+                            enableLayoutOptimization="true"
+                            toolbarPosition="Bottom"/>
+                        <toolbar
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Toolbar"
+                            sling:resourceType="fd/af/components/toolbar"
+                            css=""
+                            guideNodeClass="guideToolbar"
+                            name="toolbar">
+                            <items jcr:primaryType="nt:unstructured">
+                                <submit
+                                    jcr:created="{Date}2016-09-26T11:30:04.513Z"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2016-10-03T05:31:53.607Z"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Submit"
+                                    sling:resourceType="fd/af/components/actions/submit"
+                                    dorExclusion="true"
+                                    guideNodeClass="guideButton"
+                                    name="submit1474889404591"
+                                    textIsRich="[true,true]"
+                                    type="submit">
+                                    <fd:rules
+                                        fd:click="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.toolbar.submit1474889404591&quot;\,&quot;type&quot;:&quot;BUTTON|AFCOMPONENT|TOOLBAR_BUTTON&quot;\,&quot;name&quot;:&quot;submit1474889404591&quot;}}\,{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;is clicked&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;\,&quot;choice&quot;:null}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;Then&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SUBMIT_FORM&quot;\,&quot;items&quot;:[]}}]}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nguideBridge.submit();\\n\\n&quot;\,&quot;eventName&quot;:&quot;Click&quot;},{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.toolbar.submit1474889404591&quot;\,&quot;type&quot;:&quot;BUTTON&quot;\,&quot;name&quot;:&quot;submit1474889404591&quot;}}\,{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;is clicked&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;\,&quot;choice&quot;:null}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;Then&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;WSDL_STATEMENT&quot;\,&quot;value&quot;:{&quot;inputModel&quot;:{&quot;JOB_APPLICANTS.ID&quot;:{&quot;title&quot;:&quot;JOB_APPLICANTS.ID&quot;\,&quot;description&quot;:null\,&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN|DATE&quot;\,&quot;nodeName&quot;:&quot;PARAMETER&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:null}}\,&quot;JOB_APPLICANTS.JOB_ID&quot;:{&quot;title&quot;:&quot;JOB_APPLICANTS.JOB_ID&quot;\,&quot;description&quot;:null\,&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN|DATE&quot;}\,&quot;JOB_APPLICANTS.FIRST_NAME&quot;:{&quot;title&quot;:&quot;JOB_APPLICANTS.FIRST_NAME&quot;\,&quot;description&quot;:null\,&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN|DATE&quot;\,&quot;nodeName&quot;:&quot;PARAMETER&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.personalInfo.firstName&quot;\,&quot;displayName&quot;:&quot;First Name&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Personal Information/First Name/&quot;\,&quot;name&quot;:&quot;firstName&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.personalInfo&quot;}}}\,&quot;JOB_APPLICANTS.LAST_NAME&quot;:{&quot;title&quot;:&quot;JOB_APPLICANTS.LAST_NAME&quot;\,&quot;description&quot;:null\,&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN|DATE&quot;\,&quot;nodeName&quot;:&quot;PARAMETER&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.personalInfo.lastName&quot;\,&quot;displayName&quot;:&quot;Last Name&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Personal Information/Last Name/&quot;\,&quot;name&quot;:&quot;lastName&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.personalInfo&quot;}}}\,&quot;JOB_APPLICANTS.EMAIL&quot;:{&quot;title&quot;:&quot;JOB_APPLICANTS.EMAIL&quot;\,&quot;description&quot;:null\,&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN|DATE&quot;\,&quot;nodeName&quot;:&quot;PARAMETER&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.personalInfo.email&quot;\,&quot;displayName&quot;:&quot;Email&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Personal Information/Email/&quot;\,&quot;name&quot;:&quot;email&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.personalInfo&quot;}}}\,&quot;JOB_APPLICANTS.DOB&quot;:{&quot;title&quot;:&quot;JOB_APPLICANTS.DOB&quot;\,&quot;description&quot;:null\,&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN|DATE&quot;\,&quot;nodeName&quot;:&quot;PARAMETER&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.personalInfo.dateOfBirth&quot;\,&quot;displayName&quot;:&quot;Date Of Birth&quot;\,&quot;type&quot;:&quot;DATE&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Personal Information/Date Of Birth/&quot;\,&quot;name&quot;:&quot;dateOfBirth&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.personalInfo&quot;}}}\,&quot;JOB_APPLICANTS.GENDER&quot;:{&quot;title&quot;:&quot;JOB_APPLICANTS.GENDER&quot;\,&quot;description&quot;:null\,&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN|DATE&quot;\,&quot;nodeName&quot;:&quot;PARAMETER&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.personalInfo.gender&quot;\,&quot;displayName&quot;:&quot;Gender&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Personal Information/Gender/&quot;\,&quot;name&quot;:&quot;gender&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.personalInfo&quot;}}}\,&quot;ID&quot;:{&quot;title&quot;:&quot;ID&quot;\,&quot;description&quot;:null\,&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN|DATE&quot;\,&quot;nodeName&quot;:&quot;PARAMETER&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.personalInfo.applicantID&quot;\,&quot;displayName&quot;:&quot;Applicant ID&quot;\,&quot;type&quot;:&quot;NUMBER&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Personal Information/Applicant ID/&quot;\,&quot;name&quot;:&quot;applicantID&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.personalInfo&quot;}}}\,&quot;JOB_APPLICANTS_EDUCATION.JOB_APPLICANT_ID&quot;:{&quot;title&quot;:&quot;JOB_APPLICANTS_EDUCATION.JOB_APPLICANT_ID&quot;\,&quot;description&quot;:null\,&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN|DATE&quot;\,&quot;nodeName&quot;:&quot;PARAMETER&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.personalInfo.applicantID&quot;\,&quot;displayName&quot;:&quot;Applicant ID&quot;\,&quot;type&quot;:&quot;NUMBER&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Personal Information/Applicant ID/&quot;\,&quot;name&quot;:&quot;applicantID&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.personalInfo&quot;}}}\,&quot;JOB_APPLICANTS_EDUCATION.DEGREE&quot;:{&quot;title&quot;:&quot;JOB_APPLICANTS_EDUCATION.DEGREE&quot;\,&quot;description&quot;:null\,&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN|DATE&quot;\,&quot;nodeName&quot;:&quot;PARAMETER&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.educationInfo.eduExpSec.levelOfStudy&quot;\,&quot;displayName&quot;:&quot;Degree&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Education Information/Education experience/Degree/&quot;\,&quot;name&quot;:&quot;levelOfStudy&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.educationInfo.eduExpSec&quot;}}}\,&quot;JOB_APPLICANTS_EDUCATION.EDUCATIONAL_INSTITUTE&quot;:{&quot;title&quot;:&quot;JOB_APPLICANTS_EDUCATION.EDUCATIONAL_INSTITUTE&quot;\,&quot;description&quot;:null\,&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN|DATE&quot;\,&quot;nodeName&quot;:&quot;PARAMETER&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.educationInfo.eduExpSec.instituteName&quot;\,&quot;displayName&quot;:&quot;Educational Institution&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Education Information/Education experience/Educational Institution/&quot;\,&quot;name&quot;:&quot;instituteName&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.educationInfo.eduExpSec&quot;}}}\,&quot;JOB_APPLICANTS_EDUCATION.DEGREE_STATUS&quot;:{&quot;title&quot;:&quot;JOB_APPLICANTS_EDUCATION.DEGREE_STATUS&quot;\,&quot;description&quot;:null\,&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN|DATE&quot;\,&quot;nodeName&quot;:&quot;PARAMETER&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.educationInfo.eduExpSec.degreeStatus&quot;\,&quot;displayName&quot;:&quot;Degree Status&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Education Information/Education experience/Degree Status/&quot;\,&quot;name&quot;:&quot;degreeStatus&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.educationInfo.eduExpSec&quot;}}}\,&quot;JOB_APPLICANTS_EDUCATION.DATE_OF_COMPLETION&quot;:{&quot;title&quot;:&quot;JOB_APPLICANTS_EDUCATION.DATE_OF_COMPLETION&quot;\,&quot;description&quot;:null\,&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN|DATE&quot;\,&quot;nodeName&quot;:&quot;PARAMETER&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.educationInfo.eduExpSec.yearsOfCompletion&quot;\,&quot;displayName&quot;:&quot;Years Of Completion&quot;\,&quot;type&quot;:&quot;DATE&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Education Information/Education experience/Years Of Completion/&quot;\,&quot;name&quot;:&quot;yearsOfCompletion&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.educationInfo.eduExpSec&quot;}}}\,&quot;JOB_APPLICANTS_EMPLOYMENT.JOB_APPLICANT_ID&quot;:{&quot;title&quot;:&quot;JOB_APPLICANTS_EMPLOYMENT.JOB_APPLICANT_ID&quot;\,&quot;description&quot;:null\,&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN|DATE&quot;\,&quot;nodeName&quot;:&quot;PARAMETER&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.personalInfo.applicantID&quot;\,&quot;displayName&quot;:&quot;Applicant ID&quot;\,&quot;type&quot;:&quot;NUMBER&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Personal Information/Applicant ID/&quot;\,&quot;name&quot;:&quot;applicantID&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.personalInfo&quot;}}}\,&quot;JOB_APPLICANTS_EMPLOYMENT.DESIGNATION&quot;:{&quot;title&quot;:&quot;JOB_APPLICANTS_EMPLOYMENT.DESIGNATION&quot;\,&quot;description&quot;:null\,&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN|DATE&quot;\,&quot;nodeName&quot;:&quot;PARAMETER&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.employmentInfo.workExperience.prevWorkExpSec.designation&quot;\,&quot;displayName&quot;:&quot;Designation&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Employment Summary/Work Experience/Job details/Designation/&quot;\,&quot;name&quot;:&quot;designation&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.employmentInfo.workExperience.prevWorkExpSec&quot;}}}\,&quot;JOB_APPLICANTS_EMPLOYMENT.ORGANIZATION&quot;:{&quot;title&quot;:&quot;JOB_APPLICANTS_EMPLOYMENT.ORGANIZATION&quot;\,&quot;description&quot;:null\,&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN|DATE&quot;\,&quot;nodeName&quot;:&quot;PARAMETER&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.employmentInfo.workExperience.prevWorkExpSec.prevEmployerName&quot;\,&quot;displayName&quot;:&quot;Organization Name&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Employment Summary/Work Experience/Job details/Organization Name/&quot;\,&quot;name&quot;:&quot;prevEmployerName&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.employmentInfo.workExperience.prevWorkExpSec&quot;}}}\,&quot;JOB_APPLICANTS_EMPLOYMENT.LOCATION&quot;:{&quot;title&quot;:&quot;JOB_APPLICANTS_EMPLOYMENT.LOCATION&quot;\,&quot;description&quot;:null\,&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN|DATE&quot;\,&quot;nodeName&quot;:&quot;PARAMETER&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.employmentInfo.workExperience.prevWorkExpSec.location&quot;\,&quot;displayName&quot;:&quot;Location&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Employment Summary/Work Experience/Job details/Location/&quot;\,&quot;name&quot;:&quot;location&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.employmentInfo.workExperience.prevWorkExpSec&quot;}}}\,&quot;JOB_APPLICANTS_EMPLOYMENT.FROMDATE&quot;:{&quot;title&quot;:&quot;JOB_APPLICANTS_EMPLOYMENT.FROMDATE&quot;\,&quot;description&quot;:null\,&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN|DATE&quot;\,&quot;nodeName&quot;:&quot;PARAMETER&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.employmentInfo.workExperience.prevWorkExpSec.joiningDatePrevEmployer&quot;\,&quot;displayName&quot;:&quot;From&quot;\,&quot;type&quot;:&quot;DATE&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Employment Summary/Work Experience/Job details/From/&quot;\,&quot;name&quot;:&quot;joiningDatePrevEmployer&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.employmentInfo.workExperience.prevWorkExpSec&quot;}}}\,&quot;JOB_APPLICANTS_EMPLOYMENT.TODATE&quot;:{&quot;title&quot;:&quot;JOB_APPLICANTS_EMPLOYMENT.TODATE&quot;\,&quot;description&quot;:null\,&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN|DATE&quot;\,&quot;nodeName&quot;:&quot;PARAMETER&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.employmentInfo.workExperience.prevWorkExpSec.relievingDatePrevEmployer&quot;\,&quot;displayName&quot;:&quot;To&quot;\,&quot;type&quot;:&quot;DATE&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Employment Summary/Work Experience/Job details/To/&quot;\,&quot;name&quot;:&quot;relievingDatePrevEmployer&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.employmentInfo.workExperience.prevWorkExpSec&quot;}}}\,&quot;JOB_APPLICANTS_LANGUAGES.JOB_APPLICANT_ID&quot;:{&quot;title&quot;:&quot;JOB_APPLICANTS_LANGUAGES.JOB_APPLICANT_ID&quot;\,&quot;description&quot;:null\,&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN|DATE&quot;\,&quot;nodeName&quot;:&quot;PARAMETER&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.personalInfo.applicantID&quot;\,&quot;displayName&quot;:&quot;Applicant ID&quot;\,&quot;type&quot;:&quot;NUMBER&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Personal Information/Applicant ID/&quot;\,&quot;name&quot;:&quot;applicantID&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.personalInfo&quot;}}}\,&quot;JOB_APPLICANTS_LANGUAGES.LANGUAGE&quot;:{&quot;title&quot;:&quot;JOB_APPLICANTS_LANGUAGES.LANGUAGE&quot;\,&quot;description&quot;:null\,&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN|DATE&quot;\,&quot;nodeName&quot;:&quot;PARAMETER&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.skillsAndInterest.languages&quot;\,&quot;displayName&quot;:&quot;Languages&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Skills &amp; Interest/Languages/&quot;\,&quot;name&quot;:&quot;languages&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.skillsAndInterest&quot;}}}\,&quot;JOB_APPLICANTS_SKILLS.JOB_APPLICANT_ID&quot;:{&quot;title&quot;:&quot;JOB_APPLICANTS_SKILLS.JOB_APPLICANT_ID&quot;\,&quot;description&quot;:null\,&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN|DATE&quot;\,&quot;nodeName&quot;:&quot;PARAMETER&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.personalInfo.applicantID&quot;\,&quot;displayName&quot;:&quot;Applicant ID&quot;\,&quot;type&quot;:&quot;NUMBER&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Personal Information/Applicant ID/&quot;\,&quot;name&quot;:&quot;applicantID&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.personalInfo&quot;}}}\,&quot;JOB_APPLICANTS_SKILLS.SKILLS&quot;:{&quot;title&quot;:&quot;JOB_APPLICANTS_SKILLS.SKILLS&quot;\,&quot;description&quot;:null\,&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN|DATE&quot;\,&quot;nodeName&quot;:&quot;PARAMETER&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.skillsAndInterest.hobbies&quot;\,&quot;displayName&quot;:&quot;Skills &amp; Hobbies&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Skills &amp; Interest/Skills &amp; Hobbies/&quot;\,&quot;name&quot;:&quot;hobbies&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.skillsAndInterest&quot;}}}}\,&quot;outputModel&quot;:{}\,&quot;wsdlInfo&quot;:{&quot;formDataModelId&quot;:&quot;/content/dam/formsanddocuments-fdm/job-applicants&quot;\,&quot;operationTitle&quot;:&quot;update&quot;\,&quot;operationName&quot;:&quot;update_14954520867000&quot;}}}}]}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nvar operationInfo = {\\n    \\&quot;formDataModelId\\&quot;: \\&quot;/content/dam/formsanddocuments-fdm/job-applicants\\&quot;\,\\n    \\&quot;operationTitle\\&quot;: \\&quot;update\\&quot;\,\\n    \\&quot;operationName\\&quot;: \\&quot;update_14954520867000\\&quot;\\n};\\nvar inputs = {\\n    \\&quot;JOB_APPLICANTS.FIRST_NAME\\&quot; : firstName\,\\n    \\&quot;JOB_APPLICANTS.LAST_NAME\\&quot; : lastName\,\\n    \\&quot;JOB_APPLICANTS.EMAIL\\&quot; : email\,\\n    \\&quot;JOB_APPLICANTS.DOB\\&quot; : dateOfBirth\,\\n    \\&quot;JOB_APPLICANTS.GENDER\\&quot; : gender\,\\n    \\&quot;ID\\&quot; : applicantID\,\\n    \\&quot;JOB_APPLICANTS_EDUCATION.JOB_APPLICANT_ID\\&quot; : applicantID\,\\n    \\&quot;JOB_APPLICANTS_EDUCATION.DEGREE\\&quot; : levelOfStudy\,\\n    \\&quot;JOB_APPLICANTS_EDUCATION.EDUCATIONAL_INSTITUTE\\&quot; : instituteName\,\\n    \\&quot;JOB_APPLICANTS_EDUCATION.DEGREE_STATUS\\&quot; : degreeStatus\,\\n    \\&quot;JOB_APPLICANTS_EDUCATION.DATE_OF_COMPLETION\\&quot; : yearsOfCompletion\,\\n    \\&quot;JOB_APPLICANTS_EMPLOYMENT.JOB_APPLICANT_ID\\&quot; : applicantID\,\\n    \\&quot;JOB_APPLICANTS_EMPLOYMENT.DESIGNATION\\&quot; : designation\,\\n    \\&quot;JOB_APPLICANTS_EMPLOYMENT.ORGANIZATION\\&quot; : prevEmployerName\,\\n    \\&quot;JOB_APPLICANTS_EMPLOYMENT.LOCATION\\&quot; : location\,\\n    \\&quot;JOB_APPLICANTS_EMPLOYMENT.FROMDATE\\&quot; : joiningDatePrevEmployer\,\\n    \\&quot;JOB_APPLICANTS_EMPLOYMENT.TODATE\\&quot; : relievingDatePrevEmployer\,\\n    \\&quot;JOB_APPLICANTS_LANGUAGES.JOB_APPLICANT_ID\\&quot; : applicantID\,\\n    \\&quot;JOB_APPLICANTS_LANGUAGES.LANGUAGE\\&quot; : languages\,\\n    \\&quot;JOB_APPLICANTS_SKILLS.JOB_APPLICANT_ID\\&quot; : applicantID\,\\n    \\&quot;JOB_APPLICANTS_SKILLS.SKILLS\\&quot; : hobbies\\n};\\nvar outputs = {\\n};\\nguidelib.dataIntegrationUtils.executeOperation(operationInfo\, inputs\, outputs);;\\n\\n&quot;\,&quot;eventName&quot;:&quot;Click&quot;}]"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <fd:scripts
+                                        fd:navigationChange="[{&quot;script&quot;:{&quot;field&quot;:&quot;FORM.guideRootPanel.toolbar.submit1474889404591&quot;\,&quot;event&quot;:&quot;Navigation&quot;\,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;}\,&quot;content&quot;:&quot;this.visible= !this.panel.navigationContext.hasNextItem&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </submit>
+                                <nextitemnav
+                                    jcr:created="{Date}2016-10-04T10:34:53.297Z"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2016-10-04T10:37:08.521Z"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Continue"
+                                    sling:resourceType="fd/af/components/actions/nextitemnav"
+                                    dorExclusion="true"
+                                    guideNodeClass="guideButton"
+                                    name="nextitemnav1475577293391"
+                                    textIsRich="[true,true]"
+                                    type="moveNext">
+                                    <fd:rules jcr:primaryType="nt:unstructured"/>
+                                    <fd:scripts
+                                        fd:click="[{&quot;script&quot;:{&quot;field&quot;:&quot;guide.guideRootPanel.toolbar.nextitemnav1475577293391&quot;\,&quot;event&quot;:&quot;Click&quot;\,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;}\,&quot;content&quot;:&quot;window.guideBridge.setFocus(this.panel.somExpression\, 'nextItem'\, false);&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                                        fd:navigationChange="[{&quot;script&quot;:{&quot;content&quot;:&quot;this.visible=this.panel.navigationContext.hasNextItem;&quot;\,&quot;field&quot;:&quot;guide.guideRootPanel.toolbar.nextitemnav1475577293391&quot;\,&quot;event&quot;:&quot;Navigation&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </nextitemnav>
+                                <saveguidedraft
+                                    jcr:created="{Date}2016-09-26T11:29:45.575Z"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2016-10-03T05:31:46.946Z"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Save"
+                                    sling:resourceType="fd/fp/components/actions/saveGuideDraft"
+                                    buttonType="button-default"
+                                    dorExclusion="true"
+                                    guideNodeClass="guideButton"
+                                    name="saveguidedraft1474889385746"
+                                    textIsRich="[true,true]"
+                                    type="save">
+                                    <fd:scripts
+                                        fd:click="[{&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;script&quot;:{&quot;field&quot;:null\,&quot;event&quot;:&quot;Click&quot;\,&quot;content&quot;:&quot;handleDraftSave(this)&quot;}\,&quot;version&quot;:0}]"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </saveguidedraft>
+                            </items>
+                            <layout
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="fd/af/layouts/toolbar/defaultToolbarLayout"/>
+                        </toolbar>
+                    </jobapplicants>
+                </items>
+            </rootPanel>
+            <autoSaveInfo
+                jcr:primaryType="nt:unstructured"
+                metadataselector="global"/>
+            <signerInfo
+                jcr:primaryType="nt:unstructured"
+                firstSigner="false"
+                firstSignerFormFiller="false"
+                signConfigPath="/etc/cloudservices/echosign/aem-forms-referencesite-sign"
+                workflowType="SEQUENTIAL">
+                <signer0
+                    jcr:primaryType="nt:unstructured"
+                    countryCode="undefined"
+                    countryCodeSource="form"
+                    email="undefined"
+                    emailSource="form"
+                    phone="undefined"
+                    phoneSource="form"
+                    securityOption="NONE"
+                    signerTitle="Signer One"/>
+            </signerInfo>
+            <view jcr:primaryType="nt:unstructured">
+                <print
+                    jcr:lastModified="{Date}2017-05-19T03:40:27.563Z"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/authoring/components/dor/dorProperties"
+                    fontFamily="Arial"
+                    hidePanelDescriptions="true"
+                    metaTemplateRef="/libs/fd/af/dor/templates/defaultTemplate.xdp"
+                    optionSeparator=", "
+                    showSelectedOptions="true">
+                    <branding jcr:primaryType="nt:unstructured">
+                        <items jcr:primaryType="nt:unstructured">
+                            <Header jcr:primaryType="nt:unstructured">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <HeaderInfo jcr:primaryType="nt:unstructured">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <AF_FORM_TITLE
+                                                jcr:primaryType="nt:unstructured"
+                                                resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                                value="Employee Recruiting"/>
+                                            <AF_HEADER_TEXT
+                                                jcr:primaryType="nt:unstructured"
+                                                resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                                value="© 2017 We.Gov | All rights reserved"/>
+                                        </items>
+                                    </HeaderInfo>
+                                    <AF_LOGO_IMAGE
+                                        jcr:primaryType="nt:unstructured"
+                                        fileName="we.GOV_Dor.png"
+                                        fileReference="/content/dam/we-gov/we.GOV_Dor.png"/>
+                                </items>
+                            </Header>
+                            <Footer jcr:primaryType="nt:unstructured">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <disclaimerLabel
+                                        jcr:primaryType="nt:unstructured"
+                                        resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                        value="DISCLAIMER"
+                                        valueFrom="     "/>
+                                    <disclaimerText
+                                        jcr:primaryType="nt:unstructured"
+                                        resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                        value="This document is strictly private, confidential and personal to its recipients and should not be copied, distributed or reproduced in whole or in part, nor passed to any third party."/>
+                                </items>
+                            </Footer>
+                        </items>
+                    </branding>
+                </print>
+            </view>
+        </guideContainer>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <smallScreen
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Decimal}479"/>
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Phone"
+                    width="{Decimal}767"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Decimal}991"/>
+            </breakpoints>
+        </cq:responsive>
+        <parsys1
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <afformtitle
+                cq:cssClass="guide-1494572770142"
+                jcr:created="{Date}2017-05-11T17:12:39.643+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-05-11T17:12:48.102+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Adaptive Form Title"
+                sling:resourceType="fd/af/components/afFormTitle"
+                _value="&lt;p>Form Title &lt;/p>"
+                css="guideformtitle container"
+                cssStyle=".guide-1494572770142 .guideTextDraw.guideStaticText{&#xa;display:none;&#xa;&#xa;}&#xa;"
+                guideNodeClass="guideTextDraw"
+                name="formTitle">
+                <style jcr:primaryType="nt:unstructured">
+                    <af_textdraw
+                        jcr:primaryType="nt:unstructured"
+                        default_x0023_default="[display:none]"/>
+                </style>
+            </afformtitle>
+        </parsys1>
+    </jcr:content>
+</jcr:root>

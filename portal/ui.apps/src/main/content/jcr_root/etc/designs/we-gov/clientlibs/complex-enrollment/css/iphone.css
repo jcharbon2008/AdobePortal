@@ -1,0 +1,428 @@
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+*  Copyright 2014 Adobe Systems Incorporated
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe Systems Incorporated and its suppliers,
+* if any.  The intellectual and technical concepts contained
+* herein are proprietary to Adobe Systems Incorporated and its
+* suppliers and are protected by all applicable intellectual property 
+* laws, including trade secret and copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe Systems Incorporated.
+**************************************************************************/
+/**** For Mobile Responsive ****/
+
+@charset "utf-8";
+/* CSS Document for iPhone */
+
+@media (max-width: 767px) {
+	
+    html,
+	body {
+        font-size: 14px;
+    }
+
+    body {
+        padding-top: 25px;
+    }
+
+    h3 {
+        font-size: 100%;
+        margin: 0 0 10px;
+    }
+
+    .guide-header-bar .guide-breadcrumb {
+        padding: 6px;
+    }
+
+    .questions_container .modal-dialog {
+        width: 100%;
+    }
+
+    .guideRadioButtonGroupItems {
+        margin-left: 10px;
+    }
+
+    .questions_container .modal-dialog .guideRadioButtonGroupItems {
+        margin-left: 0px;
+    }
+
+    .questions_container [id$="panel1___layoutPanelContainer"] > .guidePanelDescription {
+        font-size: 17px;
+    }
+
+    .question_panel .row div:last-child.col-md-6 {
+        float: right;
+        width: 75%;
+    }
+
+    .guidePanelNode, .anchor-panel-container {
+        padding-left: 0;
+    }
+
+    .guidePanelNode .panel, .custom_70.guidePanelNode .panel {
+        margin-left: 0;
+        margin-top: 0px;
+    }
+
+    [id$="_guide-item-container"] {
+        overflow-x: visible;
+    }
+
+    .rightmost_button .xfaButton, .rightmost_button button, 
+.leftmost_button .xfaButton, .leftmost_button button {
+        float: none;
+    }
+
+    .guidebutton .guideFieldNode {
+        text-align: center;
+    }
+
+    #guideContainer-rootPanel-fill-panel0___guide-item .panel {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .guidePanelDescription {
+        font-size: 17px;
+    }
+
+    .guideFieldLabel label, .static_text.guideFieldNode p {
+        font-size: 14px;
+    }
+
+    .custom_70 .guideFieldWidget {
+        max-width: 100%;
+        padding-left: 10px;
+    }
+
+    .guideFieldNode, .label_right_align .guideFieldLabel label {
+        text-align: left;
+    }
+
+    .custom_70 .guideFieldNode.fancy_radio.align_switch_left .guideFieldLabel {
+        width: 100%;
+    }
+
+    .custom_70 .fancy_radio .guideRadioButtonGroupItems {
+        float: left;
+    }
+
+    .guideFieldWidget input[type="checkbox"], .guideFieldWidget input[type="radio"] {
+        height: 22px;
+    }
+
+    .custom_70 .guideCheckBoxGroupItems .guideFieldWidget {
+        margin-left: 0px;
+        max-width: 50%;
+        height: auto;
+    }
+
+    .guideWidgetLabel.right {
+        max-width: 85%;
+    }
+
+    .custom_70 .guideCheckBoxGroupItems .guideWidgetLabel.right label {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .custom_70 .guidePanelNode {
+        padding-right: 0px;
+    }
+
+    .custom_70 .guidePanelNode .accordion {
+        padding-left: 10px;
+    }
+
+    .guideFieldError {
+        margin-left: 10px;
+    }
+
+    .guideFieldNode.guideTextDraw p {
+        margin-left: 10px;
+    }
+
+    ol {
+        padding-left: 40px;
+    }
+
+    [data-content-scroller="up"] {
+        top: 170px;
+        z-index: 99;
+    }
+
+/*.anchored {display:none !important;} */
+
+/* Accordion section */
+    .accordion-navigators[id$="_guide-item-container"] > [id$="_guide-item"] > .guideHeader > a {
+        width: 100%;
+        font-size: 14px;
+        padding: 8px 0 8px 25px;
+        background-size: 16px auto;
+        background-position: 4px 10px;
+        float: left;
+    }
+
+    .guideSummary {
+        float: left;
+        width: 77%;
+        overflow: hidden;
+    }
+
+    .accordion-navigators[id$="_guide-item-container"] > [id$="_guide-item"] > .guideHeader > a > .repeatableButtons {
+        float: right;
+        width: 22%;
+        text-align: right;
+    }
+
+    .guideHeader > a > .repeatableButtons > button.Add, .guideHeader > a > .repeatableButtons > button.Remove {
+        background-size: 60% auto;
+    }
+
+    .guideWidgetLabel.right label, .guideWidgetLabel.left label {
+        line-height: 19px;
+    }
+
+    .col-md-12 .right_align .guideCheckBoxGroupItems {
+        width: 100%;
+    }
+
+/** bottom toolbar **/
+    .anchorToolbar {
+        background: rgb(1, 56, 83);
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+        margin-left: 0 !important;
+    }
+
+    .guidetoolbar {
+        height: 40px;
+        margin: 0px;
+    }
+
+    .anchorToolbar .button-medium.reset {
+        background: url("../images/reset-iphone.png") no-repeat 2px 4px;
+        text-indent: -999em;
+        border: none;
+    }
+
+    .anchorToolbar .button-medium.save {
+        background: url("../images/save-iphone.png") no-repeat 2px 4px;
+        text-indent: -999em;
+        border: none;
+    }
+
+    .anchorToolbar .button-medium.moveNext {
+        background: url("../images/submit-iphone.png") no-repeat 2px 4px;
+        text-indent: -999em;
+        border: none;
+    }
+
+    #guideContainer-rootPanel-toolbar-nextitemnav___guide-item {
+        float: right;
+    }
+
+/*** Navigation bar ***/
+    .simple.mobileLayout {
+        background: #ffffff;
+        height: 95px;
+        opacity: 1;
+        position: fixed;
+        top: 60px;
+        width: 100%;
+        z-index: 100;
+    }
+
+    #guide-mobile-navigator-wrapper .navigator-toggle {
+        margin: 15px 0 0;
+    }
+
+    .guideContainerNode .rootPanel {
+        top: 85px;
+        position: relative;
+    }
+
+/*** Bottom progressbar ***/
+    .bottomNavigator {
+        width: 100%;
+        bottom: -3px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .progressmeterdown {
+        position: relative;
+        top: -23px;
+        margin-left: 44%;
+        margin-right: 0;
+    }
+
+    .progressmeterup {
+        margin-left: 47%;
+        margin-right: 0;
+    }
+
+    .col-md-6 {
+        width: 48%;
+        float: left;
+    }
+
+    .custom_70 .inline .guideFieldNode.fancy_radio.align_switch_left .guideFieldLabel {
+        width: 100%;
+    }
+
+    .guidePanelNode.toolbar_panel .col-md-6 {
+        width: 100%;
+        float: none;
+    }
+
+    .guidePanelDescription > .glyphicon {
+        width: 25px;
+    }
+
+/*** Mobile Navigator **/
+
+    .visible-xs .anchor-nav-container {
+        height: auto;
+        z-index: 998;
+    }
+
+    .visible-xs.anchor-nav-container {
+        height: auto;
+        z-index: 998;
+    }
+
+    .visible-xs .anchor-nav-container.affix {
+        top: 100px;
+        width: 100%;
+    }
+
+    .anchor-nav-list-container {
+        height: auto;
+    }
+
+    .anchor-navigators.tab-navigators > li a {
+        overflow-wrap: break-word;
+        display: none;
+    }
+
+    .anchor-navigators.tab-navigators > li > a {
+        padding-left: 36px;
+        height: 60px;
+    }
+
+    .anchor-navigators.tab-navigators > li.active > ul >li.active a {
+        color: #ffffff;
+        background-color: #10BDEC;
+    }
+
+    .anchor-navigators.tab-navigators > li.active > ul >li a {
+        display: block !important;
+        background-color: #f9f9f9;
+        margin-left: 30%;
+    }
+
+    .tab-navigators-vertical > li.active > .tab-navigators-vertical li {
+        background-color: #f9f9f9;
+    }
+
+    .tab-navigators-vertical > li {
+        float: left;
+        width: 100%;
+    }
+
+    .tab-navigators-vertical > li {
+        border-bottom: none;
+    }
+
+    #guide-mobile-navigator {
+        top: 50px;
+    }
+
+    .guide-header-bar .guide-breadcrumb {
+        max-height: 50px;
+    }
+
+    .guide-header-bar .guide-breadcrumb {
+        padding: 0px;
+    }
+
+    .anchor-navigators .household_income_nav {
+        background-position: -5px -490px;
+    }
+
+    .anchor-navigators .household_expenses_nav {
+        background-position: -5px -430px;
+    }
+
+    .anchor-navigators .contact_information_nav {
+        background-position: 0px -320px;
+    }
+
+    .anchor-navigators .additional_information_nav {
+        background-position: 0px -60px;
+    }
+
+    .tab-navigators-vertical > li {
+        max-height: 50px;
+    }
+
+    .tab-navigators-vertical > li.active > .tab-navigators-vertical li {
+        border-left: 1px solid;
+    }
+
+    .anchor-navigators.tab-navigators > li.active > ul >li.active {
+        color: #ffffff;
+        background-color: #10BDEC;
+    }
+
+    .panel {
+        border: none;
+    }
+
+    body {
+        min-height: 100%;
+    }
+
+    .guide-header-bar > ul.tab-navigators > li.title-active > .title {
+        display: block;
+    	margin-top: 10px
+    }
+
+    .title {
+        display: none;
+    }
+
+    .guide-header-bar .tab-navigators {
+        background-color: transparent;
+    }
+
+    .col-3_hideLabel .gridFluidLayout .row:nth-child(1) {
+        display: none;
+    }
+
+    .col-3_hideLabel .guideFieldLabel {
+        width: 100%;
+    }
+
+    .col-3_hideLabel .guideFieldLabel label {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .col-3_hideLabel .guideTextDraw {
+        font-weight: bold;
+    }
+
+    .wizard-tab-disabled {
+        opacity: 1;
+    }
+}
+

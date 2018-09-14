@@ -1,0 +1,95 @@
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+*  Copyright 2014 Adobe Systems Incorporated
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe Systems Incorporated and its suppliers,
+* if any.  The intellectual and technical concepts contained
+* herein are proprietary to Adobe Systems Incorporated and its
+* suppliers and are protected by all applicable intellectual property 
+* laws, including trade secret and copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe Systems Incorporated.
+**************************************************************************/
+.tooltip-inner {
+  max-width: 100%;
+}
+
+#guide-mobile-navigator{
+left:40% !important;
+}
+
+.upperToolbar .guidetoolbar{
+margin-top: 0px;
+margin-bottom: 0px;            
+}
+
+.guideButton[data-disabled="true"] .button-default{
+background-color:#C1CCD1;
+}
+
+.guide-mobile-navigator .row{
+margin-bottom:0px;
+ }
+.__FP_Saved_Message{
+position: fixed !important;
+margin: -100px 0px 0px -200px;
+top: 50%;
+left: 50% !important;
+margin-left:0px !important;        
+}
+#signable_pdf{
+  height:995px !important;
+}
+@media (max-width:991px){
+#signable_pdf{
+width: 850px !important;
+right: 0px;
+left: 0px;
+
+}
+}
+
+@media (max-width:767px){
+.navigator-toggle {
+margin-bottom: 0px;
+}
+.guidePanelNode{
+padding:0px 10px;
+ }     
+.guidePanelDescription {
+font-size: 18px; 
+padding:0px 10px;                    
+}
+.guideFieldNode{
+padding-bottom:0px;
+padding-top:0px;                        
+}                    
+.guideFieldWidget input[type="date"],
+.guideFieldWidget input[type="text"],
+.guideFieldWidget input[type="password"],
+.guideFieldWidget select,
+.guideFieldWidget textarea{
+font-size:16px;    
+ }
+
+ .guidebutton.reset .iconButton-icon {
+  background-image: url('../../../../clientlibs/fd/af/images/reset-ip.png');
+}
+.guidebutton.submit .iconButton-icon {
+  background-image: url('../../../../clientlibs/fd/af/images/submit-ip.png');
+}
+.guidebutton.moveNext .iconButton-icon {
+  background-image: url('../../../../clientlibs/fd/af/images/moveNext-ip.png');
+}
+.guidebutton.movePrev .iconButton-icon {
+  background-image: url('../../../../clientlibs/fd/af/images/movePrev-ip.png');
+}
+.guidebutton.fileattachmentlisting .iconButton-icon {
+  background-image: url('../../../../clientlibs/fd/af/images/fileattachmentlisting-ip.png');
+}
+}                

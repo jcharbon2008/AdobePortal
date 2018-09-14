@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="foiaApplication">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="filledByApplicant">
+          <xs:complexType>
+            <xs:sequence>
+            <xs:element type="xs:date" name="requestDate" />
+            <xs:element type="xs:date" name="requestCompletionDate" />
+            <xs:element type="xs:string" name="requestorName" />
+            <xs:element type="xs:string" name="organizationName" />
+            <xs:element type="xs:string" name="jobTitle" />
+            <xs:element type="xs:string" name="emailAddress" />
+            <xs:element type="xs:string" name="phoneNumber" />
+            <xs:element type="xs:string" name="cellNumber" />
+            <xs:element name="contactMediumPreference">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:enumeration value="E-mail" />
+                    <xs:enumeration value="Phone" />
+                    <xs:enumeration value="Cell Phone" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            <xs:element type="xs:date" name="contactDatePreference" />
+            <xs:element type="xs:string" name="contactTimePreference" />
+            <xs:element type="xs:string" name="requestInDetail" />          
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="internalUse">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="handledBy" />
+              <xs:element type="xs:integer" name="requestID" />
+              <xs:element type="xs:string" name="reviewerComments" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

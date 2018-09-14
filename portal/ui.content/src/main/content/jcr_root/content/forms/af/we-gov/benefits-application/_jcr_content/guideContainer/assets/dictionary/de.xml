@@ -1,0 +1,2427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:language="de"
+    jcr:mixinTypes="[mix:language]"
+    jcr:primaryType="sling:Folder"
+    sling:basename="/content/forms/af/we-gov/benefits-application/jcr:content/guideContainer/assets/dictionary">
+    <fd__x0023__x0020_of_x0020_hours-626176886
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_# of hours worked per week"
+        sling:message="Anzahl der wöchentlichen Arbeitsstunden"/>
+    <fd__x0025_20Do_x0020_you_x0020_un1662145531
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_ Do you understand English?"
+        sling:message=" Verstehen Sie Englisch?"/>
+    <fd_1
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_1"
+        sling:message="1"/>
+    <fd_10
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_10"
+        sling:message="10"/>
+    <fd_11
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_11"
+        sling:message="11"/>
+    <fd_12
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_12"
+        sling:message="12"/>
+    <fd_1995
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_1995"
+        sling:message="1995"/>
+    <fd_1996
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_1996"
+        sling:message="1996"/>
+    <fd_1997
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_1997"
+        sling:message="1997"/>
+    <fd_1998
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_1998"
+        sling:message="1998"/>
+    <fd_1999
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_1999"
+        sling:message="1999"/>
+    <fd_2
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_2"
+        sling:message="2"/>
+    <fd_2000
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_2000"
+        sling:message="2000"/>
+    <fd_2001
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_2001"
+        sling:message="2001"/>
+    <fd_2002
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_2002"
+        sling:message="2002"/>
+    <fd_2003
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_2003"
+        sling:message="2003"/>
+    <fd_2004
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_2004"
+        sling:message="2004"/>
+    <fd_2005
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_2005"
+        sling:message="2005"/>
+    <fd_2006
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_2006"
+        sling:message="2006"/>
+    <fd_2007
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_2007"
+        sling:message="2007"/>
+    <fd_2008
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_2008"
+        sling:message="2008"/>
+    <fd_2009
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_2009"
+        sling:message="2009"/>
+    <fd_2010
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_2010"
+        sling:message="2010"/>
+    <fd_2011
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_2011"
+        sling:message="2011"/>
+    <fd_2012
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_2012"
+        sling:message="2012"/>
+    <fd_2013
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_2013"
+        sling:message="2013"/>
+    <fd_2014
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_2014"
+        sling:message="2014"/>
+    <fd_3
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_3"
+        sling:message="3"/>
+    <fd_4
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_4"
+        sling:message="4"/>
+    <fd_5
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_5"
+        sling:message="5"/>
+    <fd_6
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_6"
+        sling:message="6"/>
+    <fd_7
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_7"
+        sling:message="7"/>
+    <fd_8
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_8"
+        sling:message="8"/>
+    <fd_9
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_9"
+        sling:message="9"/>
+    <fd__x003c_p_x0020_style_x003d__x0022_-1157993323
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Enter your Relative Support Applicable Frequency&lt;/p>&#xa;"
+        sling:message="&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Geben Sie die zutreffende Häufigkeit der Angehörigenunterstützung an&lt;/p>&#xa;"/>
+    <fd__x003c_p_x0020_style_x003d__x0022_-1695015204
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Enter your relative's race&lt;/p>&#xa;"
+        sling:message="&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Geben Sie die ethnische Zugehörigkeit des Angehörigen an&lt;/p>&#xa;"/>
+    <fd__x003c_p_x0020_style_x003d__x0022_-1790592132
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Enter your relative's employer name as last first middle&lt;/p>&#xa;"
+        sling:message="&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Geben Sie den Namen des Arbeitgebers Ihres Angehörigen in der Reihenfolge Nachname, Vorname, zweiter Vorname ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x0020_style_x003d__x0022_-1853633093
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Enter your school district&lt;/p>&#xa;"
+        sling:message="&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Geben Sie Ihr Schuleinzugsgebiet an&lt;/p>&#xa;"/>
+    <fd__x003c_p_x0020_style_x003d__x0022_-1950829803
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Enter your relative's employer's address as (Street, City, State, Zip)&lt;/p>&#xa;"
+        sling:message="&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Geben Sie die Adresse des Arbeitgebers des Angehörigen an (Straße, Stadt, Staat, Postleitzahl)&lt;/p>&#xa;"/>
+    <fd__x003c_p_x0020_style_x003d__x0022_-2135213779
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Enter number of hours&lt;/p>&#xa;"
+        sling:message="&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Geben Sie die Anzahl der Stunden an&lt;/p>&#xa;"/>
+    <fd__x003c_p_x0020_style_x003d__x0022_-359715817
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Enter your relative's phone&lt;/p>&#xa;"
+        sling:message="&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Geben Sie die zutreffende Häufigkeit der Angehörigenunterstützung an&lt;/p>&#xa;"/>
+    <fd__x003c_p_x0020_style_x003d__x0022_-366173203
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Enter the zip code&lt;/p>&#xa;"
+        sling:message="&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Geben Sie Ihre Postleitzahl an&lt;/p>&#xa;"/>
+    <fd__x003c_p_x0020_style_x003d__x0022_-369263472
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>How much homeowner's property insurance&lt;/p>&#xa;"
+        sling:message="&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Wie viel Immobiliarversicherung für Hauseigentümer&lt;/p>&#xa;"/>
+    <fd__x003c_p_x0020_style_x003d__x0022_-455528461
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Enter name of the care giver&lt;/p>&#xa;"
+        sling:message="&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Geben Sie den Namen des Pflegers an&lt;/p>&#xa;"/>
+    <fd__x003c_p_x0020_style_x003d__x0022_-737652297
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>How often homeowner's property insurance&lt;/p>&#xa;"
+        sling:message="&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Wie häufig Immobiliarversicherung für Hauseigentümer&lt;/p>&#xa;"/>
+    <fd__x003c_p_x0020_style_x003d__x0022_-859357262
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Enter your previous address&lt;/p>&#xa;"
+        sling:message="&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Geben Sie Ihre vorherige Adresse ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x0020_style_x003d__x0022_-905790839
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Enter your Relative Support Applicable Amount&lt;/p>&#xa;"
+        sling:message="&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Geben Sie den zutreffenden Betrag der Angehörigenunterstützung an&lt;/p>&#xa;"/>
+    <fd__x003c_p_x0020_style_x003d__x0022_1050073546
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Enter&amp;nbsp;Type/Source of Income&lt;/p>&#xa;"
+        sling:message="&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Geben Sie&amp;nbsp;Typ/Quelle des Einkommens ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x0020_style_x003d__x0022_127463308
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Enter name of the person who needs care&lt;/p>&#xa;"
+        sling:message="&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Geben Sie den Namen der Person an, die Pflege benötigt&lt;/p>&#xa;"/>
+    <fd__x003c_p_x0020_style_x003d__x0022_1319722383
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Enter your township&lt;/p>&#xa;"
+        sling:message="&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Geben Sie Ihre Stadtverwaltung an&lt;/p>&#xa;"/>
+    <fd__x003c_p_x0020_style_x003d__x0022_1322004805
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Enter your Relationship with applicant&lt;/p>&#xa;"
+        sling:message="&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Geben Sie Ihre Beziehung mit dem Antragsteller an&lt;/p>&#xa;"/>
+    <fd__x003c_p_x0020_style_x003d__x0022_1330639730
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Enter your&amp;nbsp;Type/Account #/Location of the Resource&lt;/p>&#xa;"
+        sling:message="&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Geben Sie Ihren&amp;nbsp;Typ/Kontonummer/Standort der Ressource ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x0020_style_x003d__x0022_1441789999
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Enter your relative's name as last first middle&lt;/p>&#xa;"
+        sling:message="&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Geben Sie den Namen des Angehörigen in der Reihenfolge Nachname, Vorname, zweiter Vorname ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x0020_style_x003d__x0022_1745306312
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>How often lot rent, condo fees, kerosene, etc.&lt;/p>&#xa;"
+        sling:message="&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Wie oft Pacht, Gebühren für Eigentumswohnungen, Benzin usw.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x0020_style_x003d__x0022_1794762369
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Enter name of person whom you paid&lt;/p>&#xa;"
+        sling:message="&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Geben Sie den Namen der Person an, die Sie bezahlt haben&lt;/p>&#xa;"/>
+    <fd__x003c_p_x0020_style_x003d__x0022_253568737
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>How much lot rent, condo fees, kerosene, etc.&lt;/p>&#xa;"
+        sling:message="&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Wie viel Pacht, Gebühren für Eigentumswohnungen, Benzin usw.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e__x003c_b_x003e__x003c_i_x003e__x0025_2A-416724813
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>&lt;i>* You must provide or apply for a Social Security Number&lt;/i>&lt;/b>&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>&lt;i>* Sie müssen eine Sozialversicherungsnummer angeben oder beantragen&lt;/i>&lt;/b>&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e__x003c_b_x003e__x003c_i_x003e__x0025_2A-64658004
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>&lt;i>*Coverage by other medical insurance will not affect your eligibility for benefits. Medical assistance is always the payer of last resort.&lt;/i>&lt;/b>&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>&lt;i>*Abdeckung durch andere Krankenversicherungen hat keine Auswirkung auf Ihre Berechtigung für Hilfeleistungen. Medizinische Unterstützung ist immer die letzte Option für Zahlungen.&lt;/i>&lt;/b>&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_Addr429923060
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>Address&lt;/b>&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Adresse&lt;/b>&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_Appl400471829
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>Applying to register or declining to register to vote will not affect the amount of assistance that you will be provided by this agency.&lt;/b>&lt;/p>&#xa;&lt;p>If you would like help filling out the voter registration application form, we will help you. The decision whether to seek or accept help is yours. You may fill out the application form in private. Please contact the county assistance office if you would like help. If you believe that someone has interfered with your right to register or to decline to register to vote, your right to privacy in deciding whether to register or in applying to register to vote, or your right to choose your own political party or other political preference, you may file a complaint with the Secretary of the Commonwealth, PA Department of State, Harrisburg, PA 17120. (Toll-free telephone number 1-877-VOTESPA.)&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Der Antrag auf Registrierung oder die Ablehnung der Registrierung zur Wahl hat keine Auswirkung auf die Höhe der Hilfeleistungen, die Sie von dieser Behörde erhalten.&lt;/b>&lt;/p> &lt;p>Wenn Sie Hilfe beim Ausfüllen des Antragsformulars für die Wahlregistrierung benötigen, können wir Ihnen helfen. Die Entscheidung, ob Sie Hilfe suchen oder annehmen liegt bei Ihnen. Sie können das Formular im Geheimen ausfüllen. Wenden Sie sich an Ihren Mitarbeiter des Bezirks, wenn Sie Hilfe benötigen. Wenn Sie glauben, dass jemand in Ihr Recht, sich für die Wahl zu registrieren oder in Ihre Ablehnung zur Wahlregistrierung, in Ihr Recht auf Privatsphäre beim Ablehnen der Registrierung oder beim Beantragen der Wahlregistrierung oder in Ihr Recht auf Auswahl einer eigenen politischen Partei oder politischer Meinung eingemischt hat, können Sie eine Beschwerde beim Secretary of Commonwealth, PA Department of State, Harrisburg, PA 17120 einreichen. (Gebührenfreie Telefonnummer 1-877-VOTESPA.)&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_Chec494111022
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>Check the resources that anyone in the household has&lt;/b>&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Wählen Sie die Ressourcen aus, die für Personen in Ihrem Haushalt vorhanden sind&lt;/b>&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_Cour1948974465
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>Court Ordered Support&lt;/b>&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Vom Gericht angeordnete Hilfeleistungen&lt;/b>&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_Expe-1101483759
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>Expenses&lt;/b>&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Ausgaben&lt;/b>&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_How_x0020_-459340286
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>How Much ($)&lt;/b>&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Wie viel ($)/b>&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_How_x0020_1343363762
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>How Often&lt;/b>&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Wie häufig&lt;/b>&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_List-1240198012
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>List benefits anyone has applied for but has not received such as Unemployment Compensation, Workers' Compensation, Social Security or SSI.&lt;/b>&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Listen Sie alle Unterstützungszahlungen auf, die beantragt aber nicht erhalten wurden, zum Beispiel Arbeitslosenunterstützung, Arbeitnehmerentschädigung, Sozialversicher oder SSI.&lt;/b>&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_List-925106385
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>List any income you have already received this month or expect to receive this month.&lt;/b>&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Führen Sie alle Einkünfte auf, die Sie bereits diesen Monat erhalten haben oder diesen Monat noch erwarten.&lt;/b>&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_List2124572182
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>List the expenses related to the care of a child or disabled adult in your household, incurred by anyone who is working, looking for work or going to school or training.&lt;/b>&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Führen Sie die Ausgaben auf, die sich auf die Pflege eines Kindes oder behinderten Erwachsenen in Ihrem Haushalt beziehen, die durch einen Berufstätigen, einen Berufssuchenden oder einen Auszubildenden verrichtet wurden.&lt;/b>&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_List799542898
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>List your out of pocket Household Expenses&lt;/b>&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Führen Sie Ihre Haushaltsausgaben aus eigener Tasche auf&lt;/b>&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_To_x0020_r1073627360
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>To register you must:&lt;/b>&lt;/p>&#xa;&lt;ol>&#xa;&lt;li>&lt;i>Be at least age 18 on the day of the next election&lt;/i>&lt;/li>&#xa;&lt;li>&lt;i>Be a citizen of the United States for at least one month PRIOR TO THE NEXT ELECTION&lt;/i>&lt;/li>&#xa;&lt;li>&lt;i>Reside in Pennsylvania and the voting district at least 30 days prior to the next election.&lt;/i>&lt;/li>&#xa;&lt;/ol>&#xa;"
+        sling:message="&lt;p>&lt;b>Folgende Bedingungen müssen für die Registrierung erfüllt sein:&lt;/b>&lt;/p> &lt;ol> &lt;li>&lt;i>Sie sind am Tag der Wahlen mindestens 18 Jahre alt&lt;/i>&lt;/li> &lt;li>&lt;i>Sie sind mindestens EINEN MONAT VOR DEN NÄCHSTEN WAHLEN Staatsangehöriger der Vereinigten Staaten&lt;/i>&lt;/li> &lt;li>&lt;i>Sie haben mindestens 30 Tage vor den nächsten Wahlen Ihren Wohnsitz in Pennsylvania und im Wahlkreis.&lt;/i>&lt;/li> &lt;/ol>&#xa;"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_Volu848172569
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>Voluntary Support&lt;/b>&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Freiwillige Hilfeleistungen&lt;/b>&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e__x003c_i_x003e_Plea646869022
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;i>Please check the affidavit for additional information for failure to verify these expenses&lt;/i>&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;i>Überprüfen Sie die eidesstattliche Erklärung auf zusätzliche Informationen zur Versäumnis, diese Ausgaben zu bestätigen&lt;/i>&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_e1866335429
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter expected date&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie das erwartete Datum ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_g-702211618
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter group name number&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie die Nummer des Gruppennamens ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_h-1196785979
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter how often&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie ein, wie häufig&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_h-1816852166
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter how much&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie ein wie viel/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_i-175419152
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter insurance company address&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie die Adresse des Versicherungsunternehmens an&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_i1027348771
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter insurance company name&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie den Namen des Versicherungsunternehmens an&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_i2000666227
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter insurance company phone number&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie die Telefonnummer des Versicherungsunternehmens an&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_I443846459
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter Illness&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie die Krankheit ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_l159690239
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter last paid date&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie das letzte Zahlungsdatum ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_n-2140648584
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter name of the people that the relative is responsible for&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie den Namen der Personen ein, für die der Angehörige verantwortlich ist&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_n1860841152
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter name on birth certificate as last first middle&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie den Namen der Geburtsurkunde als Nachname, Vorname, zweiter Vorname ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_n2118123596
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter name&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie den Namen ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_N264889707
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter Name of the Income&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie einen Namen für Ihr Einkommen ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_o1764407351
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter order date&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie das Datum des Bescheids ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_p-1058402426
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter policy holder name&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie den Namen des Policeninhabers ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_p-1497457747
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter policy holder address&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie die Adresse des Policeninhabers ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_p178901892
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter policy number&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie die Police-Nummer ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_r-274518455
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter receiving date&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie das Datum des Erhalts ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_t-1028717942
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter the city name&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie den Namen der Stadt ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_t-154545584
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter the Type of property&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie den Typ der Immobilie ein.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_t-1729344595
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter the first name&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie den Vornamen ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_t-1770654627
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter the name&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie den Namen ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_t-1798348055
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter the amount payed&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie den bezahlten Betrag ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_t-1886650355
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter the other name&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie den anderen Namen ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_t-2038971696
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter the Amount&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie den Betrag ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_t-25373246
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter the date of birth&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie das Geburtsdatum ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_t-680315578
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter type of resource&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie den Typ der Ressource ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_t-779422926
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter the record number&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie das Aktenzeichen ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_t1275844048
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter the resource current value&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie den aktuellen Wert ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_t128434265
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter the value&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie den Wert ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_t1323081043
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter the country name&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie den Namen des Landes ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_t1329185269
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter the last name&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie den Nachnamen ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_t1429215310
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter the state name&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie den Namen des Staates ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_t1616175957
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter the type of expense&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie den Typ der Ausgaben ein.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_t1748031988
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter the middle name&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie den zweiten Vornamen ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_t1935707260
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter the zip code&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie eine Postleitzahl ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_t700469906
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter the social security number&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie die Sozialversicherungsnummer ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_t907824022
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter the status&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie den Status ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_w362443689
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter whom expense has been payed&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie an, wessen Ausgaben bezahlt wurden&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_y-1053548209
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter your Last Name&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie Ihren Nachnamen ein.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_y-1098674765
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter your State&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie Ihren Staat ein.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_y-1260897182
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter your Relatives Employers Name&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie den Namen des Arbeitgebers Ihres Angehörigen ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_y-2061626441
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter your street address&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie Ihre Adresse ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_y-294307788
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter your relationship with applicant&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie Ihre Beziehung mit dem Antragsteller an&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_y-315928450
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter your Court Order Number&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie die Nummer Ihres Gerichtsbeschlusses ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_y-644010057
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter your Street Address&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie Ihre Adresse ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_y-729294627
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter your Relatives Employer Phone Number&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie die Telefonnummer des Arbeitgebers Ihres Angehörigen ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_y-744223890
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter your Court Ordered Amount&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie den Betrag des Gerichtsbeschlusses ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_y1237835695
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter your Owner's name as last first middle&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie den vollständigen Namen des Eigentümers ein, als Nachname, Vorname, zweiter Vorname&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_y1318199620
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter your Special terms&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie Ihre Sonderkonditionen ein.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_y1479363102
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter your Social Security Number in the format 999-99-9999&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie Ihre Sozialversicherungsnummer im Format 999-99-9999 ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_y1494827726
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter your Middle Name&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie Ihren zweiten Vornamen ein.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_y1537895413
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter your Relative phone number&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie die Telefonnummer Ihres Angehörigen ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_y1719612816
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter your Court Ordered Frequency&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie die Häufigkeit des Gerichtsbeschlusses ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_y1725832019
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter your First Name&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie Ihren Vornamen ein.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_y1950783670
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter your Relatives Employers Street Address&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie die Adresse des Arbeitgebers Ihres Angehörigen ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_y1954494478
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter your County Court Name&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie den Namen Ihres Bezirksgerichts ein.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0020_y348303086
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter your country&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie Ihr Land ein.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Enter_x0027_s-602749395
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter's mother full name as last first middle&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie den vollständigen Namen der Mutter ein als Nachname, Vorname, zweiter Vorname&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Give_x0020_in-1368473383
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Give information about you medical insurance.&lt;/p>&#xa;"
+        sling:message="&lt;p>Machen Sie Angaben zu Ihrer Krankenversicherung.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Give_x0020_in-1756834156
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Give information about yourself and everyone who lives at your address, even if they are not applying&lt;/p>&#xa;&lt;p>Name any person who lives with you but is temporarily staying somewhere else.&lt;br>&#xa;If you are applying for this person, list the person in the section below.&lt;/p>&#xa;"
+        sling:message="&lt;p>Machen Sie Angaben zu Ihrer eigenen Person und zu allen Personen, die an Ihrer Adresse wohnen, auch wenn diese keinen Antrag stellen.&lt;/p> &lt;p>Benennen Sie alle Personen, die bei Ihnen leben, aber derzeit an einem anderen Ort wohnen.&lt;br> Wenn Sie den Antrag für diese Person stellen, führen Sie diese Person im nachfolgenden Abschnitt auf.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Give_x0020_in-903822367
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Give information about your work history.&lt;/p>&#xa;"
+        sling:message="&lt;p>Machen Sie Angaben zu Ihrer Berufslaufbahn.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Give_x0020_in-954635823
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Give information for yourself and everyone who lives at your address, even if they are not applying.&lt;/p>&#xa;"
+        sling:message="&lt;p>Machen Sie Angaben zu Ihrer eigenen Person und zu allen Personen, die an Ihrer Adresse wohnen, auch wenn diese keinen Antrag stellen.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Give_x0020_in1721728499
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Give information about your medical coverage.&lt;/p>&#xa;"
+        sling:message="&lt;p>Machen Sie Angaben zu Ihrer medizinischen Absicherung.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Homeown1032751248
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Homeowner's Property Insurance&lt;/p>&#xa;"
+        sling:message="&lt;p>Immobiliarversicherung für Hauseigentümer&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_How_x0020_lon-1461150668
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>How long at this address&lt;/p>&#xa;"
+        sling:message="&lt;p>Seit wann bei dieser Adresse&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_How_x0020_muc1480677360
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>How much property tax&lt;/p>&#xa;"
+        sling:message="&lt;p>Wie viel Grundsteuer&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_How_x0020_muc646191671
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>How much rent&lt;/p>&#xa;"
+        sling:message="&lt;p>Wie viel Miete&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_How_x0020_oft-1431246635
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>How often property tax&lt;/p>&#xa;"
+        sling:message="&lt;p>Wie häufig Grundsteuer&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_How_x0020_oft47276060
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>How often rent&lt;/p>&#xa;"
+        sling:message="&lt;p>Wie häufig zahlen Sie Miete&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Income_x0020_-1241305815
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Income received date&lt;/p>&#xa;"
+        sling:message="&lt;p>Datum, an dem Einkommen erhalten wurde&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Other_x0020_s-1798951396
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Other such as lot rent, condo fees, kerosene, etc.&lt;/p>&#xa;"
+        sling:message="&lt;p>Andere Angaben wie Pacht, Gebühren für Eigentumswohnungen, Benzin usw.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Please_x0020_-1361505052
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Please selet the state of previous address&lt;br>&#xa;&lt;/p>&#xa;"
+        sling:message="&lt;p>Wählen sie den Staat der vorherigen Adresse aus&lt;br> &lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Please_x0020_-1403912969
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Please select the City&lt;/p>&#xa;"
+        sling:message="&lt;p>Wählen Sie die Stadt aus&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Please_x0020_-2056784082
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Please enter the name of language you understand&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;p>Please enter the name of language you understand&lt;/p>&#xd;&#xa;"/>
+    <fd__x003c_p_x003e_Please_x0020_1065236560
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Please select the month&lt;/p>&#xa;"
+        sling:message="&lt;p>Wählen Sie den Monat aus&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Please_x0020_1083555185
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Please provide some basic information about Household Expenses.&lt;/p>&#xa;"
+        sling:message="&lt;p>Machen Sie einige grundlegenden Angaben zu den Ausgaben im Haushalt.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Please_x0020_1513382277
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Please select the year&lt;/p>&#xa;"
+        sling:message="&lt;p>Wählen Sie das Jahr aus&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Please_x0020_1528796214
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Please select the race you belong to&lt;/p>&#xa;"
+        sling:message="&lt;p>Wählen Sie Ihren ethnischen Hintergrund aus&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Please_x0020_164697343
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Please select the State&lt;/p>&#xa;"
+        sling:message="&lt;p>Wählen Sie den Staat aus&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Please_x0020_288389300
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Please provide some miscellaneous information.&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie sonstige Angaben ein.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Please_x0020_696354782
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Please elect the city of Previous address&lt;/p>&#xa;"
+        sling:message="&lt;p>Wählen Sie die Stadt der vorherigen Adresse aus&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Please_x0020_760501311
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Please provide some basic information about Household Income.&lt;/p>&#xa;"
+        sling:message="&lt;p>Machen Sie einige grundlegenden Angaben zum Einkommen im Haushalt.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Please_x0020_916064244
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Please provide some basic information.&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie einige grundlegende Angaben ein.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Please_x0020_989432096
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Please give us information about yourself.&lt;/p>&#xa;"
+        sling:message="&lt;p>Machen Sie Angaben über sich selbst.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Propert-1507128167
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Property Taxes&lt;/p>&#xa;&lt;p>&lt;i>(City, County, School)&lt;/i>&lt;/p>&#xa;"
+        sling:message="&lt;p>Grundsteuer&lt;/p> &lt;p>&lt;i>(Stadt, Kreis, Schule)&lt;/i>&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Provide-2122648452
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Provide a telephone number&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie eine Telefonnummer ein&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Provide1780837145
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Provide the Amount&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie den Betrag an&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Provide677170828
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Provide a welfare case number&lt;/p>&#xa;"
+        sling:message="&lt;p>Geben Sie die Fallnummer der Sozialhilfe an&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Rent_x0020_or693037581
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Rent or Mortgage&lt;/p>&#xa;"
+        sling:message="&lt;p>Miete oder Kredit&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Select_x0020_-1979171752
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Select your Marital Status&lt;/p>&#xa;"
+        sling:message="&lt;p>Wählen Sie Ihren Familienstand&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Select_x0020_-502448686
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Select the date&lt;/p>&#xa;"
+        sling:message="&lt;p>Wählen Sie das Datum aus&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Select_x0020_-929473264
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Select your Education level&lt;/p>&#xa;"
+        sling:message="&lt;p>Wählen Sie Ihre Bildungsstufe&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Select_x0020_-958908792
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Select your Citizenship Status&lt;/p>&#xa;"
+        sling:message="&lt;p>Wählen Sie Ihren Staatsangehörigkeitsstatus aus/p>&#xa;"/>
+    <fd__x003c_p_x003e_Select_x0020_464040355
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Select your Veteran Status&lt;/p>&#xa;"
+        sling:message="&lt;p>Wählen Sie Ihren Veteranstatus&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_When_x0020_to-1456363660
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>When to be Received&lt;/p>&#xa;"
+        sling:message="&lt;p>Wann zu empfangen?&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_When_x0020_to2039642004
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>When to be received&lt;/p>&#xa;"
+        sling:message="&lt;p>Wann zu empfangen?&lt;/p>&#xa;"/>
+    <fd_Accordian
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Accordian"
+        sling:message="Accordian"/>
+    <fd_Active_x0020_Military
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Active Military"
+        sling:message="Aktiv im Militär"/>
+    <fd_Actual_x0020_Grade_x0020_Level_x0020_Completed
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Actual Grade Level Completed"
+        sling:message="Tatsächlich abgeschlossene Klassenstufe"/>
+    <fd_Additional-2021708139
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Additional Benefits"
+        sling:message="Zusätzliche Sozialhilfeleistungen"/>
+    <fd_Additional2137025203
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Additional Information"
+        sling:message="Weitere Informationen"/>
+    <fd_Address
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Address"
+        sling:message="Adresse"/>
+    <fd_AM._x0020_Indian_x0020__x0025_2F_x0020_Alaska_x0020_Native
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_AM. Indian / Alaska Native"
+        sling:message="Ureinwohner von Indien/Alaska"/>
+    <fd_Amount
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Amount"
+        sling:message="Betrag"/>
+    <fd_Amount_x0020__x0028__x0024__x0029_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Amount ($)"
+        sling:message="Betrag ($)"/>
+    <fd_Appilcant_x0020_89266570
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Appilcant Details"
+        sling:message="Details des Antragstellers"/>
+    <fd_Applicant_x0025_2F-1680840226
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Applicant/Dependent Information"
+        sling:message="Informationen zum Antragsteller/Angehörigen"/>
+    <fd_Are_x0020_you_x0020_a_x0020_188873400
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Are you a migrant or seasonal farm worker?"
+        sling:message="Sind Sie Migrant oder Saisonarbeiter in der Landwirtschaft?"/>
+    <fd_Are_x0020_you_x0020_ap815159614
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Are you applying for this person?"
+        sling:message="Stellen Sie den Antrag für diese Person?"/>
+    <fd_Are_x0020_you_x0020_bo-862196090
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Are you born outside U.S.?"
+        sling:message="Wurden Sie außerhalb der Vereinigten Staaten geboren?"/>
+    <fd_Are_x0020_you_x0020_or316694891
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Are you or anyone you are applying for currently receiving Food Stamp benefits or Medical Assistance in another state?"
+        sling:message="Erhalten Sie oder jemand, für den Sie den Antrag stellen, Lebensmittelmarken oder medizinische Unterstützung in einem anderen Staat?"/>
+    <fd_Are_x0020_you_x0020_pr-1828602686
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Are you pregnant, under age 21 or have a dependent child under age 21 living with you?"
+        sling:message="Sind Sie schwanger, unter 21 oder haben ein abhängiges Kind unter 21, das mit Ihnen lebt?"/>
+    <fd_Are_x0020_your_x0020_m-23312799
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Are your meals included in your rent?"
+        sling:message="Sind Mahlzeiten in Ihrer Miete inbegriffen?"/>
+    <fd_Are_x0020_your_x0020_m1988220381
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Are your monthly gross income and cash on hand less than your rent/mortgage and utility costs for this month?"
+        sling:message="Sind Ihr monatliches Bruttoeinkommen und Ihre Barmittel diesen Monat geringer als Ihre Miete/Kreditzahlungen und Strom-, Wasser- oder Gasabrechnung?"/>
+    <fd_Asian
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Asian"
+        sling:message="Asiatisch"/>
+    <fd_Associate_x0020_Degree
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Associate Degree"
+        sling:message="Berufsschulabschluss"/>
+    <fd_Bachelor_x0027_s_x0020_Degree
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Bachelor's Degree"
+        sling:message="Bachelor-Abschluss"/>
+    <fd_Back
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Back"
+        sling:message="Zurück"/>
+    <fd_BASIC_x0020_HOSP_x0020__x0025_2F_x0020_PHYSICIAN
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_BASIC HOSP / PHYSICIAN"
+        sling:message="GRUNDVERSORGUNG KRANKENHAUS/ARZT"/>
+    <fd_Basic_x0020_Info1362692090
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Basic Information"
+        sling:message="Basisinformationen"/>
+    <fd_Beneficiar1948690481
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Beneficiary Information"
+        sling:message="Informationen zum Empfänger"/>
+    <fd_Black_x0025_2FAfrican_x0020_American
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Black/African American"
+        sling:message="Schwarz-/Afroamerikanisch"/>
+    <fd_Boat_x0020__x0025_2F_x0020_Sno-1161476779
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Boat / Snowmobile / Camper (14)"
+        sling:message="Boot/Schneemobil/Wohnwagen (14)"/>
+    <fd_Both
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Both"
+        sling:message="Beides"/>
+    <fd_Cash_x0020_in_x0020_ha798780579
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Cash in hand (01)"
+        sling:message="Barzahlung (01)"/>
+    <fd_Certificat1887477919
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Certificate of Deposit (26)"
+        sling:message="Hinterlegungsschein (26)"/>
+    <fd_Check_x0020_If_x0020_Y1708120612
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Check If You Are Interested In"
+        sling:message="Markieren, wenn Sie Interesse haben an"/>
+    <fd_Checking_x0020_A1583395831
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Checking Account (03)"
+        sling:message="Girokonto (03)"/>
+    <fd_Child_x0020_Care
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Child Care"
+        sling:message="Versorgung von Kindern"/>
+    <fd_Child_x0020_Supp-2008136589
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Child Support Services"
+        sling:message="Kindesunterhalt"/>
+    <fd_Christmas_x0020_435223619
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Christmas or Vacation Club (04)"
+        sling:message="Weihnachts- oder Urlaubssparprogramm (04)"/>
+    <fd_Citizenshi952868398
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Citizenship Status"
+        sling:message="Staatsangehörigkeitsstatus"/>
+    <fd_City
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_City"
+        sling:message="Stadt"/>
+    <fd_City_x0020_of_x0020_Bi1675200523
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_City of Birth"
+        sling:message="Geburtsort"/>
+    <fd_Common_x0020_Law_x0020_Marriage
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Common Law Marriage"
+        sling:message="Eheähnliche Lebensgemeinschaft"/>
+    <fd_Contact_x0020_In891978988
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Contact Information"
+        sling:message="Kontaktinformationen"/>
+    <fd_Continue
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Continue"
+        sling:message="Fortfahren"/>
+    <fd_Country
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Country"
+        sling:message="Land"/>
+    <fd_Country_x0020_of-664691072
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Country of Birth"
+        sling:message="Geburtsland"/>
+    <fd_County_x0020_Cou1701026998
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_County Court Name"
+        sling:message="Name des Bezirksgerichts"/>
+    <fd_Court_x0020_Orde-1271259856
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Court Order Number"
+        sling:message="Nummer des Gerichtsbeschlusses"/>
+    <fd_Current_x0020_Va1553982410
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Current Value"
+        sling:message="Aktueller Wert"/>
+    <fd_Date_x0020_of_x0020_Bi-15561432
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Date of Birth"
+        sling:message="Geburtsdatum"/>
+    <fd_Date_x0020_of_x0020_bi13991240
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Date of birth"
+        sling:message="Geburtsdatum"/>
+    <fd_Date_x0020_Recei2045522451
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Date Received"
+        sling:message="Datum des Erhalts"/>
+    <fd_Deceased_x003f_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Deceased?"
+        sling:message="Verstorben?"/>
+    <fd_DENTAL
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_DENTAL"
+        sling:message="ZAHNVERORGUNG"/>
+    <fd_Describe_x0020_t-1610253316
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Describe the type of property"
+        sling:message="Beschreiben Sie die Art der Immobilie"/>
+    <fd_Did_x0020_the_x0020_lo-1428516112
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Did the loss of a job within the last 30 days cause the loss of medical insurance for anyone in your household?"
+        sling:message="Hat der Verlust des Arbeitsplatzes in den letzten 30 Tagen zum Verlust von Krankenversicherung eines Mitglieds des Haushalts geführt?"/>
+    <fd_Did_x0020_you_x0020_or877873559
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Did you or anyone else in your household have a reduction in the number of hours worked?"
+        sling:message="Haben Sie oder eine im Haushalt lebende Person reduzierte Arbeitsstunden?"/>
+    <fd_Did_x0020_you_x0020_re-427590216
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Did you receive Energy Assistance (LIHEAP) since last October 1st?"
+        sling:message="Haben Sie seit dem letzten 1. Oktober Zuschüsse für Energiekosten (LIHEAP) erhalten?"/>
+    <fd_Divorced
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Divorced"
+        sling:message="Geschieden"/>
+    <fd_Do_x0020_you_x0020_hav2110638221
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Do you have a permanent home?"
+        sling:message="Haben Sie einen festen Wohnsitz?"/>
+    <fd_Do_x0020_you_x0020_hav2125804290
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Do you have utility costs other than heating, or air conditioning, such as electric, water, sewer or phone?"
+        sling:message="Haben Sie Verbrauchskosten außer Heizung oder Klimaanlage, zum Beispiel Strom, Wasser, Abwasser oder Telefon?"/>
+    <fd_Do_x0020_you_x0020_liv1875746982
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Do you live in public or subsidized housing (Section-8 or HUD)?"
+        sling:message="Leben Sie in einer Sozialwohnung (Abschnitt 8 oder HUD)?"/>
+    <fd_Do_x0020_you_x0020_or_x0020_-1919039477
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Do you or anyone for whom you are applying have medical coverage? This includes insurance Coverage provided by individuals living in or outside of the household. If yes, provide the following information:"
+        sling:message="Haben Sie oder jemand für den Sie den Antrag stellen medizinische Absicherung? Hierzu gehört Krankenversicherung, die von Einzelpersonen bereitgestellt wird, die im oder außerhalb des Haushalts wohnen. Falls ja, geben Sie die folgenden Informationen an:"/>
+    <fd_Do_x0020_you_x0020_or_x0020_-478223272
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Do you or anyone for whom you are applying have medical coverage? This includes insurance coverage provided by individuals living in or outside of the household."
+        sling:message="Haben Sie oder jemand für den Sie den Antrag stellen medizinische Absicherung? Hierzu gehört Krankenversicherung, die von Einzelpersonen bereitgestellt wird, die im oder außerhalb des Haushalts wohnen."/>
+    <fd_Do_x0020_you_x0020_pay1780946424
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Do you pay for heating or air conditioning?"
+        sling:message="Zahlen Sie für Heizung oder Klimaanlage?"/>
+    <fd_Do_x0020_you_x0020_rec-524331119
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Do you receive housing assistance?"
+        sling:message="Erhalten Sie Wohngeld?"/>
+    <fd_Do_x0020_you_x0020_rec1429028557
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Do you receive a utility allowance?"
+        sling:message="Erhalten Sie Zuschüsse zu Energiekosten?"/>
+    <fd_Do_x0020_you_x0020_sha-495793011
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Do you share expenses?"
+        sling:message="Haben Sie gemeinsame Ausgaben?"/>
+    <fd_Do_x0020_you_x0020_und955268059
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Do you understand English?"
+        sling:message="Verstehen Sie Englisch?"/>
+    <fd_Does_x0020_any_x0020_u1849197556
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Does any unmarried child under age 21 living with you have a mother or father who is not living with you or who is deceased?"
+        sling:message="Gibt es unverheiratete Kinder unter 21 Jahre, die mit Ihnen leben und deren Mutter oder Vater nicht mit Ihnen lebt oder verstorben ist?"/>
+    <fd_Does_x0020_any_x0020_u552168624
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Does any unmarried child under age 21 have a mother or father who is not living with you or who is deceased?"
+        sling:message="Gibt es unverheiratete Kinder unter 21 Jahre, deren Mutter oder Vater nicht mit Ihnen lebt oder verstorben ist?"/>
+    <fd_Does_x0020_anyon-7571906
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Does anyone have a husband or wife who is not living with you or who is deceased?"
+        sling:message="Gibt es einen Ehepartner, der nicht mit Ihnen lebt oder verstorben ist?"/>
+    <fd_Does_x0020_anyon1821255196
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Does anyone in your household have any income?"
+        sling:message="Hat in Ihrem Haushalt eine Person eine Einkommensform?"/>
+    <fd_Does_x0020_anyon827945760
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Does anyone outside your household pay any of your expenses?"
+        sling:message="Übernimmt eine Person außerhalb Ihres Haushalts Zahlungen von Ihren Ausgaben?"/>
+    <fd_Does_x0020_your_x0020_310337807
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Does your household have $100 or less in available cash and bank accounts and expect to receive less than $150 in income this month?"
+        sling:message="Hat Ihr Haushalt weniger als $100 Bargeld und auf Konten zur Verfügung und erwarten Sie weniger als $150 Einkommen in diesem Monat?"/>
+    <fd_Education
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Education"
+        sling:message="Bildungswesen"/>
+    <fd_Electric
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Electric"
+        sling:message="Strom"/>
+    <fd_Employer_x0027_s-1741353500
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Employer's Name"
+        sling:message="Name des Arbeitgebers"/>
+    <fd_Employer_x0027_s233190644
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Employer's Address (Street, City, State, Zip)"
+        sling:message="Adresse des Arbeitgebers (Straße, Stadt, Staat, Postleitzahl)"/>
+    <fd_Employers_x0020_-1394775892
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Employers Address"
+        sling:message="Adresse des Arbeitgebers"/>
+    <fd_Employment-585516873
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Employment and Training"
+        sling:message="Beschäftigung und Ausbildung"/>
+    <fd_End_x0020_Date
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_End Date"
+        sling:message="Enddatum"/>
+    <fd_End_x0020_date_x0020_m701982211
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_End date must be greater then or equals to start date"
+        sling:message="Enddatum muss größer oder gleich dem Startdatum sein"/>
+    <fd_F
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_F"
+        sling:message="D"/>
+    <fd_Family_x0020_Pla1727614234
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Family Planning/Birth Control "
+        sling:message="Familienplanung/Verhütung "/>
+    <fd_Family_x0020_Planning_x0025_2FBirth_x0020_Control
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Family Planning/Birth Control"
+        sling:message="Familienplanung/Verhütung"/>
+    <fd_Family_x0020_Sav-1345057017
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Family Savings Account (FSA)"
+        sling:message="Familiensparbuch"/>
+    <fd_fill
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_fill"
+        sling:message="fill"/>
+    <fd_First_x0020__x0020_Nam-903960261
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_First  Name"
+        sling:message="Vorname"/>
+    <fd_First_x0020_Name
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_First Name"
+        sling:message="Vorname"/>
+    <fd_Food_x0020_Banks
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Food Banks"
+        sling:message="Soziale Lebensmittelausgabe"/>
+    <fd_Food_x0020_Stamp
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Food Stamp"
+        sling:message="Lebensmittelmarke"/>
+    <fd_FormPanel
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_FormPanel"
+        sling:message="FormPanel"/>
+    <fd_Free_x0020_or_x0020_re-2090117108
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Free or reduced cost school meals"
+        sling:message="Kostenlose oder kostenreduzierte Schulmahlzeiten"/>
+    <fd_Frequency
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Frequency"
+        sling:message="Häufigkeit"/>
+    <fd_From
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_From"
+        sling:message="Von"/>
+    <fd_Garbage
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Garbage"
+        sling:message="Abfall"/>
+    <fd_Gas
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Gas"
+        sling:message="Gas"/>
+    <fd_General_x0020_Qu1228805163
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_General Questionnaire"
+        sling:message="Allgemeiner Fragebogen"/>
+    <fd_Graduate_x0020_Degree_x002c__x0020_Master_x0027_s_x0020_or_x0020_Higher
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Graduate Degree, Master's or Higher"
+        sling:message="Universitätsabschluss, Master oder höher"/>
+    <fd_Group_x0020_Name-2061855171
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Group Name Number"
+        sling:message="Gruppennamenummer"/>
+    <fd_Has_x0020_anyone-1249532486
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Has anyone in your household worked in the last five years?"
+        sling:message="War eine der Personen in Ihrem Haushalt in den letzten fünf Jahren berufstätig?"/>
+    <fd_Has_x0020_anyone474645480
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Has anyone sold, transferred or given away a home, land, personal property or other resource in the past 36 months?"
+        sling:message="Hat in den letzten 36 Monaten jemand eine Immobilie, Land, persönliches Eigentum oder andere Ressource verkauft, übertragen oder verschenkt?"/>
+    <fd_Have_x0020_you_x0020_e-1437580290
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Have you ever applied for benefits using a different name or social security number?"
+        sling:message="Haben Sie schon einmal Hilfeleistungen unter einem anderen Namen oder einer anderen Sozialversicherungsnummer beantragt?"/>
+    <fd_Have_x0020_you_x0020_e-268340837
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Have you ever been disqualified or agreed to be disqualified for food stamps or cash assistance in another state?"
+        sling:message="Wurden Sie jemals vom Lebensmittelmarkenprogramm ausgeschlossen, oder haben zugestimmt, vom Lebensmittelmarkenprogramm oder finanziellen Hilfeleistungen in einem anderen Staat ausgeschlossen zu werden?"/>
+    <fd_Have_x0020_you_x0020_e467795513
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Have you ever received cash benefits in another state?"
+        sling:message="Haben Sie jemals Geldleistungen in einem anderen Staat erhalten?"/>
+    <fd_High_x0020_School_x0020_Diploma_x002c__x0020_GED_x0020_OR_x0020_NEDP
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_High School Diploma, GED OR NEDP"
+        sling:message="High School-Abschluss, GED oder NEDP"/>
+    <fd_Hispanic_x0020_Origin
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Hispanic Origin"
+        sling:message="Hispanische Herkunft"/>
+    <fd_HMO
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_HMO"
+        sling:message="HMO"/>
+    <fd_HOSPITAL_x0020_ONLY
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_HOSPITAL ONLY"
+        sling:message="NUR HOSPITAL"/>
+    <fd_Household_x0020_1709441660
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Household Expenses"
+        sling:message="Haushaltsausgaben"/>
+    <fd_Household_x0020_2023998794
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Household Income"
+        sling:message="Haushaltseinkommen"/>
+    <fd_HouseholdE2007215613
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_HouseholdExpense_1_1"
+        sling:message="HouseholdExpense_1_1"/>
+    <fd_HouseholdE2007215614
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_HouseholdExpense_1_2"
+        sling:message="HouseholdExpense_1_2"/>
+    <fd_Housing_x0020_As1443176347
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Housing Assistance"
+        sling:message="Wohngeld"/>
+    <fd_How_x0020__x0020_Long_x0020_-1289838633
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_How  Long  At  This  Address"
+        sling:message="Seit wann an dieser Adresse"/>
+    <fd_How_x0020_Much_x0020__x0028_-360872406
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_How Much ($)"
+        sling:message="Wie viel ($)"/>
+    <fd_How_x0020_much_x0020__x0028_-425516534
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_How much ($)"
+        sling:message="Wie viel ($)"/>
+    <fd_How_x0020_much_x0020_d934109516
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_How much do you contribute ($) ?"
+        sling:message="Wie hoch sind Ihre Zuzahlungen ($)?"/>
+    <fd_How_x0020_much_x003f__x0020_-277716113
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_How much? ($)"
+        sling:message="Wie viel? ($)"/>
+    <fd_How_x0020_Often
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_How Often"
+        sling:message="Wie häufig"/>
+    <fd_How_x0020_often
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_How often"
+        sling:message="Wie häufig"/>
+    <fd_If_x0020_no_x002c__x0020_wha-331153841
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_If no, what language do you understand?"
+        sling:message="Falls „Nein“, welche Sprache verstehen Sie?"/>
+    <fd_If_x0020_you_x0020_are-1946016017
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_If you are applying for food stamps and are elderly, an SSI recipient or the spouse of the elderly or SSI recipient or homeless, do you want to use your food stamps to purchase meals in restaurants?"
+        sling:message="Wenn Sie Lebensmittelmarken beantragen und Senior, SSI-Empfänger oder Ehepartner eines Senioren oder SSI-Empfängers oder Obdachlos sind, möchten Sie Ihre Lebensmittelmarken für den Erwerb von Mahlzeiten in Restaurants verwenden?"/>
+    <fd_If_x0020_you_x0020_are-2087796631
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_If you are not registered to vote where you live now, would you like to apply to register to vote here today?"
+        sling:message="Wenn Sie an Ihrem aktuellen Wohnort nicht für die Wahlen registriert sind, möchten Sie sich heute für die Wahlen hier registrieren?"/>
+    <fd_If_x0020_you_x0020_hav1707216195
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_If you have a welfare case number - write it here"
+        sling:message="Wenn Sie eine Fallnummer für Sozialhilfe haben – geben Sie sie hier ein"/>
+    <fd_If_x0020_you_x0020_or_x0020_-1863367357
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_If you or anyone else in your household is employed, is medical insurance available through an employer for you or anyone in your family?"
+        sling:message="Wenn Sie oder eine andere Person in Ihrem Haushalt berufstätig sind, gibt es Krankenversicherung über den Arbeitgeber für Sie oder eine andere Person in Ihrer Familie?"/>
+    <fd_Illness
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Illness"
+        sling:message="Krankheit"/>
+    <fd_Illness_x0020_De-1460960414
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Illness Details"
+        sling:message="Krankheitsdetails"/>
+    <fd_Image
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Image"
+        sling:message="Bild"/>
+    <fd_Immunitiza1375709428
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Immunitizations (Shots)"
+        sling:message="Impfungen"/>
+    <fd_Income_x0020_Not1078461893
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Income Not Received"
+        sling:message="Einkommen nicht erhalten"/>
+    <fd_Inline_x0020_Ite-949556359
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Inline Items"
+        sling:message="Eingebundene Elemente"/>
+    <fd_Insurance
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Insurance"
+        sling:message="Versicherung"/>
+    <fd_Insurance_x0020_-205067516
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Insurance Company Phone Number"
+        sling:message="Telefonnummer des Versicherungsunternehmens"/>
+    <fd_Insurance_x0020_-2084190805
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Insurance Company Address"
+        sling:message="Adresse des Versicherungsunternehmens"/>
+    <fd_Insurance_x0020_-525761484
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Insurance Company Name"
+        sling:message="Name des Versicherungsunternehmens"/>
+    <fd_Insurance_x0020_579817728
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Insurance Type"
+        sling:message="Versicherungstyp"/>
+    <fd_IRA_x002c__x0020_KEOGH-1861283837
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_IRA, KEOGH or other retirement plan (27)"
+        sling:message="IRA, KEOGH oder andere Rentenpläne (27)"/>
+    <fd_Is_x0020_anyone_x0020_-929592657
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Is anyone in your household working, including self-employment?"
+        sling:message="Ist in Ihrem Haushalt eine Person berufstätig, einschließlich Selbständigkeit?"/>
+    <fd_Is_x0020_anyone_x0020_1164138720
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Is anyone in your household working, including self-employmnet? Or, has anyone in your household worked in the last five years?"
+        sling:message="Ist in Ihrem Haushalt eine Person berufstätig, einschließlich Selbständigkeit? Oder war eine der Personen in Ihrem Haushalt in den letzten fünf Jahren berufstätig?"/>
+    <fd_Is_x0020_anyone_x0020_454952527
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Is anyone expecting money or any type of resource such as, but not limited to, an accident settlement, inheritance, trust fund or other resource?"
+        sling:message="Werden Auszahlungen oder Einkünfte einschließlich aber nicht nur aus Quellen wie Unfallschlichtungen, Erbschaften, Treuhandfonds oder anderen Quellen erwartet?"/>
+    <fd_Is_x0020_Payment-769129990
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Is Payment of Support Applicable on the Relative?"
+        sling:message="Gilt die Unterhaltszahlung für den Angehörigen?"/>
+    <fd_Is_x0020_the_x0020_bil671979935
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Is the bill for heating or air conditioning mailed to someone living in your household? "
+        sling:message="Wird die Rechnung für Heiz- oder Klimaanlagekosten an eine Person in Ihrem Haushalt gesendet? "/>
+    <fd_Is_x0020_there_x0020_s-1465749201
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Is there someone in your family who is seriously ill?"
+        sling:message="Ist eine Person in Ihrer Familie ernsthaft krank?"/>
+    <fd_Is_x0020_this_x0020_co-1694939284
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Is this court ordered"
+        sling:message="Ist dies ein Gerichtsbeschluss"/>
+    <fd_Jr._x0025_2FSr._x0020_I_x002c_836748669
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Jr./Sr. I,II"
+        sling:message="Jr./Sr. I,II"/>
+    <fd_Last_x0020_Name
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Last Name"
+        sling:message="Nachname"/>
+    <fd_Last_x0020_Paid_x0020_-205213800
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Last Paid Date"
+        sling:message="Letztes Zahlungsdatum"/>
+    <fd_LET_x0027_S_x0020_GET_x0020_1841362718
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_LET'S GET STARTED"
+        sling:message="LEGEN WIR LOS"/>
+    <fd_LifeLine_x0020__x0028_-1251194089
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_LifeLine (Reduced Price Phone Service)"
+        sling:message="LifeLine (Kostengünstiger Telefondienst)"/>
+    <fd_M
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_M"
+        sling:message="M"/>
+    <fd_MAJOR_x0020_MEDICAL
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_MAJOR MEDICAL"
+        sling:message="MAJOR MEDICAL"/>
+    <fd_Marital_x0020_St-1317899042
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Marital Status"
+        sling:message="Familienstand"/>
+    <fd_Married
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Married"
+        sling:message="Verheiratet"/>
+    <fd_Medical_x0020_Co1167603415
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Medical Coverage"
+        sling:message="Medizinische Absicherung"/>
+    <fd_Medical_x0020_In-71105589
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Medical Insurance"
+        sling:message="Krankenversicherung"/>
+    <fd_Medical_x0020_In874207709
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Medical Information"
+        sling:message="Medizinische Informationen"/>
+    <fd_MEDICARE_x0020_A
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_MEDICARE A"
+        sling:message="MEDICARE A"/>
+    <fd_MEDICARE_x0020_B
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_MEDICARE B"
+        sling:message="MEDICARE B"/>
+    <fd_Middle_x0020__x0020_In1695301903
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Middle  Initial"
+        sling:message="Initiale des zweiten Vornamens"/>
+    <fd_Middle_x0020_Nam2029806134
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Middle Name"
+        sling:message="Weitere Vornamen"/>
+    <fd_Misc.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Misc."
+        sling:message="Sonstiges"/>
+    <fd_Miscellane-1890823218
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Miscellaneous"
+        sling:message="Sonstiges"/>
+    <fd_Months
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Months"
+        sling:message="Monate"/>
+    <fd_Mothers_x0020_Fu-1719099378
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Mothers Full Name (Last, First, Middle)"
+        sling:message="Vollständiger Name der Mutter (Nachname, Vorname, zweiter Vorname)"/>
+    <fd_NA_x0020_Hawaian_x0020__x0025_2F_x0020_Pacific_x0020_Islander
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_NA Hawaian / Pacific Islander"
+        sling:message="NA Hawaii/Pazifische Inseln"/>
+    <fd_Name
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Name"
+        sling:message="Name"/>
+    <fd_Name_x0020_of_x0020_Ow1051551967
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Name of Owner"
+        sling:message="Name des Eigentümers"/>
+    <fd_Name_x0020_of_x0020_Re-1743469854
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Name of Relative (Last, First, Middle)"
+        sling:message="Name des Angehörigen (Nachname, Vorname, zweiter Vorname)"/>
+    <fd_Name_x0020_of_x0020_th-1014604194
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Name of the person who needs care"
+        sling:message="Name der Person, die Fürsorge benötigt"/>
+    <fd_Name_x0020_of_x0020_th1346501347
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Name of the people that the relative is responsible for"
+        sling:message="Der Name der Personen, für die der Angehörige verantwortlich ist"/>
+    <fd_Name_x0020_of_x0020_th361937909
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Name of the care giver"
+        sling:message="Name des Pflegers"/>
+    <fd_Name_x0020_on_x0020_Bi-1921366004
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Name on Birth Certificate (Last, First, Middle)"
+        sling:message="Name auf der Geburtsurkunde (Vorname, Nachname, zweiter Vorname)"/>
+    <fd_National_x0020_Gurad
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_National Gurad"
+        sling:message="Nationalgarde"/>
+    <fd_Next
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Next"
+        sling:message="Weiter"/>
+    <fd_NO
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_NO"
+        sling:message="Nein"/>
+    <fd_No
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_No"
+        sling:message="Nein"/>
+    <fd_No_x0020_Formal_x0020_Education
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_No Formal Education"
+        sling:message="Keine formale Bildung"/>
+    <fd_Non_x0020_-_x0020_Resi-501771454
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Non - Resident Information"
+        sling:message="Angaben zu nichtansässigen Personen"/>
+    <fd_Non_x0020_Reside1672068983
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Non Resident Dependent Repeatable Panel"
+        sling:message="Wiederholungsbereich Angehöriger von Nichtansässigen"/>
+    <fd_Non_x0020_Veteran
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Non Veteran"
+        sling:message="Kein Veteran"/>
+    <fd_Non-Reside834938236
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Non-Resident Information"
+        sling:message="Angaben zu nichtansässigen Personen"/>
+    <fd_Oil_x0025_2FCoal_x0025_2FW185985032
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Oil/Coal/Wood"
+        sling:message="Öl/Kohle/Holz"/>
+    <fd_Order_x0020_Date
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Order Date"
+        sling:message="Auftragsdatum"/>
+    <fd_Other_x0020_-_x0020_Not_x0020_Eligible_x0020_for_x0020_Benefits_x0020_Except_x0020_for_x0020_Emergency_x0020_Medical_x0020_Benefits
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Other - Not Eligible for Benefits Except for Emergency Medical Benefits"
+        sling:message="Sonstige – Nicht für Hilfeleistungen berechtigt, außer medizinische Notfallversorgung"/>
+    <fd_Other_x0020_Degrees_x002c__x0020_Certificates_x0020_OR_x0020_Diplomas
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Other Degrees, Certificates OR Diplomas"
+        sling:message="Andere Abschlüsse, Zeugnisse oder Diplome"/>
+    <fd_Other_x0020_Name
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Other Name"
+        sling:message="Weitere Namen"/>
+    <fd_Paid_x0020_to_x0020_Wh-1563124256
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Paid to Whom"
+        sling:message="Zahlung an wen"/>
+    <fd_Perm._x0020_Alien_x0020__x0028_Qualified_x0020_Alien_x0020_or_x0020_PRUCOL_x0029_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Perm. Alien (Qualified Alien or PRUCOL)"
+        sling:message="Perm. Ausländer (Anerkannter Ausländer oder PRUCOL)"/>
+    <fd_Phone
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Phone"
+        sling:message="Telefon"/>
+    <fd_Phone_x0020_Numb-1442320773
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Phone Number"
+        sling:message="Telefonnummer"/>
+    <fd_Please_x0020_ent-1084460186
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please enter the number using numerical characters only, e.g., enter 111-22-3333 as 111223333"
+        sling:message="Geben Sie die Nummer nur mit numerischen Zeichen ein, geben Sie z. B. 111-22-3333 als 111223333 ein."/>
+    <fd_Please_x0020_ent-773686794
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please enter area code + phone number using numerical characters only, e.g., enter (222) 333-4444 as 2223334444"
+        sling:message="Geben Sie die Vorwahl und die Telefonnummer nur mit numerischen Zeichen ein, geben Sie z. B. (222) 333-4444 als 2223334444 ein"/>
+    <fd_Please_x0020_pro-1134774499
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please provide a valid telephone number"
+        sling:message="Bitte geben Sie eine gültige Telefonnummer an."/>
+    <fd_Please_x0020_pro-1322319165
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please provide a valid name"
+        sling:message="Geben Sie einen gültigen Namen an."/>
+    <fd_Please_x0020_pro-1322403890
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please provide a valid Social Security Number"
+        sling:message="Bitte geben Sie eine gültige Sozialversicherungsnummer an."/>
+    <fd_Please_x0020_pro-1322616858
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please provide a valid date"
+        sling:message="Geben Sie ein gültiges Datum an."/>
+    <fd_Please_x0020_pro-1366588115
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please provide a valid Country name"
+        sling:message="Bitte geben Sie einen gültige Landesnamen an."/>
+    <fd_Please_x0020_pro-1475521243
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please provide a valid group name number"
+        sling:message="Bitte geben Sie eine gültige Gruppennamennummer an."/>
+    <fd_Please_x0020_pro-1582414714
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please provide a valid company name"
+        sling:message="Geben Sie einen gültigen Firmennamen an."/>
+    <fd_Please_x0020_pro-202545234
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please provide a valid social security number"
+        sling:message="Bitte geben Sie eine gültige Sozialversicherungsnummer an."/>
+    <fd_Please_x0020_pro1655212220
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please provide a valid address"
+        sling:message="Geben Sie eine gültige Adresse an."/>
+    <fd_Please_x0020_pro1725284544
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please provide a valid record number"
+        sling:message="Bitte geben Sie ein gültiges Aktenzeichen an."/>
+    <fd_Please_x0020_pro2116728254
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please provide valid policy number"
+        sling:message="Geben Sie eine gültige Police-Nummer an"/>
+    <fd_Please_x0020_Pro274046787
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please Provide Some Basic Information"
+        sling:message="Geben Sie einige grundlegende Angaben ein"/>
+    <fd_Please_x0020_pro274281234
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please provide a valid State name"
+        sling:message="Bitte geben Sie einen gültigen Staatnamen an."/>
+    <fd_Please_x0020_pro650346099
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please provide a valid phone number"
+        sling:message="Bitte geben Sie eine gültige Telefonnummer an."/>
+    <fd_Please_x0020_sel-1353670204
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please select a valid Veteran Status"
+        sling:message="Wählen Sie einen gültigen Veteranstatus aus"/>
+    <fd_Please_x0020_sel-1953865058
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please select a valid Qualification"
+        sling:message="Bitte wählen Sie eine gültige Qualifizierung aus"/>
+    <fd_Please_x0020_sel-204355937
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please select a valid Citizenship status"
+        sling:message="Wählen Sie einen gültigen Staatsbürgerschaftsstatus aus"/>
+    <fd_Please_x0020_sel1635285487
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please select a valid Marital Status"
+        sling:message="Wählen Sie einen gültigen Familienstand aus"/>
+    <fd_Please_x0020_ver76391316
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please verify your application"
+        sling:message="Überprüfen Sie Ihren Antrag"/>
+    <fd_Policy_x0020_Det-1714141868
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Policy Details"
+        sling:message="Richtliniendetails"/>
+    <fd_Policy_x0020_Hol-1449089522
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Policy Holder Address"
+        sling:message="Adresse des Policeninhabers"/>
+    <fd_Policy_x0020_Hol116537009
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Policy Holder Name"
+        sling:message="Name des Policen-Inhabers"/>
+    <fd_Policy_x0020_Num2046680567
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Policy Number"
+        sling:message="Police-Nummer"/>
+    <fd_PRESCRIPTION
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_PRESCRIPTION"
+        sling:message="VERORDNUNG"/>
+    <fd_Previous_x0020_A-1602558005
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Previous Address"
+        sling:message="Vorherige Adresse"/>
+    <fd_Provide_x0020_a_x0020_-1792082834
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Provide a telephone number where you can be reached during the day for a telephonic interview."
+        sling:message="Geben Sie eine Telefonnummer an, unter der Sie am Tag für ein Telefongespräch erreichbar sind."/>
+    <fd_Provide_x0020_th-2035575788
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Provide the date coverage ended  :"
+        sling:message="Geben Sie das Datum ein, an dem die Absicherung endete:"/>
+    <fd_Questionna-390212031
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_QuestionnairePanel"
+        sling:message="QuestionnairePanel"/>
+    <fd_questions
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_questions"
+        sling:message="Fragen"/>
+    <fd_Race
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Race"
+        sling:message="Ethnische Zugehörigkeit"/>
+    <fd_Receiving_x0020_-2052540598
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Receiving an application for Energy Assistance "
+        sling:message="Eingang eines Antrags auf Zuschüsse für Energiekosten "/>
+    <fd_Receiving_x0020_an_x0020_application_x0020_for_x0020_Energy_x0020_Assistance
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Receiving an application for Energy Assistance"
+        sling:message="Eingang eines Antrags auf Zuschüsse für Energiekosten"/>
+    <fd_Record_x0020__x0023_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Record #"
+        sling:message="Aktenzeichen"/>
+    <fd_Refugee_x0025_2FAsylee_x0025_2FParolee
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Refugee/Asylee/Parolee"
+        sling:message="Flüchtling/Asylant/bedingt Entlassener"/>
+    <fd_Relationsh1201043085
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Relationship with you"
+        sling:message="Beziehung zu Ihnen"/>
+    <fd_Relative_x0020_D-1059202834
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Relative Details"
+        sling:message="Details zum Angehörigen"/>
+    <fd_Relative_x0020_I-638414436
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Relative Information Panel"
+        sling:message="Informationsfeld des Angehörigen"/>
+    <fd_Relatives_x0020_1598941579
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Relatives Employers Information"
+        sling:message="Beschäftigungsinformationen von Angehörigen"/>
+    <fd_Rent
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Rent"
+        sling:message="Miete"/>
+    <fd_Reserves
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Reserves"
+        sling:message="Rücklagen"/>
+    <fd_Reset
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Reset"
+        sling:message="Zurücksetzen"/>
+    <fd_Resident_x0020_I963629660
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Resident Information"
+        sling:message="Einwohnerinformationen"/>
+    <fd_Resource_x0020_D459358256
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Resource Details"
+        sling:message="Ressourcendetails"/>
+    <fd_Save
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Save"
+        sling:message="Speichern"/>
+    <fd_Savings_x0020_Ac1512522649
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Savings Account (02)"
+        sling:message="Sparkonto (02)"/>
+    <fd_Savings_x0020_Ce-758109459
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Savings Certificate (26)"
+        sling:message="Sparbrief (26)"/>
+    <fd_School_x0020__x0020_Di1549826626
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_School  District"
+        sling:message="Schuleinzugsgebiet"/>
+    <fd_Select
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Select"
+        sling:message="Auswählen"/>
+    <fd_Select_x0020_highest_x0020_grade
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Select highest grade"
+        sling:message="Wählen Sie die höchste Stufe aus"/>
+    <fd_Select_x0020_Insurance_x0020_Type
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Select Insurance Type"
+        sling:message="Wählen Sie den Versicherungstyp aus"/>
+    <fd_Select_x0020_the_x0020_citizenship_x0020_status
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Select the citizenship status"
+        sling:message="Wählen Sie den Status der Staatsangehörigkeit aus."/>
+    <fd_Select_x0020_the_x0020_Marital_x0020_Status
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Select the Marital Status"
+        sling:message="Wählen Sie den Familienstand aus"/>
+    <fd_Select_x0020_the_x0020_Month
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Select the Month"
+        sling:message="Wählen Sie den Monat aus"/>
+    <fd_Select_x0020_the_x0020_Veteran_x0020_Status
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Select the Veteran Status"
+        sling:message="Wählen Sie den Veteranstatus aus."/>
+    <fd_Select_x0020_the_x0020_Year
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Select the Year"
+        sling:message="Wählen Sie das Jahr aus."/>
+    <fd_Seperated
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Seperated"
+        sling:message="Getrennt"/>
+    <fd_Sewerage
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Sewerage"
+        sling:message="Abwasser"/>
+    <fd_Sex
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Sex"
+        sling:message="Geschlecht"/>
+    <fd_Sign
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Sign"
+        sling:message="Signieren"/>
+    <fd_Sign_x0020_able_x0020_950709534
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Sign able document will be shown here."
+        sling:message="Unterschreibbares Dokument wird hier angezeigt."/>
+    <fd_Single
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Single"
+        sling:message="Ledig"/>
+    <fd_SKIP_x0020_TO_x0020_FO-61814360
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_SKIP TO FORM"
+        sling:message="ZUM FORMULAR SPRINGEN"/>
+    <fd_Skip_x0020_to_x0020_Fo2114330088
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Skip to Form"
+        sling:message="Zum Formular springen"/>
+    <fd_Social_x0020_Sec-1267439981
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Social Security"
+        sling:message="Sozialversicherung"/>
+    <fd_Social_x0020_Sec-1480667754
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Social Security Number"
+        sling:message="Sozialversicherungsnummer"/>
+    <fd_Special_x0020_Al580027394
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Special Allowance for employment or training (Clothing, etc)"
+        sling:message="Sondervergütung für Beruf oder Ausbildung (Kleidung usw.)"/>
+    <fd_Special_x0020_Te-1924560712
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Special Terms (if any)"
+        sling:message="Sonderkonditionen (falls vorhanden)"/>
+    <fd_Start_x0020_Date
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Start Date"
+        sling:message="Startdatum"/>
+    <fd_State
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_State"
+        sling:message="Status"/>
+    <fd_State_x0020_of_x0020_B-225696795
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_State of Birth"
+        sling:message="Geburtsstaat"/>
+    <fd_Stocks_x0020_or_x0020_1690373510
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Stocks or Bonds (05)"
+        sling:message="Wert- oder Rentenpapiere (05)"/>
+    <fd_Street
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Street"
+        sling:message="Straße"/>
+    <fd_Submission-1286852878
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Submission summary"
+        sling:message="Übergabedatum"/>
+    <fd_Summary
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Summary"
+        sling:message="Zusammenfassung"/>
+    <fd_Supplemant148874565
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Supplemantry Security Income"
+        sling:message="Nebeneinnahmen aus Wertpapieren"/>
+    <fd_Telephone
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Telephone"
+        sling:message="Telefonnummer"/>
+    <fd_Telephone_x0020_2062349093
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Telephone Number"
+        sling:message="Telefonnummer"/>
+    <fd_Temp._x0020_Alien
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Temp. Alien"
+        sling:message="Temp. Ausländer"/>
+    <fd_Text_x0020_15
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Text 15"
+        sling:message="Text 15"/>
+    <fd_Thanks_x0020__x0024__x007b_o-1777584685
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Thanks ${owner} for submitting the ${guideName} form.&lt;br> Your reference number is ${submitID}.&lt;br> Submitted form can be downloaded from &lt;a target=&quot;_blank&quot; href=&quot;${path}&quot;>here&lt;/a>."
+        sling:message="Danke ${owner} für das Einreichen des Formulars ${guideName}.&lt;br> Ihre Referenznummer lautet ${submitID}.&lt;br> Das eingereichte Formular kann &lt;a target=&quot;_blank&quot; href=&quot;${path}&quot;>hier&lt;/a> heruntergeladen werden."/>
+    <fd_This_x0020_field-1029745557
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_This field is mandatory"
+        sling:message="Dieses Feld ist ein Pflichtfeld"/>
+    <fd_This_x0020_field521533050
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_This field is mandtory"
+        sling:message="Dieses Feld ist ein Pflichtfeld"/>
+    <fd_This_x0020_is_x0020_a_x0020_604536032
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_This is a mandatory field"
+        sling:message="Dies ist ein Pflichtfeld"/>
+    <fd_To
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_To"
+        sling:message="Bis"/>
+    <fd_To_x0020_whom_x003f_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_To whom?"
+        sling:message="An wen?"/>
+    <fd_Toolbar
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Toolbar"
+        sling:message="Symbolleiste"/>
+    <fd_toolbar_pa1560948800
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_toolbar_panel"
+        sling:message="toolbar_panel"/>
+    <fd_Township_x0020__x0028_-31918279
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Township (Civil Sub Division)"
+        sling:message="Stadtverwaltung (Untergeordnete Zivilkammer)"/>
+    <fd_Trust_x0020_Fund-196553170
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Trust Fund (06)"
+        sling:message="Treuhandfond (06)"/>
+    <fd_Type_x0020_of_x0020_re-1238978447
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Type of resource"
+        sling:message="Typ der Ressource"/>
+    <fd_Type_x0025_2FAccou-621437553
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Type/Account #/Location of the Resource"
+        sling:message="Typ/Kontonr./Standort der Ressource"/>
+    <fd_Type_x0025_2FSourc-1942929246
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Type/Source of Income"
+        sling:message="Einkommensquelle/-typ"/>
+    <fd_U.S._x0020_Citizen
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_U.S. Citizen"
+        sling:message="US-Staatsangehöriger"/>
+    <fd_U.S._x0020_Savin-987575073
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_U.S. Savings Bonds (05)"
+        sling:message="U.S. Schatzbriefe (05)"/>
+    <fd_Unaccompanied_x0020_minor
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Unaccompanied minor"
+        sling:message="Unbegleiteter Minderjähriger"/>
+    <fd_Utilities
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Utilities"
+        sling:message="Versorgung"/>
+    <fd_Utility_x0020_In320722094
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Utility Installation"
+        sling:message="Öffentliche Bedarfseinrichtung"/>
+    <fd_Value
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Value"
+        sling:message="Wert"/>
+    <fd_Verifiable1736085304
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Verifiable document will be shown here."
+        sling:message="Prüfbares Dokument wird hier angezeigt."/>
+    <fd_verify
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_verify"
+        sling:message="Überprüfen"/>
+    <fd_Veteran
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Veteran"
+        sling:message="Veteran"/>
+    <fd_Veteran_x0020_St-11887437
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Veteran Status"
+        sling:message="Veteranstatus"/>
+    <fd_VISION
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_VISION"
+        sling:message="VISION"/>
+    <fd_Voter_x0020_Regi-506448464
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Voter Registration (Optional)"
+        sling:message="Wählerregistrierung (Optional)"/>
+    <fd_Voter_x0020_Regi-892959919
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Voter Registration"
+        sling:message="Wählerregistrierung"/>
+    <fd_Water
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Water"
+        sling:message="Wasser"/>
+    <fd_Well_x0020_Baby_x0020_-556147904
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Well Baby Clinic"
+        sling:message="Babyversorgungsklinik"/>
+    <fd_What_x0020_expen970918117
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_What expenses are shared?"
+        sling:message="Welche Ausgaben werden gemeinsam getragen?"/>
+    <fd_What_x003f_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_What?"
+        sling:message="Was?"/>
+    <fd_When_x0020_to_x0020_be766377087
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_When to be received"
+        sling:message="Wann zu empfangen?"/>
+    <fd_When_x0020_to_x0020_be831021215
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_When to be Received"
+        sling:message="Wann zu empfangen?"/>
+    <fd_When_x0020_you_x0020_e-628855808
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_When you expect"
+        sling:message="Wann erwarten Sie"/>
+    <fd_White
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_White"
+        sling:message="Weiß"/>
+    <fd_Who_x0020_is_x0020_Cov-219452099
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Who is Covered?"
+        sling:message="Wer ist eingeschlossen?"/>
+    <fd_Widowed
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Widowed"
+        sling:message="Verwitwet"/>
+    <fd_With_x0020_whom_x003f_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_With whom?"
+        sling:message="Mit wem?"/>
+    <fd_Women_x002c__x0020_Inf776978193
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Women, Infants and Children program"
+        sling:message="Programm für Frauen, Kleinkinder und Kinder"/>
+    <fd_Work_x0020_Detai-1441882061
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Work Details"
+        sling:message="Arbeitsdetails"/>
+    <fd_Work_x0020_Histo-2072669563
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Work History"
+        sling:message="Arbeitsverlauf"/>
+    <fd_WORKERS_x0027__x0020_COMP
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_WORKERS' COMP"
+        sling:message="WORKERS' COMP"/>
+    <fd_Years
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Years"
+        sling:message="Jahre"/>
+    <fd_YES
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_YES"
+        sling:message="Ja"/>
+    <fd_Yes
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Yes"
+        sling:message="Ja"/>
+    <fd_Zip
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Zip"
+        sling:message="Zip"/>
+</jcr:root>

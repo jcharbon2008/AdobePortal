@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cloudserviceconfigs="[[]]"
+        cq:lastModified="{Date}2015-11-17T07:15:22.840+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/we-gov/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Application Dashboard"
+        sling:resourceType="we-gov/components/page/contentpage"
+        hideInNav="true">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <dashboard
+                jcr:created="{Date}2015-11-17T07:13:13.647+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-11-17T07:13:39.222+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aem-forms/components/dashboard"
+                title="Application Dashboard"/>
+        </par>
+        <image/>
+    </jcr:content>
+</jcr:root>

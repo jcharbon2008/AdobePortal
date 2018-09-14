@@ -1,0 +1,141 @@
+/*Hello World!*/
+
+.container{
+    width:100%;
+}
+
+.applicationVerificationPanel, .guidePanelNode, .guideContainerNode {
+    padding:0px;
+}
+
+.header.container {
+    background-image: url("../../../../content/dam/we-gov/child-support/logo.png");
+    background-repeat: no-repeat;
+    background-position: 6% 15px;
+    background-color: #2d62ac;
+    padding: 0 6%;
+    height: 65px;
+}
+
+.guidePanelDescription, .panel .guidefield{
+    border:none;
+}
+
+.guideSeparator{
+    border-bottom-width: 2px!important;
+    margin: 10px 0px;
+}
+
+.darkSep.guideSeparator {
+    border-bottom-color: rgba(23, 179, 141, 0.4);
+    
+}
+
+.lightSep.guideSeparator {
+    border-bottom-color: rgba(23, 179, 141, 0.15);
+}
+
+.panel{
+    box-shadow:none;
+    border: none;
+    
+}
+
+label{
+    margin-bottom: 0px;
+}
+
+.guideFieldNode.guideCheckBoxGroup>div.guideFieldLabel.top, .guideFieldNode.guideDropDownList>div.guideFieldLabel.top {
+    width: 70%;
+    float: left;
+    line-height: 28px;
+    height: auto;
+}
+
+.guideFieldNode.guideCheckBoxGroup>div.guideCheckBoxGroupItems, .guideFieldNode.guideDropDownList>div.dropDownList {
+    width: 22%;
+    float: right;
+    line-height: 28px;
+    height: 28px;
+    text-align: right;
+}
+
+.additionalComments>div, .guideScribble.applicantSignature>div{
+    width: 50%;
+    float: left;
+}
+
+
+/*Image checkbox*/
+
+.fancyYesNo.guideCheckBoxItem {
+    background-image: url("../images/no.png");
+    width: 44px;
+    height: 22px;
+}
+
+.fancyYesNo.imageCheckButtonChecked {
+    background-image: url("../images/yes.png");
+}
+
+.applicationVerificationPanel .guidePanelDescription
+{
+    background-color: #132b4d;
+    padding: 15px 10px;
+    color: #17b38d;
+    font-size: 22px;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    padding-left: 6%;
+    margin-bottom: 30px;
+}
+
+.applicationVerificationPanel .guidePanelDescription ~.row
+{
+    padding: 0 25px;
+    max-width: 610px;
+    margin: 0 auto;
+}
+
+.panel .guidefield .guideFieldLabel:before{
+    content:none;
+}
+
+.guideFieldNode {
+    padding: 5px 10px;
+}
+
+.applicationVerificationText {
+    font-size: 20px;
+    padding: 0;
+}
+
+.guide-header-bar.visible-xs, .title, .titleLinks {
+    display: none !important;
+}
+
+.homeAddress label, .childLivingWithApplicant label, .childAgeOnBirthCertificate label, .maritalStatus label, .prevAppliedStatus label, .workAddress label {
+    font-size: 14px;
+}
+
+.applicationVerificationText, .numOfChildren label, .visitLocalCSSOffice label, .additionalComments label, .applicantSignature label{
+    font-size: 16px;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+    .applicationVerificationPanel .guidePanelDescription ~.row {
+                padding: 0 15px;
+            }
+}
+
+@-ms-viewport { width: auto; }
+
+@media screen\0 {
+.applicationVerificationPanel .guidePanelDescription ~.row {
+    width:100%;
+    max-width: 100%;
+    padding: 0 6%;
+}

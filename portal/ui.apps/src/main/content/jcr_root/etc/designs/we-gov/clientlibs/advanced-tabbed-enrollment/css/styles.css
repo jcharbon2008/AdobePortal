@@ -1,0 +1,146 @@
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+*  Copyright 2014 Adobe Systems Incorporated
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe Systems Incorporated and its suppliers,
+* if any.  The intellectual and technical concepts contained
+* herein are proprietary to Adobe Systems Incorporated and its
+* suppliers and are protected by all applicable intellectual property 
+* laws, including trade secret and copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe Systems Incorporated.
+**************************************************************************/
+.wizard-navigators .active .verify_nav {
+  background-image: url("../images/Verify_1.png");
+}
+.wizard-navigators .verify_nav {
+  background-image: url("../images/Verify_2.png");
+}
+
+.wizard-navigators .active .submit_nav {
+  background-image: url("../images/submit_1.png");
+}
+.wizard-navigators .submit_nav {
+  background-image: url("../images/submit_2.png");
+} 
+.wizard-navigators > li {
+  width: auto !important; }
+
+.esign_outer_div{
+height: 1000px !important;
+} 
+
+.tabbedPanelLayout .guideNavIcon.info_nav {
+  background-image: url("../images/3.png");
+  background-repeat: no-repeat;
+
+}
+
+.tabbedPanelLayout .active .guideNavIcon.info_nav {
+  background-image: url("../images/2.png");
+  background-repeat: no-repeat;
+
+}
+.tabbedPanelLayout .guideNavIcon.personal_info_nav {
+  background-image: url("../images/personal-information.png");
+  background-repeat: no-repeat;
+
+}
+
+.tabbedPanelLayout .active .guideNavIcon.personal_info_nav {
+  background-image: url("../images/7.png");
+  background-repeat: no-repeat;
+
+}            
+.tabbedPanelLayout .guideNavIcon.finance_nav {
+  background-image: url("../images/9.png");
+  background-repeat: no-repeat;
+
+}
+
+.tabbedPanelLayout .active .guideNavIcon.finance_nav {
+  background-image: url("../images/8.png");
+  background-repeat: no-repeat;
+
+}                
+.tabbedPanelLayout .guideNavIcon.cert_nav {
+  background-image: url("../images/cert.png");
+  background-repeat: no-repeat;
+}
+
+.tab-navigators > li > a {
+  padding-left: 22px;
+}
+.guideFieldWidget.tnc{
+height:90px !important;
+}
+div.guideFieldWidget.afTermsAndConditions.tnc > div.afTncContentArea{
+height:auto !important;
+}
+
+@media (min-width: 768px){
+div.guideTermsAndConditions div.guideFieldWidget {
+max-height: 300px;
+height: 250px !important;
+}
+
+.guideFieldWidget .guide-tnc-content {
+ height: auto;
+}
+
+.guideFieldWidget .guide-tnc-checkbox {
+
+margin-top: 20px;
+}
+}
+@media (max-width: 767px){
+div.guideTermsAndConditions div.guideFieldWidget {
+max-height: 300px;
+height: 250px !important;
+}
+
+.guideFieldWidget .guide-tnc-content {
+height: 200px;
+}
+
+.guideFieldWidget .guide-tnc-checkbox {
+
+margin-top: 10px;
+
+}
+}
+
+@media (max-width: 320px){
+.guidePanelNode{
+font-size:12px;
+}
+.guide-tnc-checkbox .guideWidgetLabel label{
+font-size:12px;
+}
+}    
+
+@media (min-width: 768px){
+.Echosign .row {
+margin-left: -45%;
+margin-right: -45%;
+z-index: 10;
+position: relative;
+-webkit-transform: scale(0.85);
+background-color: white;
+}
+ } 
+@media (min-width: 992px){
+.Echosign .row {
+margin-left: -20%;
+margin-right: -20%;
+z-index: 10;
+position: relative;
+background-color: white;
+}
+ }
+    

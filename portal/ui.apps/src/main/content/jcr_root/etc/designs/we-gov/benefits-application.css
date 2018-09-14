@@ -1,0 +1,165 @@
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+*  Copyright 2014 Adobe Systems Incorporated
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe Systems Incorporated and its suppliers,
+* if any.  The intellectual and technical concepts contained
+* herein are proprietary to Adobe Systems Incorporated and its
+* suppliers and are protected by all applicable intellectual property 
+* laws, including trade secret and copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe Systems Incorporated.
+**************************************************************************/
+.question_panel .row div:first-child.col-md-6 {
+    width: 20%;
+}
+
+.guidePanelNode.question_panel .panel {
+    margin-top: 0px;
+}
+
+.question_panel .row div:last-child.col-md-6 {
+    width: 80%;
+}
+
+.question_panel .guidePanelDescription {
+    font-size: 16px;
+}
+
+.questions_container .row.row {
+    margin-top: 0px;
+}
+
+.questions_container .guideFieldNode {
+    padding: 0px 0px 10px 0px;
+}
+
+.questions_container .guideradiobutton .guideFieldLabel {
+    text-align: left;
+    width: 80%;
+    height:auto;
+}
+/*
+.questions_container .guideradiobutton .guideRadioButtonGroupItems{
+width:20%;                    
+ }
+*/
+.questions_container .PanelContainer {
+    width: 100%;
+}
+
+.questions_container .guidePanelNode,.questions_container .panel {
+    background: rgb(246, 246, 246);
+}
+
+.questions_container .guidetoolbar {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    height: 70px;
+    background-color: rgb(216, 233, 240);
+}
+
+.questions_container .guidetoolbar .guideButton {
+    padding: 10px 10px 0px 10px;
+}
+
+.questions_container .guidetoolbar > [id$="submit___guide-item"] {
+    float: right;
+}
+
+.questions_container .guidetoolbar > [id$="nextitemnav___guide-item"] {
+    float: right;
+}
+
+.questions_container [id$="_layoutContainer"] {
+    border: 3px solid rgb(0, 121, 193);
+    border-radius: 6px;
+    margin-top: 0px !important;
+    background: rgb(246, 246, 246);
+}
+
+
+                                     
+
+/*
+.guideradiobutton .guideRadioButtonGroupItems {
+width: 30%;
+}
+*/
+
+.guideradiobutton .guideFieldLabel {
+    width: 60%;
+}
+
+.submit .guideFieldWidget {
+    width: 100%;
+}
+
+.panelNumber {
+    float: right;
+}
+
+.guidePanelNode.fill {
+    padding: 0px;
+}
+
+.guideButton[data-disabled="true"] .button-default {
+    background-color: #C1CCD1;
+}
+
+.toolbar_panel {
+    margin-top: 15px;
+} 
+
+/** Picked from common styles ***/
+
+.__FP_Saved_Message{
+position: fixed !important;
+margin: -100px 0px 0px -200px;
+top: 50%;
+left: 50% !important;
+margin-left:0px !important;        
+}
+#signable_pdf{
+  height:995px !important;
+}
+@media (max-width:991px){
+#signable_pdf{
+width: 850px !important;
+right: 0px;
+left: 0px;
+
+}
+}
+
+@media (max-width:767px){
+
+.guideFieldWidget input[type="date"],
+.guideFieldWidget input[type="text"],
+.guideFieldWidget input[type="password"],
+.guideFieldWidget select,
+.guideFieldWidget textarea{
+font-size:16px;    
+ }
+.questions_container .guideradiobutton .guideFieldLabel{
+width:100%;
+}
+.questions_container .guidetoolbar{
+margin-top: 0px;
+}
+.custom_70 .guideFieldLabel{
+height:auto;
+}
+.custom_60 .right_align .guideFieldLabel{
+    display:none;
+} 
+.guideWidgetLabel.right label, .guideWidgetLabel.left label{
+padding-top:5px;
+}
+
+}

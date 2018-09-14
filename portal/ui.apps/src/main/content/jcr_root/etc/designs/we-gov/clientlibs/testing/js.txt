@@ -1,0 +1,10 @@
+#base=.
+namespace.js
+
+/etc/designs/we-gov/clientlibs/testing/enrollmentDoc/utils/param.js
+/etc/designs/we-gov/clientlibs/testing/css/utils/param.js
+
+
+/etc/designs/we-gov/clientlibs/testing/css/testscript/cssTestScript.js
+
+/etc/designs/we-gov/clientlibs/testing/enrollmentDoc/testscript/enrollmentTestScript.js

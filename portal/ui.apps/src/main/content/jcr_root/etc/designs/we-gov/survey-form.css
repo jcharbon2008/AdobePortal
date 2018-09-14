@@ -1,0 +1,246 @@
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+*  Copyright 2014 Adobe Systems Incorporated
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe Systems Incorporated and its suppliers,
+* if any.  The intellectual and technical concepts contained
+* herein are proprietary to Adobe Systems Incorporated and its
+* suppliers and are protected by all applicable intellectual property 
+* laws, including trade secret and copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe Systems Incorporated.
+**************************************************************************/
+/***** Desktop/iPad Landscape version *****/
+
+@media (min-width: 992px)
+{
+
+.grid1 .guideRadioButtonGroupItems .guideWidgetLabel label {
+display: none;
+}
+
+.grid1 .guideRadioButtonGroup .guideFieldLabel {
+width:16.66%;
+}
+
+.grid1 .guideRadioButtonGroupItems {
+width: 83.33%;
+}            
+
+.grid1 .guideRadioButtonItem {
+padding-right: 8.33%;
+padding-left: 8.33%;
+margin-left: 0px;
+margin-right: 0px;
+width: 19.5%;    
+
+}
+
+.survey-form .panel,
+    .survey-form .row,
+    .survey-form .row .row,
+    .survey.guidePanelNode,
+    .survey .text.parbase {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+.top_label .guideFieldLabel
+{
+width:100%;
+}
+
+.top_label .guideFieldLabel label
+{
+float:left;
+} 
+
+
+.grid1 .guideradiobutton .guideFieldLabel label {
+float: left;
+font-weight: bold;
+word-break: normal;
+text-align: left;    
+}
+
+.header1 .guidetextdraw p{
+font-weight: bold;
+white-space: normal;
+text-align: center;    
+
+}
+
+.header1 .guidetextdraw{
+max-width: 150px;    
+}    
+
+.header1.guidePanelNode{
+#margin-left:30%;
+#padding-right:150px;        
+background:transparent;    
+}
+
+.survey_table.guidePanelNode{
+ border: 1px solid;            
+}
+
+.header1.guidePanelNode{
+border-bottom: 1px solid;            
+}
+
+
+.survey-form .guideFieldWidget{
+/*width:70%;*/
+}
+
+.other_textbox .row:nth-child(2){
+position: relative;
+bottom: 70px;
+left: 150px;
+width:300px;
+height:0px;    
+
+}
+
+.other_textbox .row:nth-child(2)>.col-md-12{
+height:0px;    
+
+}
+
+
+.grid1 .row:nth-child(odd){
+background-color: #A4E0D9;
+}
+
+.grid1 .row:nth-child(even){
+background-color: #F0EBCE;
+}
+
+.header1 {
+display:block
+}
+.survey_table .grid1 .row {
+margin-top: 0px;
+}
+
+}        
+/**** iPad Portrait/iPhone Version *******/
+
+@media (max-width: 991px){
+    .header1 {
+        display:none
+    }
+
+    .grid1 .guideRadioButtonItem {
+       width:100%;
+    }
+
+    .survey-form .panel,
+    .survey-form .row,
+    .survey-form .row .row,
+    .survey.guidePanelNode,
+    .survey .text.parbase {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .comment.guideFieldNode{
+        padding: 10px 20px;
+     }
+
+    .survey_table.guidePanelNode{
+      padding:10px 0px;
+     }
+
+    .survey .text.parbase {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+/**** Default css ****/
+.top_label .guideFieldLabel label{
+    font-weight:bold;
+} 
+
+.grid-questions p{
+    font-weight:bold;
+    font-size:36px;
+}
+
+.survey-form .row{
+    margin-bottom:0px;
+}
+
+.survey-form .header1{
+    padding-bottom:0px;
+}
+
+.vertical_radiobutton .guideRadioButtonItem{
+   width:100%;
+}
+
+
+.tooltip-inner {
+  max-width: 100%;
+}
+
+#guide-mobile-navigator{
+left:40% !important;
+}
+
+.upperToolbar .guidetoolbar{
+margin-top: 0px;
+margin-bottom: 0px;            
+}
+
+.guideButton[data-disabled="true"] .button-default{
+background-color:#C1CCD1;
+}
+
+.guide-mobile-navigator .row{
+margin-bottom:0px;
+ }
+@media (max-width:320px){
+
+.guidePanelDescription {
+font-size: 18px !important; 
+
+}
+.guideFieldNode{
+padding-bottom:0px !important;
+
+} 
+} 
+@media (max-width:767px){
+.navigator-toggle {
+display:none;
+}
+
+.guidebutton.reset .iconButton-icon {
+  background-image: url('../../clientlibs/fd/af/images/reset-ip.png');
+}
+.guidebutton.submit .iconButton-icon {
+  background-image: url('../../clientlibs/fd/af/images/submit-ip.png');
+}
+.guidebutton.moveNext .iconButton-icon {
+  background-image: url('../../clientlibs/fd/af/images/moveNext-ip.png');
+}
+.guidebutton.movePrev .iconButton-icon {
+  background-image: url('../../clientlibs/fd/af/images/movePrev-ip.png');
+}
+.guidebutton.fileattachmentlisting .iconButton-icon {
+  background-image: url('../../clientlibs/fd/af/images/fileattachmentlisting-ip.png');
+}
+}
+
+

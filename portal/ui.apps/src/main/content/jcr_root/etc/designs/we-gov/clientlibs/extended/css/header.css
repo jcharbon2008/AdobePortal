@@ -1,0 +1,553 @@
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+*  Copyright 2014 Adobe Systems Incorporated
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe Systems Incorporated and its suppliers,
+* if any.  The intellectual and technical concepts contained
+* herein are proprietary to Adobe Systems Incorporated and its
+* suppliers and are protected by all applicable intellectual property 
+* laws, including trade secret and copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe Systems Incorporated.
+**************************************************************************/
+.text-grey {
+color: rgb(61, 61, 61);
+}
+
+
+.field-help {
+margin: 10px 0;
+width: 100%;
+border-top: 1px solid rgb(214,214,214);
+padding: 10px;
+border-left: 3px solid rgb(8, 177, 207);
+border: 1px solid rgb(214, 214, 214);
+display: none;
+background: rgb(238, 238, 238);            
+}
+
+.phone-icon {
+background: url(../../../../apps/we-gov/components/infoslider/clientlibs/images/phone-icon.png) no-repeat 0 0;
+padding: 0 0 0 50px;
+}
+
+a, a:link {
+outline: none;
+text-decoration: none;
+}
+
+               
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2014 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+header .signin {
+    float: right;
+    width: 100%;
+}
+
+
+.userinfo nav ul {
+    float: right;
+    list-style: none;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.userinfo ul li {
+    display: inline;
+    padding-left: 10px;
+    margin: 0px;
+}
+
+.userinfo ul li span,
+.userinfo ul li a {
+    color: white;
+    font-size: 1.0em;
+    cursor: pointer;
+}
+
+.userinfo ul li a.btn {
+    background-image: none;
+    background-color: transparent;
+    color: white;
+    text-shadow: none;
+}
+
+.userinfo ul li span {
+    cursor: auto;
+}
+
+.userinfo ul li a:hover {
+    color: black;
+
+}
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2014 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+/* phone landscape */
+@media (max-width: 767px) {
+
+    .signin  {
+        padding-right: 10px;
+        width: auto;
+    }
+
+
+}
+
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2014 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+@media (max-width: 480px) {
+
+    .signin  {
+        display: none;
+        padding-right: 0px;
+    }
+
+    .show {
+        position: absolute;
+        display: block;
+        float: none;
+        top: 70px;
+        z-index: 2;
+    }
+
+    .userinfo nav {
+        width: 100%;
+        float: none;
+        padding-right: 0px;
+    }
+
+    .userinfo nav ul {
+        width: 100%;
+        display: inline;
+        min-height: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: 0;
+
+    }
+
+    .userinfo nav ul li {
+        background:none;
+        font-size: 0.8em;
+    }
+
+    .userinfo nav ul li span {
+        color: #ffffff;
+    }
+
+}
+
+
+
+
+/*************************************************************************
+*
+* ADOBE CONFIDENTIAL
+* __________________
+*
+*  Copyright 2014 Adobe Systems Incorporated
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe Systems Incorporated and its suppliers,
+* if any.  The intellectual and technical concepts contained
+* herein are proprietary to Adobe Systems Incorporated and its
+* suppliers and may be covered by U.S. and Foreign Patents,
+* patents in process, and are protected by trade secret or copyright law.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe Systems Incorporated.
+**************************************************************************/
+
+
+
+/***** For Grid *****/
+
+a, a:link {
+    outline: none;
+    text-decoration: none;
+}
+
+/* navbar-header bg color */
+/*.bg-blue {*/
+    /*background-color: #2D62AC!important;*/
+    /*color: rgb(255, 255, 255);*/
+    /*height: 65px;*/
+    /*border:none!important;*/
+/*}*/
+
+/*.logo {*/
+    /*display: table;*/
+/*}*/
+
+/*.navbar-default div{*/
+    /*width:auto;*/
+    /*float:left;*/
+    /*height:100%;*/
+    /*background: #2D62AC!important;*/
+    /*margin: 0px;*/
+/*}*/
+
+/*.navbar-default .navbar-toggle {*/
+    /*margin-top: 0;*/
+    /*!* margin-right: 5px; *!*/
+    /*background-color:#2D62AC;*/
+    /*border: none;*/
+    /*!* padding: 8px; *!*/
+/*}*/
+
+
+/*.navbar-default .col-xs-2 {*/
+    /*float: right;*/
+    /*background: none;*/
+    /*padding: 0;*/
+    /*border: none;*/
+    /*margin-left: 5px;*/
+/*}*/
+
+/*.navbar-default .form-control {*/
+    /*float: right;*/
+    /*margin-top: 21px;*/
+    /*margin-right: 5px;*/
+    /*height: 32px;*/
+    /*border-radius: 4px;*/
+    /*box-shadow: none;*/
+/*}*/
+
+/*.navbar-default .search-toggle {*/
+    /*background: rgb(5, 89, 132) url('extended/images/s-icon.png') no-repeat 50%;*/
+    /*border-radius: 4px;*/
+    /*float: right;*/
+    /*margin: 20px 5px 0 0;*/
+    /*padding: 17px 20px;*/
+    /*position: relative;*/
+    /*margin-top: 20px;*/
+    /*border: none;*/
+    /*width: 20px;*/
+    /*height: 20px;*/
+    /*display: block;*/
+/*}*/
+
+/*li.sep1{*/
+    /*display:none !Important;*/
+/*}*/
+
+/*.navbar-default .navbar-nav > li > a {*/
+    /*line-height: 65px;*/
+    /*padding: 0px 15px;*/
+/*}*/
+
+/*.userinfo ul{*/
+    /*margin-bottom: 0px;*/
+/*}*/
+
+/*.userinfo ul>li {*/
+    /*float: left;*/
+    /*width: auto;*/
+    /*padding: 0px 15px;*/
+    /*line-height: 65px;*/
+    /*margin: 0px;*/
+/*}*/
+
+/*.logo > a {*/
+    /*height: 100%;*/
+    /*display: table-cell;*/
+    /*vertical-align: middle;*/
+/*}*/
+
+/*.logo > a >img{*/
+    /*padding:0;*/
+    /*padding-left: 0px;*/
+/*}*/
+#wrap {
+    padding-bottom: 0px;
+}
+.navbar-fixed-top {
+    margin-bottom: 0px;
+    padding: 0 6%;
+}
+#mobile-navbar {
+    float: right;
+}
+#topnav>.active > a {
+    color: white;
+}
+#topnav a {
+    font-family: Open-Sans, Helvetica Neue, Helvetica, Arial, sans-serif!important;
+    font-size: 14px;
+}
+#signin, #signout{
+    display:block;
+}
+.userinfo ul li span, .userinfo ul li a{
+    font-family: Open-Sans, Helvetica Neue, Helvetica, Arial, sans-serif!important;
+    font-size: 14px;
+}
+
+
+@media(min-width:769px) and (max-width:1280px){
+    .navbar-fixed-top {
+        margin-bottom: 0px;
+        padding: 0%;
+        height: 65px !important;
+    }  
+    #mobile-navbar{
+        width:100%;
+        height: 65px !important;
+    } 
+    .logo {
+        padding: 15px;
+    }
+    
+    .page-content {
+        margin-top: 130px !important;
+    }
+}
+
+@media(min-width:668px) and (max-width:768px){
+.navbar-fixed-top {
+        margin-bottom: 0px;
+        padding: 0%;
+        height: 65px !important;
+    }
+    
+    #mobile-navbar{
+        width:100%;
+    } 
+
+.logo img {
+    width: 180px;
+    margin-top: 0;
+}
+}
+
+@media (max-width: 667px){
+
+body,#tabs{
+    background-color:#1A3A65!important;
+}
+.draftsAndSubmissions #tabs > .ui-widget-header{
+    background:transparent !important;     
+    padding-top: 25px;
+}
+.draftsAndSubmissions .ui-widget-content{
+    background:transparent !important;
+}
+#mobile-navbar{
+    position:relative;
+}
+#submittedGuideTitle, #draftsTitle{
+    width:100%;
+}
+.iphone-pad{
+    padding-left:0px;
+    padding-right:0px;
+}        
+.navbar-collapse{
+    margin-top:0px;
+}
+
+.logo > a > img{
+    width: 180px;
+    margin-top:0px;
+    padding-left: 0px;
+}
+
+#mob-userinfo > div{
+    margin: 0px;
+}    
+#logo-section{
+    padding:0px;
+}
+.draftsAndSubmissions .__FP_submittedGuidelinkTime , .draftsAndSubmissions .__FP_draftlinkTime{
+    color:white;
+}
+.userinfo #signin,.userinfo #signout{
+    display:block!important;
+}
+.page-content {
+    margin-top: 0px;
+}
+.draftsAndSubmissions #tabs li[aria-selected="false"] a{
+    font-weight: normal;
+    background:none;
+}        
+.draftsAndSubmissions #submittedGuide{
+    padding:0px;
+}    
+/******** cust nav bar*****/
+#mob-userinfo{
+    position: relative;
+    right: 0px;
+    top: 0;
+    padding: 15px 0px;
+    margin-right: 0px;
+}
+#mobile-navbar {
+    position: absolute;
+    left: auto;
+    right: 0px;
+    top: 50px;
+    background-color: #132B4D;
+}
+.popover.bottom.user-info .arrow{
+    left:76%;
+}
+.customeButton{
+    margin-top:0px !important;
+}
+#mobile-custom-navbar{
+    display:block !important;
+}
+#mobile-custom-navbar .home{
+    display:none;
+}
+#mobile-custom-navbar li{
+    float: left;
+    text-align: center;
+    width: 50%;
+}
+#mobile-custom-navbar ul{
+    border-bottom: solid #132b4d 2px;
+    height: 50px;
+}
+#mobile-custom-navbar li a{
+    width:100%;  
+    color:#b2b2b2;    
+}
+#mobile-custom-navbar .active > a{
+    color:#17b28d;
+    border-bottom:5px solid;
+}
+#topnav>.active > a{
+    color:#17b28d;
+}
+.draftsAndSubmissions .__FP_horizontalRuler{
+    border-bottom: 1px solid #132b4d !important;
+}
+.draftsAndSubmissions .__FP_eachSubmittedGuideLink > div{
+    background-color:#144C9B;
+    margin-bottom:15px;   
+}
+.draftsAndSubmissions .__FP_eachDraftLink  > div{
+    background-color:#144C9B;
+    margin-bottom:15px;   
+}
+.__FP_iconClass{
+    
+}
+.__FP_title-forms,.tab-icon{
+    display:none;
+}
+#formsViewContainer .__FP_horizontalRuler{
+    display:none;
+}
+.__FP_single-color .description{
+    color:white;
+}
+.customOptions{
+    height:5%;
+    background-color: #2D62AC;    
+    float: right;
+    width: 100%;
+    display:none; 
+    text-align: right;
+    padding-top: 7px;
+}
+.customGrid{
+    height: 100px;
+}
+.formDetails{
+    padding: 5% 3% !important;
+}
+.navbar-fixed-top {
+    padding: 0 15px;
+}
+/*********/
+}
+
+/*** Added Css for career site page ***/
+@media (max-width: 767px){
+.title.section{
+            color:#FFF;
+        }
+    }
+
+
+
+
+
+
+
+#wb-sm .menu {
+    float: none !important;
+    padding: 0;
+}
+
+.we-lang-icon {
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    width: 19px;
+    line-height: 16px;
+}
+
+.we-lang-icon:before {
+    content: "\00a0";
+}
+
+.we-lang-icon-ca {
+    background-image: url("/etc.clientlibs/weretail/clientlibs/clientlib-site/resources/flags/CA.png");
+}

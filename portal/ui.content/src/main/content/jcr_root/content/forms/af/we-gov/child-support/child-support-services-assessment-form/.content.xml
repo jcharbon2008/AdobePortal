@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/fd/af/default"
+        cq:deviceGroups="/etc/mobile/groups/responsive"
+        cq:lastModified="{Date}2017-04-06T17:31:04.479+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/fd/af/templates/surveyTemplate"
+        jcr:language="en"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Applicant Assessment Application"
+        sling:resourceType="fd/af/components/page/survey">
+        <guideContainer
+            fd:version="1.1"
+            jcr:lastModified="{Date}2015-06-29T13:48:20.297+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="fd/af/components/guideContainerWrapper"
+            actionType="/libs/fd/af/components/guidesubmittype/store"
+            cssFileRef="/etc/designs/we-gov/clientlibs/assessmentStyle.css"
+            dorTemplateRef="/content/dam/formsanddocuments/we-gov/child-support/child-support-services-assessment-form/jcr:content/renditions/dorTemplate"
+            dorType="generate"
+            guideCss="guideContainer"
+            guideNodeClass="guideContainerNode"
+            name="guide1"
+            schemaType="xmlschema"
+            xsdRef="/assets/xsdRef.xsd"
+            xsdRootElement="cssAplicationVerification">
+            <layout
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/layouts/defaultGuideLayout"
+                mobileLayout="fd/af/layouts/mobile/simple"
+                toolbarPosition="Bottom"/>
+            <rootPanel
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/components/rootPanel"
+                guideNodeClass="rootPanelNode"
+                name="guideRootPanel"
+                panelSetType="Navigable">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/gridFluidLayout"
+                    nonNavigable="true"
+                    toolbarPosition="Bottom"/>
+                <items jcr:primaryType="nt:unstructured">
+                    <applicationVerificationPanel
+                        jcr:description="Child Support Services Applicant Assessment"
+                        jcr:lastModified="{Date}2015-07-22T05:49:03.948Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Child Support Services Applicant Assessment"
+                        sling:resourceType="fd/af/components/panel"
+                        guideNodeClass="guidePanel"
+                        name="applicationVerificationPanel">
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                            <guidetextdraw
+                                jcr:created="{Date}2015-06-29T12:55:13.685+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-06-29T17:44:38.710+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="fd/af/components/guidetextdraw"
+                                _value="&lt;p>Does the information provided by the applicant in the application tally with the information verified by you?&lt;/p>&#xa;"
+                                guideNodeClass="guideTextDraw"
+                                name="applicationVerificationText"/>
+                            <guideseparator
+                                jcr:created="{Date}2015-06-29T12:56:12.323+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-06-29T12:58:52.480+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Separator"
+                                sling:resourceType="fd/af/components/guideseparator"
+                                css="darkSep"
+                                guideNodeClass="guideSeparator"
+                                name="separator1435562772371"
+                                thickness="1"/>
+                            <guidecheckbox
+                                jcr:created="{Date}2015-06-29T12:56:49.153+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-07-07T11:19:21.516+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Home address"
+                                sling:resourceType="fd/af/components/guidecheckbox"
+                                alignment="guideFieldHorizontalAlignment"
+                                bindRef="/cssAplicationVerification/homeAddress"
+                                css="widget_imageCheckButtonWidget fancyYesNo"
+                                guideNodeClass="guideCheckBox"
+                                name="homeAddress"
+                                options="[Yes=Yes]"/>
+                            <guideseparator_350136274
+                                jcr:created="{Date}2015-06-29T12:58:32.533+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-06-29T12:58:48.326+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Separator"
+                                sling:resourceType="fd/af/components/guideseparator"
+                                css="lightSep"
+                                guideNodeClass="guideSeparator"
+                                name="separator_3501362741435562912597"
+                                thickness="1"/>
+                            <guidecheckbox_348985891
+                                jcr:created="{Date}2015-06-29T12:59:02.880+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-07-07T11:19:35.778+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Child for whom Child Support Services are needed is living with applicant"
+                                sling:resourceType="fd/af/components/guidecheckbox"
+                                alignment="guideFieldHorizontalAlignment"
+                                bindRef="/cssAplicationVerification/childLivingWithApplicant"
+                                css="widget_imageCheckButtonWidget fancyYesNo"
+                                guideNodeClass="guideCheckBox"
+                                name="childLivingWithApplicant"
+                                options="[Yes=Yes]"/>
+                            <guideseparator_1168712987
+                                jcr:created="{Date}2015-06-29T13:00:02.416+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-06-29T13:00:10.785+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Separator"
+                                sling:resourceType="fd/af/components/guideseparator"
+                                css="lightSep"
+                                guideNodeClass="guideSeparator"
+                                name="separator_11687129871435563002529"
+                                thickness="1"/>
+                            <guidecheckbox_930605913
+                                jcr:created="{Date}2015-06-29T13:00:14.210+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-07-07T11:19:50.878+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Child’s age on Birth Certificate"
+                                sling:resourceType="fd/af/components/guidecheckbox"
+                                alignment="guideFieldHorizontalAlignment"
+                                bindRef="/cssAplicationVerification/childAge"
+                                css="widget_imageCheckButtonWidget fancyYesNo"
+                                guideNodeClass="guideCheckBox"
+                                name="childAgeOnBirthCertificate"
+                                options="[Yes=Yes]"/>
+                            <guideseparator_1951030954
+                                jcr:created="{Date}2015-06-29T13:00:58.439+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-06-29T13:01:03.428+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Separator"
+                                sling:resourceType="fd/af/components/guideseparator"
+                                css="lightSep"
+                                guideNodeClass="guideSeparator"
+                                name="separator_19510309541435563058515"
+                                thickness="1"/>
+                            <guidecheckbox_677443936
+                                jcr:created="{Date}2015-06-29T13:01:06.767+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-07-07T11:20:08.296+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Marital status"
+                                sling:resourceType="fd/af/components/guidecheckbox"
+                                alignment="guideFieldHorizontalAlignment"
+                                bindRef="/cssAplicationVerification/maritalStatus"
+                                css="widget_imageCheckButtonWidget fancyYesNo"
+                                guideNodeClass="guideCheckBox"
+                                name="maritalStatus"
+                                options="[Yes=Yes]"/>
+                            <guideseparator_1738240221
+                                jcr:created="{Date}2015-06-29T13:01:30.463+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-06-29T13:01:40.472+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Separator"
+                                sling:resourceType="fd/af/components/guideseparator"
+                                css="lightSep"
+                                guideNodeClass="guideSeparator"
+                                name="separator_17382402211435563090543"
+                                thickness="1"/>
+                            <guidecheckbox_423025304
+                                jcr:created="{Date}2015-06-29T13:02:04.131+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-07-07T11:20:22.871+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Services that the applicant has previously applied for or received (Child Support Services, TANF/AFDC, Medical Assistance)"
+                                sling:resourceType="fd/af/components/guidecheckbox"
+                                alignment="guideFieldHorizontalAlignment"
+                                bindRef="/cssAplicationVerification/previouslyApplied"
+                                css="widget_imageCheckButtonWidget fancyYesNo"
+                                guideNodeClass="guideCheckBox"
+                                name="prevAppliedStatus"
+                                options="[Yes=Yes]"/>
+                            <guideseparator_735096225
+                                jcr:created="{Date}2015-06-29T13:02:32.520+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-06-29T13:02:42.833+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Separator"
+                                sling:resourceType="fd/af/components/guideseparator"
+                                css="lightSep"
+                                guideNodeClass="guideSeparator"
+                                name="separator_7350962251435563152665"
+                                thickness="1"/>
+                            <guidecheckbox_54642557
+                                jcr:created="{Date}2015-06-29T13:02:51.713+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-07-07T11:20:39.448+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Work address"
+                                sling:resourceType="fd/af/components/guidecheckbox"
+                                alignment="guideFieldHorizontalAlignment"
+                                bindRef="/cssAplicationVerification/workAddress"
+                                css="widget_imageCheckButtonWidget fancyYesNo"
+                                guideNodeClass="guideCheckBox"
+                                name="workAddress"
+                                options="[Yes=Yes]"/>
+                            <guideseparator_790546763
+                                jcr:created="{Date}2015-06-29T13:03:16.588+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-06-29T13:03:25.208+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Separator"
+                                sling:resourceType="fd/af/components/guideseparator"
+                                css="darkSep"
+                                guideNodeClass="guideSeparator"
+                                name="separator_7905467631435563196679"
+                                thickness="1"/>
+                            <guidedropdownlist
+                                jcr:created="{Date}2015-06-29T13:03:43.872+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-07-07T11:22:54.700+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="How many children does the applicant have?"
+                                sling:resourceType="fd/af/components/guidedropdownlist"
+                                _value="0"
+                                assistPriority="custom"
+                                bindRef="/cssAplicationVerification/numOfChildren"
+                                guideNodeClass="guideDropDownList"
+                                name="numOfChildren"
+                                options="[0=Select number,1=One,2=Two,3=Three,4=Four,5=Five,6=Six]"/>
+                            <guideseparator_1398582675
+                                jcr:created="{Date}2015-06-29T13:04:47.394+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-06-29T13:04:59.223+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Separator"
+                                sling:resourceType="fd/af/components/guideseparator"
+                                css="darkSep"
+                                guideNodeClass="guideSeparator"
+                                name="separator_79054676314355631966793"
+                                thickness="1"/>
+                            <guidecheckbox_813948421
+                                jcr:created="{Date}2015-06-29T13:05:08.267+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-07-07T11:25:53.854+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Have you asked the applicant to visit a local Child Support Services office for interview?"
+                                sling:resourceType="fd/af/components/guidecheckbox"
+                                alignment="guideFieldHorizontalAlignment"
+                                bindRef="/cssAplicationVerification/visitLocalCSS"
+                                css="widget_imageCheckButtonWidget fancyYesNo"
+                                guideNodeClass="guideCheckBox"
+                                name="visitLocalCSSOffice"
+                                options="[Yes=Yes]"/>
+                            <guideseparator_234899452
+                                jcr:created="{Date}2015-06-29T13:05:51.292+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-06-29T14:06:01.037+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Separator"
+                                sling:resourceType="fd/af/components/guideseparator"
+                                css="darkSep"
+                                guideNodeClass="guideSeparator"
+                                name="separator_2348994521435563351397"
+                                thickness="1"/>
+                            <guidetextbox
+                                jcr:created="{Date}2015-06-29T13:07:16.920+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-01-24T06:50:56.244Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Additional comments"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                allowRichText="true"
+                                assistPriority="custom"
+                                autofillFieldKeyword="name"
+                                bindRef="/cssAplicationVerification/additionalComments"
+                                enabled="{Boolean}true"
+                                guideNodeClass="guideTextBox"
+                                multiLine="true"
+                                name="additionalComments"
+                                placeholderText="Type here"
+                                textIsRich="[true,true,true]"
+                                visible="{Boolean}true"/>
+                            <guideseparator_1333954997
+                                jcr:created="{Date}2015-06-29T13:07:54.856+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-06-29T13:08:07.417+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Separator"
+                                sling:resourceType="fd/af/components/guideseparator"
+                                css="darkSep"
+                                guideNodeClass="guideSeparator"
+                                name="separator_13339549971435563474966"
+                                thickness="1"/>
+                            <guidescribble
+                                jcr:created="{Date}2015-06-29T17:40:43.235+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-07-07T11:26:21.521+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Applicant signature"
+                                sling:resourceType="fd/af/components/guidescribble"
+                                aspectRatio="5"
+                                assistPriority="custom"
+                                bindRef="/cssAplicationVerification/applicantSignature"
+                                guideNodeClass="guideScribble"
+                                name="applicantSignature"/>
+                        </items>
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                            columns="1"
+                            nonNavigable="true"
+                            toolbarPosition="Bottom"/>
+                    </applicationVerificationPanel>
+                </items>
+            </rootPanel>
+            <assets jcr:primaryType="nt:unstructured">
+                <dictionary jcr:primaryType="nt:unstructured">
+                    <fr/>
+                    <de/>
+                </dictionary>
+                <xsdRef.xsd/>
+            </assets>
+            <view jcr:primaryType="nt:unstructured">
+                <print
+                    jcr:lastModified="{Date}2017-04-06T17:31:04.289+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/authoring/components/dor/dorProperties"
+                    accentColor="#04a6cb"
+                    fontFamily="Arial"
+                    hidePanelDescriptions="true"
+                    metaTemplateRef="/libs/fd/af/dor/templates/defaultTemplate.xdp"
+                    optionSeparator=", "
+                    showSelectedOptions="true">
+                    <branding jcr:primaryType="nt:unstructured">
+                        <items jcr:primaryType="nt:unstructured">
+                            <Header jcr:primaryType="nt:unstructured">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <HeaderInfo jcr:primaryType="nt:unstructured">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <AF_FORM_TITLE
+                                                jcr:primaryType="nt:unstructured"
+                                                resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                                value="Child Support Services"/>
+                                            <AF_HEADER_TEXT
+                                                jcr:primaryType="nt:unstructured"
+                                                resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                                value="© 2017 We.Gov | All rights reserved"/>
+                                        </items>
+                                    </HeaderInfo>
+                                    <AF_LOGO_IMAGE
+                                        jcr:primaryType="nt:unstructured"
+                                        fileName="we.GOV_Dor.png"
+                                        fileReference="/content/dam/we-gov/we.GOV_Dor.png"
+                                        valueFrom="     "/>
+                                </items>
+                            </Header>
+                            <Footer jcr:primaryType="nt:unstructured">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <disclaimerLabel
+                                        jcr:primaryType="nt:unstructured"
+                                        resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                        value="DISCLAIMER"/>
+                                    <disclaimerText
+                                        jcr:primaryType="nt:unstructured"
+                                        resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                        value="This document is strictly private, confidential and personal to its recipients and should not be copied, distributed or reproduced in whole or in part, nor passed to any third party."/>
+                                </items>
+                            </Footer>
+                        </items>
+                    </branding>
+                </print>
+            </view>
+        </guideContainer>
+    </jcr:content>
+</jcr:root>

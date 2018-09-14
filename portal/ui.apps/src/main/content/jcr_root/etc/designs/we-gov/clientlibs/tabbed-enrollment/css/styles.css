@@ -1,0 +1,127 @@
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+*  Copyright 2014 Adobe Systems Incorporated
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe Systems Incorporated and its suppliers,
+* if any.  The intellectual and technical concepts contained
+* herein are proprietary to Adobe Systems Incorporated and its
+* suppliers and are protected by all applicable intellectual property 
+* laws, including trade secret and copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe Systems Incorporated.
+**************************************************************************/
+@media (min-width:992px){
+.financialdetails .guideFieldLabel {display:none;}
+}
+@media (max-width:991px){
+.financialdetails .guideTextDraw {display:none;}
+}    
+.upperNavigation > li  a{
+background-image: url("../images/reason.png");
+}
+
+
+.upperNavigation .finance_external_nav {
+  background-image: url("../images/finance.png");
+}
+.upperNavigation .cert_external_nav {
+  background-image: url("../images/certify.png");
+}
+
+.upperNavigation .info_external_nav {
+  background-image: url("../images/info.png");
+}
+.active .guideNavIcon.info_nav {
+  background-image: url("../images/2.png");
+
+}
+.active .guideNavIcon.info_nav > .info_nav .active {
+  background-image: url("../images/2.png");
+
+}
+.active .guideNavIcon.finance_nav {
+  background-image: url("../images/8.png");
+
+}
+.guideNavIcon.info_nav {
+  background-image: url("../images/3.png");
+  background-repeat: no-repeat;
+
+}
+.guideNavIcon.finance_nav {
+  background-image: url("../images/9.png");
+  background-repeat: no-repeat;
+
+}
+
+
+.upperNavigation > li  a {
+color: white;
+text-transform: uppercase;
+text-decoration: none;
+font-size: 16px;
+padding: 12px 10px 12px 40px;
+display: table-cell;
+line-height: 100%;
+}
+
+.progress{
+background: rgb(153, 153, 153);
+    height:100%;
+    border:none;
+    margin:0px 0px 0px 0px ;
+
+margin-bottom: 0px;
+/* background-color: #f5f5f5; */
+border-radius:0px;
+-webkit-box-shadow: none;
+box-shadow:none;
+}
+
+.upperNavigation > li{
+			background-image:none;
+            padding: 0px;
+        }    
+.upperNavigation > li > a{
+		background-image: url("../images/reason.png");
+
+        }
+.upperNavigation > li a {
+	background-repeat: no-repeat;
+    } 
+
+.info  .guideFieldLabel{width:100%;padding:0px}
+.info  .guideFieldLabel label{float:left}
+/*.info  .guideFieldWidget{float:none;width:100%} */
+
+.finance .guideFieldWidget{width:100%}
+/*.info .guideCheckBoxGroupItems{width:100%} */
+
+
+
+.guideFieldNode[data-mandatory="true"] label::after {
+color: red;
+content: "*";
+}
+
+.guideFieldNode .guideFieldError {
+
+color: red;
+}
+
+label{word-wrap:normal;
+word-break:normal;}
+
+@media (max-width:991px){
+.guidefileupload{
+margin-top:75px;
+}
+.upperNavigation{
+ display:none;   }        
+}    
+

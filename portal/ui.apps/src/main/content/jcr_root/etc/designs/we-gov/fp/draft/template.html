@@ -1,0 +1,17 @@
+<div data-repeatable="true" class="__FP_eachDraftLink">
+        <div tabindex='0' class='__FP_iconClass ${iconClass}'>
+                <img src="${contextPath}${formPath}${guidePath}/jcr:content/renditions/cq5dam.thumbnail.319.319.png" style="width:100%; height:100%;">
+            </div>
+            <div class="__FP_contentRemaining">
+                <a tabindex='0' class="link __FP_draftlink" title=${formName} href="${renderPath}.html/draft/${draftID}?mfDraftId=${draftID}&wcmmode=disabled" target="_blank">${name}</a>
+
+        		<div tabindex='0' class="__FP_draftDesc" title="${description}">${description}</div>
+        		<div class="__FP_draftlinkTime" tabindex='0' title='At ${Today} ${TimeNow}' target='_self'>${diffTime}</div>
+        		<span class="__FP_actions">
+                <a class="__FP_deleteDraft" tabindex='0' draftID='${draftID}' title="Delete"></a>
+                 <a class="__FP_newInstance" tabindex="0" href="${renderPath}.html/draft/${draftID}?fpNewInstance=true&wcmmode=disabled" target="_blank" title="Start a new form using this form data"></a>
+        </span>
+         
+    </div>
+
+    <div class="__FP_horizontalRuler"></div>

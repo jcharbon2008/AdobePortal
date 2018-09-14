@@ -1,0 +1,1119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2017-09-19T16:10:13.568+02:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/we-gov/settings/wcm/templates/we-gov-emp-template"
+        jcr:language="en"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Leave Application"
+        sling:resourceType="fd/af/components/page2/aftemplatedpage">
+        <guideContainer
+            cq:cssClass="guide-1481003870889"
+            fd:version="1.1"
+            jcr:lastModified="{Date}2017-05-29T17:46:45.423Z"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="fd/af/components/guideContainer"
+            actionType="fd/dashboard/components/actions/aemworkflowsubmit"
+            afVersion="{Long}1"
+            attachmentsFolderPath="pto"
+            autoSaveStrategyType="fd/fp/components/actions/autosave/timebased"
+            clientLibRef="we-gov-employee-js"
+            cssStyle="@media (max-width : 767px){&#xa;.guide-1481003870889 .guide-header-bar{&#xa;height:0px;&#xa;display:none;&#xa;display:none !important;&#xa;}&#xa;}&#xa;@media (max-width : 479px){&#xa;.guide-1481003870889 .guide-header-bar{&#xa;&#xa;}&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1481003870889 .tab-navigators.tab-navigators-mobile{&#xa;display:none;&#xa;&#xa;}&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1481003870889 .guide-mobile-navigator .navigator-toggle{&#xa;&#xa;}&#xa;}&#xa;@media (max-width : 479px){&#xa;.guide-1481003870889 .guide-mobile-navigator .navigator-toggle{&#xa;&#xa;}&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1481003870889 .guide-nav-prev.guide-nav-toolbar-button{&#xa;&#xa;}&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1481003870889 .guide-nav-next.guide-nav-toolbar-button{&#xa;&#xa;}&#xa;}&#xa;@media (max-width : 479px){&#xa;.guide-1481003870889 .guide-header-bar .guide-breadcrumb{&#xa;&#xa;}&#xa;}&#xa;"
+            dataXMLPath="pto.xml"
+            disableSwipeGesture="{Boolean}true"
+            dorPath="dor/pto.pdf"
+            dorTemplateRef="/content/dam/formsanddocuments/we-gov/employee/self-service/leave-application/jcr:content/renditions/dorTemplate"
+            dorType="generate"
+            enableAsyncSubmission="true"
+            formDataModelId="/content/dam/formsanddocuments-fdm/db"
+            functionToExecute="invokeFDMOperation"
+            guideCss="guideContainer"
+            guideNodeClass="guideContainerNode"
+            guideNodePath="/content/forms/af/we-gov/employee/self-service/leave-application/jcr:content/guideContainer/rootPanel/items/leaveaccordion/items/panel1479384245206/items/table_1572286793"
+            input="\{}"
+            name="guide1"
+            operationName="get_14918956644380"
+            prefillService="FDM"
+            schemaRef="/content/dam/formsanddocuments-fdm/db"
+            schemaType="formdatamodel"
+            textIsRich="true"
+            thankYouMessage="&lt;p>&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Your leave application has been submitted successfully.&lt;/p>&#xd;&#xa;"
+            thankYouOption="message"
+            themeRef="/content/dam/formsanddocuments-themes/we-gov/employee"
+            useExistingAF="false"
+            workflowModel="/etc/workflow/models/we-gov/employee/self-service/we-gov-employee-leave-application/jcr:content/model">
+            <layout
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/layouts/defaultGuideLayout"
+                mobileLayout="fd/af/layouts/mobile/simple"
+                toolbarPosition="Bottom"/>
+            <rootPanel
+                cq:cssClass="guide-1487488470925"
+                jcr:lastModified="{Date}2017-05-29T17:15:02.578Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/components/rootPanel"
+                completionExpReq="{Boolean}false"
+                cssStyle=""
+                dorExcludeDescription="true"
+                dorExcludeTitle="true"
+                guideNodeClass="rootPanelNode"
+                name="guideRootPanel"
+                panelSetType="Navigable"
+                validateOnStepCompletion="{Boolean}false">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/gridFluidLayout"
+                    columns="2"
+                    nonNavigable="true"
+                    toolbarPosition="Bottom"/>
+                <items
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/components/rootPanel">
+                    <personlaInfo
+                        jcr:description=""
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Personal nofrmation"
+                        sling:resourceType="fd/af/components/panel"
+                        guideNodeClass="guidePanel"
+                        name="personlaInfo">
+                        <items jcr:primaryType="nt:unstructured">
+                            <guidetextbox
+                                jcr:created="{Date}2017-05-29T17:12:09.424Z"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-05-29T17:30:29.871Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Employee ID"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                bindRef="/EMPLOYEE_1490098107877/EMPNO"
+                                guideNodeClass="guideTextBox"
+                                name="employeeID"
+                                textIsRich="[true,true,true]">
+                                <fd:rules
+                                    fd:enabled="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;DISABLE_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.personlaInfo.employeeID&quot;\,&quot;type&quot;:&quot;FIELD&quot;\,&quot;name&quot;:&quot;employeeID&quot;}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:null}\,{&quot;nodeName&quot;:&quot;Else&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;DONOTHING_OR_ENABLE&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Enable&quot;\,&quot;value&quot;:null}}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n *  SET VALUE OF No. Of Days to  (Output of Function calcBusinessDays) \\n *\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nfalse;\\n\\n&quot;\,&quot;eventName&quot;:&quot;Enabled&quot;}]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <fd:scripts jcr:primaryType="nt:unstructured"/>
+                            </guidetextbox>
+                            <guidetextbox_copy
+                                jcr:created="{Date}2017-05-29T17:12:09.424Z"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-05-29T17:31:19.245Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Employee Name"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                bindRef="/EMPLOYEE_1490098107877/EMPNAME"
+                                guideNodeClass="guideTextBox"
+                                name="name"
+                                textIsRich="[true,true,true]">
+                                <fd:rules
+                                    fd:enabled="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;DISABLE_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.personlaInfo.name&quot;\,&quot;type&quot;:&quot;TEXT FIELD|FIELD|AFCOMPONENT|STRING&quot;\,&quot;name&quot;:&quot;name&quot;}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:null}\,{&quot;nodeName&quot;:&quot;Else&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;DONOTHING_OR_ENABLE&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Enable&quot;\,&quot;value&quot;:null}}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n *  SET VALUE OF No. Of Days to  (Output of Function calcBusinessDays) \\n *\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nfalse;\\n\\n&quot;\,&quot;eventName&quot;:&quot;Enabled&quot;}]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <fd:scripts jcr:primaryType="nt:unstructured"/>
+                            </guidetextbox_copy>
+                        </items>
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                            columns="1"
+                            toolbarPosition="Bottom"/>
+                    </personlaInfo>
+                    <leaveaccordion
+                        cq:cssClass="guide-1480934900315"
+                        jcr:lastModified="{Date}2017-03-29T18:33:57.001+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="LeaveAccordion"
+                        sling:resourceType="fd/af/components/panel"
+                        colspan="6"
+                        completionExpReq="{Boolean}false"
+                        cssStyle=".guide-1480934900315 .accordion-navigators .guideHeader > a{&#xa;border-style:hidden;&#xa;&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1480934900315 .accordion-navigators .guideHeader > a{&#xa;&#xa;}&#xa;}&#xa;@media (max-width : 479px){&#xa;.guide-1480934900315 .accordion-navigators .guideHeader > a{&#xa;padding-left:24px;&#xa;&#xa;}&#xa;.guide-1480934900315 .accordion-navigators .active > .guideHeader > a, .accordion-navigators .active .guideHeader > a:hover{&#xa;&#xa;}&#xa;}&#xa;.guide-1480934900315 .afAccordionPanel{&#xa;padding-left:1.5rem;&#xa;padding-top:0px;&#xa;&#xa;}&#xa;.guide-1480934900315 .accordion-navigators .guideHeader .guideSummary{&#xa;&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1480934900315 .accordion-navigators .guideHeader .guideSummary{&#xa;font-size:13px;&#xa;font-weight:bold;&#xa;&#xa;}&#xa;.guide-1480934900315 .accordion-navigators .active > .guideHeader .guideSummary, .accordion-navigators .active > .guideHeader .guideSummary:hover{&#xa;font-size:13px;&#xa;font-weight:bold;&#xa;&#xa;}&#xa;}&#xa;@media (max-width : 479px){&#xa;.guide-1480934900315 .accordion-navigators .guideHeader .guideSummary{&#xa;&#xa;}&#xa;}&#xa;"
+                        dorExcludeTitle="true"
+                        guideNodeClass="guidePanel"
+                        name="leaveaccordion"
+                        textIsRich="true"
+                        validateOnStepCompletion="{Boolean}false">
+                        <items jcr:primaryType="nt:unstructured">
+                            <panel1479384245206
+                                jcr:lastModified="{Date}2016-12-05T10:43:36.836Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Leave Balance"
+                                sling:resourceType="fd/af/components/panel"
+                                colspan="6"
+                                completionExpReq="{Boolean}false"
+                                dorExclusion="true"
+                                guideNodeClass="guidePanel"
+                                name="leavetable"
+                                summaryExpVisible="yes"
+                                textIsRich="true">
+                                <items
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout">
+                                    <table_1572286793
+                                        cq:cssClass="guide-1480925505740"
+                                        jcr:created="{Date}2016-11-22T16:12:14.757+05:30"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-04-13T14:03:28.026+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Leave Balance Table"
+                                        sling:resourceType="fd/af/components/table"
+                                        cssStyle=".guide-1480925505740 .guideTableNode table td{&#xa;height:40px;&#xa;&#xa;}&#xa;.guide-1480925505740 .guideTableNode table{&#xa;left:-3.3%;&#xa;position:relative;&#xa;border-style:solid;&#xa;border-bottom-width:2px;&#xa;border-left-width:0px;&#xa;border-right-width:0px;&#xa;border-color:#DDDDDD;&#xa;border-top-width:2px;&#xa;border-collapse: initial;&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1480925505740 .guideTableNode table{&#xa;left:0% !important;&#xa;}&#xa;}&#xa;.guide-1480925505740 .guideTableNode table .guideTableRowNode.guideTableHeader th{&#xa;&#xa;}&#xa;.guide-1480925505740 .guideTableRuntimeAddControl{&#xa;display:none;&#xa;&#xa;}&#xa;.guide-1480925505740 .guideTableRuntimeDeleteControl{&#xa;display:none;&#xa;&#xa;}&#xa;"
+                                        dorExcludeTitle="true"
+                                        guideNodeClass="guideTable"
+                                        name="leaveBalanceTable"
+                                        textIsRich="true">
+                                        <layout
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/tableLayout"
+                                            columns="2"
+                                            mobileLayout="headersLeft"
+                                            rows="2"/>
+                                        <items
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/tableLayout">
+                                            <HeaderRow
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Header Row"
+                                                sling:resourceType="fd/af/components/tableHeader"
+                                                guideComponentType="true"
+                                                guideNodeClass="guideTableRow"
+                                                name="headerRow">
+                                                <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="fd/af/layouts/table/headerLayout"
+                                                    nonNavigable="{Boolean}true"/>
+                                                <items
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="fd/af/layouts/table/headerLayout">
+                                                    <tableItem
+                                                        jcr:lastModified="{Date}2017-04-13T10:40:41.874+05:30"
+                                                        jcr:lastModifiedBy="admin"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                                        _value="&lt;p>Leave Type&lt;/p>&#xa;"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextDraw"
+                                                        name="tableItem"
+                                                        textIsRich="true"
+                                                        visible="{Boolean}true"/>
+                                                    <tableItem1
+                                                        jcr:lastModified="{Date}2016-11-23T12:27:19.678+05:30"
+                                                        jcr:lastModifiedBy="admin"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                                        _value="&lt;p>Annual Eligibility&lt;/p>&#xa;"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextDraw"
+                                                        name="tableItem1"
+                                                        textIsRich="true"/>
+                                                    <tableItem1479884112860
+                                                        jcr:lastModified="{Date}2016-11-23T12:27:41.040+05:30"
+                                                        jcr:lastModifiedBy="admin"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                                        _value="&lt;p>Taken&lt;/p>&#xa;"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextDraw"
+                                                        name="tableItem14798841128601479884109942"
+                                                        textIsRich="true"/>
+                                                    <tableItem1479884126991
+                                                        jcr:lastModified="{Date}2016-11-23T12:27:52.358+05:30"
+                                                        jcr:lastModifiedBy="admin"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                                        _value="&lt;p>Balance&lt;/p>&#xa;"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextDraw"
+                                                        name="tableItem14798841269911479884123810"
+                                                        textIsRich="true"/>
+                                                </items>
+                                            </HeaderRow>
+                                            <Row1
+                                                jcr:lastModified="{Date}2017-04-12T09:35:12.857+05:30"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Row 1"
+                                                sling:resourceType="fd/af/components/tableRow"
+                                                enabled="{Boolean}true"
+                                                guideComponentType="true"
+                                                guideNodeClass="guideTableRow"
+                                                maxOccur="10"
+                                                minOccur="1"
+                                                name="Row1"
+                                                visible="{Boolean}true">
+                                                <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="fd/af/layouts/table/rowLayout"
+                                                    nonNavigable="{Boolean}true"/>
+                                                <items
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="fd/af/layouts/table/rowLayout">
+                                                    <tableItem
+                                                        cq:cssClass="guide-1480925221557"
+                                                        jcr:lastModified="{Date}2017-04-13T13:55:48.400+05:30"
+                                                        jcr:lastModifiedBy="admin"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="Leave Type"
+                                                        sling:resourceType="fd/af/components/guidetextbox"
+                                                        autofillFieldKeyword="name"
+                                                        cssStyle=".guide-1480925221557 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;height:40px;&#xa;padding-top:0px;&#xa;&#xa;}&#xa;.guide-1480925221557 .textField input[type='text']{&#xa;&#xa;}&#xa;"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextBox"
+                                                        hideTitle="true"
+                                                        name="leaveType"
+                                                        textIsRich="[true,true,true]">
+                                                        <style jcr:primaryType="nt:unstructured">
+                                                            <af_textbox
+                                                                jcr:primaryType="nt:unstructured"
+                                                                default_x0023_default="[height:40px,padding-top:0px]"
+                                                                default_x0023_default_x0023_mask="[]"
+                                                                default_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:0px\, —\, —\, —]"
+                                                                phone_x0023_default="[]"
+                                                                phone_x0023_default_x0023_ui="[paddingPopover:Set,paddingLock:link]"/>
+                                                            <af_textboxwidgetandtext
+                                                                jcr:primaryType="nt:unstructured"
+                                                                default_x0023_default="[]"
+                                                                default_x0023_default_x0023_ui="[paddingPopover:Set,paddingLock:link]"
+                                                                phone_x0023_default="[]"
+                                                                phone_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:Set]"/>
+                                                        </style>
+                                                        <fd:rules
+                                                            fd:enabled="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;DISABLE_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.leaveaccordion.leavetable.leaveBalanceTable.Row1.leaveType&quot;\,&quot;type&quot;:&quot;TEXT FIELD|FIELD|AFCOMPONENT|STRING&quot;\,&quot;name&quot;:&quot;leaveType&quot;}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:null}\,{&quot;nodeName&quot;:&quot;Else&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;DONOTHING_OR_ENABLE&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Enable&quot;\,&quot;value&quot;:null}}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nfalse;\\n\\n&quot;\,&quot;eventName&quot;:&quot;Enabled&quot;}]"
+                                                            jcr:primaryType="nt:unstructured"/>
+                                                        <fd:scripts
+                                                            fd:valueCommit="[{&quot;script&quot;:{&quot;field&quot;:&quot;guide.guideRootPanel.leaveaccordion.leavetable.leaveBalanceTable.Row1.leaveType&quot;\,&quot;event&quot;:&quot;Value Commit&quot;\,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;}\,&quot;content&quot;:&quot;var dataRows = leaveHistoryTable.Row1.instanceManager.instances;\\nleaveTaken.value = af.sum(filterDataBasedOnLeaveType(leaveType.value)\, noOfDays.name);\\n\\n/* This function filter out table data based on leave type*/\\nfunction filterDataBasedOnLeaveType(leaveTypeString){  \\n    return dataRows.filter(function(element) {\\n     return leaveTypeString===element.leaveType.value;\\n    });\\n\\n}&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                                                            jcr:primaryType="nt:unstructured"/>
+                                                    </tableItem>
+                                                    <tableItem1
+                                                        cq:cssClass="guide-1480925261677"
+                                                        jcr:lastModified="{Date}2017-04-13T13:43:36.089+05:30"
+                                                        jcr:lastModifiedBy="admin"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="Annual Eligibility"
+                                                        sling:resourceType="fd/af/components/guidenumericbox"
+                                                        autofillFieldKeyword="name"
+                                                        cssStyle=".guide-1480925261677 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;height:40px;&#xa;padding-top:0px;&#xa;&#xa;}&#xa;.guide-1480925261677 .numericInput input[type='text']{&#xa;&#xa;}&#xa;"
+                                                        dataType="float"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideNumericBox"
+                                                        hideTitle="true"
+                                                        html5Type="number"
+                                                        name="annualEligibility"
+                                                        textIsRich="[true,true]">
+                                                        <fd:rules
+                                                            fd:enabled="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;DISABLE_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.leavetable.table_15722867931479811337263.Row1.tableItem12&quot;\,&quot;type&quot;:&quot;FIELD&quot;\,&quot;name&quot;:&quot;tableItem12&quot;}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:null}\,{&quot;nodeName&quot;:&quot;Else&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;DONOTHING_OR_ENABLE&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Enable&quot;\,&quot;value&quot;:null}}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nfalse;\\n\\n&quot;\,&quot;eventName&quot;:&quot;Enabled&quot;}]"
+                                                            jcr:primaryType="nt:unstructured"/>
+                                                        <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                                        <style jcr:primaryType="nt:unstructured">
+                                                            <af_numericbox
+                                                                jcr:primaryType="nt:unstructured"
+                                                                default_x0023_default="[height:40px,padding-top:0px]"
+                                                                default_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:0px\, —\, —\, —]"
+                                                                phone_x0023_default="[]"
+                                                                phone_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:Set]"/>
+                                                            <af_numericboxwidgetandtext
+                                                                jcr:primaryType="nt:unstructured"
+                                                                default_x0023_default="[]"
+                                                                default_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:Set]"/>
+                                                        </style>
+                                                    </tableItem1>
+                                                    <tableItem1479884113142
+                                                        cq:cssClass="guide-1480925271719"
+                                                        jcr:lastModified="{Date}2017-04-13T13:43:15.332+05:30"
+                                                        jcr:lastModifiedBy="admin"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="Leave_Taken"
+                                                        sling:resourceType="fd/af/components/guidenumericbox"
+                                                        autofillFieldKeyword="name"
+                                                        captchaService="afcaptcha"
+                                                        cssStyle=".guide-1480925271719 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;height:40px;&#xa;padding-top:0px;&#xa;&#xa;}&#xa;.guide-1480925271719 .numericInput input[type='text']{&#xa;&#xa;}&#xa;"
+                                                        dataType="float"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideNumericBox"
+                                                        hideTitle="true"
+                                                        html5Type="number"
+                                                        name="leaveTaken"
+                                                        rcSize="normal"
+                                                        rcTheme="light"
+                                                        rcType="image"
+                                                        textIsRich="[true,true]">
+                                                        <style jcr:primaryType="nt:unstructured">
+                                                            <af_numericbox
+                                                                jcr:primaryType="nt:unstructured"
+                                                                default_x0023_default="[height:40px,padding-top:0px]"
+                                                                default_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:0px\, —\, —\, —]"
+                                                                phone_x0023_default="[]"
+                                                                phone_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:Set]"/>
+                                                            <af_numericboxwidgetandtext
+                                                                jcr:primaryType="nt:unstructured"
+                                                                default_x0023_default="[]"
+                                                                default_x0023_default_x0023_mask="[padding-top,padding-right,padding-bottom,padding-left,paddingPopover,paddingLock]"
+                                                                default_x0023_default_x0023_ui="[paddingPopover:Set,paddingLock:link]"/>
+                                                        </style>
+                                                        <fd:rules
+                                                            fd:enabled="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;DISABLE_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.leaveaccordion.leavetable.table_15722867931479811337263.Row1.leaveTaken&quot;\,&quot;type&quot;:&quot;NUMBER FIELD|FIELD|AFCOMPONENT|NUMBER&quot;\,&quot;name&quot;:&quot;leaveTaken&quot;}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:null}\,{&quot;nodeName&quot;:&quot;Else&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;DONOTHING_OR_ENABLE&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Enable&quot;\,&quot;value&quot;:null}}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nfalse;\\n\\n&quot;\,&quot;eventName&quot;:&quot;Enabled&quot;}]"
+                                                            jcr:primaryType="nt:unstructured"/>
+                                                        <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                                    </tableItem1479884113142>
+                                                    <tableItem1479884127121
+                                                        cq:cssClass="guide-1480925281885"
+                                                        jcr:lastModified="{Date}2017-04-13T15:54:52.531+05:30"
+                                                        jcr:lastModifiedBy="admin"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="Leave Balance"
+                                                        sling:resourceType="fd/af/components/guidenumericbox"
+                                                        autofillFieldKeyword="name"
+                                                        cssStyle=".guide-1480925281885 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;height:40px;&#xa;padding-top:0px;&#xa;&#xa;}&#xa;.guide-1480925281885 .numericInput input[type='text']{&#xa;padding-top:0px;&#xa;&#xa;}&#xa;"
+                                                        dataType="float"
+                                                        fracDigits="45"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideNumericBox"
+                                                        hideTitle="true"
+                                                        html5Type="number"
+                                                        minimum="-5"
+                                                        name="leaveBalance"
+                                                        textIsRich="[true,true]">
+                                                        <style jcr:primaryType="nt:unstructured">
+                                                            <af_numericbox
+                                                                jcr:primaryType="nt:unstructured"
+                                                                default_x0023_default="[height:40px,padding-top:0px]"
+                                                                default_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:0px\, —\, —\, —]"
+                                                                phone_x0023_default="[]"
+                                                                phone_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:Set]"/>
+                                                            <af_numericboxwidgetandtext
+                                                                jcr:primaryType="nt:unstructured"
+                                                                default_x0023_default="[padding-top:0px]"
+                                                                default_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:0px\, —\, —\, —]"/>
+                                                        </style>
+                                                        <fd:rules
+                                                            fd:calc="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;CALC_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;VALUE_FIELD&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.leaveaccordion.leaveBalancePanel.leaveBalanceTable.Row1.leaveBalance&quot;\,&quot;type&quot;:&quot;NUMBER&quot;\,&quot;name&quot;:&quot;leaveBalance&quot;}}\,{&quot;nodeName&quot;:&quot;to&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BINARY_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.leaveaccordion.leaveBalancePanel.leaveBalanceTable.Row1.annualEligibility&quot;\,&quot;displayName&quot;:&quot;Annual Eligibility&quot;\,&quot;type&quot;:&quot;NUMBER&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/LeaveAccordion/Leave Balance/Leave Balance Table/Row 1/Annual Eligibility/&quot;\,&quot;name&quot;:&quot;annualEligibility&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.leaveaccordion.leaveBalancePanel.leaveBalanceTable.Row1&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;MINUS&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.leaveaccordion.leaveBalancePanel.leaveBalanceTable.Row1.leaveTaken&quot;\,&quot;displayName&quot;:&quot;Leave_Taken&quot;\,&quot;type&quot;:&quot;NUMBER&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/LeaveAccordion/Leave Balance/Leave Balance Table/Row 1/Leave_Taken/&quot;\,&quot;name&quot;:&quot;leaveTaken&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.leaveaccordion.leaveBalancePanel.leaveBalanceTable.Row1&quot;}}}]}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:null}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\n ( annualEligibility.value - leaveTaken.value ) ;\\n\\n&quot;\,&quot;eventName&quot;:&quot;Calculate&quot;}]"
+                                                            fd:enabled="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;DISABLE_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.leaveaccordion.leaveBalancePanel.leaveBalanceTable.Row1.leaveBalance&quot;\,&quot;type&quot;:&quot;NUMBER FIELD|FIELD|AFCOMPONENT|NUMBER&quot;\,&quot;name&quot;:&quot;leaveBalance&quot;}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:null}\,{&quot;nodeName&quot;:&quot;Else&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;DONOTHING_OR_ENABLE&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Enable&quot;\,&quot;value&quot;:null}}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nfalse;\\n\\n&quot;\,&quot;eventName&quot;:&quot;Enabled&quot;}]"
+                                                            jcr:primaryType="nt:unstructured"/>
+                                                        <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                                    </tableItem1479884127121>
+                                                </items>
+                                            </Row1>
+                                        </items>
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_tablecell
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[height:40px]"
+                                                default_x0023_default_x0023_mask="[]"/>
+                                            <af_table
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[left:-3.3%,position:relative,border-style:solid,cssOverride:border-collapse: initial;,border-bottom-width:2px,border-left-width:0px,border-right-width:0px,border-color:#DDDDDD,border-top-width:2px]"
+                                                default_x0023_default_x0023_mask="[]"
+                                                default_x0023_default_x0023_ui="[positionPopover:relative,borderWidthLock:linkOff,borderWidthPopover:2px\, 0px\, 2px\, 0px]"
+                                                phone_x0023_default="[cssOverride:left:0% !important;]"
+                                                phone_x0023_default_x0023_ui="[positionPopover:Set]"/>
+                                            <af_tableheadercell
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[]"
+                                                default_x0023_default_x0023_ui="[borderWidthLock:link,borderWidthPopover:Set]"/>
+                                            <af_tableaddbutton
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[display:none]"/>
+                                            <af_tableremovebutton
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[display:none]"/>
+                                        </style>
+                                        <fd:rules
+                                            fd:init="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.leaveaccordion.leavetable.leaveBalanceTable&quot;\,&quot;type&quot;:&quot;TABLE|AFCOMPONENT&quot;\,&quot;name&quot;:&quot;leaveBalanceTable&quot;}}\,{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;is initialized&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;\,&quot;choice&quot;:null}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;Then&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;WSDL_STATEMENT&quot;\,&quot;value&quot;:{&quot;inputModel&quot;:{}\,&quot;outputModel&quot;:{&quot;LEAVETYPE&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:null}\,&quot;LEAVENAME&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.leaveaccordion.leaveBalancePanel.leaveBalanceTable.Row1.leaveType&quot;\,&quot;displayName&quot;:&quot;Leave Type&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;isDuplicate&quot;:true\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/LeaveAccordion/Leave Balance/Leave Balance Table/Row 1/Leave Type/&quot;\,&quot;name&quot;:&quot;leaveType&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.leaveaccordion.leaveBalancePanel.leaveBalanceTable.Row1&quot;}}\,&quot;NOLEAVES&quot;:{&quot;title&quot;:&quot;NOLEAVES&quot;\,&quot;description&quot;:null\,&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN|DATE&quot;\,&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.leaveaccordion.leaveBalancePanel.leaveBalanceTable.Row1.annualEligibility&quot;\,&quot;displayName&quot;:&quot;Annual Eligibility&quot;\,&quot;type&quot;:&quot;NUMBER&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/LeaveAccordion/Leave Balance/Leave Balance Table/Row 1/Annual Eligibility/&quot;\,&quot;name&quot;:&quot;annualEligibility&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.leaveaccordion.leaveBalancePanel.leaveBalanceTable.Row1&quot;}}}\,&quot;wsdlInfo&quot;:{&quot;formDataModelId&quot;:&quot;/content/dam/formsanddocuments-fdm/db&quot;\,&quot;operationTitle&quot;:&quot;getLeaves&quot;\,&quot;operationName&quot;:&quot;get_14918956644380&quot;}}}}]}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nvar operationInfo = {\\n    \\&quot;formDataModelId\\&quot;: \\&quot;/content/dam/formsanddocuments-fdm/db\\&quot;\,\\n    \\&quot;operationTitle\\&quot;: \\&quot;getLeaves\\&quot;\,\\n    \\&quot;operationName\\&quot;: \\&quot;get_14918956644380\\&quot;\\n};\\nvar inputs = {\\n};\\nvar outputs = {\\n    \\&quot;LEAVENAME\\&quot; : leaveBalanceTable.Row1.leaveType\,\\n    \\&quot;NOLEAVES\\&quot; : annualEligibility\\n};\\nguidelib.dataIntegrationUtils.executeOperation(operationInfo\, inputs\, outputs);;\\n\\n&quot;\,&quot;eventName&quot;:&quot;Initialize&quot;}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                    </table_1572286793>
+                                </items>
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                    columns="1"
+                                    dorLayoutType="columnar"
+                                    dorNumCols="1"
+                                    nonNavigable="true"
+                                    toolbarPosition="Bottom"/>
+                            </panel1479384245206>
+                            <panel
+                                jcr:created="{Date}2017-04-13T10:12:45.413+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-04-13T10:17:32.644+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Leave History"
+                                sling:resourceType="fd/af/components/panel"
+                                guideNodeClass="guidePanel"
+                                name="leaveHistory"
+                                summaryExpVisible="yes"
+                                textIsRich="true"
+                                validateOnStepCompletion="{Boolean}false">
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                    columns="1"
+                                    dorLayoutType="columnar"
+                                    dorNumCols="1"
+                                    nonNavigable="{Boolean}true"
+                                    toolbarPosition="Bottom"/>
+                                <items
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout">
+                                    <table
+                                        cq:cssClass="guide-1496089666937"
+                                        jcr:created="{Date}2017-04-13T10:13:39.822+05:30"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2017-04-13T14:04:02.541+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Leave History Table"
+                                        sling:resourceType="fd/af/components/table"
+                                        cssStyle=".guide-1496089666937 .guideTableRuntimeAddControl{&#xa;display:none;&#xa;&#xa;}&#xa;.guide-1496089666937 .guideTableRuntimeDeleteControl{&#xa;display:none;&#xa;&#xa;}&#xa;"
+                                        dorExcludeTitle="true"
+                                        guideNodeClass="guideTable"
+                                        name="leaveHistoryTable"
+                                        textIsRich="true">
+                                        <layout
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/tableLayout"
+                                            columns="2"
+                                            mobileLayout="headersLeft"
+                                            rows="2"/>
+                                        <items
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/tableLayout">
+                                            <HeaderRow
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Header Row"
+                                                sling:resourceType="fd/af/components/tableHeader"
+                                                guideComponentType="true"
+                                                guideNodeClass="guideTableRow"
+                                                name="headerRow">
+                                                <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="fd/af/layouts/table/headerLayout"
+                                                    nonNavigable="{Boolean}true"/>
+                                                <items
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="fd/af/layouts/table/headerLayout">
+                                                    <tableItem
+                                                        jcr:lastModified="{Date}2017-04-13T14:13:30.764+05:30"
+                                                        jcr:lastModifiedBy="admin"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                                        _value="&lt;p>Leave ID&lt;/p>&#xa;"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextDraw"
+                                                        name="headerItem"
+                                                        textIsRich="true"
+                                                        visible="{Boolean}false"/>
+                                                    <tableItem1
+                                                        jcr:lastModified="{Date}2017-04-13T14:13:44.312+05:30"
+                                                        jcr:lastModifiedBy="admin"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                                        _value="&lt;p>Leave Type&lt;/p>&#xa;"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextDraw"
+                                                        name="headerItem1"
+                                                        textIsRich="true"/>
+                                                    <headerItem1492058687007
+                                                        jcr:lastModified="{Date}2017-04-13T10:15:07.211+05:30"
+                                                        jcr:lastModifiedBy="admin"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                                        _value="&lt;p>Start Date&lt;/p>&#xa;"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextDraw"
+                                                        name="headerItem14920586870071492058687494"
+                                                        textIsRich="true"/>
+                                                    <headerItem1492058692432
+                                                        jcr:lastModified="{Date}2017-04-13T10:15:18.572+05:30"
+                                                        jcr:lastModifiedBy="admin"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                                        _value="&lt;p>End Date&lt;/p>&#xa;"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextDraw"
+                                                        name="headerItem14920586924321492058692892"
+                                                        textIsRich="true"/>
+                                                    <headerItem1492062476525
+                                                        jcr:lastModified="{Date}2017-04-13T11:18:17.274+05:30"
+                                                        jcr:lastModifiedBy="admin"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                                        _value="&lt;p>No. of Days&lt;/p>&#xa;"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextDraw"
+                                                        name="headerItem14920624765251492062476926"
+                                                        textIsRich="true"/>
+                                                </items>
+                                            </HeaderRow>
+                                            <Row1
+                                                jcr:lastModified="{Date}2017-04-13T10:36:58.842+05:30"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Row 1"
+                                                sling:resourceType="fd/af/components/tableRow"
+                                                bindRef="/EMPLOYEE_1490098107877/EMP_LEAVES_EMP_LEAVES_1491886574712"
+                                                enabled="{Boolean}true"
+                                                guideComponentType="true"
+                                                guideNodeClass="guideTableRow"
+                                                maxOccur="100"
+                                                minOccur="1"
+                                                name="Row1"
+                                                visible="{Boolean}true">
+                                                <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="fd/af/layouts/table/rowLayout"
+                                                    nonNavigable="{Boolean}true"/>
+                                                <items
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="fd/af/layouts/table/rowLayout">
+                                                    <tableItem
+                                                        jcr:lastModified="{Date}2017-04-13T14:13:59.929+05:30"
+                                                        jcr:lastModifiedBy="admin"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="Leave ID"
+                                                        sling:resourceType="fd/af/components/guidetextbox"
+                                                        autofillFieldKeyword="name"
+                                                        bindRef="/EMPLOYEE_1490098107877/EMP_LEAVES_EMP_LEAVES_1491886574712/LEAVETYPE"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextBox"
+                                                        hideTitle="true"
+                                                        name="leaveID"
+                                                        textIsRich="[true,true,true]">
+                                                        <fd:rules
+                                                            fd:visible="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;VISIBLE_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.leaveaccordion.leaveHistory.table1492058619971.Row1.leaveType&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;name&quot;:&quot;leaveType&quot;}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:null}\,{&quot;nodeName&quot;:&quot;Else&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;DONOTHING_OR_SHOW&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Show&quot;\,&quot;value&quot;:null}}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nfalse;\\n\\n&quot;\,&quot;eventName&quot;:&quot;Visibility&quot;}]"
+                                                            jcr:primaryType="nt:unstructured"/>
+                                                        <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                                    </tableItem>
+                                                    <tableItem1
+                                                        jcr:lastModified="{Date}2017-04-13T14:14:16.204+05:30"
+                                                        jcr:lastModifiedBy="admin"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="Leave Type"
+                                                        sling:resourceType="fd/af/components/guidetextbox"
+                                                        autofillFieldKeyword="name"
+                                                        bindRef="/EMPLOYEE_1490098107877/EMP_LEAVES_EMP_LEAVES_1491886574712/LEAVES_LEAVES_1492061690691/LEAVENAME"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextBox"
+                                                        hideTitle="true"
+                                                        name="leaveType"
+                                                        textIsRich="[true,true,true]">
+                                                        <fd:rules jcr:primaryType="nt:unstructured"/>
+                                                        <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                                    </tableItem1>
+                                                    <headerItem1492058687117
+                                                        jcr:lastModified="{Date}2017-04-13T10:37:50.170+05:30"
+                                                        jcr:lastModifiedBy="admin"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="Start Date"
+                                                        sling:resourceType="fd/af/components/guidedatepicker"
+                                                        bindRef="/EMPLOYEE_1490098107877/EMP_LEAVES_EMP_LEAVES_1491886574712/STDATE"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideDatePicker"
+                                                        hideTitle="true"
+                                                        name="startDate"
+                                                        textIsRich="[true,true]"/>
+                                                    <headerItem1492058692583
+                                                        jcr:lastModified="{Date}2017-04-13T10:38:04.401+05:30"
+                                                        jcr:lastModifiedBy="admin"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="End Date"
+                                                        sling:resourceType="fd/af/components/guidedatepicker"
+                                                        bindRef="/EMPLOYEE_1490098107877/EMP_LEAVES_EMP_LEAVES_1491886574712/ENDDATE"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideDatePicker"
+                                                        hideTitle="true"
+                                                        name="endDate"
+                                                        textIsRich="[true,true]"/>
+                                                    <headerItem1492062476652
+                                                        jcr:lastModified="{Date}2017-04-13T13:54:31.958+05:30"
+                                                        jcr:lastModifiedBy="admin"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="No. Of Days"
+                                                        sling:resourceType="fd/af/components/guidenumericbox"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideNumericBox"
+                                                        hideTitle="true"
+                                                        name="noOfDays"
+                                                        textIsRich="[true,true]">
+                                                        <fd:rules jcr:primaryType="nt:unstructured"/>
+                                                        <fd:scripts
+                                                            fd:calc="[{&quot;script&quot;:{&quot;field&quot;:&quot;guide.guideRootPanel.leaveaccordion.leaveHistory.leaveHistoryTable.Row1.noOfDays&quot;\,&quot;event&quot;:&quot;Calculate&quot;\,&quot;model&quot;:{&quot;nodeName&quot;:&quot;CALC_EXPRESSION&quot;}\,&quot;content&quot;:&quot;calculateDuration(startDate.value\,endDate.value);\\t\\n&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                                                            jcr:primaryType="nt:unstructured"/>
+                                                    </headerItem1492062476652>
+                                                </items>
+                                                <fd:rules jcr:primaryType="nt:unstructured"/>
+                                                <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                            </Row1>
+                                        </items>
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_tableaddbutton
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[display:none]"/>
+                                            <af_tableremovebutton
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[display:none]"/>
+                                        </style>
+                                    </table>
+                                </items>
+                            </panel>
+                        </items>
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/panel/accordion"
+                            columns="1"
+                            dorLayoutType="columnar"
+                            dorNumCols="1"
+                            enableLayoutOptimization="true"
+                            toolbarPosition="Bottom"/>
+                        <style jcr:primaryType="nt:unstructured">
+                            <af_accordionpanelheader
+                                jcr:primaryType="nt:unstructured"
+                                default_x0023_default="[border-style:hidden]"
+                                phone_x0023_default="[]"
+                                phone_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:Set]"
+                                smallScreen_x0023_active="[]"
+                                smallScreen_x0023_active_x0023_ui="[paddingLock:linkOff,paddingPopover:Set]"
+                                smallScreen_x0023_default="[padding-left:24px]"
+                                smallScreen_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:—\, —\, —\, 24px]"/>
+                            <af_accordionpanelcontentarea
+                                jcr:primaryType="nt:unstructured"
+                                default_x0023_default="[padding-left:1.5rem,padding-top:0px]"
+                                default_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:0px\, —\, —\, 1.5rem]"/>
+                            <af_accordionpaneltitle
+                                jcr:primaryType="nt:unstructured"
+                                default_x0023_default="[]"
+                                default_x0023_default_x0023_ui="[paddingPopover:Set]"
+                                phone_x0023_active="[font-size:13px,font-weight:bold]"
+                                phone_x0023_default="[font-size:13px,font-weight:bold]"
+                                smallScreen_x0023_default="[]"
+                                smallScreen_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:Set]"/>
+                        </style>
+                    </leaveaccordion>
+                    <panel1479384614611
+                        cq:cssClass="guide-1488200554698"
+                        jcr:description="Leave Details"
+                        jcr:lastModified="{Date}2017-03-29T18:37:01.901+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Leave Details"
+                        sling:resourceType="fd/af/components/panel"
+                        colspan="6"
+                        completionExpReq="{Boolean}false"
+                        cssStyle=".guide-1488200554698 .guideGridFluidLayout{&#xa;margin-left:20px;&#xa;&#xa;}&#xa;"
+                        guideNodeClass="guidePanel"
+                        name="panel14793846146111479384614755"
+                        textIsRich="true"
+                        validateOnStepCompletion="{Boolean}false">
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                            columns="1"
+                            dorLayoutType="columnar"
+                            dorNumCols="1"
+                            nonNavigable="true"
+                            toolbarPosition="Bottom"/>
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                            <guidedropdownlist
+                                cq:cssClass="guide-1494415394239"
+                                jcr:created="Thu Nov 17 2016 17:46:11 GMT+0530"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-05-29T20:07:02.651Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Leave Type*"
+                                sling:resourceType="fd/af/components/guidedropdownlist"
+                                cssStyle=""
+                                enabled="{Boolean}true"
+                                guideNodeClass="guideDropDownList"
+                                mandatory="true"
+                                name="leaveType_DropDown"
+                                options="[CL=Casual Leave,SL=Sick Leave,VL=Vacation Leave]"
+                                placeholderText="Select"
+                                textIsRich="[true,true]"
+                                visible="{Boolean}true">
+                                <fd:rules jcr:primaryType="nt:unstructured"/>
+                                <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_fieldlabel
+                                        jcr:primaryType="nt:unstructured"
+                                        phone_x0023_default="[background:#001F3F]"
+                                        phone_x0023_default_x0023_ui="[backgroundColor:#001F3F]"/>
+                                </style>
+                            </guidedropdownlist>
+                            <guidetextdraw
+                                cq:cssClass="guide-1480925921389"
+                                jcr:created="Mon Dec 05 2016 06:29:51 GMT+0000"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-03-29T18:43:26.351+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="fd/af/components/guidetextdraw"
+                                _value="&lt;p>Please consult your manager/ reporting officer before applying for this leave&lt;br>&#xa;&lt;/p>"
+                                cssStyle=".guide-1480925921389 .guideTextDraw{&#xa;color:#EB3C36;&#xa;font-weight:normal;&#xa;position:relative;&#xa;letter-spacing:-0.2px;&#xa;font-size:13px;&#xa;top:-10px;&#xa;}"
+                                dorExclusion="true"
+                                guideNodeClass="guideTextDraw"
+                                name="note"
+                                textIsRich="true">
+                                <fd:rules
+                                    fd:visible="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.panel14793846146111479384614755.note&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;name&quot;:&quot;note&quot;}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BOOLEAN_BINARY_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.panel14793846146111479384614755.leaveType_DropDown&quot;\,&quot;displayName&quot;:&quot;Leave Type*&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/ApplierDetails/Leave Type*/&quot;\,&quot;name&quot;:&quot;leaveType_DropDown&quot;\,&quot;parent&quot;:&quot;FORM.guideRootPanel.panel14793846146111479384614755&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;Maternity&quot;}}]}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;OR&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.panel14793846146111479384614755.leaveType_DropDown&quot;\,&quot;displayName&quot;:&quot;Leave Type*&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/ApplierDetails/Leave Type*/&quot;\,&quot;name&quot;:&quot;leaveType_DropDown&quot;\,&quot;parent&quot;:&quot;FORM.guideRootPanel.panel14793846146111479384614755&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;Pregnancy&quot;}}]}\,&quot;nested&quot;:false}]}}\,{&quot;nodeName&quot;:&quot;Else&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;DONOTHING_OR_HIDE&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Hide&quot;\,&quot;value&quot;:null}}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif (FORM.guideRootPanel.panel14793846146111479384614755.leaveType_DropDown.value == \\&quot;Maternity\\&quot; || FORM.guideRootPanel.panel14793846146111479384614755.leaveType_DropDown.value == \\&quot;Pregnancy\\&quot;) {\\n    true;\\n } else {\\n    false;\\n}\\n&quot;\,&quot;eventName&quot;:&quot;Visibility&quot;}]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_textdraw
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[color:#EB3C36,font-weight:normal,position:relative,cssOverride:top:-10px;,letter-spacing:-0.2px,font-size:13px]"
+                                        default_x0023_default_x0023_ui="[positionPopover:relative]"/>
+                                </style>
+                            </guidetextdraw>
+                            <guidedatepicker_228640305
+                                cq:cssClass="guide-1480935822075"
+                                jcr:created="Thu Nov 17 2016 17:47:17 GMT+0530"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="Mon Dec 05 2016 08:27:19 GMT+0000"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Start Date*"
+                                sling:resourceType="fd/af/components/guidedatepicker"
+                                cssStyle=".guide-1480935822075 .guideFieldWidget.dateTimeEdit input{&#xa;&#xa;}"
+                                displayPatternType="date{MMMM DD, YYYY}"
+                                displayPictureClause="date{MMMM DD, YYYY}"
+                                guideNodeClass="guideDatePicker"
+                                mandatory="true"
+                                name="startDate"
+                                textIsRich="[true,true]"
+                                validateExpMessage="Start date should be equal to or greater than current date">
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_datepickerwidgetandtext
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[]"/>
+                                </style>
+                                <fd:rules
+                                    fd:validate="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;VALIDATE_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.panel14793846146111479384614755.startDate&quot;\,&quot;type&quot;:&quot;DATE FIELD|FIELD|AFCOMPONENT|DATE&quot;\,&quot;name&quot;:&quot;startDate&quot;}}\,{&quot;nodeName&quot;:&quot;Using&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;Expression&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BOOLEAN_BINARY_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.panel14793846146111479384614755.startDate&quot;\,&quot;displayName&quot;:&quot;Start Date*&quot;\,&quot;type&quot;:&quot;DATE&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/ApplierDetails/Start Date*/&quot;\,&quot;name&quot;:&quot;startDate&quot;\,&quot;parent&quot;:&quot;FORM.guideRootPanel.panel14793846146111479384614755&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;FUNCTION_CALL&quot;\,&quot;functionName&quot;:{&quot;id&quot;:&quot;getCurrentDate&quot;\,&quot;displayName&quot;:&quot;Get Current Date&quot;\,&quot;type&quot;:&quot;DATE&quot;\,&quot;isDuplicate&quot;:false\,&quot;displayPath&quot;:&quot;&quot;\,&quot;args&quot;:[]\,&quot;impl&quot;:&quot;(new Date().toISOString().slice(0\,10))&quot;}\,&quot;params&quot;:[]}}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;OR&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.panel14793846146111479384614755.startDate&quot;\,&quot;displayName&quot;:&quot;Start Date*&quot;\,&quot;type&quot;:&quot;DATE&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/ApplierDetails/Start Date*/&quot;\,&quot;name&quot;:&quot;startDate&quot;\,&quot;parent&quot;:&quot;FORM.guideRootPanel.panel14793846146111479384614755&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;IS_AFTER&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;FUNCTION_CALL&quot;\,&quot;functionName&quot;:{&quot;id&quot;:&quot;getCurrentDate&quot;\,&quot;displayName&quot;:&quot;Get Current Date&quot;\,&quot;type&quot;:&quot;DATE&quot;\,&quot;isDuplicate&quot;:false\,&quot;displayPath&quot;:&quot;&quot;\,&quot;args&quot;:[]\,&quot;impl&quot;:&quot;(new Date().toISOString().slice(0\,10))&quot;}\,&quot;params&quot;:[]}}]}\,&quot;nested&quot;:false}]}\,&quot;nested&quot;:false}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:false\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nthis.value == (new Date().toISOString().slice(0\,10)) || new Date(this.value)>new Date((new Date().toISOString().slice(0\,10)));\\n\\n&quot;\,&quot;eventName&quot;:&quot;Validate&quot;}]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <fd:scripts jcr:primaryType="nt:unstructured"/>
+                            </guidedatepicker_228640305>
+                            <guidedatepicker
+                                cq:cssClass="guide-1480941430125"
+                                jcr:created="Thu Nov 17 2016 17:47:09 GMT+0530"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2016-12-09T14:07:31.271+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="End Date*"
+                                sling:resourceType="fd/af/components/guidedatepicker"
+                                cssStyle=".guide-1480941430125 .guideFieldWidget.dateTimeEdit input{&#xa;&#xa;}"
+                                displayPatternType="date{MMMM DD, YYYY}"
+                                displayPictureClause="date{MMMM DD, YYYY}"
+                                guideNodeClass="guideDatePicker"
+                                mandatory="true"
+                                name="endDate"
+                                textIsRich="[true,true]"
+                                validateExpMessage="End date shoulde be greater than start date">
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_datepickerwidgetandtext
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[]"/>
+                                </style>
+                                <fd:rules
+                                    fd:validate="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;VALIDATE_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.panel14793846146111479384614755.endDate&quot;\,&quot;type&quot;:&quot;DATE FIELD|FIELD|AFCOMPONENT|DATE&quot;\,&quot;name&quot;:&quot;endDate&quot;}}\,{&quot;nodeName&quot;:&quot;Using&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;Expression&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BOOLEAN_BINARY_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.panel14793846146111479384614755.endDate&quot;\,&quot;displayName&quot;:&quot;End Date*&quot;\,&quot;type&quot;:&quot;DATE&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/ApplierDetails/End Date*/&quot;\,&quot;name&quot;:&quot;endDate&quot;\,&quot;parent&quot;:&quot;FORM.guideRootPanel.panel14793846146111479384614755&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;IS_AFTER&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.panel14793846146111479384614755.startDate&quot;\,&quot;displayName&quot;:&quot;Start Date*&quot;\,&quot;type&quot;:&quot;DATE&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/ApplierDetails/Start Date*/&quot;\,&quot;name&quot;:&quot;startDate&quot;\,&quot;parent&quot;:&quot;FORM.guideRootPanel.panel14793846146111479384614755&quot;}}}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;OR&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.panel14793846146111479384614755.endDate&quot;\,&quot;displayName&quot;:&quot;End Date*&quot;\,&quot;type&quot;:&quot;DATE&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/ApplierDetails/End Date*/&quot;\,&quot;name&quot;:&quot;endDate&quot;\,&quot;parent&quot;:&quot;FORM.guideRootPanel.panel14793846146111479384614755&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.panel14793846146111479384614755.startDate&quot;\,&quot;displayName&quot;:&quot;Start Date*&quot;\,&quot;type&quot;:&quot;DATE&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/ApplierDetails/Start Date*/&quot;\,&quot;name&quot;:&quot;startDate&quot;\,&quot;parent&quot;:&quot;FORM.guideRootPanel.panel14793846146111479384614755&quot;}}}]}\,&quot;nested&quot;:false}]}\,&quot;nested&quot;:false}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nnew Date(this.value)>new Date(FORM.guideRootPanel.panel14793846146111479384614755.startDate.value) || this.value == FORM.guideRootPanel.panel14793846146111479384614755.startDate.value;\\n\\n&quot;\,&quot;eventName&quot;:&quot;Validate&quot;}]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <fd:scripts jcr:primaryType="nt:unstructured"/>
+                            </guidedatepicker>
+                            <guidenumericbox
+                                cq:cssClass="guide-1480936770985"
+                                jcr:created="Thu Nov 17 2016 17:46:26 GMT+0530"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="Mon Dec 05 2016 11:20:28 GMT+0000"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Duration"
+                                sling:resourceType="fd/af/components/guidenumericbox"
+                                _value="0"
+                                cssStyle=".guide-1480936770985 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;&#xa;}&#xa;.guide-1480936770985 .numericInput input[type='text']{&#xa;width:33%;&#xa;&#xa;}"
+                                dataType="float"
+                                guideNodeClass="guideNumericBox"
+                                name="duration"
+                                textIsRich="[true,true]"
+                                validateExpMessage="Duration should be less than balance">
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_numericbox
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[]"/>
+                                    <af_numericboxwidgetandtext
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[width:33%]"/>
+                                </style>
+                                <fd:rules
+                                    fd:calc="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;CALC_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;VALUE_FIELD&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.panel14793846146111479384614755.duration&quot;\,&quot;type&quot;:&quot;NUMBER&quot;\,&quot;name&quot;:&quot;duration&quot;}}\,{&quot;nodeName&quot;:&quot;to&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;FUNCTION_CALL&quot;\,&quot;functionName&quot;:{&quot;id&quot;:&quot;calcBusinessDays&quot;\,&quot;displayName&quot;:&quot;calcBusinessDays&quot;\,&quot;type&quot;:&quot;NUMBER&quot;\,&quot;isDuplicate&quot;:false\,&quot;displayPath&quot;:&quot;&quot;\,&quot;args&quot;:[{&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN|DATE&quot;\,&quot;name&quot;:&quot;dDate1&quot;\,&quot;description&quot;:&quot;dDate1&quot;}\,{&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN|DATE&quot;\,&quot;name&quot;:&quot;dDate2&quot;\,&quot;description&quot;:&quot;dDate2&quot;}]\,&quot;impl&quot;:&quot;$0($1\,$2);&quot;}\,&quot;params&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.panel14793846146111479384614755.startDate&quot;\,&quot;displayName&quot;:&quot;Start Date*&quot;\,&quot;type&quot;:&quot;DATE&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/ApplierDetails/Start Date*/&quot;\,&quot;name&quot;:&quot;startDate&quot;\,&quot;parent&quot;:&quot;FORM.guideRootPanel.panel14793846146111479384614755&quot;}}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.panel14793846146111479384614755.endDate&quot;\,&quot;displayName&quot;:&quot;End Date*&quot;\,&quot;type&quot;:&quot;DATE&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/ApplierDetails/End Date*/&quot;\,&quot;name&quot;:&quot;endDate&quot;\,&quot;parent&quot;:&quot;FORM.guideRootPanel.panel14793846146111479384614755&quot;}}}]}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:null}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\ncalcBusinessDays(startDate.value\,endDate.value);;\\n\\n&quot;\,&quot;eventName&quot;:&quot;Calculate&quot;}]"
+                                    fd:enabled="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;DISABLE_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.panel14793846146111479384614755.duration&quot;\,&quot;type&quot;:&quot;NUMBER FIELD|FIELD|AFCOMPONENT|NUMBER&quot;\,&quot;name&quot;:&quot;duration&quot;}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:null}\,{&quot;nodeName&quot;:&quot;Else&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;DONOTHING_OR_ENABLE&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Enable&quot;\,&quot;value&quot;:null}}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nfalse;\\n\\n&quot;\,&quot;eventName&quot;:&quot;Enabled&quot;}]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <fd:scripts jcr:primaryType="nt:unstructured"/>
+                            </guidenumericbox>
+                            <guidetextbox
+                                cq:cssClass="guide-1480936575099"
+                                jcr:created="Thu Nov 17 2016 17:51:34 GMT+0530"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="Fri Dec 02 2016 09:07:54 GMT+0000"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Reason*"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                cssStyle=".guide-1480936575099 .multiline.textField textArea{&#xa;&#xa;}"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                multiLine="true"
+                                name="reason"
+                                textIsRich="[true,true,true]">
+                                <fd:rules
+                                    fd:visible="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.panel14793846146111479384614755.reason&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;name&quot;:&quot;reason&quot;}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BOOLEAN_BINARY_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.panel14793846146111479384614755.leaveType_DropDown&quot;\,&quot;displayName&quot;:&quot;Leave Type*&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/ApplierDetails/Leave Type*/&quot;\,&quot;name&quot;:&quot;leaveType_DropDown&quot;\,&quot;parent&quot;:&quot;FORM.guideRootPanel.panel14793846146111479384614755&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;Medical&quot;}}]}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;OR&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.panel14793846146111479384614755.leaveType_DropDown&quot;\,&quot;displayName&quot;:&quot;Leave Type*&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/ApplierDetails/Leave Type*/&quot;\,&quot;name&quot;:&quot;leaveType_DropDown&quot;\,&quot;parent&quot;:&quot;FORM.guideRootPanel.panel14793846146111479384614755&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;Bereavement Leave&quot;}}]}\,&quot;nested&quot;:false}]}}\,{&quot;nodeName&quot;:&quot;Else&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;DONOTHING_OR_HIDE&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Hide&quot;\,&quot;value&quot;:null}}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif (FORM.guideRootPanel.panel14793846146111479384614755.leaveType_DropDown.value == \\&quot;Medical\\&quot; || FORM.guideRootPanel.panel14793846146111479384614755.leaveType_DropDown.value == \\&quot;Bereavement Leave\\&quot;) {\\n    true;\\n } else {\\n    false;\\n}\\n&quot;\,&quot;eventName&quot;:&quot;Visibility&quot;}]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_textareawidgetandtext
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[]"/>
+                                </style>
+                            </guidetextbox>
+                            <guidefileupload
+                                jcr:created="Wed Nov 23 2016 09:37:40 GMT+0530"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2016-12-09T00:29:30.139+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Proof*"
+                                sling:resourceType="fd/af/components/guidefileupload"
+                                buttonText="Upload"
+                                dorExclusion="true"
+                                guideNodeClass="guideFileUpload"
+                                mimeType="[audio/*, video/*, image/*, text/*, .pdf]"
+                                name="uploadproof"
+                                textIsRich="[true,true]">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <fileattachment
+                                        jcr:primaryType="nt:unstructured"
+                                        guideNodeClass="guideCompositeFieldItem"
+                                        mandatory="true"
+                                        name="fileAttachment"/>
+                                    <comment
+                                        jcr:primaryType="nt:unstructured"
+                                        guideNodeClass="guideCompositeFieldItem"
+                                        name="comment"/>
+                                </items>
+                                <fd:rules
+                                    fd:visible="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.panel14793846146111479384614755.uploadproof&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;name&quot;:&quot;uploadproof&quot;}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;BOOLEAN_BINARY_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.panel14793846146111479384614755.leaveType_DropDown&quot;\,&quot;displayName&quot;:&quot;Leave Type&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/ApplierDetails/Leave Type/&quot;\,&quot;name&quot;:&quot;leaveType_DropDown&quot;\,&quot;parent&quot;:&quot;FORM.guideRootPanel.panel14793846146111479384614755&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;Medical&quot;}}]}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;OR&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;FORM.guideRootPanel.panel14793846146111479384614755.leaveType_DropDown&quot;\,&quot;displayName&quot;:&quot;Leave Type&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/ApplierDetails/Leave Type/&quot;\,&quot;name&quot;:&quot;leaveType_DropDown&quot;\,&quot;parent&quot;:&quot;FORM.guideRootPanel.panel14793846146111479384614755&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;Sick Leave&quot;}}]}\,&quot;nested&quot;:false}]}}\,{&quot;nodeName&quot;:&quot;Else&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;DONOTHING_OR_HIDE&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;Hide&quot;\,&quot;value&quot;:null}}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif (leaveType_DropDown.value == \\&quot;Medical\\&quot; || leaveType_DropDown.value == \\&quot;Sick Leave\\&quot;) {\\n    true;\\n } else {\\n    false;\\n}\\n&quot;\,&quot;eventName&quot;:&quot;Visibility&quot;}]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <fd:scripts jcr:primaryType="nt:unstructured"/>
+                            </guidefileupload>
+                        </items>
+                        <style jcr:primaryType="nt:unstructured">
+                            <af_responsivepanel
+                                jcr:primaryType="nt:unstructured"
+                                default_x0023_default="[margin-left:20px]"
+                                default_x0023_default_x0023_ui="[marginLock:linkOff,marginPopover:—\, —\, —\, 20px]"/>
+                            <af_responsivepaneldescription
+                                jcr:primaryType="nt:unstructured"
+                                phone_x0023_default="[]"
+                                phone_x0023_default_x0023_ui="[]"/>
+                        </style>
+                    </panel1479384614611>
+                </items>
+                <toolbar
+                    cq:cssClass="guide-1479387701297"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Toolbar"
+                    sling:resourceType="fd/af/components/toolbar"
+                    css=""
+                    cssStyle=".guide-1479387701297 .guideToolbarNode{&#xa;float:right;&#xa;margin-bottom:30px;&#xa;&#xa;}&#xa;"
+                    guideNodeClass="guideToolbar"
+                    name="toolbar">
+                    <items
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="fd/af/layouts/toolbar/defaultToolbarLayout">
+                        <submit
+                            jcr:created="{Date}2016-11-17T17:34:21.978+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2016-12-02T08:43:13.285Z"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Submit"
+                            sling:resourceType="fd/af/components/actions/submit"
+                            dorExclusion="true"
+                            guideNodeClass="guideButton"
+                            name="submit1479384262036"
+                            textIsRich="[true,true]"
+                            type="submit">
+                            <fd:rules
+                                fd:click="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.toolbar.submit1479384262036&quot;\,&quot;type&quot;:&quot;BUTTON|AFCOMPONENT|TOOLBAR_BUTTON&quot;\,&quot;name&quot;:&quot;submit1479384262036&quot;}}\,{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;is clicked&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;\,&quot;choice&quot;:null}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;Then&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SUBMIT_FORM&quot;\,&quot;items&quot;:[]}}]}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nguideBridge.submit();\\n\\n&quot;\,&quot;eventName&quot;:&quot;Click&quot;},{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.toolbar.submit1479384262036&quot;\,&quot;type&quot;:&quot;BUTTON&quot;\,&quot;name&quot;:&quot;submit1479384262036&quot;}}\,{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;is clicked&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;\,&quot;choice&quot;:null}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;Then&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;WSDL_STATEMENT&quot;\,&quot;value&quot;:{&quot;inputModel&quot;:{&quot;EMP_LEAVES.EMPNO&quot;:{&quot;title&quot;:&quot;EMP_LEAVES.EMPNO&quot;\,&quot;description&quot;:null\,&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN|DATE&quot;\,&quot;nodeName&quot;:&quot;PARAMETER&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.personlaInfo.employeeID&quot;\,&quot;displayName&quot;:&quot;Employee ID&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Personal nofrmation/Employee ID/&quot;\,&quot;name&quot;:&quot;employeeID&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.personlaInfo&quot;}}}\,&quot;EMP_LEAVES.LEAVETYPE&quot;:{&quot;title&quot;:&quot;EMP_LEAVES.LEAVETYPE&quot;\,&quot;description&quot;:null\,&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN|DATE&quot;\,&quot;nodeName&quot;:&quot;PARAMETER&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.panel14793846146111479384614755.leaveType_DropDown&quot;\,&quot;displayName&quot;:&quot;Leave Type*&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Leave Details/Leave Type*/&quot;\,&quot;name&quot;:&quot;leaveType_DropDown&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.panel14793846146111479384614755&quot;}}}\,&quot;EMP_LEAVES.STDATE&quot;:{&quot;title&quot;:&quot;EMP_LEAVES.STDATE&quot;\,&quot;description&quot;:null\,&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN|DATE&quot;\,&quot;nodeName&quot;:&quot;PARAMETER&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.panel14793846146111479384614755.startDate&quot;\,&quot;displayName&quot;:&quot;Start Date*&quot;\,&quot;type&quot;:&quot;DATE&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Leave Details/Start Date*/&quot;\,&quot;name&quot;:&quot;startDate&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.panel14793846146111479384614755&quot;}}}\,&quot;EMP_LEAVES.ENDDATE&quot;:{&quot;title&quot;:&quot;EMP_LEAVES.ENDDATE&quot;\,&quot;description&quot;:null\,&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN|DATE&quot;\,&quot;nodeName&quot;:&quot;PARAMETER&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.panel14793846146111479384614755.endDate&quot;\,&quot;displayName&quot;:&quot;End Date*&quot;\,&quot;type&quot;:&quot;DATE&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Leave Details/End Date*/&quot;\,&quot;name&quot;:&quot;endDate&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.panel14793846146111479384614755&quot;}}}}\,&quot;outputModel&quot;:{}\,&quot;wsdlInfo&quot;:{&quot;formDataModelId&quot;:&quot;/content/dam/formsanddocuments-fdm/db&quot;\,&quot;operationTitle&quot;:&quot;insertLeaveRecord&quot;\,&quot;operationName&quot;:&quot;insert_14920735864160&quot;}}}}]}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n *  SET VALUE OF No. Of Days to  (Output of Function calcBusinessDays) \\n *\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nvar operationInfo = {\\n    \\&quot;formDataModelId\\&quot;: \\&quot;/content/dam/formsanddocuments-fdm/db\\&quot;\,\\n    \\&quot;operationTitle\\&quot;: \\&quot;insertLeaveRecord\\&quot;\,\\n    \\&quot;operationName\\&quot;: \\&quot;insert_14920735864160\\&quot;\\n};\\nvar inputs = {\\n    \\&quot;EMP_LEAVES.EMPNO\\&quot; : employeeID\,\\n    \\&quot;EMP_LEAVES.LEAVETYPE\\&quot; : leaveType_DropDown\,\\n    \\&quot;EMP_LEAVES.STDATE\\&quot; : panel14793846146111479384614755.startDate\,\\n    \\&quot;EMP_LEAVES.ENDDATE\\&quot; : panel14793846146111479384614755.endDate\\n};\\nvar outputs = {\\n};\\nguidelib.dataIntegrationUtils.executeOperation(operationInfo\, inputs\, outputs);;\\n\\n&quot;\,&quot;eventName&quot;:&quot;Click&quot;}]"
+                                jcr:primaryType="nt:unstructured"/>
+                            <fd:scripts jcr:primaryType="nt:unstructured"/>
+                        </submit>
+                    </items>
+                    <layout
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="fd/af/layouts/toolbar/defaultToolbarLayout"/>
+                    <style jcr:primaryType="nt:unstructured">
+                        <af_toolbar
+                            jcr:primaryType="nt:unstructured"
+                            default_x0023_default="[float:right,margin-bottom:30px]"
+                            default_x0023_default_x0023_ui="[marginLock:linkOff,marginPopover:—\, —\, 30px\, —]"/>
+                    </style>
+                </toolbar>
+                <style jcr:primaryType="nt:unstructured">
+                    <af_responsivepanel
+                        jcr:primaryType="nt:unstructured"
+                        phone_x0023_default="[]"
+                        smallScreen_x0023_default="[]"/>
+                </style>
+            </rootPanel>
+            <autoSaveInfo
+                jcr:primaryType="nt:unstructured"
+                metadataselector="global"/>
+            <style jcr:primaryType="nt:unstructured">
+                <af_mobiletitlebar
+                    jcr:primaryType="nt:unstructured"
+                    phone_x0023_default="[cssOverride:display:none !important;,height:0px,display:none]"
+                    smallScreen_x0023_default="[]"/>
+                <af_mobilemenu
+                    jcr:primaryType="nt:unstructured"
+                    phone_x0023_default="[display:none]"/>
+                <af_mobilemenubutton
+                    jcr:primaryType="nt:unstructured"
+                    phone_x0023_default="[]"
+                    smallScreen_x0023_default="[]"/>
+                <af_mobiletitlebarprevnav
+                    jcr:primaryType="nt:unstructured"
+                    phone_x0023_default="[]"/>
+                <af_mobiletitlebarnextnav
+                    jcr:primaryType="nt:unstructured"
+                    phone_x0023_default="[]"/>
+                <af_mobiletitlebartitle
+                    jcr:primaryType="nt:unstructured"
+                    smallScreen_x0023_default="[]"/>
+            </style>
+            <signerInfo
+                jcr:primaryType="nt:unstructured"
+                firstSignerFormFiller="false"
+                signConfigPath="/etc/cloudservices/echosign/aem-forms-referencesite-sign"
+                workflowType="SEQUENTIAL">
+                <signer0
+                    jcr:primaryType="nt:unstructured"
+                    countryCode="undefined"
+                    countryCodeSource="form"
+                    email="undefined"
+                    emailSource="form"
+                    phone="undefined"
+                    phoneSource="form"
+                    securityOption="NONE"
+                    signerTitle="Signer One"/>
+            </signerInfo>
+            <view jcr:primaryType="nt:unstructured">
+                <print
+                    jcr:lastModified="{Date}2017-05-04T16:21:54.773+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/authoring/components/dor/dorProperties"
+                    accentColor="#3878BA"
+                    fontFamily="Arial"
+                    hidePanelDescriptions="true"
+                    includeUnboundFields="true"
+                    metaTemplateRef="/libs/fd/af/dor/templates/defaultTemplate.xdp"
+                    optionSeparator=", "
+                    showSelectedOptions="true">
+                    <branding jcr:primaryType="nt:unstructured">
+                        <items jcr:primaryType="nt:unstructured">
+                            <Header jcr:primaryType="nt:unstructured">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <HeaderInfo jcr:primaryType="nt:unstructured">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <AF_FORM_TITLE
+                                                jcr:primaryType="nt:unstructured"
+                                                resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                                value="Leave Request"/>
+                                            <AF_HEADER_TEXT
+                                                jcr:primaryType="nt:unstructured"
+                                                resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                                value="© 2017 We.Gov | All rights reserved"/>
+                                        </items>
+                                    </HeaderInfo>
+                                    <AF_LOGO_IMAGE
+                                        jcr:primaryType="nt:unstructured"
+                                        fileName="we.GOV_Dor.png"
+                                        fileReference="/content/dam/we-gov/we.GOV_Dor.png"/>
+                                </items>
+                            </Header>
+                            <Footer jcr:primaryType="nt:unstructured">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <disclaimerLabel
+                                        jcr:primaryType="nt:unstructured"
+                                        resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                        value="DISCLAIMER"/>
+                                    <disclaimerText
+                                        jcr:primaryType="nt:unstructured"
+                                        resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                        value="This document is strictly private, confidential and personal to its recipients and should not be copied, distributed or reproduced in whole or in part, nor passed to any third party."/>
+                                </items>
+                            </Footer>
+                        </items>
+                    </branding>
+                </print>
+            </view>
+        </guideContainer>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <smallScreen
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Decimal}479"/>
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Phone"
+                    width="{Decimal}767"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Decimal}991"/>
+            </breakpoints>
+        </cq:responsive>
+        <parsys1
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <afformtitle
+                cq:cssClass="guide-1494570829722"
+                jcr:created="{Date}2017-05-11T17:12:39.643+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-05-12T12:02:48.686+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Adaptive Form Title"
+                sling:resourceType="fd/af/components/afFormTitle"
+                _value="&lt;p>Leave &amp;amp; Time Off&lt;/p>&#xa;"
+                css="guideformtitle container"
+                cssStyle=".guide-1494570829722 .guideTextDraw.guideStaticText{&#xa;color:#1f599c;&#xa;font-weight:bold;&#xa;font-size:20px;&#xa;padding-top:0px;&#xa;padding-bottom:0px;&#xa;padding-left:0px;&#xa;padding-right:0px;&#xa;margin-top:1rem;&#xa;margin-bottom:1rem;&#xa;&#xa;}&#xa;@media (max-width : 767px){&#xa;.guide-1494570829722 .guideTextDraw.guideStaticText{&#xa;margin-top:0px;&#xa;margin-bottom:0px;&#xa;margin-left:0px;&#xa;margin-right:0px;&#xa;color:#FFF;&#xa;background:#102e50;&#xa;padding-bottom:12px;&#xa;padding-top:12px;&#xa;font-size:16px;&#xa;padding-left:12px;&#xa;padding-right:12px;&#xa;&#xa;}&#xa;}&#xa;"
+                guideNodeClass="guideTextDraw"
+                name="formTitle"
+                textIsRich="true">
+                <style jcr:primaryType="nt:unstructured">
+                    <af_textdraw
+                        jcr:primaryType="nt:unstructured"
+                        default_x0023_default="[color:#1f599c,font-weight:bold,font-size:20px,padding-top:0px,padding-bottom:0px,padding-left:0px,padding-right:0px,margin-top:1rem,margin-bottom:1rem]"
+                        default_x0023_default_x0023_ui="[paddingPopover:0px,marginLock:linkOff,marginPopover:1rem\, —\, 1rem\, —]"
+                        phone_x0023_default="[margin-top:0px,margin-bottom:0px,margin-left:0px,margin-right:0px,color:#FFF,background:#102e50,padding-bottom:12px,padding-top:12px,font-size:16px,padding-left:12px,padding-right:12px]"
+                        phone_x0023_default_x0023_ui="[marginPopover:0px,backgroundColor:#102e50,paddingLock:linkOff,paddingPopover:12px\, 12px\, 12px\, 12px]"/>
+                </style>
+            </afformtitle>
+        </parsys1>
+    </jcr:content>
+</jcr:root>

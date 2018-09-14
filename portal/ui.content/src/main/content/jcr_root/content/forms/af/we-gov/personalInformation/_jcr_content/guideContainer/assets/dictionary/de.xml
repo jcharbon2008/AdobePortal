@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:language="de"
+    jcr:mixinTypes="[mix:language]"
+    jcr:primaryType="sling:Folder"
+    sling:basename="/content/forms/af/we-gov/personalInformation/jcr:content/guideContainer/assets/dictionary">
+    <fd_Contact_x0020_Nu1856631689
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Contact Number"
+        sling:message="Kontaktnummer"/>
+    <fd_Date_x0020_Of_x0020_Bi49082696
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Date Of Birth"
+        sling:message="Geburtsdatum"/>
+    <fd_Email
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Email"
+        sling:message="E-Mail-Adresse"/>
+    <fd_First_x0020_Name
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_First Name"
+        sling:message="Vorname"/>
+    <fd_Last_x0020_Name
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Last Name"
+        sling:message="Nachname"/>
+    <fd_Middle_x0020_Nam2029806134
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Middle Name"
+        sling:message="Weitere Vornamen"/>
+    <fd_Personal_x0020_I-1176714420
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Personal Information"
+        sling:message="Persönliche Informationen"/>
+    <fd_Please_x0020_ent-1709775057
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please enter your 9 digits SSN Number."
+        sling:message="Geben Sie Ihre 9-stellige SSN-Nummer ein."/>
+    <fd_Social_x0020_Sec-1480667754
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Social Security Number"
+        sling:message="Sozialversicherungsnummer"/>
+</jcr:root>

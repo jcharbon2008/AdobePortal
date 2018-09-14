@@ -1,0 +1,137 @@
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+*  Copyright 2014 Adobe Systems Incorporated
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe Systems Incorporated and its suppliers,
+* if any.  The intellectual and technical concepts contained
+* herein are proprietary to Adobe Systems Incorporated and its
+* suppliers and are protected by all applicable intellectual property 
+* laws, including trade secret and copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe Systems Incorporated.
+**************************************************************************/
+@media (min-width: 768px) and (max-width: 991px) {
+    .custom_70 .guideFieldLabel {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .custom_70 .tab-content.anchor-panel-container, .custom_60.guidePanelNode .panel, .greyBackground.guideTextDraw,.custom_70.guidePanelNode .panel {
+        margin-left: 0px;
+    }
+
+    .tab-content.anchor-panel-container {
+        margin-left: 20px;
+    }
+
+    .custom_70 .guideFieldNode.fancy_radio.align_switch_left .guideFieldLabel, .custom_70 .guideCheckBoxItem, .custom_70 .guideFieldNode.fancy_radio .guideFieldLabel, .right_align .guideCheckBoxGroupItems {
+        width: 100%;
+    }
+
+    .guideCheckBoxItem .guideWidgetLabel {
+        width: 85%;
+    }
+
+/*.right_align .guideCheckBoxItem .guideWidgetLabel{
+width: 70%;
+}*/
+
+    .guidePanelDescription {
+        font-size: 20px;
+        padding-left: 0px;
+    }
+
+    .guidePanelNode .panel {
+        padding-bottom: 30px;
+    }
+
+    .expenses {
+        font-weight: bold;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .custom_70 .col-3_hideLabel .guideFieldWidget,.custom_60 .inline .guideRadioButtonGroupItems {
+        width: 50%;
+        float: right;
+    }
+
+    .custom_60 .align_switch_left .guideRadioButtonGroupItems {
+        width: 70px;
+        float: right;
+    }
+
+    .custom_70 .fancy_radio .guideRadioButtonGroupItems {
+        float: left;
+    }
+
+    .custom_70 .inline .guideFieldNode.fancy_radio.align_switch_left .guideFieldLabel, .custom_70 .inline .guideFieldLabel, .custom_70 .guideFieldNode.fancy_radio.align_switch_left.inline .guideFieldLabel {
+        width: 50%;
+        float: left;
+    }
+
+    .custom_70 .col-3_hideLabel .guideFieldLabel {
+        width: 45%;
+        float: left;
+    }
+
+    .col-3_hideLabel .guideFieldLabel label {
+        display: initial;
+    }
+
+    .static_text.guideFieldNode p {
+        margin-left: 0px;
+    }
+
+    .label_right_align .guideFieldLabel {
+        width: 45%;
+        display: inline-block;
+    }
+
+    .label_right_align .guideFieldLabel label {
+        text-align: right;
+    }
+
+    .custom_70 .label_right_align .guideFieldWidget {
+        max-width: 50%;
+        float: right;
+        height: 27px;
+    }
+
+    .custom_70 .guideFieldWidget {
+        max-width: 100%;
+        float: left;
+        height: 27px;
+    }
+
+    .panel_between_node {
+        margin-bottom: 15px;
+    }
+
+    .rightmost_button .xfaButton,.rightmost_button button {
+        margin-left: 20%;
+        margin-top: 10px;
+        float: none;
+    }
+
+    .leftmost_button .xfaButton,.leftmost_button button {
+        margin-left: 18%;
+        margin-top: 10px;
+        float: none;
+    }
+
+    .questions_container .fancy_radio .guideRadioButtonGroupItems {
+        float: right;
+    }
+
+    .questions_container .fancy_radio .guideFieldLabel {
+        float: left;
+    }
+}
