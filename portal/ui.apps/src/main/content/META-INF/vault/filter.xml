@@ -2,4 +2,8 @@
 <workspaceFilter version="1.0">
     <filter root="/apps/msdportal"/>
     <filter root="/apps/sling" />
+    <filter root="/apps/social" />
+    <filter root="/apps/we-gov" />
+    <filter root="/etc/designs/canada" />
+    <filter root="/etc/designs/we-gov" />
 </workspaceFilter>

@@ -3,4 +3,8 @@
     <filter root="/conf/msdportal"/>
     <filter root="/content/msdportal"/>
     <filter root="/content/dam/msdportal"/>
+    <filter root="/content/dam/we-gov"/>
+    <filter root="/content/dam/we-gov"/>
+    <filter root="/content/forms/af/we-gov"/>
+    <filter root="/content/we-gov"/>
 </workspaceFilter>
