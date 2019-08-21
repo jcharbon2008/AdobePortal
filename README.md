@@ -11,6 +11,8 @@ The portal includes the following:
 
 * A set of AEM Sites WET compliant page templates and components that are using the latest [Adobe Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html). These WET compliant templates and components are used to build the informational part of the portal interface.
 
+** [Leverage Editable templates] (https://helpx.adobe.com/ca/experience-manager/6-4/sites/developing/using/page-templates-editable.html)
+
 * A set of AEM Forms WET compliant templatse and compoents. These components are used to create the data capture/wizard interface to capture end-user data
 
 * Integration to GCKey/Secure Kye. This contains sample code and instructions to configure the integeration of GCKey/Secure Key for authentication to the portal
