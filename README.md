@@ -43,3 +43,15 @@ Then change to the directory in which you want to create the project and run:
      -DarchetypeVersion=21-SNAPSHOT
 
 Note: The profile "adobe-public" must be activated when using profiles like "autoInstallPackage" mentioned above.
+
+## Installing
+
+To install the package follow the steps:
+
+1- Download the appropriate AEM Forms Portal Package based on your operating system
+
+2- Open package manager
+
+3- Upload the package you downloaded in the previous step
+
+4- Click on the package and click install to install the AEM Forms Portal Package
