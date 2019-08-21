@@ -1,6 +1,6 @@
 # Sample Government of Canada AEM Forms Portal interface
 
-![](https://raw.githubusercontent.com/wiki/adobe-marketing-cloud/aem-project-archetype/screenshots/archetype.png)
+![](https://github.com/jcharbon2008/AdobePortal/blob/master/GCPortal.JPG)
 
 This project leverages Adobe AEM Forms to create a citizen facing user interface to provides online services.
 
