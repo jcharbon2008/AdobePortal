@@ -3,7 +3,7 @@
 ![](https://github.com/jcharbon2008/AdobePortal/blob/master/GCPortal.JPG)
 
 
-This project leverages Adobe AEM Forms to create a citizen facing user interface to provides online services.
+This project leverages Adobe AEM Forms to create a citizen facing user interfaces to provides online services.
 
 The portal is built using Adobe recommended best practices and leverages Government of Canada approved technology and UX standards.
 
@@ -13,7 +13,7 @@ The portal includes the following:
 
     * Based on [editable templates](https://helpx.adobe.com/ca/experience-manager/6-4/sites/developing/using/page-templates-editable.html)
     
-* A set of AEM Forms WET compliant templatse and compoents. These components are used to create the data capture/wizard interface to capture end-user data
+* A set of AEM Forms WET compliant templates and components. These components are used to create the data capture/wizard interfaces to capture end-user data.
 
 * Integration to GCKey/Secure Kye. This contains sample code and instructions to configure the integeration of GCKey/Secure Key for authentication to the portal
 
@@ -55,3 +55,5 @@ To install the package follow the steps:
 3- Upload the package you downloaded in the previous step
 
 4- Click on the package and click install to install the AEM Forms Portal Package
+
+5- Go to http://Server:Port/AdobeUXP
